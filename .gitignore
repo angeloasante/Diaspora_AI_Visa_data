@@ -13,3 +13,6 @@ node_modules/
 
 # Lock files (optional - can be included)
 # package-lock.json
+
+# Admin files with secrets
+ADMIN_SETUP.md

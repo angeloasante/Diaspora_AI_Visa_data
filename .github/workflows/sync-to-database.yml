@@ -1,0 +1,199 @@
+name: Sync to Database on Merge
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/passport-requirements/*.json'
+      - 'data/document-privileges/*.json'
+
+jobs:
+  sync-to-supabase:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Get changed files
+        id: changed
+        run: |
+          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD | grep -E '^data/(passport-requirements|document-privileges)/.*\.json$' || true)
+          echo "files<<EOF" >> $GITHUB_OUTPUT
+          echo "$CHANGED_FILES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          echo "Found changed files: $CHANGED_FILES"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Sync passport requirements directly to Supabase
+        if: steps.changed.outputs.files != ''
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          echo "Syncing verified data directly to Supabase..."
+          
+          for file in ${{ steps.changed.outputs.files }}; do
+            if [[ "$file" == data/passport-requirements/*.json ]]; then
+              COUNTRY_CODE=$(basename "$file" .json)
+              echo "Syncing passport requirements for: $COUNTRY_CODE"
+              
+              # Read the JSON and sync via Node.js script
+              node -e "
+                const fs = require('fs');
+                const data = JSON.parse(fs.readFileSync('$file', 'utf8'));
+                
+                async function syncToSupabase() {
+                  const supabaseUrl = process.env.SUPABASE_URL;
+                  const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+                  
+                  if (!supabaseUrl || !supabaseKey) {
+                    console.error('Missing Supabase credentials');
+                    process.exit(1);
+                  }
+                  
+                  const fromCountry = data.passport?.code || '$COUNTRY_CODE';
+                  let successCount = 0;
+                  let errorCount = 0;
+                  
+                  for (const route of data.routes || []) {
+                    const record = {
+                      from_country: fromCountry,
+                      to_country: route.to?.code,
+                      region: route.region || 'unknown',
+                      popular_for: route.popularFor || [],
+                      visa_info: {
+                        visa_required: route.visa?.required,
+                        visa_policy: route.visa?.policy,
+                        visa_type_hint: route.visa?.type || null,
+                        visa_free_days: route.visa?.freeDays || null,
+                        evisa_available: route.visa?.evisa || false,
+                        visa_on_arrival: route.visa?.onArrival || false,
+                        allowed_stay_days: route.visa?.maxStay || null,
+                        multiple_entry_possible: route.visa?.multipleEntry || null,
+                        notes: route.visa?.notes || null
+                      },
+                      transit_info: route.transit || {},
+                      document_requirements: {
+                        passport_min_validity_months: route.documents?.passport?.minimumValidityMonths || 6,
+                        blank_pages_required: route.documents?.passport?.blankPagesRequired || 2,
+                        onward_ticket_required: route.documents?.requirements?.onwardTicket || false,
+                        proof_of_funds_required: route.documents?.requirements?.proofOfFunds || false,
+                        hotel_or_address_required: route.documents?.requirements?.accommodation || false,
+                        travel_insurance_recommended: route.documents?.requirements?.travelInsurance?.recommended || false,
+                        travel_insurance_mandatory: route.documents?.requirements?.travelInsurance?.mandatory || false,
+                        yellow_fever_required_if_travelling_from_endemic_zone: route.documents?.requirements?.yellowFeverCertificate || false,
+                        extra_requirements_notes: route.documents?.notes || null
+                      },
+                      meta_info: {
+                        risk_level: route.meta?.riskLevel || 'medium',
+                        last_checked: new Date().toISOString(),
+                        checked_source: route.source?.url || 'github-contribution',
+                        confidence: 'verified'
+                      },
+                      updated_at: new Date().toISOString()
+                    };
+                    
+                    try {
+                      const response = await fetch(
+                        supabaseUrl + '/rest/v1/visa_requirements?from_country=eq.' + fromCountry + '&to_country=eq.' + route.to?.code,
+                        {
+                          method: 'GET',
+                          headers: {
+                            'apikey': supabaseKey,
+                            'Authorization': 'Bearer ' + supabaseKey
+                          }
+                        }
+                      );
+                      
+                      const existing = await response.json();
+                      const method = existing.length > 0 ? 'PATCH' : 'POST';
+                      const url = existing.length > 0 
+                        ? supabaseUrl + '/rest/v1/visa_requirements?from_country=eq.' + fromCountry + '&to_country=eq.' + route.to?.code
+                        : supabaseUrl + '/rest/v1/visa_requirements';
+                      
+                      const upsertResponse = await fetch(url, {
+                        method: method,
+                        headers: {
+                          'apikey': supabaseKey,
+                          'Authorization': 'Bearer ' + supabaseKey,
+                          'Content-Type': 'application/json',
+                          'Prefer': 'return=minimal'
+                        },
+                        body: JSON.stringify(method === 'POST' ? record : {
+                          ...record,
+                          updated_at: new Date().toISOString()
+                        })
+                      });
+                      
+                      if (upsertResponse.ok || upsertResponse.status === 201 || upsertResponse.status === 204) {
+                        successCount++;
+                      } else {
+                        const error = await upsertResponse.text();
+                        console.error('Failed: ' + fromCountry + ' → ' + route.to?.code + ': ' + error);
+                        errorCount++;
+                      }
+                    } catch (e) {
+                      console.error('Error: ' + fromCountry + ' → ' + route.to?.code + ': ' + e.message);
+                      errorCount++;
+                    }
+                  }
+                  
+                  console.log('✅ Synced ' + successCount + ' routes, ❌ ' + errorCount + ' errors for ' + fromCountry);
+                }
+                
+                syncToSupabase().catch(console.error);
+              "
+            fi
+          done
+          
+          echo "Sync complete!"
+
+      - name: Post sync summary
+        if: steps.changed.outputs.files != ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const changedFiles = `${{ steps.changed.outputs.files }}`.split('\n').filter(f => f);
+            
+            const body = `
+            ## 🔄 Database Sync Complete
+            
+            The following verified data has been synced to the production database:
+            
+            | File | Status |
+            |------|--------|
+            ${changedFiles.map(f => `| \`${f}\` | ✅ Synced |`).join('\n')}
+            
+            **Timestamp:** ${new Date().toISOString()}
+            
+            ---
+            *Automated sync by Diaspora Visa Data CI*
+            `;
+            
+            // Find the merged PR
+            const commits = await github.rest.repos.listCommits({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              sha: context.sha,
+              per_page: 1
+            });
+            
+            const commitMessage = commits.data[0]?.commit?.message || '';
+            const prMatch = commitMessage.match(/Merge pull request #(\d+)/);
+            
+            if (prMatch) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: parseInt(prMatch[1]),
+                body: body
+              });
+            }

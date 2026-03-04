@@ -88,7 +88,25 @@ We welcome contributions! Every visa rule change, every new route, every correct
 2. **Find data to update** — Check `bounties/open.json` for needed updates
 3. **Make your changes** — Edit the relevant JSON file
 4. **⚠️ REQUIRED: Include official government source URL** — Every change MUST link to the official government immigration/visa website
-5. **Submit PR** — We'll verify the source and merge
+5. **Submit PR** — Our automation verifies your sources automatically
+6. **Wait for verification** — Bot will comment ✅ or ❌ on your PR
+7. **Email for payment** — Once verified, email `info@diasporaai.dev` with your payment details
+
+### How Bounty Payments Work
+
+```
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│  Submit PR      │───►│  Auto-Verify    │───►│  ✅ Verified    │
+│  with sources   │    │  Government     │    │  Comment on PR  │
+└─────────────────┘    │  URLs           │    └────────┬────────┘
+                       └─────────────────┘             │
+                                                       ▼
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│  Manual Payment │◄───│  Cross-check    │◄───│  Email          │
+│  via PayPal/    │    │  PR details     │    │  info@diaspora  │
+│  Wise/Bank      │    │                 │    │  ai.dev         │
+└─────────────────┘    └─────────────────┘    └─────────────────┘
+```
 
 ### Source URL Requirements
 
