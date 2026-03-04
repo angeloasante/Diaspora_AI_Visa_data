@@ -1,0 +1,268 @@
+{
+  "document": {
+    "type": "visa",
+    "country": "US",
+    "countryName": "United States",
+    "categories": ["B1", "B2", "B1/B2", "F1", "J1", "H1B", "L1", "O1"],
+    "description": "Valid US visa allows visa-free or simplified access to additional countries beyond passport privileges"
+  },
+  "lastUpdated": "2026-03-04",
+  "totalUnlocked": 18,
+  "unlocks": [
+    {
+      "country": "MX",
+      "countryName": "Mexico",
+      "region": "north_america",
+      "conditions": "Valid US visa of any category",
+      "maxStayDays": 180,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.inm.gob.mx/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "No visa required for Mexico if holding valid US visa"
+    },
+    {
+      "country": "AL",
+      "countryName": "Albania",
+      "region": "europe",
+      "conditions": "Valid multi-entry US, UK, or Schengen visa",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://punetejashtme.gov.al/en/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "90 days within 180-day period"
+    },
+    {
+      "country": "XK",
+      "countryName": "Kosovo",
+      "region": "europe",
+      "conditions": "Valid multi-entry US visa (used at least once)",
+      "maxStayDays": 15,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://mfa-ks.net/en/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "US visa must have been used for entry to US at least once"
+    },
+    {
+      "country": "MK",
+      "countryName": "North Macedonia",
+      "region": "europe",
+      "conditions": "Valid multi-entry US, UK, Canada, or Schengen visa",
+      "maxStayDays": 15,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.mfa.gov.mk/en/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "Maximum 15 days per entry"
+    },
+    {
+      "country": "BA",
+      "countryName": "Bosnia and Herzegovina",
+      "region": "europe",
+      "conditions": "Valid multi-entry US, UK, or Schengen visa",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "source": {
+        "url": "http://www.mvp.gov.ba/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "For transit or tourism purposes only"
+    },
+    {
+      "country": "ME",
+      "countryName": "Montenegro",
+      "region": "europe",
+      "conditions": "Valid multi-entry US, UK, or Schengen visa",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "source": {
+        "url": "http://www.mvp.gov.me/en/ministry",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "30 days per visit"
+    },
+    {
+      "country": "GE",
+      "countryName": "Georgia",
+      "region": "asia",
+      "conditions": "Valid US, UK, Canada, or Schengen visa or residence permit",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://geoconsul.gov.ge/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "90 days per 180-day period"
+    },
+    {
+      "country": "PA",
+      "countryName": "Panama",
+      "region": "central_america",
+      "conditions": "Valid multi-entry US visa (used at least once)",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.migracion.gob.pa/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "Visa must have been used for entry to US at least once"
+    },
+    {
+      "country": "PH",
+      "countryName": "Philippines",
+      "region": "asia",
+      "conditions": "Valid US visa",
+      "maxStayDays": 7,
+      "visaOnArrival": false,
+      "additionalRequirements": "Must have return ticket to US",
+      "source": {
+        "url": "https://www.dfa.gov.ph/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "7-day visa-free stay only"
+    },
+    {
+      "country": "CR",
+      "countryName": "Costa Rica",
+      "region": "central_america",
+      "conditions": "Valid US visa with minimum 3 months remaining validity",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.migracion.go.cr/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "US visa must have been used for entry to US"
+    },
+    {
+      "country": "GT",
+      "countryName": "Guatemala",
+      "region": "central_america",
+      "conditions": "Valid US visa",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.minex.gob.gt/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "Part of CA-4 agreement countries"
+    },
+    {
+      "country": "HN",
+      "countryName": "Honduras",
+      "region": "central_america",
+      "conditions": "Valid US visa",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.se.gob.hn/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "Part of CA-4 agreement countries"
+    },
+    {
+      "country": "NI",
+      "countryName": "Nicaragua",
+      "region": "central_america",
+      "conditions": "Valid US visa",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.migob.gob.ni/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "Part of CA-4 agreement countries"
+    },
+    {
+      "country": "SV",
+      "countryName": "El Salvador",
+      "region": "central_america",
+      "conditions": "Valid US visa",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.migracion.gob.sv/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "Part of CA-4 agreement countries"
+    },
+    {
+      "country": "CO",
+      "countryName": "Colombia",
+      "region": "south_america",
+      "conditions": "Valid US visa",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.migracioncolombia.gov.co/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "Extendable to 180 days"
+    },
+    {
+      "country": "PE",
+      "countryName": "Peru",
+      "region": "south_america",
+      "conditions": "Valid US visa (B1/B2 or residence)",
+      "maxStayDays": 180,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.migraciones.gob.pe/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "Multiple entries allowed"
+    },
+    {
+      "country": "DO",
+      "countryName": "Dominican Republic",
+      "region": "caribbean",
+      "conditions": "Valid US, Canada, or Schengen visa",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.dgm.gob.do/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "Must purchase tourist card on arrival ($10)"
+    },
+    {
+      "country": "TR",
+      "countryName": "Turkey",
+      "region": "europe",
+      "conditions": "Valid US visa or green card",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": true,
+      "additionalRequirements": "Must apply for Turkey e-Visa (simplified process)",
+      "source": {
+        "url": "https://www.evisa.gov.tr/en/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "US visa allows e-Visa application for nationalities that normally cannot get e-Visa"
+    }
+  ]
+}

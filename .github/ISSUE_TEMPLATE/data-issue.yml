@@ -1,0 +1,75 @@
+name: Report Incorrect/Outdated Data
+description: Report visa data that is incorrect or out of date
+title: "[Data Issue] "
+labels: ["data-issue", "needs-verification"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep our visa data accurate! Please provide as much detail as possible.
+        
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type
+      options:
+        - Data is incorrect
+        - Data is outdated
+        - Missing information
+        - Source link broken
+    validations:
+      required: true
+
+  - type: input
+    id: file-path
+    attributes:
+      label: File/Route Affected
+      description: Which file or route has the issue?
+      placeholder: "data/passport-requirements/GH.json - route to GB"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-data
+    attributes:
+      label: Current (Incorrect) Data
+      description: What does the file currently say?
+    validations:
+      required: true
+
+  - type: textarea
+    id: correct-data
+    attributes:
+      label: Correct Information
+      description: What should it say instead?
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      description: Link to official source confirming the correct information
+      placeholder: "https://www.gov.uk/..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Urgency
+      description: How urgent is this correction?
+      options:
+        - Low - Minor detail
+        - Medium - Could affect travel planning
+        - High - Could cause serious issues for travelers
+        - Critical - Policy has changed, people may be denied entry
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: willing-to-fix
+    attributes:
+      label: Contribution
+      options:
+        - label: I would like to submit a PR to fix this issue (bounty eligible)

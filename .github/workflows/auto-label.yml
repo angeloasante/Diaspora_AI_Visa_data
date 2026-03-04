@@ -1,0 +1,119 @@
+name: Auto-label PR
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get changed files
+        id: files
+        run: |
+          FILES=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }})
+          echo "files<<EOF" >> $GITHUB_OUTPUT
+          echo "$FILES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Determine labels
+        id: labels
+        run: |
+          FILES="${{ steps.files.outputs.files }}"
+          LABELS=""
+          
+          # Check for new passport requirements
+          if echo "$FILES" | grep -q "^data/passport-requirements/"; then
+            if git diff --diff-filter=A --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep -q "^data/passport-requirements/"; then
+              LABELS="${LABELS}new-passport,"
+            else
+              LABELS="${LABELS}update-passport,"
+            fi
+          fi
+          
+          # Check for document privileges
+          if echo "$FILES" | grep -q "^data/document-privileges/"; then
+            if git diff --diff-filter=A --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep -q "^data/document-privileges/"; then
+              LABELS="${LABELS}new-document-privilege,"
+            else
+              LABELS="${LABELS}update-document-privilege,"
+            fi
+          fi
+          
+          # Check for transit data
+          if echo "$FILES" | grep -q "transit"; then
+            LABELS="${LABELS}transit-data,"
+          fi
+          
+          # Check for critical/urgent updates
+          COMMIT_MSG="${{ github.event.pull_request.title }}"
+          if echo "$COMMIT_MSG" | grep -iq "urgent\|critical\|changed\|new policy"; then
+            LABELS="${LABELS}urgent-review,"
+          fi
+          
+          # Check for bounty-eligible
+          if echo "$FILES" | grep -q "^data/"; then
+            LABELS="${LABELS}bounty-eligible,"
+          fi
+          
+          # Remove trailing comma
+          LABELS="${LABELS%,}"
+          
+          echo "labels=$LABELS" >> $GITHUB_OUTPUT
+          echo "Determined labels: $LABELS"
+
+      - name: Apply labels
+        if: steps.labels.outputs.labels != ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const labels = '${{ steps.labels.outputs.labels }}'.split(',').filter(l => l);
+            
+            if (labels.length > 0) {
+              // Ensure labels exist
+              for (const label of labels) {
+                try {
+                  await github.rest.issues.getLabel({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    name: label
+                  });
+                } catch (e) {
+                  // Create label if it doesn't exist
+                  const colors = {
+                    'new-passport': '0e8a16',
+                    'update-passport': 'c5def5',
+                    'new-document-privilege': '5319e7',
+                    'update-document-privilege': 'd4c5f9',
+                    'transit-data': 'fbca04',
+                    'urgent-review': 'd73a4a',
+                    'bounty-eligible': '0052cc'
+                  };
+                  
+                  await github.rest.issues.createLabel({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    name: label,
+                    color: colors[label] || 'ededed'
+                  });
+                }
+              }
+              
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                labels: labels
+              });
+              
+              console.log(`Applied labels: ${labels.join(', ')}`);
+            }

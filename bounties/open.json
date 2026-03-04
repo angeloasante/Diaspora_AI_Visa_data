@@ -1,0 +1,119 @@
+{
+  "lastUpdated": "2026-03-04",
+  "description": "Open bounties for visa data contributions",
+  "totalOpenBounties": 5,
+  "totalValue": "£195",
+  "bounties": [
+    {
+      "id": "bounty-2026-0304-001",
+      "type": "new_origin_country",
+      "status": "open",
+      "reward": "£80",
+      "target": {
+        "file": "data/passport-requirements/NG.json",
+        "route": null,
+        "description": "Add Nigeria passport requirements (minimum 50 routes)"
+      },
+      "reason": "Nigeria is one of the most requested origin countries - large diaspora population",
+      "requirements": [
+        "Minimum 50 destination routes",
+        "At least 10 routes with verified government sources",
+        "Include all major destinations (UK, US, Canada, Germany, France, UAE)",
+        "Include ECOWAS countries (visa-free movement)"
+      ],
+      "claimedBy": null,
+      "submittedPR": null,
+      "createdAt": "2026-03-04T00:00:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bounty-2026-0304-002",
+      "type": "document_privilege",
+      "status": "open",
+      "reward": "£20",
+      "target": {
+        "file": "data/document-privileges/SCHENGEN-visa.json",
+        "route": null,
+        "description": "Add Schengen visa document privileges"
+      },
+      "reason": "Schengen visa unlocks many non-EU countries - major benefit for diaspora travelers",
+      "requirements": [
+        "List all countries that allow entry with valid Schengen visa",
+        "Include conditions (multi-entry required, minimum validity, etc.)",
+        "Official government sources for each country"
+      ],
+      "claimedBy": null,
+      "submittedPR": null,
+      "createdAt": "2026-03-04T00:00:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bounty-2026-0304-003",
+      "type": "verified_update",
+      "status": "open",
+      "reward": "£15",
+      "target": {
+        "file": "data/passport-requirements/GH.json",
+        "route": "GH → IN",
+        "description": "Verify India e-Visa requirements and pricing are current"
+      },
+      "reason": "India e-Visa policies change frequently - last verified March 2026",
+      "requirements": [
+        "Check current e-Visa fee",
+        "Verify processing time",
+        "Confirm eligibility for Ghanaian passport holders",
+        "Link to indianvisaonline.gov.in"
+      ],
+      "claimedBy": null,
+      "submittedPR": null,
+      "createdAt": "2026-03-04T00:00:00Z",
+      "expiresAt": "2026-04-04T00:00:00Z"
+    },
+    {
+      "id": "bounty-2026-0304-004",
+      "type": "document_privilege",
+      "status": "open",
+      "reward": "£20",
+      "target": {
+        "file": "data/document-privileges/US-green-card.json",
+        "route": null,
+        "description": "Add US Green Card (permanent resident) privileges"
+      },
+      "reason": "US permanent residents have significantly more visa-free access than visa holders",
+      "requirements": [
+        "List all countries that allow entry with valid US Green Card",
+        "Differentiate from US visa privileges",
+        "Include conditions and maximum stay",
+        "Official government sources"
+      ],
+      "claimedBy": null,
+      "submittedPR": null,
+      "createdAt": "2026-03-04T00:00:00Z",
+      "expiresAt": null
+    },
+    {
+      "id": "bounty-2026-0304-005",
+      "type": "critical_change",
+      "status": "open",
+      "reward": "£30",
+      "target": {
+        "file": "data/passport-requirements/GH.json",
+        "route": "GH → RW",
+        "description": "Rwanda visa policy - confirm if African Union visa-free policy is implemented"
+      },
+      "reason": "Rwanda announced visa-free for all Africans - need to verify implementation status",
+      "requirements": [
+        "Check current Rwanda visa policy for Ghanaians",
+        "Verify if visa-on-arrival or fully visa-free",
+        "Check e-Visa status",
+        "Link to official Rwanda immigration source"
+      ],
+      "claimedBy": null,
+      "submittedPR": null,
+      "createdAt": "2026-03-04T00:00:00Z",
+      "expiresAt": "2026-03-31T00:00:00Z"
+    }
+  ],
+  "completedBounties": [],
+  "claimedBounties": []
+}

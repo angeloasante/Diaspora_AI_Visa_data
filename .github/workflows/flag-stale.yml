@@ -1,0 +1,119 @@
+name: Flag Stale Entries
+
+on:
+  schedule:
+    # Run weekly on Sunday at midnight UTC
+    - cron: '0 0 * * 0'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  flag-stale:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Find stale entries
+        id: find-stale
+        run: |
+          # Find entries not updated in 6+ months
+          STALE_THRESHOLD_DAYS=180
+          TODAY=$(date +%Y-%m-%d)
+          
+          echo "Checking for entries older than $STALE_THRESHOLD_DAYS days..."
+          
+          STALE_ENTRIES=()
+          
+          # Check passport requirements
+          for file in data/passport-requirements/*.json; do
+            if [ -f "$file" ]; then
+              LAST_UPDATED=$(jq -r '.lastUpdated // empty' "$file")
+              if [ -n "$LAST_UPDATED" ]; then
+                DAYS_OLD=$(( ($(date -d "$TODAY" +%s) - $(date -d "$LAST_UPDATED" +%s)) / 86400 ))
+                if [ $DAYS_OLD -gt $STALE_THRESHOLD_DAYS ]; then
+                  echo "⚠️ STALE: $file (${DAYS_OLD} days old)"
+                  STALE_ENTRIES+=("$file")
+                fi
+              fi
+            fi
+          done
+          
+          # Check document privileges
+          for file in data/document-privileges/*.json; do
+            if [ -f "$file" ]; then
+              LAST_UPDATED=$(jq -r '.lastUpdated // empty' "$file")
+              if [ -n "$LAST_UPDATED" ]; then
+                DAYS_OLD=$(( ($(date -d "$TODAY" +%s) - $(date -d "$LAST_UPDATED" +%s)) / 86400 ))
+                if [ $DAYS_OLD -gt $STALE_THRESHOLD_DAYS ]; then
+                  echo "⚠️ STALE: $file (${DAYS_OLD} days old)"
+                  STALE_ENTRIES+=("$file")
+                fi
+              fi
+            fi
+          done
+          
+          echo "stale_count=${#STALE_ENTRIES[@]}" >> $GITHUB_OUTPUT
+          
+          if [ ${#STALE_ENTRIES[@]} -gt 0 ]; then
+            echo "Found ${#STALE_ENTRIES[@]} stale entries"
+          else
+            echo "✅ No stale entries found"
+          fi
+
+      - name: Create issue for stale entries
+        if: steps.find-stale.outputs.stale_count > 0
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = `🔄 Data Refresh Needed: ${process.env.STALE_COUNT} stale entries detected`;
+            const body = `
+            ## Automated Stale Data Detection
+            
+            The weekly scan found entries that haven't been updated in over 6 months.
+            
+            ### Action Needed
+            
+            Please check the workflow logs for the list of stale files and consider:
+            
+            1. **Verifying the data is still accurate** against official sources
+            2. **Updating the \`lastUpdated\` timestamp** if data is confirmed current
+            3. **Submitting corrections** if policies have changed
+            
+            ### Bounty Opportunity
+            
+            Each verification earns **£5** - see \`bounties/open.json\` for details.
+            
+            ---
+            *This issue was automatically created by the stale data detection workflow.*
+            `;
+            
+            // Check if similar issue already exists
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'stale-data'
+            });
+            
+            const existingIssue = issues.data.find(i => i.title.includes('Data Refresh Needed'));
+            
+            if (!existingIssue) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['stale-data', 'bounty', 'help wanted']
+              });
+              console.log('Created new issue for stale entries');
+            } else {
+              console.log('Issue already exists:', existingIssue.title);
+            }
+        env:
+          STALE_COUNT: ${{ steps.find-stale.outputs.stale_count }}

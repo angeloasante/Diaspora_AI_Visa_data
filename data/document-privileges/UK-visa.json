@@ -1,0 +1,303 @@
+{
+  "document": {
+    "type": "visa",
+    "country": "GB",
+    "countryName": "United Kingdom",
+    "categories": ["visitor", "work", "student", "dependent", "spouse", "settlement"],
+    "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
+  },
+  "lastUpdated": "2026-03-04",
+  "totalUnlocked": 20,
+  "unlocks": [
+    {
+      "country": "AL",
+      "countryName": "Albania",
+      "region": "europe",
+      "conditions": "Valid multi-entry UK, US, or Schengen visa",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://punetejashtme.gov.al/en/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "Applies to nationals who normally require a visa for Albania"
+    },
+    {
+      "country": "XK",
+      "countryName": "Kosovo",
+      "region": "europe",
+      "conditions": "Valid multi-entry UK visa (used at least once)",
+      "maxStayDays": 15,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://mfa-ks.net/en/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "UK visa must have been used for entry to UK at least once"
+    },
+    {
+      "country": "MK",
+      "countryName": "North Macedonia",
+      "region": "europe",
+      "conditions": "Valid multi-entry UK, US, Canada, or Schengen visa",
+      "maxStayDays": 15,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.mfa.gov.mk/en/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "Maximum 15 days per entry"
+    },
+    {
+      "country": "RS",
+      "countryName": "Serbia",
+      "region": "europe",
+      "conditions": "Valid multi-entry UK or Schengen visa",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "source": {
+        "url": "http://www.mfa.gov.rs/en/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "90 days within 180 days"
+    },
+    {
+      "country": "BA",
+      "countryName": "Bosnia and Herzegovina",
+      "region": "europe",
+      "conditions": "Valid multi-entry UK, US, or Schengen visa",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "source": {
+        "url": "http://www.mvp.gov.ba/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "For transit or tourism purposes only"
+    },
+    {
+      "country": "ME",
+      "countryName": "Montenegro",
+      "region": "europe",
+      "conditions": "Valid multi-entry UK, US, or Schengen visa",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "source": {
+        "url": "http://www.mvp.gov.me/en/ministry",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "30 days per visit"
+    },
+    {
+      "country": "GE",
+      "countryName": "Georgia",
+      "region": "asia",
+      "conditions": "Valid multi-entry visa or residence permit from UK, US, Canada, or Schengen",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://geoconsul.gov.ge/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "Document must be valid. 90 days per 180-day period."
+    },
+    {
+      "country": "MD",
+      "countryName": "Moldova",
+      "region": "europe",
+      "conditions": "Valid UK, US, or Schengen visa or residence permit",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.mfa.gov.md/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "90 days within any 180-day period"
+    },
+    {
+      "country": "BY",
+      "countryName": "Belarus",
+      "region": "europe",
+      "conditions": "Valid UK, US, or Schengen visa with minimum 5 days remaining validity",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Entry via Minsk National Airport only",
+      "source": {
+        "url": "http://mfa.gov.by/en/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "Must enter via Minsk airport. Must have medical insurance."
+    },
+    {
+      "country": "TR",
+      "countryName": "Turkey",
+      "region": "europe",
+      "conditions": "Valid UK, US, Ireland, or Schengen visa or residence permit",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": true,
+      "additionalRequirements": "Must apply for Turkey e-Visa (simplified process)",
+      "source": {
+        "url": "https://www.evisa.gov.tr/en/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "UK visa allows e-Visa application. Normally some nationalities cannot get e-Visa."
+    },
+    {
+      "country": "AZ",
+      "countryName": "Azerbaijan",
+      "region": "asia",
+      "conditions": "Valid multiple-entry UK, US, or Schengen visa or residence",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": true,
+      "additionalRequirements": "Simplified e-Visa process (ASAN Visa)",
+      "source": {
+        "url": "https://evisa.gov.az/en/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "Makes e-Visa application easier and faster"
+    },
+    {
+      "country": "MX",
+      "countryName": "Mexico",
+      "region": "north_america",
+      "conditions": "Valid UK, US, Canada, Japan, or Schengen visa, or UK residence permit",
+      "maxStayDays": 180,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.inm.gob.mx/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "No visa required for Mexico if holding valid UK visa/residence"
+    },
+    {
+      "country": "CR",
+      "countryName": "Costa Rica",
+      "region": "central_america",
+      "conditions": "Valid UK visa with minimum 3 months remaining validity",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.migracion.go.cr/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "UK visa must have been used for entry to UK"
+    },
+    {
+      "country": "PA",
+      "countryName": "Panama",
+      "region": "central_america",
+      "conditions": "Valid multi-entry UK visa",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.migracion.gob.pa/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "Visa must have been used for entry to UK at least once"
+    },
+    {
+      "country": "PH",
+      "countryName": "Philippines",
+      "region": "asia",
+      "conditions": "Valid UK, US, Japan, Australia, Canada, Schengen, or Singapore visa",
+      "maxStayDays": 7,
+      "visaOnArrival": false,
+      "additionalRequirements": "Must have return ticket to UK (or country that issued visa)",
+      "source": {
+        "url": "https://www.dfa.gov.ph/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "7-day visa-free stay only. Must fly back to visa-issuing country."
+    },
+    {
+      "country": "DO",
+      "countryName": "Dominican Republic",
+      "region": "caribbean",
+      "conditions": "Valid UK, US, Canada, or Schengen visa",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.dgm.gob.do/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "Must purchase tourist card on arrival ($10)"
+    },
+    {
+      "country": "JO",
+      "countryName": "Jordan",
+      "region": "middle_east",
+      "conditions": "Valid UK residence permit or multiple-entry visa",
+      "maxStayDays": 30,
+      "visaOnArrival": true,
+      "source": {
+        "url": "https://moi.gov.jo/",
+        "accessedDate": "2026-03-01",
+        "confidence": "unverified"
+      },
+      "notes": "Simplified visa-on-arrival process. Some reports indicate this benefit."
+    },
+    {
+      "country": "KR",
+      "countryName": "South Korea",
+      "region": "asia",
+      "conditions": "Valid UK, US, Canada, Australia, or New Zealand visa with previous entry to that country",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "additionalRequirements": "K-ETA required but approval simplified",
+      "source": {
+        "url": "https://www.k-eta.go.kr/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "Transit without Visa (TWOV) program. Must have used the visa previously."
+    },
+    {
+      "country": "AM",
+      "countryName": "Armenia",
+      "region": "asia",
+      "conditions": "Holders of valid UK, US, Schengen, or EEA residence permits",
+      "maxStayDays": 180,
+      "visaOnArrival": true,
+      "source": {
+        "url": "https://www.mfa.am/en/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "Visa on arrival or visa-free entry depending on nationality"
+    },
+    {
+      "country": "UZ",
+      "countryName": "Uzbekistan",
+      "region": "asia",
+      "conditions": "Valid UK, US, Japan, South Korea, or Schengen visa",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": true,
+      "additionalRequirements": "Simplified e-Visa process",
+      "source": {
+        "url": "https://e-visa.gov.uz/",
+        "accessedDate": "2026-03-01",
+        "confidence": "verified"
+      },
+      "notes": "E-Visa process is faster and approval more likely with UK visa"
+    }
+  ]
+}

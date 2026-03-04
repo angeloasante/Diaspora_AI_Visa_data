@@ -1,0 +1,185 @@
+name: Verify PR Sources
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    paths:
+      - 'data/**/*.json'
+
+jobs:
+  verify-sources:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Get changed files
+        id: changed
+        run: |
+          git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }} > changed_files.txt
+          cat changed_files.txt
+
+      - name: Validate JSON syntax
+        run: |
+          echo "Validating JSON syntax..."
+          ERRORS=0
+          
+          while IFS= read -r file; do
+            if [[ "$file" == data/*.json ]]; then
+              if ! jq empty "$file" 2>/dev/null; then
+                echo "❌ Invalid JSON: $file"
+                ERRORS=$((ERRORS + 1))
+              else
+                echo "✅ Valid JSON: $file"
+              fi
+            fi
+          done < changed_files.txt
+          
+          if [ $ERRORS -gt 0 ]; then
+            echo "::error::Found $ERRORS JSON syntax errors"
+            exit 1
+          fi
+
+      - name: Verify sources are from trusted domains
+        id: verify-domains
+        run: |
+          echo "Checking source URLs..."
+          
+          # Load verified domains
+          TRUSTED_PATTERNS=$(jq -r '.domains[].pattern' sources/verified-domains.json 2>/dev/null || echo "")
+          
+          WARNINGS=()
+          VERIFIED=0
+          UNVERIFIED=0
+          
+          while IFS= read -r file; do
+            if [[ "$file" == data/*.json ]]; then
+              # Extract all source URLs from the file
+              URLS=$(jq -r '.. | objects | select(has("source")) | .source.url // empty' "$file" 2>/dev/null)
+              
+              while IFS= read -r url; do
+                if [ -n "$url" ]; then
+                  DOMAIN=$(echo "$url" | sed -E 's|https?://([^/]+).*|\1|')
+                  
+                  # Check if domain matches any trusted pattern
+                  TRUSTED=false
+                  for pattern in $TRUSTED_PATTERNS; do
+                    if [[ "$DOMAIN" == *"$pattern"* ]] || [[ "$DOMAIN" == $pattern ]]; then
+                      TRUSTED=true
+                      break
+                    fi
+                  done
+                  
+                  if [ "$TRUSTED" = true ]; then
+                    echo "✅ Trusted source: $url"
+                    VERIFIED=$((VERIFIED + 1))
+                  else
+                    echo "⚠️ Unverified domain: $DOMAIN (needs manual review)"
+                    WARNINGS+=("$url")
+                    UNVERIFIED=$((UNVERIFIED + 1))
+                  fi
+                fi
+              done <<< "$URLS"
+            fi
+          done < changed_files.txt
+          
+          echo "verified=$VERIFIED" >> $GITHUB_OUTPUT
+          echo "unverified=$UNVERIFIED" >> $GITHUB_OUTPUT
+          
+          echo ""
+          echo "Summary: $VERIFIED verified sources, $UNVERIFIED need manual review"
+
+      - name: Check required fields
+        run: |
+          echo "Checking required fields..."
+          ERRORS=0
+          
+          while IFS= read -r file; do
+            if [[ "$file" == data/passport-requirements/*.json ]]; then
+              # Check passport requirements have required fields
+              MISSING=$(jq -r '
+                .routes[] | 
+                select(
+                  (.to.code == null) or 
+                  (.visa.required == null) or 
+                  (.visa.policy == null) or
+                  (.source.url == null) or
+                  (.source.accessedDate == null)
+                ) | 
+                .to.code // "unknown"
+              ' "$file" 2>/dev/null)
+              
+              if [ -n "$MISSING" ]; then
+                echo "❌ Missing required fields in $file for routes: $MISSING"
+                ERRORS=$((ERRORS + 1))
+              fi
+            fi
+            
+            if [[ "$file" == data/document-privileges/*.json ]]; then
+              # Check document privileges have required fields
+              MISSING=$(jq -r '
+                .unlocks[] | 
+                select(
+                  (.country == null) or 
+                  (.conditions == null) or
+                  (.source.url == null)
+                ) | 
+                .country // "unknown"
+              ' "$file" 2>/dev/null)
+              
+              if [ -n "$MISSING" ]; then
+                echo "❌ Missing required fields in $file for: $MISSING"
+                ERRORS=$((ERRORS + 1))
+              fi
+            fi
+          done < changed_files.txt
+          
+          if [ $ERRORS -gt 0 ]; then
+            echo "::error::Found entries with missing required fields"
+            exit 1
+          fi
+          
+          echo "✅ All required fields present"
+
+      - name: Post verification summary
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const verified = '${{ steps.verify-domains.outputs.verified }}' || '0';
+            const unverified = '${{ steps.verify-domains.outputs.unverified }}' || '0';
+            
+            const body = `
+            ## 🔍 Source Verification Report
+            
+            | Metric | Count |
+            |--------|-------|
+            | ✅ Verified sources (trusted domains) | ${verified} |
+            | ⚠️ Sources needing manual review | ${unverified} |
+            
+            ${parseInt(unverified) > 0 ? `
+            ### Manual Review Required
+            
+            Some sources are from domains not in our trusted list. A maintainer will verify these manually.
+            
+            **Tip:** Using official government domains (*.gov, *.gov.uk, etc.) allows for faster auto-approval.
+            ` : ''}
+            
+            ---
+            *Automated source verification by Diaspora Visa Data CI*
+            `;
+            
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: body
+            });

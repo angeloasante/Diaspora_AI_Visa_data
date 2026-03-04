@@ -1,0 +1,188 @@
+{
+  "lastUpdated": "2026-03-04",
+  "description": "List of trusted government domains that are auto-approved as sources",
+  "domains": [
+    {
+      "pattern": "*.gov",
+      "country": "US",
+      "type": "government",
+      "autoApprove": true,
+      "notes": "US government domains"
+    },
+    {
+      "pattern": "*.gov.uk",
+      "country": "GB",
+      "type": "government",
+      "autoApprove": true,
+      "notes": "UK government domains"
+    },
+    {
+      "pattern": "*.gc.ca",
+      "country": "CA",
+      "type": "government",
+      "autoApprove": true,
+      "notes": "Canadian government domains"
+    },
+    {
+      "pattern": "*.gouv.fr",
+      "country": "FR",
+      "type": "government",
+      "autoApprove": true,
+      "notes": "French government domains"
+    },
+    {
+      "pattern": "*.europa.eu",
+      "country": "EU",
+      "type": "government",
+      "autoApprove": true,
+      "notes": "European Union domains"
+    },
+    {
+      "pattern": "*.bund.de",
+      "country": "DE",
+      "type": "government",
+      "autoApprove": true,
+      "notes": "German federal government domains"
+    },
+    {
+      "pattern": "*.diplo.de",
+      "country": "DE",
+      "type": "embassy",
+      "autoApprove": true,
+      "notes": "German embassy domains"
+    },
+    {
+      "pattern": "*.governo.it",
+      "country": "IT",
+      "type": "government",
+      "autoApprove": true,
+      "notes": "Italian government domains"
+    },
+    {
+      "pattern": "*.gob.es",
+      "country": "ES",
+      "type": "government",
+      "autoApprove": true,
+      "notes": "Spanish government domains"
+    },
+    {
+      "pattern": "*.gov.au",
+      "country": "AU",
+      "type": "government",
+      "autoApprove": true,
+      "notes": "Australian government domains"
+    },
+    {
+      "pattern": "*.go.ke",
+      "country": "KE",
+      "type": "government",
+      "autoApprove": true,
+      "notes": "Kenyan government domains"
+    },
+    {
+      "pattern": "*.gov.gh",
+      "country": "GH",
+      "type": "government",
+      "autoApprove": true,
+      "notes": "Ghanaian government domains"
+    },
+    {
+      "pattern": "*.gov.ng",
+      "country": "NG",
+      "type": "government",
+      "autoApprove": true,
+      "notes": "Nigerian government domains"
+    },
+    {
+      "pattern": "*.gov.za",
+      "country": "ZA",
+      "type": "government",
+      "autoApprove": true,
+      "notes": "South African government domains"
+    },
+    {
+      "pattern": "*.gov.rw",
+      "country": "RW",
+      "type": "government",
+      "autoApprove": true,
+      "notes": "Rwandan government domains"
+    },
+    {
+      "pattern": "iatatravelcentre.com",
+      "country": "INTL",
+      "type": "authority",
+      "autoApprove": true,
+      "notes": "IATA Travel Centre - authoritative for airline requirements"
+    },
+    {
+      "pattern": "state.gov",
+      "country": "US",
+      "type": "government",
+      "autoApprove": true,
+      "notes": "US State Department"
+    },
+    {
+      "pattern": "travel.state.gov",
+      "country": "US",
+      "type": "government",
+      "autoApprove": true,
+      "notes": "US State Department Travel"
+    },
+    {
+      "pattern": "evisa.gov.tr",
+      "country": "TR",
+      "type": "government",
+      "autoApprove": true,
+      "notes": "Turkey e-Visa portal"
+    },
+    {
+      "pattern": "visa2egypt.gov.eg",
+      "country": "EG",
+      "type": "government",
+      "autoApprove": true,
+      "notes": "Egypt e-Visa portal"
+    },
+    {
+      "pattern": "indianvisaonline.gov.in",
+      "country": "IN",
+      "type": "government",
+      "autoApprove": true,
+      "notes": "India e-Visa portal"
+    },
+    {
+      "pattern": "etakenya.go.ke",
+      "country": "KE",
+      "type": "government",
+      "autoApprove": true,
+      "notes": "Kenya eTA portal"
+    },
+    {
+      "pattern": "france-visas.gouv.fr",
+      "country": "FR",
+      "type": "government",
+      "autoApprove": true,
+      "notes": "France Visa portal"
+    },
+    {
+      "pattern": "visaforchina.cn",
+      "country": "CN",
+      "type": "government",
+      "autoApprove": true,
+      "notes": "China Visa Application Service Center"
+    }
+  ],
+  "manualReviewRequired": [
+    {
+      "pattern": "embassy websites not on government domains",
+      "reason": "May be unofficial or outdated"
+    },
+    {
+      "pattern": "*.com visa agencies",
+      "reason": "May not reflect official policy"
+    },
+    {
+      "pattern": "news articles",
+      "reason": "Must cite official source"
+    }
+  ]
+}

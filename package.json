@@ -1,0 +1,23 @@
+{
+  "name": "diaspora-visa-data",
+  "version": "1.0.0",
+  "description": "**The world's first open-source, community-maintained visa requirements database for diaspora travelers.**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angeloasante/Diaspora_AI_Visa_data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angeloasante/Diaspora_AI_Visa_data/issues"
+  },
+  "homepage": "https://github.com/angeloasante/Diaspora_AI_Visa_data#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.98.0"
+  }
+}

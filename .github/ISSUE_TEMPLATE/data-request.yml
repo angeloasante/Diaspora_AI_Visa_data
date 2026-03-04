@@ -1,0 +1,67 @@
+name: Request New Data
+description: Request visa data for a new country or document
+title: "[Request] "
+labels: ["enhancement", "data-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Request data for a new passport origin or document privilege. Community members can pick this up as a bounty task!
+        
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: Request Type
+      options:
+        - New passport origin country
+        - New document privilege (visa/permit unlocks)
+        - New destination routes for existing country
+        - Transit requirements
+    validations:
+      required: true
+
+  - type: input
+    id: country-document
+    attributes:
+      label: Country/Document
+      description: Which country or document should be added?
+      placeholder: "e.g., Nigerian passport, Canadian PR card"
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: Why is this data needed? Who would benefit?
+      placeholder: "Many Diaspora members travel to X and need this info..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: known-sources
+    attributes:
+      label: Known Sources (Optional)
+      description: If you know of official sources for this data, share them here
+      placeholder: |
+        - https://embassy-website.com/visa
+        - https://gov-website.com/travel
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this data?
+      options:
+        - Nice to have
+        - Important - Missing coverage for significant traveler population
+        - High priority - Frequently requested
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution Interest
+      options:
+        - label: I would be willing to help research and add this data (bounty eligible)
