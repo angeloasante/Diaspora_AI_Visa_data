@@ -106,19 +106,35 @@ Edit the relevant JSON file following our [schema](SCHEMA.md).
 - Passport requirements: `data/passport-requirements/{COUNTRY_CODE}.json`
 - Document privileges: `data/document-privileges/{COUNTRY}-{type}.json`
 
-### Step 4: Add Source Information
+### Step 4: Add Source Information (⚠️ MANDATORY)
 
-Every change must include:
+**Every change MUST include the official government source URL.** PRs without valid government sources will be rejected.
 
 ```json
 {
   "source": {
     "url": "https://official-government-site.gov/visa-info",
+    "governmentDomain": true,
     "accessedDate": "2026-03-04",
-    "archived": "https://web.archive.org/web/...",  // Optional but recommended
-    "notes": "Section 3.2 - Visa Requirements for African Nationals"
+    "archived": "https://web.archive.org/web/...",
+    "pageSection": "Section on visa requirements for African nationals",
+    "verificationSteps": "Navigate to Visa Types > Tourist Visa > Eligible Countries"
   }
 }
+```
+
+### Where to Find Official Sources
+
+| Destination | Official Government URL |
+|-------------|------------------------|
+| 🇬🇧 UK | `gov.uk/check-uk-visa` |
+| 🇺🇸 USA | `travel.state.gov/content/travel/en/us-visas.html` |
+| 🇨🇦 Canada | `canada.ca/en/immigration-refugees-citizenship.html` |
+| 🇩🇪 Germany | `auswaertiges-amt.de/en/visa-service` |
+| 🇫🇷 France | `france-visas.gouv.fr` |
+| 🇦🇺 Australia | `homeaffairs.gov.au/trav/visa-1` |
+| 🇦🇪 UAE | `u.ae/en/information-and-services/visa-and-emirates-id` |
+| 🇿🇦 South Africa | `dha.gov.za/index.php/immigration-services` |
 ```
 
 ### Step 5: Submit Pull Request
@@ -166,8 +182,19 @@ Every route entry must have:
 | `to` | ✅ | ISO 3166-1 alpha-2 destination country code |
 | `visa.required` | ✅ | Boolean - is visa required? |
 | `visa.policy` | ✅ | One of: `visa_required`, `visa_free`, `evisa`, `voa`, `eta` |
-| `source.url` | ✅ | Official source URL |
+| `source.url` | ✅ | **Official GOVERNMENT source URL** (embassy, immigration ministry, etc.) |
 | `source.accessedDate` | ✅ | Date you accessed the source |
+| `source.governmentDomain` | ✅ | Must be `true` - confirms URL is from official government site |
+
+### ⚠️ Source URL Must Be Government Domain
+
+We only accept URLs from official government domains:
+- `.gov`, `.gov.uk`, `.gov.au`, `.gc.ca` (government portals)
+- `.gouv.fr`, `.gob.mx`, `.gov.za` (country-specific government domains)
+- Embassy websites (`embassy.gov.xx`)
+- Official immigration authority sites
+
+**NOT ACCEPTED:** Travel blogs, forums, Wikipedia, news articles, visa agency websites
 
 ### Optional Fields
 

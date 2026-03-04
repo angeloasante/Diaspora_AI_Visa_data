@@ -16,25 +16,42 @@
 <!-- List the countries or documents this PR affects -->
 - 
 
-## Source Information
-<!-- Required for all data changes -->
-- **Source URL:** 
-- **Source Type:** (e.g., Government website, Embassy page, Official airline, etc.)
+## ⚠️ MANDATORY: Official Government Source (PRs without this will be rejected)
+<!-- You MUST provide the official government URL where this information can be verified -->
+
+### Government Source URL
+<!-- Must be from official government domain (.gov, .gov.uk, embassy site, etc.) -->
+- **URL:** 
+- **Government Domain Confirmed:** [ ] Yes, this is an official government website
+
+### How to Find This Information
+<!-- Describe the navigation path on the government website -->
+- **Navigation Path:** (e.g., "gov.uk > Check if you need a visa > Select country > Select purpose")
+
+### Direct Quote from Source
+<!-- Copy-paste the exact text from the government website that confirms your update -->
+```
+Paste the exact quote here
+```
+
+### Date & Language
 - **Date Accessed:** 
 - **Language:** (if not English, note how it was verified)
 
-## Verification
+## Verification Checklist
 <!-- How did you verify this information? -->
-- [ ] Verified against official government source
-- [ ] Cross-referenced with embassy website
-- [ ] Confirmed with official airline/TIMATIC data
-- [ ] Personal experience (please provide additional source)
+- [ ] ✅ URL is from official government domain (NOT visa agency, blog, or forum)
+- [ ] ✅ Information is current (page was accessed recently)
+- [ ] ✅ Quote matches what the government site says
+- [ ] ✅ Navigation path is correct and can be followed
 
-## Checklist
+## JSON Checklist
 <!-- Ensure all items are checked before submitting -->
 - [ ] JSON syntax is valid (run `jq . filename.json`)
 - [ ] Required fields are present (see SCHEMA.md)
-- [ ] Source URL is included and accessible
+- [ ] `source.url` points to government website
+- [ ] `source.governmentDomain` is set to `true`
+- [ ] `source.accessedDate` is set
 - [ ] `lastUpdated` field is set to today's date
 - [ ] I have read the [Contributing Guidelines](CONTRIBUTING.md)
 
@@ -47,6 +64,7 @@
 ---
 
 ## For Maintainers
-- [ ] Source verified
+- [ ] Source URL verified as government domain
+- [ ] Information matches source
 - [ ] Data accuracy confirmed
 - [ ] Bounty processed (if applicable)

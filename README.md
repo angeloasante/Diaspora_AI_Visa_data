@@ -22,11 +22,24 @@ This is the **only visa database that understands document combinations**, not j
 
 ## 📊 Current Coverage
 
-| Origin Country | Routes | Document Privileges | Last Updated |
-|----------------|--------|---------------------|--------------|
-| 🇬🇭 Ghana (GH) | 200+ | UK, US, Schengen | March 2026 |
-| 🇳🇬 Nigeria (NG) | Coming Soon | - | - |
-| 🇰🇪 Kenya (KE) | Coming Soon | - | - |
+**126 Origin Countries** | **24,948 Visa Routes** | **198 Destinations Per Country**
+
+| Region | Countries | Example Origins |
+|--------|-----------|----------------|
+| 🌍 Africa | 54 | Ghana, Nigeria, Kenya, South Africa, Egypt, Morocco |
+| 🌏 Asia | 35 | India, Pakistan, Bangladesh, Philippines, Vietnam |
+| 🌎 Americas | 20 | Brazil, Mexico, Colombia, Jamaica, Trinidad |
+| 🌍 Europe | 10 | Turkey, Albania, Ukraine, Serbia |
+| 🌏 Oceania | 7 | Fiji, Papua New Guinea, Vanuatu |
+
+### Summary
+
+| Visa Policy | Routes |
+|-------------|--------|
+| 🟢 Visa Free | ~5,040 |
+| 🟡 eVisa | ~4,914 |
+| 🟠 Visa on Arrival | ~2,898 |
+| 🔴 Visa Required | ~12,096 |
 
 ---
 
@@ -74,8 +87,20 @@ We welcome contributions! Every visa rule change, every new route, every correct
 1. **Fork this repository**
 2. **Find data to update** — Check `bounties/open.json` for needed updates
 3. **Make your changes** — Edit the relevant JSON file
-4. **Include source** — Add official government source URL
-5. **Submit PR** — We'll verify and merge
+4. **⚠️ REQUIRED: Include official government source URL** — Every change MUST link to the official government immigration/visa website
+5. **Submit PR** — We'll verify the source and merge
+
+### Source URL Requirements
+
+Every contribution **MUST** include:
+- Direct URL to the **official government** visa/immigration page
+- The **exact page** where the information can be verified
+- Date you accessed the source
+
+Example acceptable sources:
+- `https://www.gov.uk/check-uk-visa/y/ghana/tourism`
+- `https://travel.state.gov/content/travel/en/us-visas.html`
+- `https://www.migration.gv.at/en/types-of-immigration/`
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 

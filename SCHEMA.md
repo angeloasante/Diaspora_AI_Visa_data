@@ -122,10 +122,27 @@ This document defines the JSON schema for all data files in this repository.
     },
     "sourceInfo": {
       "type": "object",
-      "required": ["url", "accessedDate"],
+      "description": "⚠️ MANDATORY: Must be from official government domain",
+      "required": ["url", "accessedDate", "governmentDomain"],
       "properties": {
-        "url": { "type": "string", "format": "uri" },
+        "url": { 
+          "type": "string", 
+          "format": "uri",
+          "description": "MUST be official government URL (*.gov, *.gov.uk, embassy sites, etc.)"
+        },
+        "governmentDomain": {
+          "type": "boolean",
+          "description": "Must be true - confirms URL is from official government site"
+        },
         "accessedDate": { "type": "string", "format": "date" },
+        "verificationPath": {
+          "type": "string",
+          "description": "Navigation steps to find info on government site"
+        },
+        "exactQuote": {
+          "type": "string", 
+          "description": "Direct quote from government source confirming the information"
+        },
         "archived": { "type": "string", "format": "uri" },
         "confidence": {
           "type": "string",
@@ -183,7 +200,10 @@ This document defines the JSON schema for all data files in this repository.
       },
       "source": {
         "url": "https://www.gov.uk/check-uk-visa/y/ghana/tourism",
+        "governmentDomain": true,
         "accessedDate": "2026-03-01",
+        "verificationPath": "gov.uk > Check if you need a visa > Ghana > Tourism",
+        "exactQuote": "You'll need a visa to come to the UK as a Standard Visitor",
         "confidence": "verified"
       },
       "notes": "Apply via TLS Contact or VFS Global"
