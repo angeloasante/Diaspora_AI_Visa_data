@@ -66,6 +66,8 @@ Add rules for how holding a visa from one country unlocks access to others.
 
 **Example:** Valid UK visa allows visa-free entry to Albania, Kosovo, North Macedonia.
 
+This is the "I have a UK visa, where else can I travel visa-free?" feature.
+
 ### 5. Bug Fix (`bug_fix`) — £10
 
 Correct incorrect or outdated information in existing data.
@@ -76,7 +78,153 @@ Verify that existing data is still accurate by checking against current official
 
 ---
 
-## 📝 How to Submit
+## � Contributing Document Privileges (Detailed Guide)
+
+This is one of our most valuable contributions! Document privileges answer the question:
+
+> "I'm Ghanaian but I have a UK visa — where else can I now travel visa-free?"
+
+### What Are Document Privileges?
+
+When you hold a valid visa or residence permit from certain countries (UK, US, Schengen), many other countries will let you enter visa-free or with simplified procedures.
+
+**Current Document Privileges We Track:**
+- 🇬🇧 **UK visa/BRP** → Unlocks 31+ countries
+- 🇺🇸 **US visa** → Unlocks 13+ countries  
+- 🇪🇺 **Schengen visa** → Unlocks 15+ countries (coming soon)
+- 🇨🇦 **Canada visa** → Unlocks 8+ countries (coming soon)
+
+### File Location
+
+```
+data/document-privileges/{COUNTRY}-visa.json
+```
+
+Example: `data/document-privileges/UK-visa.json`
+
+### Schema for Document Privileges
+
+```json
+{
+  "document": {
+    "type": "visa",
+    "country": "GB",
+    "countryName": "United Kingdom",
+    "categories": ["visitor", "work", "student", "dependent"],
+    "description": "Valid UK visa allows visa-free or simplified access to additional countries"
+  },
+  "lastUpdated": "2026-03-10",
+  "totalUnlocked": 31,
+  "unlocks": [
+    {
+      "country": "AL",
+      "countryName": "Albania",
+      "region": "europe",
+      "conditions": "Valid multi-entry UK, US, or Schengen visa",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://punetejashtme.gov.al/en/",
+        "accessedDate": "2026-03-10",
+        "confidence": "verified"
+      },
+      "notes": "Applies to nationals who normally require a visa for Albania"
+    }
+  ]
+}
+```
+
+### Required Fields for Each Unlock Entry
+
+| Field | Required | Description |
+|-------|----------|-------------|
+| `country` | ✅ | ISO 3166-1 alpha-2 code of destination |
+| `countryName` | ✅ | Full name of destination |
+| `region` | ✅ | One of: `europe`, `asia`, `caribbean`, `north_america`, `central_america`, `south_america`, `middle_east`, `africa`, `oceania` |
+| `conditions` | ✅ | What conditions must be met (e.g., "multi-entry visa", "previously used") |
+| `maxStayDays` | ✅ | Maximum stay allowed |
+| `visaOnArrival` | ✅ | Boolean - is it VOA or visa-free? |
+| `source.url` | ✅ | **Official government source URL** |
+| `source.accessedDate` | ✅ | Date you verified the source |
+| `source.confidence` | ✅ | `verified` (government source), `unverified` (secondary source) |
+
+### Where to Find Document Privilege Information
+
+| Country | Where to Look |
+|---------|---------------|
+| 🇦🇱 Albania | [punetejashtme.gov.al](https://punetejashtme.gov.al/en/) |
+| 🇷🇸 Serbia | [mfa.gov.rs](http://www.mfa.gov.rs/en/) |
+| 🇬🇪 Georgia | [geoconsul.gov.ge](https://geoconsul.gov.ge/) |
+| 🇲🇽 Mexico | [inm.gob.mx](https://www.inm.gob.mx/) |
+| 🇹🇷 Turkey | [evisa.gov.tr](https://www.evisa.gov.tr/en/) |
+| 🇵🇦 Panama | [migracion.gob.pa](https://www.migracion.gob.pa/) |
+| 🇲🇪 Montenegro | [mvp.gov.me](http://www.mvp.gov.me/en/ministry) |
+| 🇧🇦 Bosnia | [mvp.gov.ba](http://www.mvp.gov.ba/) |
+| 🇲🇰 N. Macedonia | [mfa.gov.mk](https://www.mfa.gov.mk/en/) |
+
+### Common Anchor Visa Countries (What We Need Data For)
+
+We're looking for privileges granted by these "anchor" visas:
+
+1. **UK visa/BRP** - Many Balkans, Caribbean, Americas
+2. **US visa** - Mexico, Latin America, some Asia
+3. **Schengen visa** - Balkans, some Middle East
+4. **Canada visa** - Some Latin America
+5. **Australia visa** - Limited
+6. **Japan visa** - Some Southeast Asia
+
+### How to Find New Privileges
+
+1. **Search immigration forums** - Find reports then verify with government source
+2. **Check destination country immigration sites** - Look for "visa exemption" sections
+3. **Look for "anchor visa" policies** - Search "[country] accepts UK visa holders"
+4. **Use IATA Timatic** - If you have access
+
+### PR Title Format for Document Privileges
+
+```
+[PRIVILEGE] {document}-{destination}: Brief description
+```
+
+Examples:
+- `[PRIVILEGE] UK-visa→Albania: 90-day visa-free for UK visa holders`
+- `[PRIVILEGE] US-visa→Serbia: Added 90/180 rule clarification`
+- `[PRIVILEGE] Schengen→Turkey: e-Visa eligibility with Schengen`
+
+### Example PR Description
+
+```markdown
+## Document Privilege Addition
+
+**Document:** UK visa
+**Destination:** Albania
+**Access Type:** Visa-free
+**Max Stay:** 90 days
+
+## Official Source
+- URL: https://punetejashtme.gov.al/en/
+- Accessed: 2026-03-10
+- Relevant section: "Visa exemption for holders of valid multi-entry UK, US, or Schengen visa"
+
+## Conditions
+- Visa must be multi-entry
+- Visa must be valid at time of entry
+- Applies to nationals who normally require Albanian visa
+```
+
+### Bounty: £20 per Valid Addition
+
+Each new document privilege entry (with verified government source) earns £20.
+
+If you add **5+ countries** in one PR for the same anchor document, you get a bonus:
+- 5-10 countries: £100 + £10 bonus = **£110**
+- 11-20 countries: £200 + £30 bonus = **£230**
+- 20+ countries: £400 + £50 bonus = **£450**
+
+---
+
+## �📝 How to Submit
 
 ### Step 1: Find What to Update
 

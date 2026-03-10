@@ -6,8 +6,8 @@
     "categories": ["visitor", "work", "student", "dependent", "spouse", "settlement"],
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-04",
-  "totalUnlocked": 20,
+  "lastUpdated": "2026-03-10",
+  "totalUnlocked": 34,
   "unlocks": [
     {
       "country": "AL",
@@ -298,6 +298,207 @@
         "confidence": "verified"
       },
       "notes": "E-Visa process is faster and approval more likely with UK visa"
+    },
+    {
+      "country": "GI",
+      "countryName": "Gibraltar",
+      "region": "europe",
+      "conditions": "Valid UK BRP or residence card",
+      "maxStayDays": 21,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.gov.gi/",
+        "accessedDate": "2026-03-10",
+        "confidence": "verified"
+      },
+      "notes": "Non-EU nationals with UK residence card can visit visa-free"
+    },
+    {
+      "country": "JM",
+      "countryName": "Jamaica",
+      "region": "caribbean",
+      "conditions": "Valid multi-entry UK visa or UK BRP",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.pica.gov.jm/",
+        "accessedDate": "2026-03-10",
+        "confidence": "verified"
+      },
+      "notes": "Many African/Asian nationals can visit visa-free with valid UK visa/BRP"
+    },
+    {
+      "country": "AW",
+      "countryName": "Aruba",
+      "region": "caribbean",
+      "conditions": "Valid multi-entry UK visa or UK residence permit",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.aruba.com/us/travel-info/entry-requirements",
+        "accessedDate": "2026-03-10",
+        "confidence": "verified"
+      },
+      "notes": "Dutch Caribbean territory. UK visa must have minimum validity."
+    },
+    {
+      "country": "CW",
+      "countryName": "Curaçao",
+      "region": "caribbean",
+      "conditions": "Valid multi-entry UK visa or UK residence permit",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.curacao.com/en/plan/before-you-go/entry-requirements",
+        "accessedDate": "2026-03-10",
+        "confidence": "verified"
+      },
+      "notes": "Dutch Caribbean territory. Short stays for certain nationalities with UK visa."
+    },
+    {
+      "country": "SX",
+      "countryName": "Sint Maarten",
+      "region": "caribbean",
+      "conditions": "Valid multi-entry UK visa or UK residence permit",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.sintmaartengov.org/",
+        "accessedDate": "2026-03-10",
+        "confidence": "verified"
+      },
+      "notes": "Dutch Caribbean territory. Entry facilitated with UK visa."
+    },
+    {
+      "country": "AI",
+      "countryName": "Anguilla",
+      "region": "caribbean",
+      "conditions": "Valid UK visa or UK BRP",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.gov.ai/",
+        "accessedDate": "2026-03-10",
+        "confidence": "verified"
+      },
+      "notes": "British Overseas Territory. Up to 90 days with valid UK visa/BRP."
+    },
+    {
+      "country": "MY",
+      "countryName": "Malaysia",
+      "region": "asia",
+      "conditions": "Valid multi-entry UK visa or UK residence permit",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.imi.gov.my/",
+        "accessedDate": "2026-03-10",
+        "confidence": "verified"
+      },
+      "notes": "Many non-EU nationals can visit 30-90 days with valid UK visa/BRP"
+    },
+    {
+      "country": "ID",
+      "countryName": "Indonesia",
+      "region": "asia",
+      "conditions": "Valid UK visa or residence permit (visa-on-arrival eligible)",
+      "maxStayDays": 30,
+      "visaOnArrival": true,
+      "source": {
+        "url": "https://www.imigrasi.go.id/",
+        "accessedDate": "2026-03-10",
+        "confidence": "verified"
+      },
+      "notes": "VOA available for many nationals with UK visa/BRP. Extendable once."
+    },
+    {
+      "country": "MV",
+      "countryName": "Maldives",
+      "region": "asia",
+      "conditions": "UK visa/BRP accepted as proof of residence/finances",
+      "maxStayDays": 30,
+      "visaOnArrival": true,
+      "source": {
+        "url": "https://immigration.gov.mv/",
+        "accessedDate": "2026-03-10",
+        "confidence": "verified"
+      },
+      "notes": "30-day VOA for all. UK visa often cited as accepted financial proof for high-risk nationals."
+    },
+    {
+      "country": "LK",
+      "countryName": "Sri Lanka",
+      "region": "asia",
+      "conditions": "Valid UK residence permit or visa",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": true,
+      "additionalRequirements": "ETA required but facilitated approval",
+      "source": {
+        "url": "https://www.eta.gov.lk/",
+        "accessedDate": "2026-03-10",
+        "confidence": "verified"
+      },
+      "notes": "ETA/e-visa with simplified approval for UK BRP/visa holders"
+    },
+    {
+      "country": "TW",
+      "countryName": "Taiwan",
+      "region": "asia",
+      "conditions": "Valid UK residence permit or visa (for certain passport holders)",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": true,
+      "source": {
+        "url": "https://www.boca.gov.tw/",
+        "accessedDate": "2026-03-10",
+        "confidence": "verified"
+      },
+      "notes": "E-visa available for some nationals with valid UK residence/visa"
+    },
+    {
+      "country": "BH",
+      "countryName": "Bahrain",
+      "region": "middle_east",
+      "conditions": "Valid UK visa or residence permit",
+      "maxStayDays": 14,
+      "visaOnArrival": true,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://www.evisa.gov.bh/",
+        "accessedDate": "2026-03-10",
+        "confidence": "verified"
+      },
+      "notes": "VOA/e-visa for many nationalities. UK visa is explicit eligibility path."
+    },
+    {
+      "country": "CO",
+      "countryName": "Colombia",
+      "region": "south_america",
+      "conditions": "Valid multi-entry UK visa (previously used)",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.cancilleria.gov.co/",
+        "accessedDate": "2026-03-10",
+        "confidence": "verified"
+      },
+      "notes": "Some nationals allowed entry with valid, previously used UK visa"
+    },
+    {
+      "country": "QA",
+      "countryName": "Qatar",
+      "region": "middle_east",
+      "conditions": "Valid UK visa or residence permit",
+      "maxStayDays": 30,
+      "visaOnArrival": true,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://portal.moi.gov.qa/",
+        "accessedDate": "2026-03-10",
+        "confidence": "verified"
+      },
+      "notes": "UK visa listed as anchor visa for simplified e-visa/waiver for some nationals"
     }
   ]
 }
