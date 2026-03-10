@@ -225,7 +225,71 @@ Under the following terms:
 
 ---
 
-## 📞 Contact
+## � API Endpoints
+
+The data in this repository powers a live API. Here are the key endpoints:
+
+### Document Privileges
+
+**Get countries unlocked by a visa:**
+```bash
+GET /api/visa/document-privileges?documentType=UK
+```
+
+**Response:**
+```json
+{
+  "documentType": "UK",
+  "privileges": [
+    {
+      "destination_country": "Albania",
+      "destination_code": "AL",
+      "max_stay_days": 90,
+      "conditions": "Valid UK visa (any type)"
+    }
+  ],
+  "totalDestinations": 31
+}
+```
+
+### Combined Access (Passport + Visa)
+
+**Calculate total countries accessible with a passport AND visa:**
+```bash
+GET /api/visa/combined-access?passportCountry=GH&documentType=UK
+```
+
+**Response:**
+```json
+{
+  "passport": "GH",
+  "document": "UK visa",
+  "totalEasyAccess": 118,
+  "newlyUnlocked": 16,
+  "breakdown": {
+    "visaFree": 65,
+    "eVisa": 35,
+    "visaOnArrival": 18,
+    "documentPrivileges": 16
+  }
+}
+```
+
+**Example Real Results:**
+| Passport | + UK Visa | Easy Access | Newly Unlocked |
+|----------|-----------|-------------|----------------|
+| 🇬🇭 Ghana | ✅ | 118 | +16 |
+| 🇳🇬 Nigeria | ✅ | 103 | +19 |
+| 🇿🇦 South Africa | ✅ | 135 | +13 |
+| 🇰🇪 Kenya | ✅ | 108 | +15 |
+
+**API Base URL:** `https://diasporaaibackend-production.up.railway.app`
+
+See full API documentation at [flight-api/docs/VISA_API_DOCUMENTATION.md](../flight-api/docs/VISA_API_DOCUMENTATION.md)
+
+---
+
+## �📞 Contact
 
 - **API Access**: [diasporaai.dev](https://diasporaai.dev)
 - **Email**: api@diasporaai.dev
