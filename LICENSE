@@ -1,76 +1,24 @@
-Creative Commons Attribution 4.0 International Public License
+MIT License
 
-By exercising the Licensed Rights (defined below), You accept and agree
-to be bound by the terms and conditions of this Creative Commons
-Attribution 4.0 International Public License ("Public License"). To the
-extent this Public License may be interpreted as a contract, You are
-granted the Licensed Rights in consideration of Your acceptance of
-these terms and conditions, and the Licensor grants You such rights in
-consideration of benefits the Licensor receives from making the
-Licensed Material available under these terms and conditions.
+Copyright (c) 2026 Diaspora AI
 
-Section 1 – Definitions.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-  a. Adapted Material means material subject to Copyright and Similar
-     Rights that is derived from or based upon the Licensed Material
-     and in which the Licensed Material is translated, altered,
-     arranged, transformed, or otherwise modified in a manner requiring
-     permission under the Copyright and Similar Rights held by the
-     Licensor.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-  b. Copyright and Similar Rights means copyright and/or similar rights
-     closely related to copyright.
+Additionally, any use of this dataset (whether commercial or personal) must
+include visible attribution to Diaspora AI with a link to https://diasporaai.dev
 
-  c. Licensed Material means the visa requirements data, document
-     privileges data, and related information to which the Licensor
-     applied this Public License.
-
-  d. Licensed Rights means the rights granted to You subject to the
-     terms and conditions of this Public License.
-
-  e. Licensor means Diaspora AI and contributors who grant rights
-     under this Public License.
-
-Section 2 – Scope.
-
-  a. License grant.
-     1. The Licensor hereby grants You a worldwide, royalty-free,
-        non-sublicensable, non-exclusive, irrevocable license to:
-        A. reproduce and Share the Licensed Material;
-        B. produce, reproduce, and Share Adapted Material.
-
-  b. No additional restrictions. You may not apply legal terms or
-     technological measures that legally restrict others from doing
-     anything the license permits.
-
-Section 3 – License Conditions.
-
-  Attribution.
-  
-  If You Share the Licensed Material, You must:
-  
-  a. retain the following if supplied by the Licensor:
-     i.   identification of the creator(s) of the Licensed Material;
-     ii.  a copyright notice;
-     iii. a notice that refers to this Public License;
-     iv.  a URI or hyperlink to the Licensed Material;
-  
-  b. indicate if You modified the Licensed Material;
-  
-  c. include attribution to "Diaspora AI Visa Data (diasporaai.dev)"
-
-Section 4 – Disclaimer.
-
-  THE LICENSED MATERIAL IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT
-  WARRANTY OF ANY KIND. VISA REQUIREMENTS CHANGE FREQUENTLY. ALWAYS
-  VERIFY WITH OFFICIAL GOVERNMENT SOURCES BEFORE MAKING TRAVEL PLANS.
-
-  THE LICENSOR MAKES NO REPRESENTATIONS CONCERNING THE ACCURACY OF THE
-  LICENSED MATERIAL. IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY
-  CLAIM ARISING FROM USE OF THE LICENSED MATERIAL.
-
----
-
-Attribution: Diaspora AI Visa Data
-Website: https://diasporaai.dev
-Repository: https://github.com/diaspora-ai/visa-data
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

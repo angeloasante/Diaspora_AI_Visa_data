@@ -4,7 +4,7 @@
 
 [![Data Freshness](https://img.shields.io/badge/data-updated%20March%202026-brightgreen)]()
 [![Contributors](https://img.shields.io/badge/contributors-welcome-blue)]()
-[![License](https://img.shields.io/badge/license-CC%20BY%204.0-green)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 ---
 
@@ -212,16 +212,45 @@ All data follows a strict schema. See [SCHEMA.md](SCHEMA.md) for full documentat
 
 ---
 
-## 🔒 Data License
+## 🔒 License & Attribution
 
-This data is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
-You are free to:
-- **Share** — copy and redistribute the material
-- **Adapt** — remix, transform, and build upon the material
+### Using This Dataset
 
-Under the following terms:
-- **Attribution** — You must give appropriate credit
+You are free to use this dataset for **any purpose** — commercial or personal. However, **attribution is required**.
+
+#### Required Attribution
+
+When using this dataset, you must include:
+
+1. **Link to our website**: [https://diasporaai.dev](https://diasporaai.dev)
+2. **Our logo** (available in this repo):
+   - `logo.png` (favicon size)
+   - `logo-512.png` (high resolution)
+
+#### Example Attribution
+
+```html
+<!-- In your website footer or about page -->
+<p>Visa data powered by <a href="https://diasporaai.dev">Diaspora AI</a></p>
+<img src="logo.png" alt="Diaspora AI" height="32">
+```
+
+```markdown
+<!-- In your README -->
+Visa data provided by [Diaspora AI](https://diasporaai.dev)
+```
+
+#### What's Allowed
+
+| Use Case | Allowed | Attribution Required |
+|----------|---------|---------------------|
+| Personal projects | ✅ Yes | ✅ Yes |
+| Commercial products | ✅ Yes | ✅ Yes |
+| Academic research | ✅ Yes | ✅ Yes |
+| API development | ✅ Yes | ✅ Yes |
+| Reselling raw data | ❌ No | N/A |
 
 ---
 
@@ -291,8 +320,8 @@ See full API documentation at [flight-api/docs/VISA_API_DOCUMENTATION.md](../fli
 
 ## �📞 Contact
 
-- **API Access**: [diasporaai.dev](https://diasporaai.dev)
-- **Email**: api@diasporaai.dev
+- **Website**: [diasporaai.dev](https://diasporaai.dev)
+- **Email**: info@diasporaai.dev
 - **Issues**: [GitHub Issues](../../issues)
 
 ---
