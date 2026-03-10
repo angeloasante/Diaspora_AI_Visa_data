@@ -1,0 +1,179 @@
+name: Update Contributor Leaderboard
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/**/*.json'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  update-leaderboard:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Calculate contributor stats
+        id: stats
+        run: |
+          echo "📊 Calculating contributor statistics..."
+          
+          # Get all commits that modified data files (excluding bot commits)
+          CONTRIBUTORS=$(git log --all --pretty=format:'%an|%ae' --diff-filter=ACMR -- 'data/**/*.json' | \
+            grep -v 'github-actions' | \
+            grep -v 'dependabot' | \
+            grep -v 'noreply@github.com' | \
+            sort | uniq -c | sort -rn)
+          
+          echo "Raw contributor data:"
+          echo "$CONTRIBUTORS"
+          
+          # Build JSON array of contributors
+          LEADERBOARD_JSON="[]"
+          RANK=1
+          
+          while IFS= read -r line; do
+            if [ -n "$line" ]; then
+              COUNT=$(echo "$line" | awk '{print $1}')
+              NAME=$(echo "$line" | awk -F'|' '{print $1}' | sed 's/^[[:space:]]*[0-9]*[[:space:]]*//')
+              
+              # Skip if count is 0 or name is empty
+              if [ "$COUNT" -gt 0 ] && [ -n "$NAME" ]; then
+                # Get countries this contributor has touched
+                COUNTRIES=$(git log --all --author="$NAME" --pretty=format:'' --name-only -- 'data/passport-requirements/*.json' | \
+                  grep -oP '[A-Z]{2}(?=\.json)' | sort -u | wc -l)
+                
+                # Get document privileges contributed
+                DOC_PRIVS=$(git log --all --author="$NAME" --pretty=format:'' --name-only -- 'data/document-privileges/*.json' | \
+                  grep -oP '[A-Z]+(?=-visa\.json)' | sort -u | wc -l)
+                
+                TOTAL_COUNTRIES=$((COUNTRIES + DOC_PRIVS))
+                
+                LEADERBOARD_JSON=$(echo "$LEADERBOARD_JSON" | jq --arg name "$NAME" --arg count "$COUNT" --arg countries "$TOTAL_COUNTRIES" --arg rank "$RANK" \
+                  '. + [{"rank": ($rank | tonumber), "name": $name, "contributions": ($count | tonumber), "countries": ($countries | tonumber)}]')
+                
+                RANK=$((RANK + 1))
+                
+                # Only track top 10
+                if [ "$RANK" -gt 10 ]; then
+                  break
+                fi
+              fi
+            fi
+          done <<< "$CONTRIBUTORS"
+          
+          echo "leaderboard<<EOF" >> $GITHUB_OUTPUT
+          echo "$LEADERBOARD_JSON" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          
+          echo "Leaderboard JSON:"
+          echo "$LEADERBOARD_JSON" | jq .
+
+      - name: Update README leaderboard
+        run: |
+          LEADERBOARD='${{ steps.stats.outputs.leaderboard }}'
+          
+          # Generate markdown table
+          TABLE="| Rank | Contributor | Contributions | Countries |\n|------|-------------|---------------|-----------|"
+          
+          # Check if we have any contributors
+          COUNT=$(echo "$LEADERBOARD" | jq 'length')
+          
+          if [ "$COUNT" -eq 0 ] || [ "$COUNT" = "null" ]; then
+            TABLE="$TABLE\n| 🥇 | *Be the first!* | - | - |"
+          else
+            MEDALS=("🥇" "🥈" "🥉" "4" "5" "6" "7" "8" "9" "10")
+            
+            for i in $(seq 0 $((COUNT - 1))); do
+              NAME=$(echo "$LEADERBOARD" | jq -r ".[$i].name")
+              CONTRIBS=$(echo "$LEADERBOARD" | jq -r ".[$i].contributions")
+              COUNTRIES=$(echo "$LEADERBOARD" | jq -r ".[$i].countries")
+              
+              if [ "$i" -lt 3 ]; then
+                RANK_DISPLAY="${MEDALS[$i]}"
+              else
+                RANK_DISPLAY="$((i + 1))"
+              fi
+              
+              # Escape name for markdown
+              NAME_ESCAPED=$(echo "$NAME" | sed 's/|/\\|/g')
+              
+              TABLE="$TABLE\n| $RANK_DISPLAY | $NAME_ESCAPED | $CONTRIBS | $COUNTRIES |"
+            done
+          fi
+          
+          # Create the new leaderboard section
+          NEW_SECTION="<!-- LEADERBOARD:START -->\n$TABLE\n<!-- LEADERBOARD:END -->"
+          
+          echo "New leaderboard section:"
+          echo -e "$NEW_SECTION"
+          
+          # Update README.md between markers
+          # Use perl for multi-line replacement
+          perl -i -p0e "s/<!-- LEADERBOARD:START -->.*?<!-- LEADERBOARD:END -->/<!-- LEADERBOARD:START -->\n$(echo -e "$TABLE")\n<!-- LEADERBOARD:END -->/s" README.md
+          
+          echo "Updated README.md"
+          cat README.md | grep -A 15 "LEADERBOARD:START"
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet README.md; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes to leaderboard"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Leaderboard has been updated"
+            git diff README.md
+          fi
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          git add README.md
+          git commit -m "docs: Update contributor leaderboard [skip ci]"
+          git push
+          
+          echo "✅ Leaderboard updated and pushed!"
+
+      - name: Summary
+        run: |
+          echo "## 🏆 Leaderboard Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          LEADERBOARD='${{ steps.stats.outputs.leaderboard }}'
+          COUNT=$(echo "$LEADERBOARD" | jq 'length' 2>/dev/null || echo "0")
+          
+          if [ "$COUNT" -gt 0 ] && [ "$COUNT" != "null" ]; then
+            echo "| Rank | Contributor | Contributions | Countries |" >> $GITHUB_STEP_SUMMARY
+            echo "|------|-------------|---------------|-----------|" >> $GITHUB_STEP_SUMMARY
+            
+            for i in $(seq 0 $((COUNT - 1))); do
+              NAME=$(echo "$LEADERBOARD" | jq -r ".[$i].name")
+              CONTRIBS=$(echo "$LEADERBOARD" | jq -r ".[$i].contributions")
+              COUNTRIES=$(echo "$LEADERBOARD" | jq -r ".[$i].countries")
+              echo "| $((i + 1)) | $NAME | $CONTRIBS | $COUNTRIES |" >> $GITHUB_STEP_SUMMARY
+            done
+          else
+            echo "No contributors yet - be the first!" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Updated:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
