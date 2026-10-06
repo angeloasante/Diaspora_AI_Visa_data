@@ -4,7 +4,7 @@
     "name": "Ghana"
   },
   "dataVersion": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-10-07",
   "totalRoutes": 198,
   "summary": {
     "visa_free": 40,
@@ -660,10 +660,19 @@
       "meta": {
         "riskLevel": "low",
         "confidence": "verified",
-        "lastChecked": "2026-01-19",
-        "source": "passport-index-dataset"
+        "lastChecked": "2026-10-07",
+        "source": "Barbados Ministry of Foreign Affairs"
       },
-      "lastUpdated": "2026-01-19T03:05:53.121"
+      "lastUpdated": "2026-10-07T00:00:00.000Z",
+      "source": {
+        "url": "https://www.foreign.gov.bb/wp-content/uploads/2025/11/Updated-visa-list-May-09-2025-002.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-07",
+        "verificationPath": "Barbados Ministry of Foreign Affairs visa list > GHANA row > foreign nationals entering Barbados",
+        "exactQuote": "No visa required. Nationals of Ghana can stay for a maximum of six (6) months.",
+        "confidence": "verified",
+        "notes": "Verification scope is limited to visa requirement and maximum stay."
+      }
     },
     {
       "to": {
