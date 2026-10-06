@@ -4,7 +4,7 @@
     "name": "Ghana"
   },
   "dataVersion": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-10-07",
   "totalRoutes": 198,
   "summary": {
     "visa_free": 40,
@@ -210,10 +210,19 @@
       "meta": {
         "riskLevel": "medium",
         "confidence": "verified",
-        "lastChecked": "2026-01-19",
-        "source": "passport-index-dataset"
+        "lastChecked": "2026-10-07",
+        "source": "Antigua and Barbuda Immigration Department"
       },
-      "lastUpdated": "2026-01-19T03:05:53.12"
+      "lastUpdated": "2026-10-07T00:00:00.000Z",
+      "source": {
+        "url": "https://immigration.gov.ag/visa-services/countries-exempt-from-visa/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-07",
+        "verificationPath": "Antigua and Barbuda Immigration > Visa Services > Countries Exempt from Visa; Ghana is not listed among exempt countries",
+        "exactQuote": "Citizens of countries which do not appear on any of the above list, require a visa.",
+        "confidence": "verified",
+        "notes": "Verification scope: Ghana requires a visa; the official eVisa FAQ confirms visa-required travel-document holders may apply for eVisa."
+      }
     },
     {
       "to": {
