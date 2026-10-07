@@ -1,0 +1,61 @@
+{
+  "document": {
+    "id": "US-green-card",
+    "name": "U.S. Lawful Permanent Resident Status / Green Card",
+    "issuingCountry": "United States",
+    "type": "permanent_resident_card",
+    "description": "Official identification confirming lawful permanent resident status in the United States."
+  },
+  "privileges": [
+    {
+      "country": "Canada",
+      "access": "No Canadian visitor visa or eTA required",
+      "conditions": [
+        "Must be a lawful permanent resident of the United States",
+        "Must travel with required documents"
+      ],
+      "requiredDocuments": [
+        {
+          "type": "passport",
+          "description": "Valid passport from country/territory of nationality (or equivalent acceptable travel document)",
+          "validity": "Must be valid for duration of stay"
+        },
+        {
+          "type": "green_card",
+          "description": "Valid Green Card or equivalent valid proof of U.S. permanent-resident status",
+          "validity": "Must be valid at time of travel"
+        }
+      ],
+      "applicableTo": [
+        "Air travel",
+        "Land travel",
+        "Marine travel"
+      ],
+      "effectiveDate": "2022-04-26",
+      "sources": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/eligibility.html",
+          "title": "IRCC eTA eligibility - Government of Canada",
+          "accessedDate": "2026-10-06",
+          "retrievedBy": "automated-source-review",
+          "note": "Official source confirming U.S. permanent residents are exempt from eTA requirement as of April 26, 2022"
+        },
+        {
+          "url": "https://www.ircc.canada.ca/english/helpcentre/answer.asp?qnum=1053&top=16",
+          "title": "IRCC Help Centre - Visitor visa exemptions",
+          "accessedDate": "2026-10-06",
+          "retrievedBy": "automated-source-review",
+          "note": "Confirms same rule for all methods of travel to Canada"
+        }
+      ],
+      "lastUpdated": "2026-10-06",
+      "metadata": {
+        "schemaVersion": "1.0",
+        "verified": true,
+        "verificationMethod": "official_government_source",
+        "bountyReference": "bounty-2026-0304-002"
+      }
+    }
+  ],
+  "notes": "This privilege addition is based on official Canadian government sources accessed on 2026-10-06. The exemption applies to all modes of transportation to Canada."
+}
