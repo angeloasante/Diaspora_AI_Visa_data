@@ -1,0 +1,27 @@
+{
+  "country": "CA",
+  "countryName": "Canada",
+  "documentType": "Permanent Resident Card",
+  "privileges": [
+    {
+      "destination": "GE",
+      "destinationName": "Georgia",
+      "access": "visa-free",
+      "maxStay": 90,
+      "period": "180 days",
+      "notes": "Visa-free entry for up to 90 calendar days in any 180-day period when the Canadian residence permit is valid on the date of entry and is evidenced by the appropriate travel/documentation.",
+      "sources": [
+        {
+          "url": "https://www.matsne.gov.ge/en/document/view/2867377",
+          "description": "Government of Georgia Ordinance listing Canada among countries whose visa/residence permit holders may enter without a visa",
+          "accessDate": "2026-10-06"
+        },
+        {
+          "url": "https://www.matsne.gov.ge/en/document/view/2278806",
+          "description": "Law of Georgia on the Legal Status of Aliens and Stateless Persons, Article 10(3¹) — statutory basis for visa-free entry by holders of visas/residence permits from designated countries",
+          "accessDate": "2026-10-06"
+        }
+      ]
+    }
+  ]
+}
