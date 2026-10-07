@@ -4,7 +4,7 @@
     "name": "Ghana"
   },
   "dataVersion": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-10-07",
   "totalRoutes": 198,
   "summary": {
     "visa_free": 40,
@@ -9337,12 +9337,12 @@
         "required": false,
         "policy": "visa_free",
         "type": null,
-        "freeDays": 90,
-        "maxStay": 90,
+        "freeDays": 30,
+        "maxStay": 30,
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "Ghanaian citizens can visit Saint Vincent and the Grenadines visa-free for up to 90 days. Ensure your passport is valid for at least 6 months."
+        "notes": "Ghanaian passport holders are visa-exempt for visits to Saint Vincent and the Grenadines. The Ministry of Foreign Affairs states that the majority of foreign nationals receive visa-free access for a maximum stay of 1 month; Ghana is not among the countries listed as requiring a visa."
       },
       "documents": {
         "passport": {
@@ -9368,10 +9368,19 @@
       "meta": {
         "riskLevel": "low",
         "confidence": "verified",
-        "lastChecked": "2026-01-19",
-        "source": "passport-index-dataset"
+        "lastChecked": "2026-10-07",
+        "source": "Saint Vincent and the Grenadines Ministry of Foreign Affairs"
       },
-      "lastUpdated": "2026-01-19T03:05:53.124"
+      "lastUpdated": "2026-10-07T00:00:00.000Z",
+      "source": {
+        "url": "https://foreign.gov.vc/foreign/index.php/visas",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-07",
+        "verificationPath": "Ministry of Foreign Affairs > Visas > general visitor rules and countries for which visa requirements apply",
+        "exactQuote": "The majority of foreign nationals visiting Saint Vincent and the Grenadines are granted visa free access for a maximum stay of 1 month.",
+        "confidence": "verified",
+        "notes": "Ghana is not included in the official list of nationalities requiring a visa. This correction changes the recorded visa-free stay from 90 days to 30 days."
+      }
     },
     {
       "to": {
