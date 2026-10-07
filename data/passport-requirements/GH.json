@@ -4,7 +4,7 @@
     "name": "Ghana"
   },
   "dataVersion": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-10-07",
   "totalRoutes": 198,
   "summary": {
     "visa_free": 40,
@@ -2356,10 +2356,19 @@
       "meta": {
         "riskLevel": "low",
         "confidence": "verified",
-        "lastChecked": "2026-01-19",
-        "source": "passport-index-dataset"
+        "lastChecked": "2026-10-07",
+        "source": "Government of Dominica"
       },
-      "lastUpdated": "2026-01-19T03:05:53.123"
+      "lastUpdated": "2026-10-07T00:00:00.000Z",
+      "source": {
+        "url": "https://dominica.gov.dm/services/passports-and-travel-documents-non-nationals/do-i-need-a-visa-to-enter-into-dominica",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-07",
+        "verificationPath": "Government of Dominica > Passports and Travel Documents (Non-Nationals) > Do I Need a Visa to Enter into Dominica? > six-month visa-exemption list > Commonwealth of Nations",
+        "exactQuote": "The following persons do not need a visa... Countries in the Commonwealth of Nations (Member States of the Commonwealth).",
+        "confidence": "verified",
+        "notes": "Verification scope is limited to visa requirement and six-month stay. Ghana is a Commonwealth member; unrelated document/transit fields were not re-verified."
+      }
     },
     {
       "to": {
