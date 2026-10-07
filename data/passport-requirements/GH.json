@@ -4,7 +4,7 @@
     "name": "Ghana"
   },
   "dataVersion": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-10-07",
   "totalRoutes": 198,
   "summary": {
     "visa_free": 40,
@@ -9759,10 +9759,19 @@
       "meta": {
         "riskLevel": "low",
         "confidence": "verified",
-        "lastChecked": "2026-01-19",
-        "source": "passport-index-dataset"
+        "lastChecked": "2026-10-07",
+        "source": "Zambia Department of Immigration"
       },
-      "lastUpdated": "2026-01-19T03:05:53.125"
+      "lastUpdated": "2026-10-07T00:00:00.000Z",
+      "source": {
+        "url": "https://www.zambiaimmigration.gov.zm/nationals-who-require-visa/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-07",
+        "verificationPath": "Zambia Department of Immigration > Nationals requiring visas on arrival or from Zambian Missions Abroad > Ghana (row 15)",
+        "exactQuote": "Nationals of the countries listed below can get visas to Zambia on arrival, at any port of entry",
+        "confidence": "verified",
+        "notes": "Ghana appears in the official visa-on-arrival list. Verification scope is limited to visa requirement."
+      }
     },
     {
       "to": {
