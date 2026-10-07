@@ -4,13 +4,13 @@
     "name": "Ghana"
   },
   "dataVersion": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-10-07",
   "totalRoutes": 198,
   "summary": {
-    "visa_free": 40,
+    "visa_free": 39,
     "evisa": 39,
     "visa_on_arrival": 0,
-    "visa_required": 119,
+    "visa_required": 120,
     "total": 198
   },
   "routes": [
@@ -1174,15 +1174,15 @@
         "beaches"
       ],
       "visa": {
-        "required": false,
-        "policy": "visa_free",
+        "required": true,
+        "policy": "visa_required",
         "type": null,
-        "freeDays": 90,
+        "freeDays": null,
         "maxStay": 90,
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "Ghanaian citizens can visit The Bahamas visa-free for up to 90 days. Ensure your passport is valid for at least 6 months."
+        "notes": "Ghanaian passport holders require a visa to visit The Bahamas. The official Bahamas visitor visa table lists Ghana as visa required, with a 3-month visit period."
       },
       "documents": {
         "passport": {
@@ -1208,10 +1208,19 @@
       "meta": {
         "riskLevel": "low",
         "confidence": "verified",
-        "lastChecked": "2026-01-19",
-        "source": "passport-index-dataset"
+        "lastChecked": "2026-10-07",
+        "source": "Government of The Bahamas"
       },
-      "lastUpdated": "2026-01-19T03:05:53.121"
+      "lastUpdated": "2026-10-07T00:00:00.000Z",
+      "source": {
+        "url": "https://cdn.bahamas.gov.bs/tenant/tenanttgotb/documents/Visa-Requirements-for-Visitors-Travelling-to-TheBahamas1-20240216054224-20250528004922.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-07",
+        "verificationPath": "Visa Requirements for Foreigners Travelling to The Bahamas > F-H table > Ghana, Republic of",
+        "exactQuote": "GHANA, REPUBLIC OF | PASSPORT | YES | 3 MONTHS",
+        "confidence": "verified",
+        "notes": "Official Government of The Bahamas visitor-visa table. This correction changes the route from visa-free to visa-required; the listed visit period remains 3 months."
+      }
     },
     {
       "to": {
