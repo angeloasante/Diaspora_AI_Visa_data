@@ -6,10 +6,10 @@
     "categories": [
       "permanent_resident"
     ],
-    "description": "Canadian permanent resident card: verified visitor visa exemptions for Mexico and Belize. This is a partial destination list."
+    "description": "Canadian permanent resident card: verified visitor visa exemptions for Mexico, Belize and the Dominican Republic. This is a partial destination list."
   },
   "lastUpdated": "2026-10-06",
-  "totalUnlocked": 2,
+  "totalUnlocked": 3,
   "unlocks": [
     {
       "country": "MX",
@@ -46,6 +46,33 @@
         "exactQuote": "valid multiple entry visa or Permanent Residence Card from Canada"
       },
       "notes": "This entry records the permanent-residence-card route, separately from the Canadian visa route. A longer stay requires an Immigration Office extension; it is not included in the 30-day exemption."
+    },
+    {
+      "country": "DO",
+      "countryName": "Dominican Republic",
+      "region": "caribbean",
+      "conditions": "Hold valid permanent residence in Canada and a valid passport. Entry without a Dominican visa is for tourism using a Tourist Card; temporary residence and work or study are not covered by this entry.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "lastUpdated": "2026-10-16",
+      "source": {
+        "url": "https://servicios360.mirex.gob.do/visas/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-16",
+        "confidence": "verified",
+        "verificationPath": "MIREX > Portal Unico de Servicios > Visas > Decreto Num. 691-07",
+        "pageSection": "Decreto Num. 691-07",
+        "exactQuote": "extranjeros con residencia permanente o visado de entradas múltiples vigente en Estados Unidos, Unión Europea (Schengen), Canadá o Gran Bretaña."
+      },
+      "staySource": {
+        "url": "https://www.dgii.gov.do/sobreTarjetaTurista/Paginas/default.aspx",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-16",
+        "verificationPath": "DGII > Tarjeta de Turista > Sobre Tarjeta de Turista",
+        "exactQuote": "La Tarjeta de Turista autoriza a los visitantes a permanecer en el país por un período máximo de 30 días."
+      },
+      "notes": "This records Canadian permanent residence separately from the Canadian visa exemption. The Tourist Card is an entry tax, not a visa on arrival; DGII says it is included in air tickets issued outside the Dominican Republic. The 30-day stay does not include any extension and does not authorize work, study or residence. Other immigration entry requirements still apply."
     }
   ]
 }
