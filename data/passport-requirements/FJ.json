@@ -7,8 +7,8 @@
   "lastUpdated": "2026-03-04",
   "totalRoutes": 198,
   "summary": {
-    "visa_free": 49,
-    "evisa": 42,
+    "visa_free": 50,
+    "evisa": 41,
     "visa_on_arrival": 30,
     "visa_required": 77,
     "total": 198
@@ -4239,14 +4239,14 @@
       ],
       "visa": {
         "required": false,
-        "policy": "evisa",
+        "policy": "visa_free",
         "type": null,
-        "freeDays": null,
-        "maxStay": null,
-        "evisa": true,
+        "freeDays": 90,
+        "maxStay": 90,
+        "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Fiji Island passport holders are exempt from Kenya eTA under the 2025 rules for a stay not exceeding 90 days."
       },
       "documents": {
         "passport": {
@@ -4271,11 +4271,20 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
+        "confidence": "verified",
+        "lastChecked": "2026-10-16",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:16:11.858407"
+      "lastUpdated": "2026-10-16T17:40:33Z",
+      "source": {
+        "url": "https://etakenya.go.ke/how-to-apply",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-16",
+        "verificationPath": "Kenya eTA > How to Apply > Persons exempt from obtaining eTA > item 4 > 90-day exemption list > Fiji Island",
+        "exactQuote": "Nationals of the following Countries for a period not exceeding ninety (90) days－\nFiji Island",
+        "confidence": "verified",
+        "notes": "Fiji Island is listed under the official 90-day exemption group."
+      }
     },
     {
       "to": {

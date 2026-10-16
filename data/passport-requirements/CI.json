@@ -7,8 +7,8 @@
   "lastUpdated": "2026-03-04",
   "totalRoutes": 198,
   "summary": {
-    "visa_free": 28,
-    "evisa": 47,
+    "visa_free": 29,
+    "evisa": 46,
     "visa_on_arrival": 24,
     "visa_required": 99,
     "total": 198
@@ -4239,14 +4239,14 @@
       ],
       "visa": {
         "required": false,
-        "policy": "evisa",
+        "policy": "visa_free",
         "type": null,
-        "freeDays": null,
-        "maxStay": null,
-        "evisa": true,
+        "freeDays": 60,
+        "maxStay": 60,
+        "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Cote d'Ivoire passport holders are exempt from Kenya eTA under the 2025 rules for a stay not exceeding 60 days."
       },
       "documents": {
         "passport": {
@@ -4271,11 +4271,20 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
+        "confidence": "verified",
+        "lastChecked": "2026-10-16",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:39.847924"
+      "lastUpdated": "2026-10-16T17:40:33Z",
+      "source": {
+        "url": "https://etakenya.go.ke/how-to-apply",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-16",
+        "verificationPath": "Kenya eTA > How to Apply > Persons exempt from obtaining eTA > item 5 > 60-day African exemption list > Cote d'Ivoire",
+        "exactQuote": "Nationals of the following African countries for a period not exceeding sixty (60) days－\nCote d'Ivoire",
+        "confidence": "verified",
+        "notes": "Cote d'Ivoire is listed under the official 60-day exemption group."
+      }
     },
     {
       "to": {

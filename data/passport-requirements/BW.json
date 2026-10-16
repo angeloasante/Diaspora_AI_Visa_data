@@ -7,8 +7,8 @@
   "lastUpdated": "2026-10-07",
   "totalRoutes": 198,
   "summary": {
-    "visa_free": 47,
-    "evisa": 35,
+    "visa_free": 48,
+    "evisa": 34,
     "visa_on_arrival": 24,
     "visa_required": 92,
     "total": 198
@@ -4257,14 +4257,14 @@
       ],
       "visa": {
         "required": false,
-        "policy": "evisa",
+        "policy": "visa_free",
         "type": null,
-        "freeDays": null,
-        "maxStay": null,
-        "evisa": true,
+        "freeDays": 90,
+        "maxStay": 90,
+        "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Botswana passport holders are exempt from Kenya eTA under the 2025 rules for a stay not exceeding 90 days."
       },
       "documents": {
         "passport": {
@@ -4289,11 +4289,20 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
+        "confidence": "verified",
+        "lastChecked": "2026-10-16",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:37.104548"
+      "lastUpdated": "2026-10-16T17:40:33Z",
+      "source": {
+        "url": "https://etakenya.go.ke/how-to-apply",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-16",
+        "verificationPath": "Kenya eTA > How to Apply > Persons exempt from obtaining eTA > item 4 > 90-day exemption list > Botswana",
+        "exactQuote": "Nationals of the following Countries for a period not exceeding ninety (90) days－\nBotswana",
+        "confidence": "verified",
+        "notes": "Botswana is listed under the official 90-day exemption group."
+      }
     },
     {
       "to": {
