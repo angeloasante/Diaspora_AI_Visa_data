@@ -1,0 +1,58 @@
+{
+  "document": {
+    "type": "green_card",
+    "country": "US",
+    "countryName": "United States",
+    "categories": [
+      "Permanent Resident Card (Form I-551)",
+      "Alien Registration Receipt Card"
+    ],
+    "description": "Lawful Permanent Resident status in the United States grants visa-free or simplified entry privileges to multiple international jurisdictions."
+  },
+  "lastUpdated": "2026-10-06",
+  "totalUnlocked": 2,
+  "unlocks": [
+    {
+      "country": "CA",
+      "countryName": "Canada",
+      "region": "north_america",
+      "conditions": "Lawful permanent resident of the United States holding a valid Green Card and valid passport from country of citizenship",
+      "maxStayDays": 180,
+      "visaOnArrival": false,
+      "navigation_path": "Home > Immigration and citizenship > Visit Canada > Entry requirements",
+      "official_quote": "As a lawful permanent resident of the United States you don't need a visa or eTA to travel to Canada. When travelling to Canada, you must travel with your United States green card and a valid passport from your country of citizenship.",
+      "exactQuote": "As a lawful permanent resident of the United States you don't need a visa or eTA to travel to Canada. When travelling to Canada, you must travel with your United States green card and a valid passport from your country of citizenship.",
+      "source": {
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/campaigns/eta-work-visa-mexico.html",
+        "accessedDate": "2026-10-06",
+        "governmentDomain": true,
+        "verificationPath": "Home > Immigration and citizenship > Visit Canada > Entry requirements",
+        "exactQuote": "As a lawful permanent resident of the United States you don't need a visa or eTA to travel to Canada. When travelling to Canada, you must travel with your United States green card and a valid passport from your country of citizenship.",
+        "official_quote": "As a lawful permanent resident of the United States you don't need a visa or eTA to travel to Canada. When travelling to Canada, you must travel with your United States green card and a valid passport from your country of citizenship.",
+        "confidence": "verified"
+      },
+      "notes": "US permanent residents are exempt from the eTA and visa requirements to travel to Canada."
+    },
+    {
+      "country": "MX",
+      "countryName": "Mexico",
+      "region": "north_america",
+      "conditions": "Permanent resident of the United States (Green Card holder) + valid passport",
+      "maxStayDays": 180,
+      "visaOnArrival": false,
+      "navigation_path": "Inicio > Visas para extranjeros > Visa Exemptions",
+      "official_quote": "United States citizens and foreigners who are permanent residents (green card holders) or with a valid visa stamped on their passports, do not require a visa to travel to Mexico on tourism or non paid activities and stay up to 180 days.",
+      "exactQuote": "United States citizens and foreigners who are permanent residents (green card holders) or with a valid visa stamped on their passports, do not require a visa to travel to Mexico on tourism or non paid activities and stay up to 180 days.",
+      "source": {
+        "url": "https://consulmex.sre.gob.mx/sacramento/index.php/visas-para-extranjeros",
+        "accessedDate": "2026-10-06",
+        "governmentDomain": true,
+        "verificationPath": "Inicio > Visas para extranjeros > Visa Exemptions",
+        "exactQuote": "United States citizens and foreigners who are permanent residents (green card holders) or with a valid visa stamped on their passports, do not require a visa to travel to Mexico on tourism or non paid activities and stay up to 180 days.",
+        "official_quote": "United States citizens and foreigners who are permanent residents (green card holders) or with a valid visa stamped on their passports, do not require a visa to travel to Mexico on tourism or non paid activities and stay up to 180 days.",
+        "confidence": "verified"
+      },
+      "notes": "Foreign permanent residents of the US do not require a visa for tourism or non-remunerated activities up to 180 days."
+    }
+  ]
+}
