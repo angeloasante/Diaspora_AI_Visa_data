@@ -7374,15 +7374,15 @@
         "tourism"
       ],
       "visa": {
-        "required": false,
-        "policy": "visa_on_arrival",
-        "type": null,
+        "required": true,
+        "policy": "voa",
+        "type": "Visa on Arrival (30 days)",
         "freeDays": null,
-        "maxStay": null,
-        "evisa": false,
+        "maxStay": 30,
+        "evisa": true,
         "onArrival": true,
         "multipleEntry": false,
-        "notes": null
+        "notes": "30-day Visa on Arrival is issued at all Rwandan entry points for $50 USD without prior application, or can be requested in advance via irembo.gov.rw."
       },
       "documents": {
         "passport": {
@@ -7407,11 +7407,11 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-10-06",
+        "source": "https://www.migration.gov.rw/"
       },
-      "lastUpdated": "2026-01-19T04:16:07.598008"
+      "lastUpdated": "2026-10-06T00:00:00.000"
     },
     {
       "to": {

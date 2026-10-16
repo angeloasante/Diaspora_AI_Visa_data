@@ -7523,15 +7523,15 @@
         "gorilla_trekking"
       ],
       "visa": {
-        "required": true,
-        "policy": "voa",
+        "required": false,
+        "policy": "visa_free",
         "type": "Visa on Arrival / e-Visa",
-        "freeDays": null,
+        "freeDays": 30,
         "maxStay": 30,
-        "evisa": true,
+        "evisa": false,
         "onArrival": true,
         "multipleEntry": true,
-        "notes": "African Union passport holders and many African nationals can get visa on arrival. Also available via irembo.gov.rw"
+        "notes": "Citizens of African Union member states, the Commonwealth, and La Francophonie receive a 30-day visa fee waiver (gratis entry on arrival) without prior application."
       },
       "documents": {
         "passport": {
@@ -7556,11 +7556,11 @@
       },
       "meta": {
         "riskLevel": "low",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": null
+        "confidence": "verified",
+        "lastChecked": "2026-10-06",
+        "source": "https://www.migration.gov.rw/"
       },
-      "lastUpdated": "2025-12-14T01:57:39.727631"
+      "lastUpdated": "2026-10-06T00:00:00.000"
     },
     {
       "to": {

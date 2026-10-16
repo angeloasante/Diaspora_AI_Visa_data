@@ -7427,11 +7427,11 @@
         "policy": "visa_free",
         "type": null,
         "freeDays": 180,
-        "maxStay": null,
+        "maxStay": 180,
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "180 days visa-free stay"
+        "notes": "Citizens of East African Community (EAC) partner states are granted a visa-free entry pass valid for up to 6 months (180 days) gratis on arrival."
       },
       "documents": {
         "passport": {
@@ -7456,11 +7456,11 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-10-06",
+        "source": "https://www.migration.gov.rw/"
       },
-      "lastUpdated": "2026-01-19T04:15:31.001068"
+      "lastUpdated": "2026-10-06T00:00:00.000"
     },
     {
       "to": {

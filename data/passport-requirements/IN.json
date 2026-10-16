@@ -7378,11 +7378,11 @@
         "policy": "visa_free",
         "type": null,
         "freeDays": 30,
-        "maxStay": null,
+        "maxStay": 30,
         "evisa": false,
-        "onArrival": false,
+        "onArrival": true,
         "multipleEntry": false,
-        "notes": "30 days visa-free stay"
+        "notes": "Citizens of African Union member states, the Commonwealth, and La Francophonie receive a 30-day visa fee waiver (gratis entry on arrival) without prior application."
       },
       "documents": {
         "passport": {
@@ -7407,11 +7407,11 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-10-06",
+        "source": "https://www.migration.gov.rw/"
       },
-      "lastUpdated": "2026-01-19T04:04:00.164443"
+      "lastUpdated": "2026-10-06T00:00:00.000"
     },
     {
       "to": {

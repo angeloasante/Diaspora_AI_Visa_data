@@ -7119,15 +7119,15 @@
       "region": "africa",
       "popularFor": [],
       "visa": {
-        "required": false,
+        "required": true,
         "policy": "voa",
-        "type": null,
+        "type": "Visa on Arrival (30 days)",
         "freeDays": null,
-        "maxStay": null,
-        "evisa": false,
+        "maxStay": 30,
+        "evisa": true,
         "onArrival": true,
         "multipleEntry": false,
-        "notes": "Visa on arrival available for United States citizens at Rwanda ports of entry. Bring sufficient funds, return ticket, and hotel booking."
+        "notes": "30-day Visa on Arrival is issued at all Rwandan entry points for $50 USD without prior application, or can be requested in advance via irembo.gov.rw."
       },
       "documents": {
         "passport": {
@@ -7153,10 +7153,10 @@
       "meta": {
         "riskLevel": "low",
         "confidence": "verified",
-        "lastChecked": "2026-01-19",
-        "source": "passport-index-dataset"
+        "lastChecked": "2026-10-06",
+        "source": "https://www.migration.gov.rw/"
       },
-      "lastUpdated": "2026-01-19T03:59:12.4"
+      "lastUpdated": "2026-10-06T00:00:00.000"
     },
     {
       "to": {
