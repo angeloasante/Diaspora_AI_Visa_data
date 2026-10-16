@@ -7,8 +7,8 @@
   "lastUpdated": "2026-03-04",
   "totalRoutes": 198,
   "summary": {
-    "visa_free": 11,
-    "evisa": 47,
+    "visa_free": 12,
+    "evisa": 46,
     "visa_on_arrival": 31,
     "visa_required": 109,
     "total": 198
@@ -4239,14 +4239,14 @@
       ],
       "visa": {
         "required": false,
-        "policy": "evisa",
+        "policy": "visa_free",
         "type": null,
-        "freeDays": null,
-        "maxStay": null,
-        "evisa": true,
+        "freeDays": 90,
+        "maxStay": 90,
+        "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Ethiopia passport holders are exempt from Kenya eTA under the 2025 rules for a stay not exceeding 90 days."
       },
       "documents": {
         "passport": {
@@ -4271,11 +4271,20 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
+        "confidence": "verified",
+        "lastChecked": "2026-10-16",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:32.595641"
+      "lastUpdated": "2026-10-16T17:33:07Z",
+      "source": {
+        "url": "https://etakenya.go.ke/how-to-apply",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-16",
+        "verificationPath": "Kenya eTA > How to Apply > Persons exempt from obtaining eTA > item 4 > 90-day exemption list > Ethiopia",
+        "exactQuote": "Nationals of the following Countries for a period not exceeding ninety (90) days－\nEthiopia",
+        "confidence": "verified",
+        "notes": "Ethiopia is listed under the official 90-day exemption group on the same Kenya eTA page."
+      }
     },
     {
       "to": {

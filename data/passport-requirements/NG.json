@@ -7,8 +7,8 @@
   "lastUpdated": "2026-10-07",
   "totalRoutes": 198,
   "summary": {
-    "visa_free": 26,
-    "evisa": 44,
+    "visa_free": 27,
+    "evisa": 43,
     "visa_on_arrival": 0,
     "visa_required": 128,
     "total": 198
@@ -4373,15 +4373,15 @@
         "business"
       ],
       "visa": {
-        "required": true,
-        "policy": "eta",
+        "required": false,
+        "policy": "visa_free",
         "type": null,
-        "freeDays": null,
-        "maxStay": null,
-        "evisa": true,
+        "freeDays": 60,
+        "maxStay": 60,
+        "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "Electronic Travel Authorization (ETA) required. Apply online before travel. Usually processed within 72 hours."
+        "notes": "Nigeria passport holders are exempt from Kenya eTA under the 2025 rules for a stay not exceeding 60 days."
       },
       "documents": {
         "passport": {
@@ -4407,10 +4407,19 @@
       "meta": {
         "riskLevel": "medium",
         "confidence": "verified",
-        "lastChecked": "2026-01-19",
+        "lastChecked": "2026-10-16",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T03:24:40.953"
+      "lastUpdated": "2026-10-16T17:33:07Z",
+      "source": {
+        "url": "https://etakenya.go.ke/how-to-apply",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-16",
+        "verificationPath": "Kenya eTA > How to Apply > Persons exempt from obtaining eTA > item 5 > 60-day African exemption list > Nigeria",
+        "exactQuote": "Nationals of the following African countries for a period not exceeding sixty (60) days－\nNigeria",
+        "confidence": "verified",
+        "notes": "Nigeria is listed under the official 60-day exemption group on the same Kenya eTA page."
+      }
     },
     {
       "to": {

@@ -7,8 +7,8 @@
   "lastUpdated": "2026-10-15T15:26:01",
   "totalRoutes": 198,
   "summary": {
-    "visa_free": 60,
-    "evisa": 29,
+    "visa_free": 61,
+    "evisa": 28,
     "visa_on_arrival": 0,
     "visa_required": 109,
     "total": 198
@@ -4373,15 +4373,15 @@
         "business"
       ],
       "visa": {
-        "required": true,
-        "policy": "eta",
+        "required": false,
+        "policy": "visa_free",
         "type": null,
-        "freeDays": null,
-        "maxStay": null,
-        "evisa": true,
+        "freeDays": 90,
+        "maxStay": 90,
+        "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "Electronic Travel Authorization (ETA) required. Apply online before travel. Usually processed within 72 hours."
+        "notes": "South Africa passport holders are exempt from Kenya eTA under the 2025 rules for a stay not exceeding 90 days."
       },
       "documents": {
         "passport": {
@@ -4407,10 +4407,19 @@
       "meta": {
         "riskLevel": "medium",
         "confidence": "verified",
-        "lastChecked": "2026-01-19",
+        "lastChecked": "2026-10-16",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T03:24:43.479"
+      "lastUpdated": "2026-10-16T17:33:07Z",
+      "source": {
+        "url": "https://etakenya.go.ke/how-to-apply",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-16",
+        "verificationPath": "Kenya eTA > How to Apply > Persons exempt from obtaining eTA > item 4 > 90-day exemption list > South Africa",
+        "exactQuote": "Nationals of the following Countries for a period not exceeding ninety (90) days－\nSouth Africa",
+        "confidence": "verified",
+        "notes": "South Africa is listed under the official 90-day exemption group on the same Kenya eTA page."
+      }
     },
     {
       "to": {

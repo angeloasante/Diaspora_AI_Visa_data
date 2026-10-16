@@ -4290,12 +4290,12 @@
         "required": false,
         "policy": "visa_free",
         "type": null,
-        "freeDays": null,
-        "maxStay": null,
+        "freeDays": 180,
+        "maxStay": 180,
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Tanzania passport holders are exempt from Kenya eTA under the 2025 rules for a stay not exceeding 180 days."
       },
       "documents": {
         "passport": {
@@ -4320,11 +4320,20 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
+        "confidence": "verified",
+        "lastChecked": "2026-10-16",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:30.821665"
+      "lastUpdated": "2026-10-16T17:33:07Z",
+      "source": {
+        "url": "https://etakenya.go.ke/how-to-apply",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-16",
+        "verificationPath": "Kenya eTA > How to Apply > Persons exempt from obtaining eTA > item 3 > East African Partner States > Tanzania",
+        "exactQuote": "Citizens of the East African Partner States: These countries include Burundi, Democratic Republic of Congo, Rwanda, South Sudan, Tanzania and Uganda for a period not exceeding 180 days.",
+        "confidence": "verified",
+        "notes": "Tanzania is listed under the official 180-day exemption group on the same Kenya eTA page."
+      }
     },
     {
       "to": {

@@ -7,8 +7,8 @@
   "lastUpdated": "2026-10-16T10:09:46Z",
   "totalRoutes": 198,
   "summary": {
-    "visa_free": 40,
-    "evisa": 39,
+    "visa_free": 41,
+    "evisa": 38,
     "visa_on_arrival": 0,
     "visa_required": 119,
     "total": 198
@@ -4359,15 +4359,15 @@
         "safari"
       ],
       "visa": {
-        "required": true,
-        "policy": "evisa",
-        "type": "eTA (Electronic Travel Authorization)",
-        "freeDays": null,
+        "required": false,
+        "policy": "visa_free",
+        "type": null,
+        "freeDays": 90,
         "maxStay": 90,
-        "evisa": true,
+        "evisa": false,
         "onArrival": false,
-        "multipleEntry": true,
-        "notes": "Kenya now uses eTA system. Apply online at etakenya.go.ke before travel. Policy changed in 2024."
+        "multipleEntry": false,
+        "notes": "Ghana passport holders are exempt from Kenya eTA under the 2025 rules for a stay not exceeding 90 days."
       },
       "documents": {
         "passport": {
@@ -4392,11 +4392,20 @@
       },
       "meta": {
         "riskLevel": "low",
-        "confidence": "unverified",
-        "lastChecked": null,
+        "confidence": "verified",
+        "lastChecked": "2026-10-16",
         "source": null
       },
-      "lastUpdated": "2025-12-14T01:57:39.727631"
+      "lastUpdated": "2026-10-16T17:33:07Z",
+      "source": {
+        "url": "https://etakenya.go.ke/how-to-apply",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-16",
+        "verificationPath": "Kenya eTA > How to Apply > Persons exempt from obtaining eTA > item 4 > 90-day exemption list > Ghana",
+        "exactQuote": "Nationals of the following Countries for a period not exceeding ninety (90) days－\nGhana",
+        "confidence": "verified",
+        "notes": "Ghana is listed under the official 90-day exemption group on the same Kenya eTA page."
+      }
     },
     {
       "to": {
