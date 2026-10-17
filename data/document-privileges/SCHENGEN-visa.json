@@ -1,0 +1,238 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "document": {
+    "type": "visa",
+    "country": "SCHENGEN",
+    "countryName": "Schengen Area",
+    "categories": [
+      "valid Schengen short-stay visa"
+    ],
+    "description": "Destinations with a documented entry exemption or simplified e-Visa route for eligible travelers holding a valid Schengen visa. Eligibility remains subject to nationality-specific rules and border admission."
+  },
+  "lastUpdated": "2026-10-06",
+  "totalUnlocked": 15,
+  "unlocks": [
+    {
+      "country": "AL",
+      "countryName": "Albania",
+      "region": "europe",
+      "conditions": "Visa-free entry for foreign nationals with a valid multiple-entry Schengen visa previously used in a Schengen Area country. Iranian nationals are excluded. The traveler must leave Albania at least 3 days before the visa expires.",
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://punetejashtme.gov.al/en/regjimi-i-vizave-per-te-huajt/",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Verification path: Ministry for Europe and Foreign Affairs > Visa regime for foreign citizens > VISA-FREE ENTRY INTO ALBANIA. Exact quote: “Foreign nationals holding a valid multiple-entry Schengen visa that has previously been used in a Schengen Area country... They must leave... no later than 3 (three) days before the expiry date... This exemption does not apply to Iranian nationals.”"
+    },
+    {
+      "country": "BA",
+      "countryName": "Bosnia and Herzegovina",
+      "region": "europe",
+      "conditions": "For nationals of countries subject to a BiH visa requirement: entry without a BiH visa requires a valid multiple-entry Schengen visa. The traveler must arrive from a Schengen state, an EU member state, or a country with an effective readmission agreement with BiH. The exemption is limited to the visa's validity; the 2017 amendment provides stays up to 30 days.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://mvp.gov.ba/konzularne_informacije/sta_konzul_moze_uciniti_za_vas/Decision%20on%20Visas%20-%20Amendments%20-%2073_17.pdf",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Verification path: Ministry of Foreign Affairs > Consular information > Decision on Visas and amendments, Article 17 (visa-free regime for possession of Schengen visa/residence permit). Exact quote in the official decision: holders must have a “valid multiple entry Schengen visa”; entry is conditioned on arriving from Schengen/EU/readmission-agreement countries. The amendment caps the stay at 30 days within the visa's validity."
+    },
+    {
+      "country": "ME",
+      "countryName": "Montenegro",
+      "region": "europe",
+      "conditions": "Holders of a valid Schengen visa may enter, transit and stay in Montenegro for up to 30 days, but not beyond the visa's expiry if it expires sooner.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://www.gov.me/en/article/visas",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Verification path: Government of Montenegro > Visas > visa regime for foreign nationals. Exact quote: “Holders of valid foreign travel documents with a valid Schengen visa ... may enter, transit through and stay in Montenegro for up to 30 days, and no longer than until the expiry of the visa” where it expires sooner."
+    },
+    {
+      "country": "MK",
+      "countryName": "North Macedonia",
+      "region": "europe",
+      "conditions": "Requires a valid multiple-entry Schengen type C visa that remains valid at least 5 days beyond the intended stay. Stay is limited to 15 days per entry and 90 days in any 180-day period.",
+      "maxStayDays": 15,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://mfa.gov.mk/en-GB/konzularni-uslugi/informacii-za-vlez-vo-rsm",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Verification path: Ministry of Foreign Affairs and Foreign Trade > Consular Services > Visa requirements for entering North Macedonia. Exact quote: “Third-country nationals with multiple-entry Schengen visa (type C) valid for at least 5 (five) days beyond the intended stay ... may stay no longer than 15 (fifteen) days upon every entry ... [not exceeding] 90 days in any 180-day period.”"
+    },
+    {
+      "country": "RS",
+      "countryName": "Serbia",
+      "region": "europe",
+      "conditions": "Holders of any valid Schengen visa may enter, transit and stay without a separate Serbian visa for up to 90 days during a six-month period, but never beyond the Schengen visa's validity. Emergency travel documents and travel documents issued under international conventions are excluded.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://mfa.gov.rs/en/citizens/travel-serbia/visa-requirements",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Verification path: Ministry of Foreign Affairs > Travel to Serbia > Visa Requirements. Exact quote: holders of national passports “having a valid Schengen ... visa” may “enter, transit and stay ... up to 90 days during a six-month period, and within validity of said visas.”"
+    },
+    {
+      "country": "MD",
+      "countryName": "Moldova",
+      "region": "europe",
+      "conditions": "The visa-regime exception applies to nationals otherwise required to obtain a Moldovan visa who hold a valid visa issued by a Schengen state. Transit visas are excluded, and travel is allowed during the Schengen visa's validity.",
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://www.mfa.gov.md/en/content/visa-regime-foreigners",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Verification path: Ministry of Foreign Affairs > Visa regime for foreigners > visa-required nationals (footnote 2). Exact quote: holders of valid visas “(excluding transit visas), issued by one of the Member States of the European Union or one of the States Parties to the Schengen Agreement ... may travel to the Republic of Moldova during their validity.”"
+    },
+    {
+      "country": "MX",
+      "countryName": "Mexico",
+      "region": "north-america",
+      "conditions": "Foreign nationals who otherwise need a Mexican visa may enter for tourism, transit or other non-remunerated visitor purposes without a Mexican visa if they hold a valid multiple-entry Schengen visa covering the intended stay. Admission remains subject to Mexican immigration authorities.",
+      "maxStayDays": 180,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://embamex.sre.gob.mx/suiza/index.php/seccion-consular/visas/english",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Verification path: Embassy of Mexico in Switzerland > Consular Section > Visas > English. Exact quote: a Mexican visa is not required for tourism, transit or unpaid activity for stays under 180 days with a “valid and current multiple entry visa ... [from] Schengen countries.”"
+    },
+    {
+      "country": "TR",
+      "countryName": "Türkiye",
+      "region": "europe",
+      "conditions": "This is not visa-free entry. A Schengen visa can serve as a supporting document for a Turkish e-Visa application only when the traveler also meets all nationality-specific e-Visa criteria. The supporting visa must be valid on the date of entry; previously used or unused single-entry visas qualify if still valid.",
+      "visaOnArrival": false,
+      "evisaRequired": true,
+      "source": {
+        "url": "https://evisa.gov.tr/en/info/what-are-the-criteria-for-the-validity-of-my-supporting-document-visa-or-residence-permit-from-schengen-or-from-us-uk-and-ireland/",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Verification path: official e-Visa portal > FAQ > supporting document validity criteria. Exact quote: “The only requirement for your visa/residence permit to be used as a supporting document is that it should be still valid ... by the time you enter Türkiye.” This does not itself grant an e-Visa or entry."
+    },
+    {
+      "country": "OM",
+      "countryName": "Oman",
+      "region": "middle-east",
+      "conditions": "For nationals in Oman's second group of countries (including India, Mexico, Morocco, Panama and others), visa-free entry for up to 14 days requires a valid entry visa from a Schengen country or qualifying residence status. All travelers need a passport valid at least 6 months, return ticket, confirmed hotel booking, health insurance and sufficient funds. The 14-day stay cannot be extended. Spouses and children may benefit even if they are not nationals of the listed country.",
+      "maxStayDays": 14,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://www.fm.gov.om/en/visitors/entry-visas/",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Verification path: Ministry of Foreign Affairs > Visitors > Entry visas > second-group exemption and full regulation text. Exact quote: second-group nationals need “a valid entry visa for one of the following countries ... Schengen Agreement countries”; visitors need a passport valid at least six months, return ticket, confirmed hotel reservation, health insurance and sufficient funds; stay is 14 days and cannot be extended."
+    },
+    {
+      "country": "GE",
+      "countryName": "Georgia",
+      "region": "europe",
+      "conditions": "Holders of a valid visa or residence permit issued by a country listed in Georgia's Government Ordinance No. 256 may enter visa-free for 90 calendar days in any 180-day period. Schengen member states are listed. The document must be valid on the date of crossing the Georgian border.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://gc-pfiles.mfa.gov.ge/DocFiles/2025/5/13/LegalAct/37/de83b55e-be80-48ba-b05c-081d4848616d.pdf",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Verification path: Government of Georgia Ordinance No. 256, annex of countries whose visas/residence permits permit visa-free entry; conditions, clauses 1–2 (PDF pp. 1–2). English translation of the official Georgian text: qualifying visa/residence-permit holders may enter for 90 calendar days in any 180-day period, and the document must be valid on the date of entry. The annex includes Schengen states."
+    },
+    {
+      "country": "XK",
+      "countryName": "Kosovo",
+      "region": "europe",
+      "conditions": "For nationals who otherwise need a Kosovo visa: a valid multiple-entry Schengen visa exempts the holder from a separate Kosovo visa for entry, transit or stay, for up to 15 days.",
+      "maxStayDays": 15,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://arkivi.mfa-ks.net/en/sherbimet_konsullore/505/kategorit-e-veanta-t-liruara-nga-viza/505.html",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Verification path: Ministry of Foreign Affairs and Diaspora > Consular services > For foreign citizens > Special categories exempted from visa requirements. Exact quote: “Citizens of the countries which are required to obtain a visa for Kosovo but hold ... a valid multi-entry Schengen Visa are exempt ... for up to 15 days.” Kosovo is coded XK per this repository's country index."
+    },
+    {
+      "country": "SA",
+      "countryName": "Saudi Arabia",
+      "region": "middle-east",
+      "conditions": "A valid tourist or business visa from a Schengen state, used at least once to enter the issuing country, qualifies its holder for a Saudi tourist visa. Eligible travelers may apply for an instant eVisa in advance or obtain a visa on arrival. The multiple-entry tourist visa permits stays up to 90 days during its 1-year validity.",
+      "maxStayDays": 90,
+      "visaOnArrival": true,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://cdn.mt.gov.sa/mtportal/mt-fe-production/content/policies-regulations/documents/tourism-regulations/Tourist-Visa-Regulations-En-V012.pdf",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Verification path: Saudi Ministry of Tourism > Tourist Visa Regulations, Articles 4 and 6; Saudi Press Agency announcement, “Ministry of Tourism Announces Streamlined Entry to Saudi Arabia for UK, US, and Schengen Tourism Visa Holders”; and the Saudi National Platform > Visa & Tourism. The official sources confirm the Schengen visa must be valid and used at least once, and that qualifying visitors may apply for an eVisa or obtain a tourist visa on arrival. This is visa facilitation, not visa-free entry."
+    },
+    {
+      "country": "PH",
+      "countryName": "Philippines",
+      "region": "asia",
+      "conditions": "For Indian passport holders traveling for tourism or business, a valid and current Schengen visa or residence permit (among listed AJACSSUK documents) qualifies for visa-free entry for up to 30 days. The stay is non-extendible and non-convertible. A passport valid at least 6 months beyond the intended stay and return/onward ticket are required; admission remains subject to Philippine immigration inspection.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://newdelhipe.dfa.gov.ph/index.php/newsroom/embassy-news/1144-visa-free-privileges-for-indian-nationals-entering-the-philippines",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Verification path: Embassy of the Philippines in New Delhi > Visa-free privileges for Indian nationals entering the Philippines. Policy effective 8 June 2025. The Embassy states Indian nationals holding a “valid and current American, Japanese, Australian, Canadian, Schengen, Singapore or United Kingdom (AJACSSUK) visa or residence permit” may enter visa-free for 30 days for tourism or business; separate passport-validity and onward-ticket conditions apply."
+    },
+    {
+      "country": "CO",
+      "countryName": "Colombia",
+      "region": "south-america",
+      "conditions": "Conditionally visa-exempt for short non-remunerated visits are nationals of Cambodia, India, Nicaragua, Myanmar, China, Thailand, Taiwan, and Vietnam who hold a current residence permit from a Schengen member state or a Schengen visa with at least 180 days of validity remaining on arrival. Colombian authorities decide the entry permission and authorized stay; short-stay activity is under 90 days and may be extendable up to 180 days under applicable rules.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://cancilleria.gov.co/normograma/compilacion/docs/resolucion_minrelaciones_5488_2022.htm",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Verification path: Ministry of Foreign Affairs, Legal Compilation > Resolution 5488 of 2022, Article 3 (C), as amended by Resolution 3717 of 2023. Article 3(3) defines short stay as under 90 days (extendable up to 180 days where permitted); current conditional-exemption list names Cambodia, India, Nicaragua, Myanmar, China, Thailand, Taiwan, and Vietnam and requires either valid Schengen-state residence or a Schengen visa with at least 180 days remaining at entry. Migración Colombia assigns the applicable entry permission and authorized duration."
+    },
+    {
+      "country": "PE",
+      "countryName": "Peru",
+      "region": "south-america",
+      "conditions": "Nationals of India and China are exempt from a Peruvian tourist visa if they hold a Schengen visa valid for at least 6 months at entry or permanent residence in a Schengen state; their stay may total up to 180 days in a year. Moroccan nationals with valid ordinary passports are exempt if they hold a Schengen visa valid for at least 6 months at entry; their tourist stay may total up to 183 days in a year. Admission and the applicable stay authorization remain subject to Peruvian authorities.",
+      "maxStayDays": 183,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://www.gob.pe/institucion/rree/normas-legales/8433751-033-2026-re",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Verification path: Ministry of Foreign Affairs > Supreme Decree No. 033-2026-RE (effective 60 days after publication on 25 July 2026; in force by this record's access date). The Decree exempts Moroccan ordinary-passport holders with a Schengen or US visa, requires both passport and qualifying visa to have at least six months' validity on entry, and allows up to 183 calendar days in a year. For Indian and Chinese nationals, the Ministry's current tourist visa procedure (https://www.gob.pe/en/36240-apply-for-a-tourist-visa-to-enter-peru?child=113898) states exemption with a Schengen visa valid at least six months or qualifying permanent residence, with a maximum 180 days per year."
+    }
+  ]
+}
