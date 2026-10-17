@@ -1,0 +1,165 @@
+{
+  "document": {
+    "type": "visa",
+    "country": "SCHENGEN",
+    "countryName": "Schengen Area",
+    "categories": ["short_stay", "type_c"],
+    "description": "A valid Schengen visa can unlock visa-free entry or simplified entry procedures in certain non-Schengen destinations, subject to each destination's conditions"
+  },
+  "lastUpdated": "2026-10-05",
+  "totalUnlocked": 11,
+  "unlocks": [
+    {
+      "country": "AL",
+      "countryName": "Albania",
+      "region": "europe",
+      "conditions": "Valid multiple-entry Schengen visa that has previously been used in a Schengen state",
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://arkiva.punetejashtme.gov.al/en/regjimi-i-vizave-per-te-huajt/",
+        "accessedDate": "2026-10-05",
+        "confidence": "verified"
+      },
+      "notes": "Visa exemption applies to foreign citizens who would otherwise require an Albanian visa."
+    },
+    {
+      "country": "ME",
+      "countryName": "Montenegro",
+      "region": "europe",
+      "conditions": "Valid Schengen visa",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.gov.me/en/article/visas",
+        "accessedDate": "2026-10-05",
+        "confidence": "verified"
+      },
+      "notes": "Stay may not extend beyond the Schengen visa's expiry when its remaining validity is less than 30 days."
+    },
+    {
+      "country": "RS",
+      "countryName": "Serbia",
+      "region": "europe",
+      "conditions": "Valid Schengen visa",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://mfa.rs/en/citizens/travel-serbia/visa-requirements",
+        "accessedDate": "2026-10-05",
+        "confidence": "verified"
+      },
+      "notes": "Visa-free entry, transit and stay is permitted for up to 90 days during a six-month period and within the visa's validity."
+    },
+    {
+      "country": "MK",
+      "countryName": "North Macedonia",
+      "region": "europe",
+      "conditions": "Multiple-entry Schengen type C visa valid for at least five days beyond the intended stay",
+      "maxStayDays": 15,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://mfa.gov.mk/en-GB/konzularni-uslugi/informacii-za-vlez-vo-rsm",
+        "accessedDate": "2026-10-05",
+        "confidence": "verified"
+      },
+      "notes": "Maximum 15 days per entry, with total stay limited to 90 days in any 180-day period."
+    },
+    {
+      "country": "BA",
+      "countryName": "Bosnia and Herzegovina",
+      "region": "europe",
+      "conditions": "Valid multiple-entry Schengen visa",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://msb.gov.ba/en/information-for-foreigners",
+        "accessedDate": "2026-10-05",
+        "confidence": "verified"
+      },
+      "notes": "For nationals normally subject to the Bosnia and Herzegovina visa regime. One continuous stay may not exceed 30 days, with total stay capped at 90 days in any 180-day period and within visa validity."
+    },
+    {
+      "country": "MD",
+      "countryName": "Moldova",
+      "region": "europe",
+      "conditions": "Valid visa, other than a transit visa, issued by an EU member state or a Schengen Agreement state",
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.mfa.gov.md/ro/content/regimul-de-vize",
+        "accessedDate": "2026-10-05",
+        "confidence": "verified"
+      },
+      "notes": "The exemption applies to nationals identified by Moldova's visa-regime list and lasts within the supporting visa's validity."
+    },
+    {
+      "country": "MX",
+      "countryName": "Mexico",
+      "region": "north_america",
+      "conditions": "Valid multiple-entry Schengen visa",
+      "maxStayDays": 180,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://embamex.sre.gob.mx/suecia/index.php/en/travel-to-mexico/visa-information/exemption-from-the-mexican-visa",
+        "accessedDate": "2026-10-05",
+        "confidence": "verified"
+      },
+      "notes": "Mexican visa exemption applies for tourism, business, transit or study without remuneration from a Mexican source, subject to immigration authorization at entry."
+    },
+    {
+      "country": "BZ",
+      "countryName": "Belize",
+      "region": "central_america",
+      "conditions": "Valid multiple-entry Schengen visa",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://immigration.gov.bz/visa/visa-who-qualify/",
+        "accessedDate": "2026-10-05",
+        "confidence": "verified"
+      },
+      "notes": "Belize lists a valid multiple-entry Schengen visa as an exemption from the Belize entry-visa requirement for visits not exceeding 30 days."
+    },
+    {
+      "country": "XK",
+      "countryName": "Kosovo",
+      "region": "europe",
+      "conditions": "Valid multiple-entry Schengen visa",
+      "maxStayDays": 15,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://arkivi.mfa-ks.net/en/sherbimet_konsullore/505/kategorit-e-veanta-t-liruara-nga-viza/505.html",
+        "accessedDate": "2026-10-05",
+        "confidence": "verified"
+      },
+      "notes": "Citizens who normally require a Kosovo visa are exempt for entry, transit or stay for up to 15 days when holding a valid multiple-entry Schengen visa."
+    },
+    {
+      "country": "PA",
+      "countryName": "Panama",
+      "region": "central_america",
+      "conditions": "Valid visa or residence issued by a qualifying country, including an EU member state; a Schengen visa issued by an EU member state can satisfy this route",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.migracion.gob.pa/plantilla-tramite-migratorio-v-tet-variante-273-borrador-2/",
+        "accessedDate": "2026-10-05",
+        "confidence": "verified"
+      },
+      "notes": "Current Panama guidance cites Executive Decrees 521 and 196. Decree 196 removed the former six-month minimum remaining-validity condition, requiring the qualifying visa to be valid at entry."
+    },
+    {
+      "country": "GE",
+      "countryName": "Georgia",
+      "region": "asia",
+      "conditions": "For specified nationalities applying for a Georgian e-Visa, a valid Schengen visa is accepted as a required supporting document",
+      "visaOnArrival": false,
+      "evisaRequired": true,
+      "source": {
+        "url": "https://evisa.gov.ge/GeoVisa/Countries/Index.html",
+        "accessedDate": "2026-10-05",
+        "confidence": "verified"
+      },
+      "notes": "This is a simplified e-Visa eligibility privilege rather than universal visa-free entry. It applies only to nationalities listed by Georgia's e-Visa portal."
+    }
+  ]
+}
