@@ -13,15 +13,17 @@
       "country": "AL",
       "countryName": "Albania",
       "region": "europe",
-      "conditions": "Valid multi-entry UK, US, or Schengen visa",
+      "conditions": "Valid multiple-entry UK visa previously used in the United Kingdom, or valid UK residence permit; traveller must leave Albania no later than 3 days before the document expires; exemption does not apply to Iranian nationals",
       "maxStayDays": 90,
       "visaOnArrival": false,
       "source": {
-        "url": "https://punetejashtme.gov.al/en/",
-        "accessedDate": "2026-03-01",
+        "url": "https://punetejashtme.gov.al/en/regjimi-i-vizave-per-te-huajt/",
+        "accessedDate": "2026-10-17",
+        "verificationPath": "Ministry for Europe and Foreign Affairs > Visa regime for foreign citizens > VISA-FREE ENTRY INTO ALBANIA > second bullet",
+        "exactQuote": "The visa must have been used previously in the issuing country.",
         "confidence": "verified"
       },
-      "notes": "Applies to nationals who normally require a visa for Albania"
+      "notes": "Current Albanian rules include UK documents issued in electronic format. The traveller must leave no later than 3 days before document expiry; Iranian nationals must obtain a visa in all cases."
     },
     {
       "country": "XK",
