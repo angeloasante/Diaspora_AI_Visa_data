@@ -1,0 +1,156 @@
+{
+  "document": {
+    "type": "visa",
+    "country": "EU-SCHENGEN",
+    "countryName": "Schengen Area",
+    "categories": [
+      "Type C (Uniform Schengen Visa - Multiple Entry)",
+      "Type D (National Long-Stay Visa)"
+    ],
+    "description": "A valid multiple-entry Schengen visa or national long-stay visa grants visa-free, simplified, or electronic visa entry privileges to multiple non-Schengen jurisdictions worldwide."
+  },
+  "lastUpdated": "2026-10-06",
+  "totalUnlocked": 10,
+  "unlocks": [
+    {
+      "country": "MX",
+      "countryName": "Mexico",
+      "region": "north_america",
+      "conditions": "Valid, unexpired multiple-entry Schengen visa",
+      "maxStayDays": 180,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.inm.gob.mx/",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Foreign visitors holding a valid multiple-entry Schengen visa do not require a Mexican tourist visa for stays up to 180 days."
+    },
+    {
+      "country": "AL",
+      "countryName": "Albania",
+      "region": "europe",
+      "conditions": "Valid multiple-entry Schengen visa (previously used in Schengen territory)",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://punetejashtme.gov.al/",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Holders of a valid, multiple-entry Schengen visa may enter and stay in Albania for up to 90 days within any 180-day period."
+    },
+    {
+      "country": "BA",
+      "countryName": "Bosnia and Herzegovina",
+      "region": "europe",
+      "conditions": "Valid multiple-entry Schengen visa",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "source": {
+        "url": "http://sps.gov.ba/",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Citizens of countries requiring a visa may enter Bosnia and Herzegovina visa-free for up to 30 days if holding a valid multiple-entry Schengen visa."
+    },
+    {
+      "country": "ME",
+      "countryName": "Montenegro",
+      "region": "europe",
+      "conditions": "Valid Schengen visa (valid for the duration of stay)",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.gov.me/en/mvp",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Holders of a valid Schengen visa may enter and stay in Montenegro without a visa for up to 30 days."
+    },
+    {
+      "country": "MK",
+      "countryName": "North Macedonia",
+      "region": "europe",
+      "conditions": "Valid multiple-entry Schengen visa (Type C) valid for at least 5 days beyond stay",
+      "maxStayDays": 15,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://mfa.gov.mk/en",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Short-stay Schengen visa (Type C) holders are permitted entry into North Macedonia for up to 15 days per visit (up to 90 days total in a 180-day window)."
+    },
+    {
+      "country": "RS",
+      "countryName": "Serbia",
+      "region": "europe",
+      "conditions": "Valid Schengen visa or residence permit",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.mfa.gov.rs/en/foreign-policy/visa-regime",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Foreign nationals possessing a valid Schengen visa may enter, transit, or stay in Serbia without a visa for up to 90 days in any 180-day period."
+    },
+    {
+      "country": "GE",
+      "countryName": "Georgia",
+      "region": "europe_asia",
+      "conditions": "Valid Schengen visa valid on date of entry",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.geoconsul.gov.ge/HtmlPage/Html/View?id=956",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Holders of valid Schengen visas may enter Georgia without a visa for an aggregate stay of up to 90 days within any 180-day period."
+    },
+    {
+      "country": "CY",
+      "countryName": "Cyprus",
+      "region": "europe",
+      "conditions": "Valid double or multiple-entry Schengen visa (Category C)",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://mfa.gov.cy/visa-information.html",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Third-country nationals holding a valid multiple-entry Schengen Category C visa are exempted from Cyprus national visa requirements for up to 90 days in 180 days."
+    },
+    {
+      "country": "TR",
+      "countryName": "Turkiye",
+      "region": "europe_asia",
+      "conditions": "Valid supporting Schengen visa enables single-entry electronic visa (e-Visa)",
+      "maxStayDays": 30,
+      "visaOnArrival": true,
+      "source": {
+        "url": "https://www.evisa.gov.tr/en/",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Eligible third-country nationals holding a valid Schengen visa can obtain an instant Turkish e-Visa online prior to arrival."
+    },
+    {
+      "country": "CO",
+      "countryName": "Colombia",
+      "region": "south_america",
+      "conditions": "Valid Schengen visa with minimum 180 days remaining validity",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "source": {
+        "url": "https://www.cancilleria.gov.co/",
+        "accessedDate": "2026-10-06",
+        "confidence": "verified"
+      },
+      "notes": "Foreign nationals of designated nationalities under Resolution 5488 are exempt from tourist visas if holding a valid Schengen visa."
+    }
+  ]
+}
