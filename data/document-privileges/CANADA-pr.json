@@ -6,10 +6,10 @@
     "categories": [
       "permanent_resident"
     ],
-    "description": "Canadian permanent resident card: verified visitor visa exemptions for Mexico, Belize, the Dominican Republic and Georgia. This is a partial destination list."
+    "description": "Canadian permanent resident card: verified visitor visa exemptions for Mexico, Belize, the Dominican Republic, Georgia and the Cayman Islands. This is a partial destination list."
   },
   "lastUpdated": "2026-10-06",
-  "totalUnlocked": 4,
+  "totalUnlocked": 5,
   "unlocks": [
     {
       "country": "MX",
@@ -101,6 +101,26 @@
         "language": "Georgian"
       },
       "notes": "This entry covers Canadian permanent residence, separately from the Canadian visa route. The 90-day allowance is cumulative within any 180 days, not a fresh 90 days per entry. It does not establish permission to work, study or reside in Georgia; other entry requirements still apply."
+    },
+    {
+      "country": "KY",
+      "countryName": "Cayman Islands",
+      "region": "caribbean",
+      "conditions": "Be resident in Canada, arrive directly from Canada or the United States, present proof of Canadian permanent residence or landed immigrant status, and present a return or round-trip ticket to Canada or the United States. The exemption is subject to the traveller not being a prohibited immigrant.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "lastUpdated": "2026-10-18",
+      "source": {
+        "url": "https://gov.ky/en/web/cbc/travel/visas-extensions/visitors-visas/list-of-countries-visa-required",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-18",
+        "confidence": "verified",
+        "verificationPath": "Cayman Islands Government > Customs & Border Control > Visitor Visa > List of Countries - Visa Required > Exemptions",
+        "exactQuote": "you are resident in Canada; and you arrive directly from Canada or the USA; and you produce on arrival proof that you are a permanent resident or landed immigrant of Canada; and you produce on arrival a return or round trip ticket to Canada or the United States.",
+        "stayQuote": "persons taking advantage of the waiver of the visa requirement above may only be permitted to enter and remain in the Islands for a period not exceeding thirty days."
+      },
+      "notes": "The 30-day period is the maximum permitted under this visa waiver, not a guaranteed grant of admission. The traveller must arrive directly from Canada or the United States and hold a return or round-trip ticket to one of those countries. This exemption does not authorize work or residence; other entry requirements still apply."
     }
   ]
 }

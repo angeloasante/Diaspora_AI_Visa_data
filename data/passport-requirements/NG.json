@@ -1441,8 +1441,11 @@
         "maxStay": null,
         "evisa": false,
         "onArrival": false,
-        "multipleEntry": true,
-        "notes": "Visa required for Nigeria citizens. Apply at the Canada embassy/consulate or authorized visa center."
+        "notes": "Visa required for Nigeria citizens. Apply at the Canada embassy/consulate or authorized visa center. For a visitor visa, the published starting fee is CAD 100; additional fees may apply. A single-entry or multiple-entry visa is at the visa officer's discretion.",
+        "cost": {
+          "amount": 100,
+          "currency": "CAD"
+        }
       },
       "documents": {
         "passport": {
@@ -1471,7 +1474,25 @@
         "lastChecked": "2026-01-19",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T03:24:40.953"
+      "lastUpdated": "2026-10-19",
+      "source": {
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/visitor-visa.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-19",
+        "verificationPath": "Canada.ca > Immigration and citizenship > Visit Canada > Visitor visa > Fees",
+        "exactQuote": "Starting from: $CAN 100",
+        "confidence": "verified",
+        "notes": "Scope: visitor starting fee and entry multiplicity only. Processing varies by country; no duration is added. Other route/document/transit fields are retained without re-verification.",
+        "additionalSources": [
+          {
+            "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/about-visitor-visa.html",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-19",
+            "verificationPath": "Visitor visa > Who needs a visitor visa > Most travellers need a visitor visa",
+            "exactQuote": "A visa officer has discretion to issue you a single-entry visa or multiple entry visa"
+          }
+        ]
+      }
     },
     {
       "to": {
@@ -3039,7 +3060,12 @@
         "evisa": false,
         "onArrival": false,
         "multipleEntry": true,
-        "notes": "Visa required for Nigeria citizens. Apply at the United Kingdom embassy/consulate or authorized visa center."
+        "notes": "Nigerian passport holders require a UK visa for a Standard Visitor visit. Apply online through GOV.UK before travel. The GBP 135 fee applies to a Standard Visitor visa for a stay of up to 6 months; the usual decision time is 3 weeks after identity verification and supporting documents are provided, but delays are possible. These specific fee and processing-time facts do not apply to work, long-term study or other visa categories.",
+        "processingDays": "Usually 3 weeks after identity and supporting documents are provided; delays are possible",
+        "cost": {
+          "amount": 135,
+          "currency": "GBP"
+        }
       },
       "documents": {
         "passport": {
@@ -3068,7 +3094,28 @@
         "lastChecked": "2026-01-19",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T03:24:40.953"
+      "lastUpdated": "2026-10-18",
+      "source": {
+        "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-18",
+        "pageSection": "Visa fees; How long it takes to get a decision",
+        "verificationPath": "GOV.UK > Visit the UK as a Standard Visitor > Apply for a Standard Visitor visa > Visa fees / How long it takes to get a decision",
+        "exactQuote": "Standard Visitor visa | £135 | 6 months",
+        "confidence": "verified",
+        "notes": "Verifies the Standard Visitor fee and typical decision time only; the other Nigeria-to-UK route fields (passport, supporting documents, transit, other visa types) were not reverified. Standard processing is not guaranteed.",
+        "supportingSources": [
+          {
+            "url": "https://www.gov.uk/guidance/visa-processing-times-applications-outside-the-uk",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-18",
+            "pageSection": "Visit visas; When your application processing time starts; When you might wait longer",
+            "verificationPath": "GOV.UK > Visa processing times: applications outside the UK > Visit visas > Standard Visitor",
+            "exactQuote": "Standard Visitor | 3 weeks",
+            "confidence": "verified"
+          }
+        ]
+      }
     },
     {
       "to": {

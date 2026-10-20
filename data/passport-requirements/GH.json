@@ -1432,8 +1432,11 @@
         "maxStay": null,
         "evisa": false,
         "onArrival": false,
-        "multipleEntry": true,
-        "notes": "Temporary Resident Visa required. Apply online via IRCC. Biometrics required at VAC."
+        "notes": "Ghanaian passport holders are listed by IRCC among travellers who need a visitor visa and valid passport to visit Canada. The published visitor-visa application fee starts at CAD 100; other application and biometric requirements may apply. A Canadian visa officer may issue a single-entry or multiple-entry visa, at their discretion. Processing times vary by country and application; no fixed processing time is asserted here. The CAD 100 base fee is specifically for a visitor visa, not a study or work permit.",
+        "cost": {
+          "amount": 100,
+          "currency": "CAD"
+        }
       },
       "documents": {
         "passport": {
@@ -1462,7 +1465,37 @@
         "lastChecked": null,
         "source": null
       },
-      "lastUpdated": "2025-12-14T01:57:39.727631"
+      "lastUpdated": "2026-10-18",
+      "source": {
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/visitor-visa.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-18",
+        "pageSection": "Fees; Processing times",
+        "verificationPath": "Canada.ca > Immigration and citizenship > Visit Canada > Visitor visa (temporary resident visa) > Fees / Processing times",
+        "exactQuote": "Starting from: $CAN 100",
+        "confidence": "verified",
+        "notes": "CAD 100 is the visitor-visa starting fee, not a guaranteed all-inclusive total; country-specific processing time is not asserted. Existing passport, supporting-document, study-permit, work-permit and transit data were not reverified.",
+        "supportingSources": [
+          {
+            "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-18",
+            "pageSection": "Travellers who need a visa",
+            "verificationPath": "Canada.ca > What you need to enter Canada > Travellers who need a visa > Visa-required countries or territories > Ghana",
+            "exactQuote": "Ghana",
+            "confidence": "verified"
+          },
+          {
+            "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/about-visitor-visa.html",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-18",
+            "pageSection": "Most travellers need a visitor visa",
+            "verificationPath": "Canada.ca > Visitor visa > Who needs a visitor visa > Most travellers need a visitor visa",
+            "exactQuote": "A visa officer has discretion to issue you a single-entry visa or multiple entry visa",
+            "confidence": "verified"
+          }
+        ]
+      }
     },
     {
       "to": {
@@ -6751,7 +6784,7 @@
       },
       "documents": {
         "passport": {
-          "minimumValidityMonths": 6,
+          "minimumValidityMonths": 3,
           "blankPagesRequired": 2
         },
         "requirements": {
@@ -6764,7 +6797,7 @@
           },
           "yellowFeverCertificate": true
         },
-        "notes": null
+        "notes": "For a Visitor Visa, the passport must remain valid for at least 3 months after the date the traveller plans to leave New Zealand."
       },
       "transit": {
         "visaRequired": null,
@@ -6776,7 +6809,17 @@
         "lastChecked": "2026-01-19",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T03:05:53.124"
+      "lastUpdated": "2026-10-20",
+      "source": {
+        "url": "https://www.immigration.govt.nz/visas/visitor-visa/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "pageSection": "Documents you need > When you apply",
+        "verificationPath": "Immigration New Zealand > Visas > Visitor Visa > Documents you need > When you apply",
+        "exactQuote": "must be valid for at least 3 months after the date you plan to leave New Zealand.",
+        "confidence": "verified",
+        "notes": "Verification covers only passport validity for the Visitor Visa, measured after planned departure from New Zealand. Other visa, document, entry and transit fields were not reverified."
+      }
     },
     {
       "to": {
