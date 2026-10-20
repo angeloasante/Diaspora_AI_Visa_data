@@ -1,0 +1,52 @@
+{
+  "document": {
+    "type": "visa",
+    "country": "CA",
+    "countryName": "Canada",
+    "categories": [
+      "visitor",
+      "work",
+      "student",
+      "dependent"
+    ],
+    "description": "Valid Canadian visas can unlock visa-free or simplified access beyond passport privileges"
+  },
+  "lastUpdated": "2026-10-18",
+  "totalUnlocked": 1,
+  "unlocks": [
+    {
+      "country": "GE",
+      "countryName": "Georgia",
+      "region": "asia",
+      "conditions": "Hold a Canadian visa valid on the day of entry into Georgia and present the travel and/or other appropriate document proving its validity. Visa-free stays are limited to 90 calendar days in any 180-day period.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "lastUpdated": "2026-10-18",
+      "source": {
+        "url": "https://www.matsne.gov.ge/en/document/view/2867377",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-18",
+        "confidence": "verified",
+        "verificationPath": "Legislative Herald of Georgia > Ordinance No 256 of 5 June 2015 > annex, Canada (item 22), and Notes 1-2",
+        "exactQuote": "Aliens holding a visa and/or a residence permit of any country listed in the annex may enter and stay in Georgia without visa for 90 calendar days in any 180-day period.",
+        "validityQuote": "For the purpose of entering and staying in Georgia without visa, a visa and/or a residence permit of a respective country shall be valid on the day of entry into Georgia (crossing the border), which must be evidenced by a travel and/or other appropriate document.",
+        "notes": "The English page is the initial edition. Checked against the MFA-hosted Georgian consolidated text and the listed 17 April 2025 amendment; that amendment adds conditions for specified Gulf-state documents, not Canadian visas."
+      },
+      "currentTextSource": {
+        "url": "https://gc-pfiles.mfa.gov.ge/DocFiles/2025/5/13/LegalAct/37/de83b55e-be80-48ba-b05c-081d4848616d.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-18",
+        "verificationPath": "MFA legal-act PDF > page 2, Canada (item 22); page 3, entry conditions 1-3",
+        "language": "Georgian"
+      },
+      "amendmentSource": {
+        "url": "https://www.matsne.gov.ge/ka/document/view/6478000",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-18",
+        "verificationPath": "Ordinance No 122 of 17 April 2025 > Article 1, addition of condition 3"
+      },
+      "notes": "This entry covers Canadian visas. The 90-day allowance is cumulative within any 180 days, not a fresh 90 days per entry. It does not establish permission to work, study or reside in Georgia; other entry requirements still apply."
+    }
+  ]
+}

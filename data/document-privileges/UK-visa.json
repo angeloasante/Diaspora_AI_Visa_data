@@ -3,11 +3,18 @@
     "type": "visa",
     "country": "GB",
     "countryName": "United Kingdom",
-    "categories": ["visitor", "work", "student", "dependent", "spouse", "settlement"],
+    "categories": [
+      "visitor",
+      "work",
+      "student",
+      "dependent",
+      "spouse",
+      "settlement"
+    ],
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
   "lastUpdated": "2026-03-10",
-  "totalUnlocked": 34,
+  "totalUnlocked": 35,
   "unlocks": [
     {
       "country": "AL",
@@ -499,6 +506,30 @@
         "confidence": "verified"
       },
       "notes": "UK visa listed as anchor visa for simplified e-visa/waiver for some nationals"
+    },
+    {
+      "country": "IE",
+      "countryName": "Ireland",
+      "region": "europe",
+      "conditions": "The Short-Stay Visa Waiver Programme is limited to eligible passport holders from Bosnia and Herzegovina, Bahrain, China, Colombia, India, Indonesia, Kazakhstan, Kosovo, Kuwait, Montenegro, North Macedonia, Oman, Peru, the Philippines, Qatar, Saudi Arabia, Serbia, Thailand, Türkiye, Uzbekistan or Vietnam. Hold a qualifying UK short-stay visit visa and first land and gain lawful entry to the UK using the current visa. Prior lawful UK entry is required for each distinct period of UK permission. The entire Irish visit must end before the current UK permission expires. A UK Electronic Travel Authorisation (ETA) alone does not qualify.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "For nationals of Saudi Arabia, Bahrain, Kuwait, Oman, Qatar and Peru, the page's special note requires an existing valid short-stay UK visa issued before 1 February 2024, including a multi-entry UK visa; a UK ETA is insufficient. UK transit and marriage/civil-partnership visitor visas do not qualify. Long-stay UK permissions and BRP cards alone do not qualify. Direct travel from outside the UK is possible only after prior lawful UK entry under the current permission and within its remaining validity.",
+      "lastUpdated": "2026-10-19",
+      "source": {
+        "url": "https://www.irishimmigration.ie/short-stay-visa-waiver-programme/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-19",
+        "confidence": "verified",
+        "pageSection": "Who is eligible; Eligible Countries and notes 1-3; UK short stay visas; How to use the visa waiver programme; How long can I stay in Ireland?",
+        "verificationPath": "Observed page breadcrumb: Home > Coming to visit Ireland > Short stay visa waiver programme. Read the eligibility table, its notes, permitted UK visa types, prior UK entry and maximum-stay sections.",
+        "exactQuote": "The Short-Stay Visa Waiver Programme allows nationals of certain countries, who have entered the UK on foot of certain UK short stay visas, to travel to Ireland without the requirement to obtain an Irish visa.",
+        "stayQuote": "The maximum amount of time you can come to Ireland for under the programme is for 90 days, or the remaining time left on you UK permission, whichever is the least amount of time.",
+        "etaQuote": "Please note that an ETA cannot be used to avail of the SSVWP, any National in possession of an ETA and not a UK Visa will need a separate Irish visa if they wish to travel to the State.",
+        "notes": "Current government page retrieved with HTTP 200 on the access date; its own last-updated assertion is 9 May 2025. The canonical link uses /coming-to-visit-ireland/short-stay-visa-waiver-programme/."
+      },
+      "notes": "90 days is only the maximum ceiling: permitted stay is the lesser of 90 days and remaining UK permission, subject to admission. This is the Short-Stay Visa Waiver Programme, not the separate British-Irish Visa Scheme. Ghana and other passport countries absent from the eligibility list are not covered. Ukrainian nationals, and holders of Hong Kong or Macau passports, are noted by the source as already Irish-visa-exempt independently and are not counted here as gaining an additional entitlement from a UK visa. No work, study or residence permission is established by this visitor exemption."
     }
   ]
 }
