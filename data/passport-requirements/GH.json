@@ -2389,10 +2389,37 @@
       "meta": {
         "riskLevel": "low",
         "confidence": "verified",
-        "lastChecked": "2026-01-19",
-        "source": "passport-index-dataset"
+        "lastChecked": "2026-10-22",
+        "source": "Government of Dominica"
       },
-      "lastUpdated": "2026-01-19T03:05:53.123"
+      "lastUpdated": "2026-10-22T00:00:00.000Z",
+      "source": {
+        "url": "https://dominica.gov.dm/services/passports-and-travel-documents-non-nationals/do-i-need-a-visa-to-enter-into-dominica",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-22",
+        "verificationPath": "Government of Dominica > Services > Passports and Travel Documents - Non Nationals > Do I Need a Visa to Enter into Dominica?",
+        "exactQuote": "Persons from the following countries wishing to enter into the Commonwealth of Dominica for a period not exceeding six months : Countries in the Commonwealth of Nations ( Member States of the Commonwealth )",
+        "confidence": "verified",
+        "notes": "Scope: visa requirement and stay only. Ghana is named by the Ghana MFA visa-free list (Dominica, ordinary passports) and is a Commonwealth member since 1957 (Commonwealth Secretariat). The Ghana MFA list gives a 90-day maximum under the Ghana-Dominica visa waiver agreement, while Dominica's own page allows Commonwealth nationals up to six months; the 180-day value follows the destination government's rule. Other fields are retained without re-verification.",
+        "additionalSources": [
+          {
+            "url": "https://passport.mfa.gov.gh/visa-free-countries",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-22",
+            "verificationPath": "Ghana Passport Services (Ministry of Foreign Affairs) > Visa-Free Countries > Countries with visa-free or visa-waiver agreements with Ghana (Last updated: 8 September 2026 by MFA Ghana)",
+            "exactQuote": "90 days",
+            "notes": "Table row (page renders a table, not prose): Country 'Dominica', Ordinary Passport column marked eligible, Max Duration '90 days'."
+          },
+          {
+            "url": "https://thecommonwealth.org/our-member-countries/ghana",
+            "governmentDomain": false,
+            "accessedDate": "2026-10-22",
+            "verificationPath": "Commonwealth Secretariat > Our member countries > Ghana > Key Facts",
+            "exactQuote": "Joined the Commonwealth 1957, following independence from Britain",
+            "notes": "Official intergovernmental source (Commonwealth Secretariat), not a national government domain; cited only to confirm Ghana's Commonwealth membership."
+          }
+        ]
+      }
     },
     {
       "to": {
