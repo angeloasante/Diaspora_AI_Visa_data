@@ -1453,7 +1453,7 @@
           },
           "yellowFeverCertificate": true
         },
-        "notes": "Study permit requires Letter of Acceptance, proof of funds (CAD 10,000+/year), ties to home country."
+        "notes": "Study permit requires Letter of Acceptance, proof of funds, ties to home country. For study-permit applications submitted on or after 1 September 2026 to study in a province or territory other than Quebec, IRCC lists CAD 23,448 for one person's first-year living expenses, excluding tuition and transportation. Applicants must demonstrate funds for those additional costs without relying on work in Canada; family size changes the living-expense amount and Quebec uses separate requirements. For studies longer than one year, applicants must also explain funding for the full program. This financial-support note does not set visitor-visa or work-permit requirements."
       },
       "transit": {
         "visaRequired": true,
@@ -1465,7 +1465,7 @@
         "lastChecked": null,
         "source": null
       },
-      "lastUpdated": "2026-10-18",
+      "lastUpdated": "2026-10-24",
       "source": {
         "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/visitor-visa.html",
         "governmentDomain": true,
@@ -1474,7 +1474,7 @@
         "verificationPath": "Canada.ca > Immigration and citizenship > Visit Canada > Visitor visa (temporary resident visa) > Fees / Processing times",
         "exactQuote": "Starting from: $CAN 100",
         "confidence": "verified",
-        "notes": "CAD 100 is the visitor-visa starting fee, not a guaranteed all-inclusive total; country-specific processing time is not asserted. Existing passport, supporting-document, study-permit, work-permit and transit data were not reverified.",
+        "notes": "CAD 100 is the visitor-visa starting fee, not a guaranteed all-inclusive total; country-specific processing time is not asserted. Except for the separately cited study-permit financial-support note, existing passport, supporting-document, study-permit, work-permit and transit data were not reverified.",
         "supportingSources": [
           {
             "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html",
@@ -1493,6 +1493,16 @@
             "verificationPath": "Canada.ca > Visitor visa > Who needs a visitor visa > Most travellers need a visitor visa",
             "exactQuote": "A visa officer has discretion to issue you a single-entry visa or multiple entry visa",
             "confidence": "verified"
+          },
+          {
+            "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-24",
+            "pageSection": "How much money you need for living expenses; applications on or after 1 September 2026; one-person row",
+            "verificationPath": "Canada.ca > Immigration and citizenship > Study in Canada > Study permit > Get the right documents > Proof of financial support > How much money you need for living expenses > applications on or after 1 September 2026",
+            "exactQuote": "1 | $23,448",
+            "confidence": "verified",
+            "notes": "Table row normalized with a separator. Verification covers only study-permit financial support: applications submitted on or after 1 September 2026, one person, first-year living expenses for study in a province or territory other than Quebec, excluding tuition and transportation. Those additional costs also require funding without relying on work in Canada. Family size changes the amount; Quebec has separate rules; longer programs require a funding plan for their full duration. Existing Letter of Acceptance and ties-to-home-country clauses are retained without reverification. No visitor-visa or work-permit financial requirement is asserted."
           }
         ]
       }
