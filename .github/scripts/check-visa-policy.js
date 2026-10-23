@@ -11,7 +11,7 @@ const base = process.argv[2];
 const head = process.argv[3] || 'HEAD';
 if (!base) { console.error('usage: check-visa-policy.js <base-sha> [head-ref]'); process.exit(2); }
 
-const git = (...args) => execFileSync('git', args, { encoding: 'utf8', maxBuffer: 256 * 1024 * 1024 });
+const git = (...args) => execFileSync('git', args, { encoding: 'utf8', maxBuffer: 256 * 1024 * 1024, stdio: ['ignore', 'pipe', 'ignore'] });
 const load = (ref, file) => {
   try { return JSON.parse(git('show', `${ref}:${file}`)); } catch (e) { return null; }
 };

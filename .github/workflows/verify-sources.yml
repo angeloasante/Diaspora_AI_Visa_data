@@ -71,7 +71,7 @@ jobs:
           while IFS= read -r file; do
             if [[ "$file" == data/*.json ]]; then
               # Extract all source URLs from the file
-              URLS=$(jq -r '.. | objects | select(has("source")) | .source.url // empty' "$file" 2>/dev/null)
+              URLS=$(jq -r '.. | objects | select(has("source")) | .source | select(type == "object") | .url // empty' "$file" 2>/dev/null || true)
               
               while IFS= read -r url; do
                 if [ -n "$url" ]; then
@@ -106,56 +106,9 @@ jobs:
           echo "Summary: $VERIFIED verified sources, $UNVERIFIED need manual review"
 
       - name: Check required fields
-        run: |
-          echo "Checking required fields..."
-          ERRORS=0
-          
-          while IFS= read -r file; do
-            if [[ "$file" == data/passport-requirements/*.json ]]; then
-              # Check passport requirements have required fields
-              MISSING=$(jq -r '
-                .routes[] | 
-                select(
-                  (.to.code == null) or 
-                  (.visa.required == null) or 
-                  (.visa.policy == null) or
-                  (.source.url == null) or
-                  (.source.accessedDate == null)
-                ) | 
-                .to.code // "unknown"
-              ' "$file" 2>/dev/null)
-              
-              if [ -n "$MISSING" ]; then
-                echo "❌ Missing required fields in $file for routes: $MISSING"
-                ERRORS=$((ERRORS + 1))
-              fi
-            fi
-            
-            if [[ "$file" == data/document-privileges/*.json ]]; then
-              # Check document privileges have required fields
-              MISSING=$(jq -r '
-                .unlocks[] | 
-                select(
-                  (.country == null) or 
-                  (.conditions == null) or
-                  (.source.url == null)
-                ) | 
-                .country // "unknown"
-              ' "$file" 2>/dev/null)
-              
-              if [ -n "$MISSING" ]; then
-                echo "❌ Missing required fields in $file for: $MISSING"
-                ERRORS=$((ERRORS + 1))
-              fi
-            fi
-          done < changed_files.txt
-          
-          if [ $ERRORS -gt 0 ]; then
-            echo "::error::Found entries with missing required fields"
-            exit 1
-          fi
-          
-          echo "✅ All required fields present"
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: node .github/scripts/check-required-fields.js "$BASE_SHA" HEAD
 
       # Pull requests from forks get a read-only token, so commenting is best-effort.
       - name: Post verification summary

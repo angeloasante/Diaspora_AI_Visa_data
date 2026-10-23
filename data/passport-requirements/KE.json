@@ -2975,13 +2975,17 @@
       "visa": {
         "required": true,
         "policy": "visa_required",
-        "type": null,
+        "type": "Standard Visitor visa (tourism/short visit)",
         "freeDays": null,
         "maxStay": null,
         "evisa": false,
         "onArrival": false,
-        "multipleEntry": false,
-        "notes": null
+        "notes": "Kenyan passport holders are listed as visa nationals by the UK Home Office and must obtain entry clearance before visiting the UK, subject to the published exceptions. For a Standard Visitor visa (up to 6 months), the application fee is GBP 135. Published processing time for overseas Standard Visitor applications is usually 3 weeks after the application processing clock starts; this is not a guarantee. These fee and processing details do not describe work, study, transit or long-term visas. Entry multiplicity has not been established from the cited sources and is not asserted.",
+        "processingDays": "Usually 3 weeks from the start of UKVI processing; not guaranteed",
+        "cost": {
+          "amount": 135,
+          "currency": "GBP"
+        }
       },
       "documents": {
         "passport": {
@@ -3010,7 +3014,38 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:03:59.415994"
+      "source": {
+        "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-visitor-visa-national-list",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "pageSection": "VN 1.1(a) — visa national list: Kenya",
+        "verificationPath": "GOV.UK > Immigration Rules > Appendix Visitor: Visa national list > VN 1.1(a) > Kenya",
+        "exactQuote": "Kenya",
+        "confidence": "verified",
+        "notes": "Verifies Kenyan nationality's UK visitor entry-clearance requirement (subject to exceptions). Fee and normal processing time verified separately. Other pre-existing passport, document, transit, and risk fields were not independently rechecked.",
+        "supportingSources": [
+          {
+            "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-20",
+            "pageSection": "Visa fees; Apply online",
+            "verificationPath": "GOV.UK > Visit the UK as a Standard Visitor > Apply for a Standard Visitor visa > Visa fees",
+            "exactQuote": "A Standard Visitor visa costs £135 and allows you to stay in the UK for up to 6 months.",
+            "confidence": "verified"
+          },
+          {
+            "url": "https://www.gov.uk/guidance/visa-processing-times-applications-outside-the-uk",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-20",
+            "pageSection": "When your application processing time starts; Visit visas; When you might wait longer",
+            "verificationPath": "GOV.UK > Visa processing times: applications outside the UK > Visit visas > Standard Visitor",
+            "exactQuote": "Standard Visitor | 3 weeks",
+            "confidence": "verified",
+            "notes": "Typical published processing standard only, not a guaranteed decision date. Clock begins after identity verification/submission as specified by UKVI."
+          }
+        ]
+      },
+      "lastUpdated": "2026-10-20"
     },
     {
       "to": {

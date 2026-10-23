@@ -206,8 +206,16 @@ All data follows a strict schema. See [SCHEMA.md](SCHEMA.md) for full documentat
 <!-- LEADERBOARD:START -->
 | Rank | Contributor | Contributions | Countries |
 |------|-------------|---------------|-----------|
-| 🥇 | angeloasante | 5 | 128 |
-| 🥈 | edvinas1573 | 1 | 1 |
+| 🥇 | void389 | 7 | 7 |
+| 🥈 | angeloasante | 6 | 128 |
+| 🥉 | soundcake | 4 | 1 |
+| 4 | zongsm-cmyk | 3 | 20 |
+| 5 | yntymacho | 3 | 1 |
+| 6 | skky2 | 3 | 2 |
+| 7 | samproductnotes-crypto | 3 | 3 |
+| 8 | Mhamed Askoure | 3 | 2 |
+| 9 | gonzalogamiz | 2 | 1 |
+| 10 | kalidatuna | 1 | 1 |
 <!-- LEADERBOARD:END -->
 
 ---

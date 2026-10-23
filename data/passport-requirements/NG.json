@@ -3924,8 +3924,7 @@
         "maxStay": null,
         "evisa": false,
         "onArrival": false,
-        "multipleEntry": true,
-        "notes": "Visa required for Nigeria citizens. Apply at the Ireland embassy/consulate or authorized visa center."
+        "notes": "For short-stay C visas, applicants can request single or multiple entry. Multiple-entry approval is discretionary, not guaranteed by nationality or by paying the multiple-entry fee. Check the entries and validity on the issued visa. This update does not re-verify the route's separate visa requirement, document, health or transit fields."
       },
       "documents": {
         "passport": {
@@ -3954,7 +3953,16 @@
         "lastChecked": "2026-01-19",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T03:24:40.953"
+      "lastUpdated": "2026-10-20",
+      "source": {
+        "url": "https://www.irishimmigration.ie/single-multiple-visas/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "verificationPath": "Immigration Service Delivery > Single/Multiple Visas > Short stay C Visas",
+        "exactQuote": "The granting of a multiple entry visa is at the discretion of the Visa Officer.",
+        "confidence": "verified",
+        "notes": "Scoped verification of entry multiplicity only; the optional multipleEntry guarantee is removed rather than asserting multiple-entry visas are unavailable."
+      }
     },
     {
       "to": {
@@ -9206,8 +9214,8 @@
         "maxStay": null,
         "evisa": false,
         "onArrival": false,
-        "multipleEntry": true,
-        "notes": "Visa required for Nigeria citizens. Apply at the United States embassy/consulate or authorized visa center."
+        "multipleEntry": false,
+        "notes": "For newly issued B-1, B-2 and B-1/B-2 visitor visas, the U.S. Department of State's Nigeria reciprocity schedule lists one entry and three months of visa validity. Visa validity is not the permitted duration of stay; no stay limit is inferred here. These current issuance terms do not by themselves change the terms printed on an already issued visa. Scope: visitor-visa entry multiplicity only; other document and transit requirements have not been reverified."
       },
       "documents": {
         "passport": {
@@ -9236,7 +9244,16 @@
         "lastChecked": "2026-01-19",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T03:24:40.953"
+      "lastUpdated": "2026-10-19",
+      "source": {
+        "url": "https://travel.state.gov/content/travel/en/us-visas/Visa-Reciprocity-and-Civil-Documents-by-Country/Nigeria.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-19",
+        "verificationPath": "Travel.State.Gov > U.S. Visas > U.S. Visa: Reciprocity and Civil Documents by Country > Nigeria > Reciprocity Schedule > B-1, B-2, B-1/B-2",
+        "exactQuote": "B-1/B-2 | None | One | 3 Months",
+        "confidence": "verified",
+        "notes": "The B-1 and B-2 rows also list One entry and 3 Months validity. The Fee column is the reciprocity/issuance fee, not the application fee. Only current visitor-visa issuance multiplicity is corrected; no re-verification of other legacy route fields is claimed."
+      }
     },
     {
       "to": {

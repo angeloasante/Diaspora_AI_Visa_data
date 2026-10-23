@@ -6,10 +6,10 @@
     "categories": [
       "permanent_resident"
     ],
-    "description": "Canadian permanent resident card: verified visitor visa exemptions for Mexico, Belize, the Dominican Republic, Georgia, the Cayman Islands and the Caribbean parts of the Kingdom of the Netherlands. This is a partial destination list."
+    "description": "Canadian permanent resident card: verified visitor visa exemptions for Mexico, Belize, the Dominican Republic, Georgia, the Cayman Islands, the Turks and Caicos Islands, Aruba, Curacao, Sint Maarten, and Bonaire/Sint Eustatius/Saba. This is a partial destination list."
   },
   "lastUpdated": "2026-10-06",
-  "totalUnlocked": 9,
+  "totalUnlocked": 10,
   "unlocks": [
     {
       "country": "MX",
@@ -121,6 +121,33 @@
         "stayQuote": "persons taking advantage of the waiver of the visa requirement above may only be permitted to enter and remain in the Islands for a period not exceeding thirty days."
       },
       "notes": "The 30-day period is the maximum permitted under this visa waiver, not a guaranteed grant of admission. The traveller must arrive directly from Canada or the United States and hold a return or round-trip ticket to one of those countries. This exemption does not authorize work or residence; other entry requirements still apply."
+    },
+    {
+      "country": "TC",
+      "countryName": "Turks and Caicos Islands",
+      "region": "caribbean",
+      "conditions": "Be a lawful resident of Canada, present a valid passport, and present evidence of Canadian residence. The visa exemption does not guarantee admission; a Border Force officer determines entry on arrival.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "lastUpdated": "2026-10-20",
+      "source": {
+        "url": "https://borderforce.gov.tc/entry-requirements",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "confidence": "verified",
+        "verificationPath": "Turks and Caicos Islands Border Force > Entry Requirements > Visa-required travellers",
+        "exactQuote": "if you are a lawful resident of the United Kingdom, United States of America, or Canada",
+        "admissionQuote": "A Border Force Officer will determine whether you can enter TCI when you arrive."
+      },
+      "staySource": {
+        "url": "https://www.gov.uk/foreign-travel-advice/turks-and-caicos-islands/entry-requirements",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "verificationPath": "GOV.UK > Turks and Caicos Islands travel advice > Entry requirements > Visa requirements",
+        "exactQuote": "On arrival, the immigration department will normally give you permission to stay for up to 90 days."
+      },
+      "notes": "This entry records lawful Canadian residence, including permanent residence, separately from the valid Canadian visa route. The current GOV.UK travel advice states that immigration normally grants up to 90 days; the period actually granted and admission remain subject to Border Force. This exemption does not authorize work or residence, and other entry requirements still apply."
     },
     {
       "country": "AW",

@@ -167,6 +167,111 @@ jobs:
               "; then
                 FAILED=1
               fi
+            elif [[ "$file" == data/document-privileges/*.json ]]; then
+              DOC_NAME=$(basename "$file" .json)
+              echo "Syncing document privileges for: $DOC_NAME"
+              
+              if ! SYNC_FILE="$file" SYNC_DOC="$DOC_NAME" node -e "
+                const fs = require('fs');
+                const data = JSON.parse(fs.readFileSync(process.env.SYNC_FILE, 'utf8'));
+                
+                async function syncPrivileges() {
+                  const supabaseUrl = process.env.SUPABASE_URL;
+                  const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+                  
+                  if (!supabaseUrl || !supabaseKey) {
+                    console.error('Missing Supabase credentials');
+                    process.exit(1);
+                  }
+                  
+                  const doc = data.document || {};
+                  const docType = doc.type;
+                  const AREA_CODES = { SCHENGEN: 'EU' };
+                  const issuing = AREA_CODES[doc.country] || doc.country;
+                  if (!docType || !issuing) {
+                    console.error('File has no document.type or document.country, cannot sync');
+                    process.exit(1);
+                  }
+                  if (issuing.length > 2) {
+                    console.error('Issuing code ' + issuing + ' is not a 2-letter code and has no mapping in AREA_CODES');
+                    process.exit(1);
+                  }
+                  
+                  let successCount = 0;
+                  let errorCount = 0;
+                  
+                  for (const u of (data.unlocks || [])) {
+                    if (!u.country) { continue; }
+                    
+                    const record = {
+                      document_type: docType,
+                      issuing_country: issuing,
+                      issuing_country_name: doc.countryName || null,
+                      document_category: (doc.categories && doc.categories[0]) || null,
+                      destination_country: u.country,
+                      destination_name: u.countryName || null,
+                      destination_region: u.region || null,
+                      access_type: u.visaOnArrival ? 'voa' : (u.evisaRequired ? 'evisa' : 'visa_free'),
+                      max_stay_days: (u.maxStayDays == null ? null : u.maxStayDays),
+                      conditions: u.conditions || null,
+                      e_visa_required: !!u.evisaRequired,
+                      notes: u.notes || null,
+                      source_url: (u.source && u.source.url) || null,
+                      source_accessed_date: (u.source && u.source.accessedDate) || null,
+                      confidence: (u.source && u.source.confidence) || null,
+                      updated_at: new Date().toISOString()
+                    };
+                    
+                    const query = supabaseUrl + '/rest/v1/DocumentPrivileges?document_type=eq.' + docType + '&issuing_country=eq.' + issuing + '&destination_country=eq.' + u.country;
+                    
+                    try {
+                      const response = await fetch(query, {
+                        method: 'GET',
+                        headers: {
+                          'apikey': supabaseKey,
+                          'Authorization': 'Bearer ' + supabaseKey
+                        }
+                      });
+                      
+                      const existing = await response.json();
+                      const method = existing.length > 0 ? 'PATCH' : 'POST';
+                      const url = existing.length > 0 ? query : supabaseUrl + '/rest/v1/DocumentPrivileges';
+                      
+                      const upsertResponse = await fetch(url, {
+                        method: method,
+                        headers: {
+                          'apikey': supabaseKey,
+                          'Authorization': 'Bearer ' + supabaseKey,
+                          'Content-Type': 'application/json',
+                          'Prefer': 'return=minimal'
+                        },
+                        body: JSON.stringify(record)
+                      });
+                      
+                      if (upsertResponse.ok) {
+                        successCount++;
+                      } else {
+                        const error = await upsertResponse.text();
+                        console.error('Failed: ' + issuing + ' ' + docType + ' -> ' + u.country + ': ' + error.slice(0, 200));
+                        errorCount++;
+                      }
+                    } catch (e) {
+                      console.error('Error: ' + issuing + ' ' + docType + ' -> ' + u.country + ': ' + e.message);
+                      errorCount++;
+                    }
+                  }
+                  
+                  console.log('Synced ' + successCount + ' privilege entries, ' + errorCount + ' errors for ' + process.env.SYNC_DOC);
+                  if (errorCount > 0) {
+                    console.error('Sync failed for ' + errorCount + ' entries');
+                    process.exit(1);
+                  }
+                }
+                
+                syncPrivileges().catch(e => { console.error(e); process.exit(1); });
+              "; then
+                FAILED=1
+              fi
             fi
           done <<< "$CHANGED_FILES"
           

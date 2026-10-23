@@ -12,7 +12,7 @@
     "description": "Valid Canadian visas can unlock visa-free or simplified access beyond passport privileges"
   },
   "lastUpdated": "2026-10-18",
-  "totalUnlocked": 1,
+  "totalUnlocked": 2,
   "unlocks": [
     {
       "country": "GE",
@@ -47,6 +47,27 @@
         "verificationPath": "Ordinance No 122 of 17 April 2025 > Article 1, addition of condition 3"
       },
       "notes": "This entry covers Canadian visas. The 90-day allowance is cumulative within any 180 days, not a fresh 90 days per entry. It does not establish permission to work, study or reside in Georgia; other entry requirements still apply."
+    },
+    {
+      "country": "BZ",
+      "countryName": "Belize",
+      "region": "central_america",
+      "conditions": "Hold a valid multiple-entry Canadian visa. The Belize entry-visa exemption is for visits not exceeding 30 days; a single-entry Canadian visa does not meet the stated exemption.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "lastUpdated": "2026-10-20",
+      "source": {
+        "url": "https://immigration.gov.bz/visa/visa-who-qualify/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "confidence": "verified",
+        "verificationPath": "Belize Immigration > Visa > Do you need a visa to travel to Belize? > Exemption for Belize Entry Visa for visits not exceeding 30 days",
+        "exactQuote": "If you hold a valid multiple entry visa or Permanent Residence Card from Canada",
+        "maximumStayQuote": "Exemption for Belize Entry Visa for visits not exceeding 30 days.",
+        "notes": "The source lists a valid Canadian multiple-entry visa or Canadian Permanent Residence Card as alternative qualifying documents in the same bullet; this entry records only the visa route. The exemption list does not impose a passport-nationality restriction."
+      },
+      "notes": "This entry covers the Canadian multiple-entry visa exemption, not permanent residence or Canadian eTA. A visa waiver does not waive other admission requirements or guarantee 30 days. Staying beyond the initial 30 days requires the appropriate Belize visitor permit extension."
     }
   ]
 }

@@ -2962,7 +2962,7 @@
         "evisa": false,
         "onArrival": false,
         "multipleEntry": true,
-        "notes": "Schengen visa required. Apply via France-Visas or TLS Contact Accra. 90 days within 180-day period."
+        "notes": "Schengen visa required. Use France-Visas and submit at VFS Global in Accra by appointment, except for diplomatic and service passport holders; the French Embassy decides applications. 90 days within 180-day period."
       },
       "documents": {
         "passport": {
@@ -2991,7 +2991,17 @@
         "lastChecked": null,
         "source": null
       },
-      "lastUpdated": "2025-12-14T01:57:39.727631"
+      "lastUpdated": "2026-10-20",
+      "source": {
+        "url": "https://france-visas.gouv.fr/en/ghana",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "pageSection": "Applying for a visa to go to France",
+        "verificationPath": "France-Visas > Make an appointment > Ghana > Applying for a visa to go to France",
+        "exactQuote": "must be submitted at the VFS Global centre, one Airport Square, Airport City, Accra.",
+        "confidence": "verified",
+        "notes": "Verification covers the Ghana submission provider, the diplomatic/service passport exception, advance appointment and the Embassy's decision role. Visa necessity, 90/180-day stay, documents and transit were not reverified."
+      }
     },
     {
       "to": {
