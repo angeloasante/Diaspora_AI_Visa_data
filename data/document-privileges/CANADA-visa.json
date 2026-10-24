@@ -12,7 +12,7 @@
     "description": "Valid Canadian visas can unlock visa-free or simplified access beyond passport privileges"
   },
   "lastUpdated": "2026-10-18",
-  "totalUnlocked": 3,
+  "totalUnlocked": 5,
   "unlocks": [
     {
       "country": "GE",
@@ -89,6 +89,53 @@
         "notes": "The government page states Last Updated: 15 August 2025; accessed on 20 October 2026. Its separate linked visitor detail page redirected to a bot challenge and was not used as evidence."
       },
       "notes": "This entry covers a Canadian visa, not a Canadian eTA or a work/study permit alone. The visa exemption does not guarantee admission or a 180-day stay: Mexican immigration officers decide admission and the permitted period. Other applicable entry requirements remain in force."
+    },
+    {
+      "country": "DO",
+      "countryName": "Dominican Republic",
+      "region": "caribbean",
+      "conditions": "Hold a valid multiple-entry Canadian visa and a valid passport. Entry without a Dominican consular visa applies strictly to tourist visits using a Tourist Card (Tarjeta de Turista); single-entry visas, Canadian eTAs, and work, study, or residence purposes are not covered.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "lastUpdated": "2026-10-23",
+      "source": {
+        "url": "https://servicios360.mirex.gob.do/visas/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-23",
+        "confidence": "verified",
+        "verificationPath": "MIREX > Portal Unico de Servicios > Servicios > Visas > Decreto Num. 691-07",
+        "pageSection": "Decreto Núm. 691-07",
+        "exactQuote": "El Decreto Núm. 691-07, del 18 de diciembre de 2007, facilita la entrada a la República Dominicana a extranjeros con residencia permanente o visado de entradas múltiples vigente en Estados Unidos, Unión Europea (Schengen), Canadá o Gran Bretaña. Pueden ingresar solo con pasaporte válido y una Tarjeta de Turismo para fines turísticos."
+      },
+      "notes": "This entry records the Canadian multiple-entry visa exemption under Decreto Núm. 691-07, separately from Canadian permanent residence (recorded in CANADA-pr.json). Entry under this exemption is for tourist purposes with a valid passport and Tourist Card for up to 30 days and does not authorize work, study, or residence."
+    },
+    {
+      "country": "TC",
+      "countryName": "Turks and Caicos Islands",
+      "region": "caribbean",
+      "conditions": "Hold a valid visa for travel to Canada and present a valid passport. The visa exemption does not guarantee admission; a Border Force Officer determines entry on arrival.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "lastUpdated": "2026-10-23",
+      "source": {
+        "url": "https://borderforce.gov.tc/entry-requirements",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-23",
+        "confidence": "verified",
+        "verificationPath": "Turks and Caicos Islands Border Force > Travel > Entry Requirements > Visa-required travellers",
+        "exactQuote": "However, if you are a lawful resident of the United Kingdom, United States of America, or Canada, or hold a valid visa for travel to any of these three countries, you can enter the Turks and Caicos Islands without a visa.",
+        "admissionQuote": "A Border Force Officer will determine whether you can enter TCI when you arrive."
+      },
+      "staySource": {
+        "url": "https://www.gov.uk/foreign-travel-advice/turks-and-caicos-islands/entry-requirements",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-23",
+        "verificationPath": "GOV.UK > Foreign travel advice > Turks and Caicos Islands > Entry requirements > Visa requirements",
+        "exactQuote": "On arrival, the immigration department will normally give you permission to stay for up to 90 days."
+      },
+      "notes": "This entry records the valid Canadian visa route, separately from lawful Canadian residence (recorded in CANADA-pr.json). GOV.UK travel advice states that immigration normally grants up to 90 days on arrival, subject to Border Force determination and standard entry requirements."
     }
   ]
 }
