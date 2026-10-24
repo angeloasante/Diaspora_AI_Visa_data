@@ -14,7 +14,7 @@
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
   "lastUpdated": "2026-03-10",
-  "totalUnlocked": 35,
+  "totalUnlocked": 36,
   "unlocks": [
     {
       "country": "AL",
@@ -530,6 +530,35 @@
         "notes": "Current government page retrieved with HTTP 200 on the access date; its own last-updated assertion is 9 May 2025. The canonical link uses /coming-to-visit-ireland/short-stay-visa-waiver-programme/."
       },
       "notes": "90 days is only the maximum ceiling: permitted stay is the lesser of 90 days and remaining UK permission, subject to admission. This is the Short-Stay Visa Waiver Programme, not the separate British-Irish Visa Scheme. Ghana and other passport countries absent from the eligibility list are not covered. Ukrainian nationals, and holders of Hong Kong or Macau passports, are noted by the source as already Irish-visa-exempt independently and are not counted here as gaining an additional entitlement from a UK visa. No work, study or residence permission is established by this visitor exemption."
+    },
+    {
+      "country": "BQ",
+      "countryName": "Bonaire, Sint Eustatius and Saba",
+      "region": "caribbean",
+      "conditions": "Hold a valid multiple-entry UK visa or a valid UK residence permit. The visa exemption covers Bonaire, Sint Eustatius and Saba. The general visa-free ceiling is 90 days in any 180-day period, subject to the entry decision and other requirements.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "lastUpdated": "2026-10-20",
+      "source": {
+        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "confidence": "verified",
+        "pageSection": "No visa required > You hold a valid visa or residence permit for certain other countries > United Kingdom or Ireland",
+        "verificationPath": "NetherlandsWorldwide > Visa for the Caribbean parts of the Kingdom > Do I need a visa > expand valid visa or residence permit > United Kingdom or Ireland",
+        "exactQuote": "If you hold a multiple-entry visa or residence permit for the United Kingdom or Ireland, you do not need a Caribbean visa."
+      },
+      "staySource": {
+        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/travel-without-visa",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "pageSection": "Maximum length of stay; Entry requirements",
+        "verificationPath": "NetherlandsWorldwide > Visa for the Caribbean parts of the Kingdom > travelling without a visa > Maximum length of stay",
+        "exactQuote": "If you do not need a visa to travel to the Caribbean parts of the Kingdom, you may stay there for a maximum of 90 days in any 180-day period."
+      },
+      "additionalRequirements": "Passport issued no more than 10 years ago and valid for the entire stay; proof of return or onward travel, purpose and sufficient funds; medical/travel insurance of at least USD 15,000 covering hospital care, emergency treatment and repatriation. Local registration and health requirements may apply.",
+      "notes": "BQ is one ISO destination entry covering three islands, not three bounty items. This does not cover a single-entry UK visa or imply UK citizenship. The 90-day general ceiling is not a guaranteed grant or a fresh allowance on each island; local authorities can refuse entry or authorize a shorter stay. Working requires a work permit."
     }
   ]
 }
