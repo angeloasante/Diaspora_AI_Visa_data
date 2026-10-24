@@ -2917,13 +2917,17 @@
       "visa": {
         "required": true,
         "policy": "visa_required",
-        "type": null,
+        "type": "Standard Visitor visa (tourism/short visit)",
         "freeDays": null,
         "maxStay": null,
         "evisa": false,
         "onArrival": false,
-        "multipleEntry": false,
-        "notes": null
+        "notes": "Egyptian nationals are listed by the UK Home Office as visa nationals for visits to the UK and generally require entry clearance before travel, subject to published exceptions. The UK government lists a GBP 135 fee for the Standard Visitor visa (maximum visit 6 months). Standard overseas processing usually takes 3 weeks from when UKVI processing begins, which is not a guarantee. This check does not verify transit, work, study, long-term visa rules, passport validity, or entry multiplicity.",
+        "processingDays": "Usually 3 weeks after identity verification and application submission; longer waits possible",
+        "cost": {
+          "amount": 135,
+          "currency": "GBP"
+        }
       },
       "documents": {
         "passport": {
@@ -2952,7 +2956,37 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:09:44.889264"
+      "lastUpdated": "2026-10-24",
+      "source": {
+        "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-visitor-visa-national-list",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-24",
+        "pageSection": "VN 1.1(a) — Egypt",
+        "verificationPath": "GOV.UK > Immigration Rules > Appendix Visitor: Visa national list > VN 1.1(a) > Egypt",
+        "exactQuote": "Egypt",
+        "confidence": "verified",
+        "notes": "Verified scope is the Egyptian nationality's UK visitor visa requirement (subject to exceptions), the published Standard Visitor fee and usual decision timeframe only. Pre-existing passport, supporting-document, transit and risk fields are not independently reverified.",
+        "supportingSources": [
+          {
+            "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-24",
+            "pageSection": "Visa fees — Standard Visitor visa, 6 months",
+            "exactQuote": "£135",
+            "confidence": "verified",
+            "notes": "Published standard 6-month visitor visa application fee, not a locally converted or all-inclusive total."
+          },
+          {
+            "url": "https://www.gov.uk/guidance/visa-processing-times-applications-outside-the-uk",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-24",
+            "pageSection": "Visit visas — Standard Visitor; when application processing starts",
+            "exactQuote": "Standard Visitor",
+            "confidence": "verified",
+            "notes": "Usual 3-week overseas service timeframe applies after UKVI processing starts and may be longer."
+          }
+        ]
+      }
     },
     {
       "to": {
