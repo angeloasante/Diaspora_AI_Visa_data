@@ -2358,12 +2358,12 @@
         "required": false,
         "policy": "visa_free",
         "type": null,
-        "freeDays": 180,
-        "maxStay": 180,
+        "freeDays": 90,
+        "maxStay": 90,
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "Ghanaian citizens can visit Dominica visa-free for up to 180 days. Ensure your passport is valid for at least 6 months."
+        "notes": "Ghanaian citizens can visit Dominica visa-free for up to 90 days (Ghana MFA visa-waiver list). Ensure your passport is valid for at least 6 months."
       },
       "documents": {
         "passport": {
@@ -2400,7 +2400,7 @@
         "verificationPath": "Government of Dominica > Services > Passports and Travel Documents - Non Nationals > Do I Need a Visa to Enter into Dominica?",
         "exactQuote": "Persons from the following countries wishing to enter into the Commonwealth of Dominica for a period not exceeding six months : Countries in the Commonwealth of Nations ( Member States of the Commonwealth )",
         "confidence": "verified",
-        "notes": "Scope: visa requirement and stay only. Ghana is named by the Ghana MFA visa-free list (Dominica, ordinary passports) and is a Commonwealth member since 1957 (Commonwealth Secretariat). The Ghana MFA list gives a 90-day maximum under the Ghana-Dominica visa waiver agreement, while Dominica's own page allows Commonwealth nationals up to six months; the 180-day value follows the destination government's rule. Other fields are retained without re-verification.",
+        "notes": "Scope: visa requirement and stay only. Ghana is named by the Ghana MFA visa-free list (Dominica, ordinary passports) and is a Commonwealth member since 1957 (Commonwealth Secretariat). The stay is set to 90 days per the Ghana MFA list (maximum duration under the Ghana-Dominica visa waiver agreement). Note that Dominica's own page allows Commonwealth nationals up to six months, so the two official sources differ. Other fields are retained without re-verification.",
         "additionalSources": [
           {
             "url": "https://passport.mfa.gov.gh/visa-free-countries",
