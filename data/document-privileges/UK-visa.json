@@ -208,15 +208,22 @@
       "country": "PA",
       "countryName": "Panama",
       "region": "central_america",
-      "conditions": "Valid multi-entry UK visa",
+      "conditions": "For tourist entry by travelers whose nationality otherwise requires a Panamanian visa, hold a UK visa valid at the time of entering Panama. Executive Decree No. 196 of 28 October 2024 replaced the former multiple-entry, prior-use and six-month remaining-validity conditions with validity at entry.",
       "maxStayDays": 30,
       "visaOnArrival": false,
       "source": {
-        "url": "https://www.migracion.gob.pa/",
-        "accessedDate": "2026-03-01",
-        "confidence": "verified"
+        "url": "https://www.migracion.gob.pa/wp-content/uploads/2025/11/DECRETO-EJECUTIVO-196-DE-28-DE-OCTUBRE-DE-2024-QUE-MODIFICA-EL-ARTICULO-2-DEL-DECRETO-EJECUTIVO-521-DE-06-DE-AGOSTO-DE-2018-1.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-21",
+        "confidence": "verified",
+        "verificationPath": "Servicio Nacional de Migración > public media record for Executive Decree No. 196 of 28 October 2024 > official PDF, page 1, Article 1 replacing Article 2 of Executive Decree No. 521 of 6 August 2018",
+        "exactQuote": "Artículo 2. Al momento de ingresar a territorio panameño, los ciudadanos extranjeros deberán mantener una visa vigente otorgada por uno de los países mencionados en el artículo primero del Decreto Ejecutivo No. 521 de 6 de agosto de 2018.",
+        "qualifyingCountriesUrl": "https://www.migracion.gob.pa/wp-content/uploads/2026/09/Decreto-Ejecuto-521.pdf",
+        "qualifyingCountriesVerificationPath": "Executive Decree No. 521 of 6 August 2018 > page 1, Article 1 lists Canada, the United States, Australia, Korea, Japan, the United Kingdom, Singapore and EU member states",
+        "notes": "Article 1 of Decree No. 196 replaces the full prior Article 2. The superseded Article 2 required a multiple-entry visa, previous use in the issuing state, and at least six months remaining validity; the replacement requires only a qualifying visa valid upon entry."
       },
-      "notes": "Visa must have been used for entry to UK at least once"
+      "notes": "This entry covers the qualifying visa exemption for tourism, not a right to work or reside in Panama. Previous use of the qualifying visa and a multiple-entry visa are no longer conditions of this exemption under the replacement Article 2. Other entry and admission requirements still apply.",
+      "lastUpdated": "2026-10-21"
     },
     {
       "country": "PH",
