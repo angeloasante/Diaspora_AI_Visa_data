@@ -15,6 +15,7 @@ Thank you for your interest in contributing! Every update helps thousands of dia
 - [Source Verification](#source-verification)
 - [Bounty Rewards](#bounty-rewards)
 - [AI Contributions & Review Policy](#ai-contributions--review-policy)
+- [Contributor FAQ](#contributor-faq)
 - [Code of Conduct](#code-of-conduct)
 
 ---
@@ -357,6 +358,28 @@ Rules that apply to everyone, human or AI:
 - **Payment eligibility is at the maintainer's sole discretion.** Low-effort, duplicated, or bulk-generated submissions that add no verified value will be closed without payment.
 - **Duplicate claims: the first PR to be merged wins the bounty.** Claiming a bounty in an issue does not reserve it.
 - One bounty, one payment, regardless of how many accounts submit it.
+
+---
+
+## ❓ Contributor FAQ
+
+**Are AI-assisted contributions accepted?** Yes, if every PR discloses it in the description. A maintainer reviews every PR and checks the cited source before merging. The account owner is responsible for the submission. Fabricated or unverifiable sources get the PR closed unpaid. See the [AI Contributions & Review Policy](#ai-contributions--review-policy).
+
+**What does "5 merged contributions" mean?** Five merged PRs, not five entries inside one PR. Your first AI-assisted payout then covers all your merged items to date, within the monthly cap (10 items / £20).
+
+**How much does a contribution pay?** See [Bounty Rewards](#bounty-rewards). Document privileges pay per valid entry (+20% on 5 or more in one PR). One bounty is paid once. PRs opened before 13 October are honored at the rates published when they were opened.
+
+**Can I reserve a bounty or a destination?** No. The first PR to be merged wins, and opening an issue does not reserve anything. `critical_change` and `new_origin_country` also need a maintainer to assign them to you in an issue before you open a PR.
+
+**How do I claim my payment?** After your PR is merged, email **contributors@diasporaai.dev** with the subject `Bounty Payment - PR #<number>`, and include your GitHub username, the PR number, your fork, the contribution type, your payment method and your payment details. Send payment details by email only, never in a comment or issue. No registration is needed, and please do not send identity or tax documents.
+
+**When and how am I paid?** Monthly, on the 11th, for PRs merged and claimed by the end of the previous month. Methods are PayPal, Wise or bank transfer. Whether a method works for your country or bank, and any fees, depend on the payment provider and are confirmed when a payment is made. We have not set a minimum payout.
+
+**How many PRs can I have open?** Two bounty PRs at a time, until one is merged. Extra PRs are closed unreviewed.
+
+**What should I work on?** Check `bounties/open.json` and the open PRs first, to avoid duplicates. Keep PRs small (a few entries, or about 10 routes), cite the official government page with the exact quote and navigation path for every change, and don't edit the file-level `lastUpdated` (see [How to Submit](#how-to-submit)).
+
+**What gets a PR closed?** Missing or fabricated sources, undisclosed AI use, duplicates of an already merged change, documentation-only "fix: resolve #N" PRs that change no data, and more than two open bounty PRs.
 
 ---
 
