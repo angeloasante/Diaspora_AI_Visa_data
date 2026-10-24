@@ -20,15 +20,18 @@
       "country": "AL",
       "countryName": "Albania",
       "region": "europe",
-      "conditions": "Valid multi-entry UK, US, or Schengen visa",
+      "conditions": "Valid multiple-entry UK visa (used at least once in the UK) or UK residence permit (including electronic format / BRP / eVisa). Departure from Albania must occur at least 3 days before document expiration. Iranian citizens are excluded from this exemption.",
       "maxStayDays": 90,
       "visaOnArrival": false,
+      "evisaRequired": false,
       "source": {
-        "url": "https://punetejashtme.gov.al/en/",
-        "accessedDate": "2026-03-01",
-        "confidence": "verified"
+        "url": "https://punetejashtme.gov.al/en/regjimi-i-vizave-per-te-huajt/",
+        "accessedDate": "2026-10-24",
+        "confidence": "verified",
+        "navigationPath": "punetejashtme.gov.al > Consular Services > Visa regime for foreign citizens > Can enter Albania without visa",
+        "quote": "Foreign citizens who possess a valid, multiple-entry visa or residence permit issued by the United Kingdom, which has previously been used in the UK... can enter and stay in the Republic of Albania without visa up to 90 days within 180 days, provided they leave the territory of Albania at least 3 days before the expiration of the visa or residence permit. This facility does not apply to citizens of the Islamic Republic of Iran."
       },
-      "notes": "Applies to nationals who normally require a visa for Albania"
+      "notes": "90 days within any 180-day period. Requires prior entry into the UK. Departure required at least 3 days before document expiry. Citizens of Iran are explicitly excluded."
     },
     {
       "country": "XK",
