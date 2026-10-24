@@ -104,15 +104,31 @@
       "country": "GE",
       "countryName": "Georgia",
       "region": "asia",
-      "conditions": "Valid multi-entry visa or residence permit from UK, US, Canada, or Schengen",
+      "conditions": "Hold a UK visa or UK residence permit valid on the day of entry into Georgia and present a travel and/or other appropriate document proving its validity. Visa-free stays are limited to 90 calendar days in any 180-day period; this UK-document exemption does not require a multiple-entry visa.",
       "maxStayDays": 90,
       "visaOnArrival": false,
       "source": {
-        "url": "https://geoconsul.gov.ge/",
-        "accessedDate": "2026-03-01",
-        "confidence": "verified"
+        "url": "https://www.matsne.gov.ge/en/document/view/2867377",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-24",
+        "confidence": "verified",
+        "verificationPath": "Legislative Herald of Georgia > Ordinance No 256 of 5 June 2015 > annex item 12 (United Kingdom) and Notes 1–2; read alongside the 17 April 2025 amendment No 122",
+        "exactQuote": "Aliens holding a visa and/or a residence permit of any country listed in the annex may enter and stay in Georgia without visa for 90 calendar days in any 180-day period.",
+        "validityQuote": "For the purpose of entering and staying in Georgia without visa, a visa and/or a residence permit of a respective country shall be valid on the day of entry into Georgia (crossing the border), which must be evidenced by a travel and/or other appropriate document.",
+        "notes": "The English page explicitly identifies itself as the initial edition. The current change list contains the 17 April 2025 amendment No 122; its Georgian text adds the special multiple-entry/one-year conditions for specified Gulf-state documents, not UK documents. The amendment was read directly, rather than treating the initial English edition as the final consolidated text."
       },
-      "notes": "Document must be valid. 90 days per 180-day period."
+      "notes": "The 90-day allowance is cumulative within any 180-day period, not a new 90 days per entry. The visa/residence document must be valid at the Georgian border and evidenced by an appropriate document. This corrects the existing UK entry’s unsupported multiple-entry restriction; other Georgian admission requirements still apply and no right to work, study or reside is established.",
+      "evisaRequired": false,
+      "lastUpdated": "2026-10-24",
+      "amendmentSource": {
+        "url": "https://www.matsne.gov.ge/ka/document/view/6478000",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-24",
+        "confidence": "verified",
+        "language": "Georgian",
+        "verificationPath": "Ordinance No 122 of 17 April 2025 > Article 1, new Note 3 and Annex No 1; Article 2 effective 16 May 2025",
+        "notes": "The added condition names documents from the UAE, Bahrain, Saudi Arabia, Qatar, Kuwait and Oman. It does not add a multiple-entry requirement for UK visas."
+      }
     },
     {
       "country": "MD",
