@@ -153,11 +153,11 @@
       "country": "AW",
       "countryName": "Aruba",
       "region": "caribbean",
-      "conditions": "Hold a valid Canadian permanent resident card and a passport valid for the whole stay. The Canadian residence-permit exemption is separate from the nationality-limited US/Canada multiple-entry visa exemption. The general visa-free allowance is at most 90 days in any 180-day period.",
-      "maxStayDays": 90,
+      "conditions": "Hold a valid Canadian permanent resident card and a passport valid for the whole stay. The Canadian residence-permit exemption is separate from the nationality-limited US/Canada multiple-entry visa exemption.",
+      "maxStayDays": null,
       "visaOnArrival": false,
       "evisaRequired": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-27",
       "source": {
         "url": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean",
         "governmentDomain": true,
@@ -167,26 +167,18 @@
         "verificationPath": "NetherlandsWorldwide > Visa for the Caribbean parts of the Kingdom > Do I need a visa > expand valid visa or residence permit > United States or Canada",
         "exactQuote": "If you hold a residence permit for the United States or Canada, you do not need a Caribbean visa."
       },
-      "staySource": {
-        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/travel-without-visa",
-        "governmentDomain": true,
-        "accessedDate": "2026-10-20",
-        "pageSection": "Maximum length of stay; Entry requirements",
-        "verificationPath": "NetherlandsWorldwide > Visa for the Caribbean parts of the Kingdom > travelling without a visa > Maximum length of stay",
-        "exactQuote": "If you do not need a visa to travel to the Caribbean parts of the Kingdom, you may stay there for a maximum of 90 days in any 180-day period."
-      },
       "additionalRequirements": "Passport issued no more than 10 years ago and valid throughout the stay; proof of return or onward travel; evidence of purpose and sufficient funds; medical/travel insurance covering at least USD 15,000, including hospital care, emergency treatment and repatriation. Check destination-specific registration and health requirements.",
-      "notes": "This records the Canadian permanent-residence route, not Canadian citizenship or a Canadian visitor visa. The 90-day value is the published general ceiling, not a guaranteed grant or four separate 90-day allowances. Citizenship-specific longer allowances are not inferred from permanent residence. Local authorities may refuse entry or grant a shorter stay. Working requires a work permit."
+      "notes": "This records the Canadian permanent-residence route, not Canadian citizenship or a Canadian visitor visa. No fixed maximum stay is asserted by this entry; the permitted duration and admission are determined by local immigration authorities. Working requires a work permit."
     },
     {
       "country": "CW",
       "countryName": "Curacao",
       "region": "caribbean",
-      "conditions": "Hold a valid Canadian permanent resident card and a passport valid for the whole stay. The Canadian residence-permit exemption is separate from the nationality-limited US/Canada multiple-entry visa exemption. The general visa-free allowance is at most 90 days in any 180-day period.",
-      "maxStayDays": 90,
+      "conditions": "Hold a valid Canadian permanent resident card and a passport valid for the whole stay. The Canadian residence-permit exemption is separate from the nationality-limited US/Canada multiple-entry visa exemption.",
+      "maxStayDays": null,
       "visaOnArrival": false,
       "evisaRequired": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-27",
       "source": {
         "url": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean",
         "governmentDomain": true,
@@ -196,26 +188,18 @@
         "verificationPath": "NetherlandsWorldwide > Visa for the Caribbean parts of the Kingdom > Do I need a visa > expand valid visa or residence permit > United States or Canada",
         "exactQuote": "If you hold a residence permit for the United States or Canada, you do not need a Caribbean visa."
       },
-      "staySource": {
-        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/travel-without-visa",
-        "governmentDomain": true,
-        "accessedDate": "2026-10-20",
-        "pageSection": "Maximum length of stay; Entry requirements",
-        "verificationPath": "NetherlandsWorldwide > Visa for the Caribbean parts of the Kingdom > travelling without a visa > Maximum length of stay",
-        "exactQuote": "If you do not need a visa to travel to the Caribbean parts of the Kingdom, you may stay there for a maximum of 90 days in any 180-day period."
-      },
       "additionalRequirements": "Passport issued no more than 10 years ago and valid throughout the stay; proof of return or onward travel; evidence of purpose and sufficient funds; medical/travel insurance covering at least USD 15,000, including hospital care, emergency treatment and repatriation. Check destination-specific registration and health requirements.",
-      "notes": "This records the Canadian permanent-residence route, not Canadian citizenship or a Canadian visitor visa. The 90-day value is the published general ceiling, not a guaranteed grant or four separate 90-day allowances. Citizenship-specific longer allowances are not inferred from permanent residence. Local authorities may refuse entry or grant a shorter stay. Working requires a work permit."
+      "notes": "This records the Canadian permanent-residence route, not Canadian citizenship or a Canadian visitor visa. No fixed maximum stay is asserted by this entry; the permitted duration and admission are determined by local immigration authorities. Working requires a work permit."
     },
     {
       "country": "SX",
       "countryName": "Sint Maarten",
       "region": "caribbean",
-      "conditions": "Hold a valid Canadian permanent resident card and a passport valid for the whole stay. The Canadian residence-permit exemption is separate from the nationality-limited US/Canada multiple-entry visa exemption. The general visa-free allowance is at most 90 days in any 180-day period.",
-      "maxStayDays": 90,
+      "conditions": "Hold a valid Canadian permanent resident card and a passport valid for the whole stay. The Canadian residence-permit exemption is separate from the nationality-limited US/Canada multiple-entry visa exemption.",
+      "maxStayDays": null,
       "visaOnArrival": false,
       "evisaRequired": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-27",
       "source": {
         "url": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean",
         "governmentDomain": true,
@@ -225,26 +209,18 @@
         "verificationPath": "NetherlandsWorldwide > Visa for the Caribbean parts of the Kingdom > Do I need a visa > expand valid visa or residence permit > United States or Canada",
         "exactQuote": "If you hold a residence permit for the United States or Canada, you do not need a Caribbean visa."
       },
-      "staySource": {
-        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/travel-without-visa",
-        "governmentDomain": true,
-        "accessedDate": "2026-10-20",
-        "pageSection": "Maximum length of stay; Entry requirements",
-        "verificationPath": "NetherlandsWorldwide > Visa for the Caribbean parts of the Kingdom > travelling without a visa > Maximum length of stay",
-        "exactQuote": "If you do not need a visa to travel to the Caribbean parts of the Kingdom, you may stay there for a maximum of 90 days in any 180-day period."
-      },
       "additionalRequirements": "Passport issued no more than 10 years ago and valid throughout the stay; proof of return or onward travel; evidence of purpose and sufficient funds; medical/travel insurance covering at least USD 15,000, including hospital care, emergency treatment and repatriation. Check destination-specific registration and health requirements.",
-      "notes": "This records the Canadian permanent-residence route, not Canadian citizenship or a Canadian visitor visa. The 90-day value is the published general ceiling, not a guaranteed grant or four separate 90-day allowances. Citizenship-specific longer allowances are not inferred from permanent residence. Local authorities may refuse entry or grant a shorter stay. Working requires a work permit."
+      "notes": "This records the Canadian permanent-residence route, not Canadian citizenship or a Canadian visitor visa. No fixed maximum stay is asserted by this entry; the permitted duration and admission are determined by local immigration authorities. Working requires a work permit."
     },
     {
       "country": "BQ",
       "countryName": "Bonaire, Sint Eustatius and Saba",
       "region": "caribbean",
-      "conditions": "Hold a valid Canadian permanent resident card and a passport valid for the whole stay. The Canadian residence-permit exemption is separate from the nationality-limited US/Canada multiple-entry visa exemption. The general visa-free allowance is at most 90 days in any 180-day period.",
-      "maxStayDays": 90,
+      "conditions": "Hold a valid Canadian permanent resident card and a passport valid for the whole stay. The Canadian residence-permit exemption is separate from the nationality-limited US/Canada multiple-entry visa exemption.",
+      "maxStayDays": null,
       "visaOnArrival": false,
       "evisaRequired": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-27",
       "source": {
         "url": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean",
         "governmentDomain": true,
@@ -254,16 +230,8 @@
         "verificationPath": "NetherlandsWorldwide > Visa for the Caribbean parts of the Kingdom > Do I need a visa > expand valid visa or residence permit > United States or Canada",
         "exactQuote": "If you hold a residence permit for the United States or Canada, you do not need a Caribbean visa."
       },
-      "staySource": {
-        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/travel-without-visa",
-        "governmentDomain": true,
-        "accessedDate": "2026-10-20",
-        "pageSection": "Maximum length of stay; Entry requirements",
-        "verificationPath": "NetherlandsWorldwide > Visa for the Caribbean parts of the Kingdom > travelling without a visa > Maximum length of stay",
-        "exactQuote": "If you do not need a visa to travel to the Caribbean parts of the Kingdom, you may stay there for a maximum of 90 days in any 180-day period."
-      },
       "additionalRequirements": "Passport issued no more than 10 years ago and valid throughout the stay; proof of return or onward travel; evidence of purpose and sufficient funds; medical/travel insurance covering at least USD 15,000, including hospital care, emergency treatment and repatriation. Check destination-specific registration and health requirements.",
-      "notes": "This records the Canadian permanent-residence route, not Canadian citizenship or a Canadian visitor visa. The 90-day value is the published general ceiling, not a guaranteed grant or four separate 90-day allowances. Citizenship-specific longer allowances are not inferred from permanent residence. Local authorities may refuse entry or grant a shorter stay. Working requires a work permit."
+      "notes": "This records the Canadian permanent-residence route, not Canadian citizenship or a Canadian visitor visa. No fixed maximum stay is asserted by this entry; the permitted duration and admission are determined by local immigration authorities. Working requires a work permit."
     }
   ]
 }
