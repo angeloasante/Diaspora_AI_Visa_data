@@ -7,8 +7,8 @@
   "lastUpdated": "2026-03-04",
   "totalRoutes": 198,
   "summary": {
-    "visa_free": 27,
-    "evisa": 50,
+    "visa_free": 28,
+    "evisa": 49,
     "visa_on_arrival": 28,
     "visa_required": 93,
     "total": 198
@@ -3504,14 +3504,14 @@
       ],
       "visa": {
         "required": false,
-        "policy": "evisa",
-        "type": null,
-        "freeDays": null,
+        "policy": "visa_free",
+        "type": "Visa-free visit with Pre-arrival Registration (PAR)",
+        "freeDays": 14,
         "maxStay": null,
-        "evisa": true,
+        "evisa": false,
         "onArrival": false,
-        "multipleEntry": false,
-        "notes": null
+        "multipleEntry": true,
+        "notes": "Indian passport holders may visit Hong Kong visa-free for up to 14 days after successful online Pre-arrival Registration (PAR), unless exempt. A valid PAR allows repeated visits during its six-month validity with the linked passport and signed notification slip. If registration cannot be completed, an entry visa is required. Longer visits and non-visit purposes require the appropriate visa. Normal immigration requirements apply; registration does not guarantee admission."
       },
       "documents": {
         "passport": {
@@ -3540,7 +3540,17 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:03:59.963199"
+      "lastUpdated": "2026-10-27",
+      "source": {
+        "url": "https://www.immd.gov.hk/eng/services/visas/pre-arrival_registration_for_indian_nationals.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-27",
+        "pageSection": "Eligibility Criteria; General Procedures; Validity of Registration; Boarding a Conveyance Bound for the HKSAR and Arrival Immigration Clearance",
+        "verificationPath": "Hong Kong Immigration Department > Our Services > Visas / Entry Permits > Pre-arrival Registration for Indian Nationals",
+        "exactQuote": "Indian nationals must apply for and successfully complete pre-arrival registration online before they can visit or transit the HKSAR visa-free.",
+        "confidence": "verified",
+        "notes": "Verified scope: the conditional PAR visitor classification, 14-day visit limit and multiple-visit permission. Existing document fields, transit fields and all other route fields are outside this correction; overall meta.confidence remains unverified."
+      }
     },
     {
       "to": {
