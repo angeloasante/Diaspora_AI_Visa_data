@@ -14,7 +14,7 @@
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
   "lastUpdated": "2026-03-10",
-  "totalUnlocked": 35,
+  "totalUnlocked": 36,
   "unlocks": [
     {
       "country": "AL",
@@ -530,6 +530,33 @@
         "notes": "Current government page retrieved with HTTP 200 on the access date; its own last-updated assertion is 9 May 2025. The canonical link uses /coming-to-visit-ireland/short-stay-visa-waiver-programme/."
       },
       "notes": "90 days is only the maximum ceiling: permitted stay is the lesser of 90 days and remaining UK permission, subject to admission. This is the Short-Stay Visa Waiver Programme, not the separate British-Irish Visa Scheme. Ghana and other passport countries absent from the eligibility list are not covered. Ukrainian nationals, and holders of Hong Kong or Macau passports, are noted by the source as already Irish-visa-exempt independently and are not counted here as gaining an additional entitlement from a UK visa. No work, study or residence permission is established by this visitor exemption."
+    },
+    {
+      "country": "TC",
+      "countryName": "Turks and Caicos Islands",
+      "region": "caribbean",
+      "conditions": "Hold a valid visa for travel to the United Kingdom and present a valid passport. The visa exemption does not guarantee admission; a Border Force Officer determines entry on arrival.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "lastUpdated": "2026-10-24",
+      "source": {
+        "url": "https://borderforce.gov.tc/entry-requirements",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-24",
+        "confidence": "verified",
+        "verificationPath": "Turks and Caicos Islands Border Force > Travel > Entry Requirements > Visa-required travellers",
+        "exactQuote": "However, if you are a lawful resident of the United Kingdom, United States of America, or Canada, or hold a valid visa for travel to any of these three countries, you can enter the Turks and Caicos Islands without a visa.",
+        "admissionQuote": "A Border Force Officer will determine whether you can enter TCI when you arrive."
+      },
+      "staySource": {
+        "url": "https://www.gov.uk/foreign-travel-advice/turks-and-caicos-islands/entry-requirements",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-24",
+        "verificationPath": "GOV.UK > Foreign travel advice > Turks and Caicos Islands > Entry requirements > Visa requirements",
+        "exactQuote": "On arrival, the immigration department will normally give you permission to stay for up to 90 days."
+      },
+      "notes": "This entry records the valid UK visa route, separately from lawful UK residence. GOV.UK travel advice states that immigration normally grants up to 90 days on arrival, subject to Border Force determination and standard entry requirements."
     }
   ]
 }
