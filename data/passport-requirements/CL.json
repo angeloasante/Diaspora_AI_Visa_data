@@ -8,10 +8,11 @@
   "totalRoutes": 198,
   "summary": {
     "visa_free": 106,
-    "evisa": 34,
+    "evisa": 33,
     "visa_on_arrival": 35,
     "visa_required": 23,
-    "total": 198
+    "total": 198,
+    "eta": 1
   },
   "routes": [
     {
@@ -2916,14 +2917,14 @@
       ],
       "visa": {
         "required": false,
-        "policy": "evisa",
-        "type": null,
+        "policy": "eta",
+        "type": "Electronic Travel Authorisation (ETA)",
         "freeDays": null,
         "maxStay": null,
-        "evisa": true,
+        "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "For an ordinary Chilean passport holder visiting for tourism, an ETA is normally required unless an exemption applies. An ETA is permission to travel, not an eVisa, and does not guarantee admission. Visits are permitted for up to six calendar months; other purposes may require a visa. Scope: ETA classification only; existing document and transit fields have not been verified."
       },
       "documents": {
         "passport": {
@@ -2952,7 +2953,17 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:56.550379"
+      "lastUpdated": "2026-10-24",
+      "source": {
+        "url": "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-24",
+        "pageSection": "Who can apply now",
+        "verificationPath": "GOV.UK > Check if you can get an electronic travel authorisation (ETA) > Who can apply now > Chile",
+        "exactQuote": "Chile",
+        "confidence": "verified",
+        "notes": "Verifies ETA nationality eligibility/classification only. See https://www.gov.uk/eta for tourism, exceptions and the absence of an admission guarantee. No document or transit field is verified by this source record."
+      }
     },
     {
       "to": {
