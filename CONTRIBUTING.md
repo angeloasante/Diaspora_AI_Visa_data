@@ -373,7 +373,9 @@ Rules that apply to everyone, human or AI:
 
 **How do I claim my payment?** After your PR is merged, email **contributors@diasporaai.dev** with the subject `Bounty Payment - PR #<number>`, and include your GitHub username, the PR number, your fork, the contribution type, your payment method and your payment details. Send payment details by email only, never in a comment or issue. No registration is needed, and please do not send identity or tax documents.
 
-**When and how am I paid?** Monthly, on the 11th, for PRs merged and claimed by the end of the previous month. Methods are PayPal, Wise or bank transfer. Whether a method works for your country or bank, and any fees, depend on the payment provider and are confirmed when a payment is made. We have not set a minimum payout.
+**When and how am I paid?** Monthly, on the 11th, for PRs merged and claimed by the end of the previous month. Payments are made by **PayPal**. If you cannot receive PayPal, say so when you claim and we will tell you whether another route is possible; we cannot promise one. Provider fees depend on the payment provider. The **minimum payout is £10**: a smaller balance is kept and added to your next payout.
+
+**Is there a limit on how much is paid each month?** Yes. Payouts come from a **monthly pool of £50**, on top of the per-contributor cap for AI-assisted work. If valid claims add up to more than the pool, they are paid in the order they were received. Claims that do not fit are not lost: they are paid first from the next month's pool. Once a month's payout has been made, the next payout is the following month.
 
 **How many PRs can I have open?** Two bounty PRs at a time, until one is merged. Extra PRs are closed unreviewed.
 
