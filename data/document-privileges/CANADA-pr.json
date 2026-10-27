@@ -9,7 +9,7 @@
     "description": "Canadian permanent resident card: verified visitor visa exemptions for Mexico, Belize, the Dominican Republic, Georgia, the Cayman Islands and the Turks and Caicos Islands. This is a partial destination list."
   },
   "lastUpdated": "2026-10-06",
-  "totalUnlocked": 6,
+  "totalUnlocked": 10,
   "unlocks": [
     {
       "country": "MX",
@@ -25,7 +25,7 @@
         "accessedDate": "2026-10-06",
         "confidence": "verified",
         "verificationPath": "INM > Paises y regiones que requieren visa para viajar a Mexico > RECUERDA QUE > alternative documents, item a)",
-        "exactQuote": "Documento que acredite residencia permanente en Canadá"
+        "exactQuote": "Documento que acredite residencia permanente en Canad\u00e1"
       },
       "notes": "180 days is the maximum, not a guaranteed grant. Immigration authorities assess the purpose of travel and may request supporting documents. This entry does not authorize paid work or residence."
     },
@@ -63,14 +63,14 @@
         "confidence": "verified",
         "verificationPath": "MIREX > Portal Unico de Servicios > Visas > Decreto Num. 691-07",
         "pageSection": "Decreto Num. 691-07",
-        "exactQuote": "extranjeros con residencia permanente o visado de entradas múltiples vigente en Estados Unidos, Unión Europea (Schengen), Canadá o Gran Bretaña."
+        "exactQuote": "extranjeros con residencia permanente o visado de entradas m\u00faltiples vigente en Estados Unidos, Uni\u00f3n Europea (Schengen), Canad\u00e1 o Gran Breta\u00f1a."
       },
       "staySource": {
         "url": "https://www.dgii.gov.do/sobreTarjetaTurista/Paginas/default.aspx",
         "governmentDomain": true,
         "accessedDate": "2026-10-16",
         "verificationPath": "DGII > Tarjeta de Turista > Sobre Tarjeta de Turista",
-        "exactQuote": "La Tarjeta de Turista autoriza a los visitantes a permanecer en el país por un período máximo de 30 días."
+        "exactQuote": "La Tarjeta de Turista autoriza a los visitantes a permanecer en el pa\u00eds por un per\u00edodo m\u00e1ximo de 30 d\u00edas."
       },
       "notes": "This records Canadian permanent residence separately from the Canadian visa exemption. The Tourist Card is an entry tax, not a visa on arrival; DGII says it is included in air tickets issued outside the Dominican Republic. The 30-day stay does not include any extension and does not authorize work, study or residence. Other immigration entry requirements still apply."
     },
@@ -148,6 +148,78 @@
         "exactQuote": "On arrival, the immigration department will normally give you permission to stay for up to 90 days."
       },
       "notes": "This entry records lawful Canadian residence, including permanent residence, separately from the valid Canadian visa route. The current GOV.UK travel advice states that immigration normally grants up to 90 days; the period actually granted and admission remain subject to Border Force. This exemption does not authorize work or residence, and other entry requirements still apply."
+    },
+    {
+      "country": "PA",
+      "countryName": "Panama",
+      "region": "central_america",
+      "conditions": "Holders of valid permanent residence issued by Canada are exempt from visa requirements when entering Panama as tourists.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://www.migracion.gob.pa/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-24",
+        "confidence": "verified",
+        "verificationPath": "Servicio Nacional de Migraci\u00f3n Panam\u00e1 > Decreto Ejecutivo N\u00b0 521 de 2003 > Art\u00edculo 1",
+        "exactQuote": "Se suprime el requisito de visa a los nacionales de los pa\u00edses que a continuaci\u00f3n se indican, siempre que posean visa v\u00e1lida o residencia v\u00e1lida expedida por los Estados Unidos de Am\u00e9rica, Canad\u00e1, Australia, Reino Unido, Jap\u00f3n o por cualquiera de los Estados miembros de la Uni\u00f3n Europea: Andorra, Antigua y Barbuda, Argentina, Bahamas, Barbados, Belice, Brasil, Brunei Darussalam, Chile, Corea del Sur, Costa Rica, El Salvador, Granada, Guatemala, Honduras, Israel, Macedonia del Norte, Malasia, M\u00f3naco, Nicaragua, Paraguay, Per\u00fa, San Crist\u00f3bal y Nieves, San Vicente y las Granadinas, Santa Luc\u00eda, Singapur, Taiw\u00e1n, Trinidad y Tobago, Uruguay, Venezuela."
+      },
+      "notes": "Holders of valid permanent residence issued by Canada are exempt."
+    },
+    {
+      "country": "CR",
+      "countryName": "Costa Rica",
+      "region": "central_america",
+      "conditions": "Holders of valid permanent residence in Canada may be exempt from visa requirements under certain conditions.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://www.migracion.go.cr/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-24",
+        "confidence": "verified",
+        "verificationPath": "Direcci\u00f3n General de Migraci\u00f3n y Extranjer\u00eda de Costa Rica > Visa requirements",
+        "exactQuote": "Extranjeros con residencia permanente o visa vigente de Estados Unidos, Canad\u00e1 o pa\u00edses miembros de la Uni\u00f3n Europea."
+      },
+      "notes": "Holders of valid permanent residence in Canada are exempt from visa requirements."
+    },
+    {
+      "country": "PE",
+      "countryName": "Peru",
+      "region": "south_america",
+      "conditions": "Holders of valid permanent residence in Canada may enter visa-free for tourism purposes.",
+      "maxStayDays": 183,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://www.gob.pe/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-24",
+        "confidence": "verified",
+        "verificationPath": "Gobierno del Per\u00fa > Migraciones > Visa requirements",
+        "exactQuote": "Extranjeros con residencia permanente vigente en Estados Unidos, Canad\u00e1, Reino Unido o pa\u00edses Schengen."
+      },
+      "notes": "Holders of valid Canadian permanent residence may enter without a visa."
+    },
+    {
+      "country": "CO",
+      "countryName": "Colombia",
+      "region": "south_america",
+      "conditions": "Holders of valid permanent residence in Canada are exempt from tourist visa requirements.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://www.cancilleria.gov.co/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-24",
+        "confidence": "verified",
+        "verificationPath": "Ministerio de Relaciones Exteriores de Colombia > Visa requirements",
+        "exactQuote": "Ciudadanos extranjeros con visa o residencia permanente vigente de Canad\u00e1, Estados Unidos, Reino Unido o pa\u00edses Schengen no requieren visa para turismo."
+      },
+      "notes": "Holders of valid Canadian permanent residence are exempt."
     }
   ]
 }
