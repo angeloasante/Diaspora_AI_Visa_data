@@ -2966,13 +2966,17 @@
       "visa": {
         "required": true,
         "policy": "visa_required",
-        "type": null,
+        "type": "Standard Visitor visa (tourism/short visit)",
         "freeDays": null,
         "maxStay": null,
         "evisa": false,
         "onArrival": false,
-        "multipleEntry": false,
-        "notes": null
+        "notes": "Pakistan is on the UK Visitor visa national list. For a standard visit of up to six months, the UK government publishes a GBP 135 application fee and normally a decision within three weeks of submitting the application, identity proof and documents; the timeline is not guaranteed. The stated fee and timing do not cover work, study, transit or long-term visas. Approval produces a digital eVisa record; it does not waive the pre-travel visa requirement. Other route fields were not reverified.",
+        "processingDays": "Usually 3 weeks after applying, proving identity and providing supporting documents; not guaranteed",
+        "cost": {
+          "amount": 135,
+          "currency": "GBP"
+        }
       },
       "documents": {
         "passport": {
@@ -3001,7 +3005,29 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:09:43.992723"
+      "lastUpdated": "2026-11-01",
+      "source": {
+        "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-visitor-visa-national-list",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-01",
+        "pageSection": "VN 1.1(a) — Pakistan is a visitor visa national",
+        "verificationPath": "GOV.UK > Immigration Rules > Appendix Visitor: Visa national list > VN 1.1(a) > Pakistan",
+        "exactQuote": "Pakistan",
+        "confidence": "verified",
+        "notes": "Verifies Pakistan's visitor-visa requirement, Standard Visitor fee and typical decision time only; passport, other documents, transit and other visa categories remain unverified and unchanged.",
+        "supportingSources": [
+          {
+            "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-01",
+            "pageSection": "Visa fees; How long it takes to get a decision",
+            "verificationPath": "GOV.UK > Visit the UK as a Standard Visitor > Apply for a Standard Visitor visa > Visa fees; How long it takes to get a decision",
+            "exactQuote": "£135",
+            "confidence": "verified",
+            "notes": "Home Office lists GBP 135 for Standard Visitor up to 6 months and says a decision usually arrives within 3 weeks after application, identity and documents."
+          }
+        ]
+      }
     },
     {
       "to": {
