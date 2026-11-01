@@ -2917,13 +2917,17 @@
       "visa": {
         "required": true,
         "policy": "visa_required",
-        "type": null,
+        "type": "Standard Visitor visa (tourism/short visit)",
         "freeDays": null,
         "maxStay": null,
         "evisa": false,
         "onArrival": false,
-        "multipleEntry": false,
-        "notes": null
+        "notes": "Bangladeshi nationals are listed by UK Immigration Rules as visa nationals for visitor entry, subject to listed exceptions. For a short visit up to six months, the Home Office publishes a GBP 135 Standard Visitor visa application fee; a decision usually arrives within three weeks after application, identity verification and submission of documents. The processing window is not guaranteed. Fee and timing do not cover work, study, transit or long-term permissions. The visa decision may be represented as an eVisa but the pre-travel visa requirement remains. Other route fields were not reverified.",
+        "processingDays": "Usually 3 weeks after applying, proving identity and providing supporting documents; not guaranteed",
+        "cost": {
+          "amount": 135,
+          "currency": "GBP"
+        }
       },
       "documents": {
         "passport": {
@@ -2952,7 +2956,29 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:45.498576"
+      "lastUpdated": "2026-11-01",
+      "source": {
+        "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-visitor-visa-national-list",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-01",
+        "pageSection": "VN 1.1(a) — Bangladesh is a visitor visa national",
+        "verificationPath": "GOV.UK > Immigration Rules > Appendix Visitor: Visa national list > VN 1.1(a) > Bangladesh",
+        "exactQuote": "Bangladesh",
+        "confidence": "verified",
+        "notes": "Verifies only visitor-visa requirement, current Standard Visitor fee and typical decision time; passport validity, supporting documents, transit and other visa categories remain untouched and unverified.",
+        "supportingSources": [
+          {
+            "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-01",
+            "pageSection": "Visa fees; How long it takes to get a decision",
+            "verificationPath": "GOV.UK > Visit the UK as a Standard Visitor > Apply for a Standard Visitor visa > Visa fees; How long it takes to get a decision",
+            "exactQuote": "£135",
+            "confidence": "verified",
+            "notes": "The published fee is £135 for short Standard Visitor up to six months. Decision time is usually three weeks after processing conditions are met, not guaranteed."
+          }
+        ]
+      }
     },
     {
       "to": {
