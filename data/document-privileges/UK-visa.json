@@ -468,16 +468,33 @@
       "country": "TW",
       "countryName": "Taiwan",
       "region": "asia",
-      "conditions": "Valid UK residence permit or visa (for certain passport holders)",
-      "maxStayDays": 30,
+      "conditions": "Only ordinary-passport nationals of India, Indonesia, Laos, Myanmar and Vietnam may use a qualifying UK visa or residence document to apply for a Taiwan Travel Authorization Certificate (TAC). A valid UK entry visa (including electronic visa), resident/permanent resident certificate, or one expired less than 10 years before arrival may qualify, subject to all NIA conditions.",
+      "maxStayDays": 14,
       "visaOnArrival": false,
-      "evisaRequired": true,
+      "evisaRequired": false,
       "source": {
-        "url": "https://www.boca.gov.tw/",
-        "accessedDate": "2026-03-10",
-        "confidence": "verified"
+        "url": "https://niaspeedy.immigration.gov.tw/nia_southeast/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-05",
+        "confidence": "verified",
+        "pageSection": "English instructions > Basic requirements; Special requirements 1; Notes 1-3, 5-8 and 10; landing-page Cambodia notice",
+        "verificationPath": "NIA TAC portal > select English > Next > Next > read Basic requirements, Special requirements and Notes (before the personal application form)",
+        "exactQuote": "The holder of an TAC may stay in Taiwan for 14 days, starting from the next day of arrival.",
+        "nationalityQuote": "Nationals of India, Indonesia, Laos, Myanmar, and Vietnam can apply online for an R.O.C.(Taiwan) Travel Authorization Certificate (TAC)",
+        "documentQuote": "The applicant possesses at least one of the following documents issued by the United States, Canada, the United Kingdom, any of EU and Schengen countries, New Zealand, Australia, Japan",
+        "validityQuote": "An approved TAC is valid for 90 days. Multiple entries within these 90 days are allowed."
       },
-      "notes": "E-visa available for some nationals with valid UK residence/visa"
+      "notes": "TAC is a conditional travel authorization, not a Taiwan eVisa or a general exemption for every UK-visa holder. Approval is valid 90 days with multiple entries, but each stay is 14 days starting the day after arrival, and TAC entries are limited to six per calendar year. Expired-document eligibility is strictly less than 10 years before arrival; if no expiry/validity period is shown, NIA measures from issue date. Cambodia is not eligible for new TAC applications from 1 August 2026; previously approved TACs have the stated transitional exception. Other NIA routes and visa rules are outside this entry.",
+      "travelAuthorizationRequired": true,
+      "eligibleNationalities": [
+        "IN",
+        "ID",
+        "LA",
+        "MM",
+        "VN"
+      ],
+      "additionalRequirements": "Apply online and obtain approval before travel; print the TAC and present it with the qualifying UK document at entry. Ordinary passport must remain valid at least six months from arrival, and an onward/return air or ferry ticket is required. Applicant must never have been employed as a migrant worker in Taiwan and must have no record of immigration irregularities or legal violations in Taiwan. Work permits alone and visas stamped VOID, CANCELLED or CANCELLED WITHOUT PREJUDICE do not qualify.",
+      "lastUpdated": "2026-11-05"
     },
     {
       "country": "BH",
