@@ -8860,7 +8860,7 @@
           "blankPagesRequired": 2
         },
         "requirements": {
-          "onwardTicket": false,
+          "onwardTicket": true,
           "proofOfFunds": false,
           "accommodation": false,
           "travelInsurance": {
@@ -8869,7 +8869,7 @@
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "For visa-exempt entry, carry a confirmed return air/sea ticket, or an onward air/sea ticket with a visa for the next destination where required, and a confirmed seat reservation for departure."
       },
       "transit": {
         "visaRequired": null,
@@ -8881,7 +8881,15 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:05:40.06958"
+      "lastUpdated": "2026-11-05",
+      "source": {
+        "url": "https://www.boca.gov.tw/cp-149-4486-7785a-2.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-05",
+        "verificationPath": "BOCA > Visa > Visa-Exempt Entry, Landing Visa and eVisa > Visa-Exempt Entry > Requirements, item 3",
+        "exactQuote": "A confirmed return air/sea ticket or air/sea ticket and a visa for the next destination",
+        "notes": "Only the confirmed return/onward ticket requirement and departure-seat reservation were checked for this correction. Other existing document, health and transit fields were not verified."
+      }
     },
     {
       "to": {
