@@ -2966,13 +2966,17 @@
       "visa": {
         "required": true,
         "policy": "visa_required",
-        "type": null,
+        "type": "Standard Visitor visa (tourism/short visit)",
         "freeDays": null,
         "maxStay": null,
         "evisa": false,
         "onArrival": false,
-        "multipleEntry": false,
-        "notes": null
+        "notes": "Tunisian nationals are named in the UK Home Office visitor visa-national list and generally need entry clearance before a UK visitor journey, subject to the published exceptions. The UK government publishes a GBP 135 application fee for the Standard Visitor visa with a maximum visit of 6 months. UKVI lists 3 weeks as the usual overseas Standard Visitor processing time after processing starts; this is not guaranteed. This verification does not cover transit, work, study, longer visas, passport-validity claims, or whether the visa allows multiple entries.",
+        "processingDays": "Usually 3 weeks after identity verification and application submission; longer waits possible",
+        "cost": {
+          "amount": 135,
+          "currency": "GBP"
+        }
       },
       "documents": {
         "passport": {
@@ -3001,7 +3005,37 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:28.55943"
+      "lastUpdated": "2026-10-24",
+      "source": {
+        "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-visitor-visa-national-list",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-24",
+        "pageSection": "VN 1.1(a) — Tunisia",
+        "verificationPath": "GOV.UK > Immigration Rules > Appendix Visitor: Visa national list > VN 1.1(a) > Tunisia",
+        "exactQuote": "Tunisia",
+        "confidence": "verified",
+        "notes": "Verification is restricted to the Tunisian visitor visa-national requirement (subject to exceptions), the published 6-month Standard Visitor fee and usual decision timeframe. Existing passport, supporting-document, transit, policy and risk fields were not independently reverified.",
+        "supportingSources": [
+          {
+            "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-24",
+            "pageSection": "Visa fees — Standard Visitor visa, 6 months",
+            "exactQuote": "£135",
+            "confidence": "verified",
+            "notes": "Published standard 6-month visitor application fee in GBP; not a country-specific total."
+          },
+          {
+            "url": "https://www.gov.uk/guidance/visa-processing-times-applications-outside-the-uk",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-24",
+            "pageSection": "Visit visas — Standard Visitor; when application processing starts",
+            "exactQuote": "Standard Visitor",
+            "confidence": "verified",
+            "notes": "Usual overseas standard time is 3 weeks after UKVI processing starts, not guaranteed."
+          }
+        ]
+      }
     },
     {
       "to": {
