@@ -8,10 +8,11 @@
   "totalRoutes": 198,
   "summary": {
     "visa_free": 97,
-    "evisa": 38,
+    "evisa": 37,
     "visa_on_arrival": 34,
     "visa_required": 29,
-    "total": 198
+    "total": 198,
+    "eta": 1
   },
   "routes": [
     {
@@ -2974,14 +2975,14 @@
       ],
       "visa": {
         "required": false,
-        "policy": "evisa",
-        "type": null,
+        "policy": "eta",
+        "type": "Electronic Travel Authorisation (ETA)",
         "freeDays": null,
         "maxStay": null,
-        "evisa": true,
+        "evisa": false,
         "onArrival": false,
-        "multipleEntry": false,
-        "notes": null
+        "multipleEntry": true,
+        "notes": "An ordinary Uruguayan passport holder travelling for tourism normally needs an ETA before travel, unless exempt. The ETA is a travel authorisation rather than an eVisa; admission remains subject to border checks. It permits repeat journeys while valid, with tourist visits limited to six calendar months. Existing document and transit requirements are outside this verification."
       },
       "documents": {
         "passport": {
@@ -3010,7 +3011,40 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:16:01.154941"
+      "lastUpdated": "2026-11-04",
+      "source": {
+        "url": "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-04",
+        "pageSection": "Who can apply now",
+        "verificationPath": "GOV.UK > Check if you can get an electronic travel authorisation (ETA) > Who can apply now > Uruguay",
+        "exactQuote": "Uruguay",
+        "confidence": "verified",
+        "notes": "Verifies ETA nationality eligibility and visitor authorisation. Supporting GOV.UK pages cover repeat journeys, the six-month visitor limit, exceptions and border admission. Existing document and transit fields have not been verified.",
+        "supportingSources": [
+          {
+            "url": "https://www.gov.uk/eta/apply",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-04",
+            "pageSection": "How long it lasts",
+            "notes": "An ETA permits repeated travel during its validity; it expires after two years or with the passport, if earlier."
+          },
+          {
+            "url": "https://www.gov.uk/eta",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-04",
+            "pageSection": "Overview; Who needs an ETA",
+            "notes": "Tourism for up to six months; permission does not assure border admission."
+          },
+          {
+            "url": "https://www.gov.uk/eta/when-not-need-eta",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-04",
+            "pageSection": "When you do not need an ETA",
+            "notes": "Exemptions include British or Irish citizenship and existing UK immigration permission; consult the full official list."
+          }
+        ]
+      }
     },
     {
       "to": {
