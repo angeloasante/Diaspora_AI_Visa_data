@@ -8,10 +8,11 @@
   "totalRoutes": 198,
   "summary": {
     "visa_free": 116,
-    "evisa": 26,
+    "evisa": 25,
     "visa_on_arrival": 41,
     "visa_required": 15,
-    "total": 198
+    "total": 198,
+    "eta": 1
   },
   "routes": [
     {
@@ -2965,14 +2966,14 @@
       ],
       "visa": {
         "required": false,
-        "policy": "evisa",
-        "type": null,
+        "policy": "eta",
+        "type": "Electronic Travel Authorisation (ETA)",
         "freeDays": null,
         "maxStay": null,
-        "evisa": true,
+        "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "South Korea passport holders visiting the UK for tourism normally need an ETA rather than a visitor visa. Personal-status exemptions may apply, including existing permission to live, work or study in the UK. An ETA does not guarantee admission. See https://www.gov.uk/eta."
       },
       "documents": {
         "passport": {
@@ -3001,7 +3002,16 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:08:26.193425"
+      "lastUpdated": "2026-11-04",
+      "source": {
+        "url": "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-04",
+        "verificationPath": "GOV.UK > Check if you can get an electronic travel authorisation (ETA) > Who can apply now > South Korea",
+        "exactQuote": "South Korea",
+        "confidence": "verified",
+        "notes": "Verified only the visitor ETA classification and scope in visa.notes, using the nationality list and https://www.gov.uk/eta. Existing passport, supporting-document, transit, stay-length, multiple-entry and other fields were not reverified."
+      }
     },
     {
       "to": {
