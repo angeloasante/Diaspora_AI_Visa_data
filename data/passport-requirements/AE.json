@@ -8,10 +8,11 @@
   "totalRoutes": 198,
   "summary": {
     "visa_free": 127,
-    "evisa": 21,
+    "evisa": 20,
     "visa_on_arrival": 36,
     "visa_required": 14,
-    "total": 198
+    "total": 198,
+    "eta": 1
   },
   "routes": [
     {
@@ -2916,14 +2917,14 @@
       ],
       "visa": {
         "required": false,
-        "policy": "evisa",
-        "type": null,
+        "policy": "eta",
+        "type": "Electronic Travel Authorisation (ETA)",
         "freeDays": null,
         "maxStay": null,
-        "evisa": true,
+        "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "For a standard tourism visit by a United Arab Emirates passport holder, the UK uses an Electronic Travel Authorisation (ETA), not an eVisa. ETA eligibility is subject to the exemptions and conditions on GOV.UK."
       },
       "documents": {
         "passport": {
@@ -2952,7 +2953,16 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:06:23.188905"
+      "lastUpdated": "2026-10-21",
+      "source": {
+        "url": "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-21",
+        "verificationPath": "GOV.UK > Check if you can get an electronic travel authorisation (ETA) > Who can apply now > United Arab Emirates",
+        "exactQuote": "United Arab Emirates",
+        "confidence": "verified",
+        "notes": "Verification is limited to ETA eligibility and the visa.policy/evisa/type classification for tourism. Existing document, transit, stay-length and other fields were not reverified by this change."
+      }
     },
     {
       "to": {

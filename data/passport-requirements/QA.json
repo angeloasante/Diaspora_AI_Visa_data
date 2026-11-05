@@ -8,10 +8,11 @@
   "totalRoutes": 198,
   "summary": {
     "visa_free": 70,
-    "evisa": 29,
+    "evisa": 28,
     "visa_on_arrival": 31,
     "visa_required": 68,
-    "total": 198
+    "total": 198,
+    "eta": 1
   },
   "routes": [
     {
@@ -2965,14 +2966,14 @@
       ],
       "visa": {
         "required": false,
-        "policy": "evisa",
-        "type": null,
+        "policy": "eta",
+        "type": "Electronic Travel Authorisation (ETA)",
         "freeDays": null,
-        "maxStay": null,
-        "evisa": true,
+        "maxStay": 180,
+        "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Qatari passport holders need an ETA before travel for visits of up to six months, unless an exemption applies. An ETA is advance travel permission, not an eVisa, and does not guarantee entry. Other purposes may require a visa. This update verifies the ETA classification only; existing document and transit fields remain unverified."
       },
       "documents": {
         "passport": {
@@ -2997,11 +2998,21 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
+        "confidence": "verified",
+        "lastChecked": "2026-10-21",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:19.130903"
+      "lastUpdated": "2026-10-21",
+      "source": {
+        "url": "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-21",
+        "pageSection": "Who can apply now",
+        "verificationPath": "GOV.UK > Check if you can get an electronic travel authorisation (ETA) > Who can apply now > Qatar",
+        "exactQuote": "Qatar",
+        "confidence": "verified",
+        "notes": "Scoped verification of ETA eligibility/classification and the general six-month visitor limit. See https://www.gov.uk/eta/what-you-can-cannot-do for permitted purposes, exemptions and the absence of an admission guarantee. Existing document and transit fields were not reverified."
+      }
     },
     {
       "to": {

@@ -8,10 +8,11 @@
   "totalRoutes": 198,
   "summary": {
     "visa_free": 130,
-    "evisa": 24,
+    "evisa": 23,
     "visa_on_arrival": 27,
     "visa_required": 17,
-    "total": 198
+    "total": 198,
+    "eta": 1
   },
   "routes": [
     {
@@ -1397,14 +1398,14 @@
       ],
       "visa": {
         "required": false,
-        "policy": "evisa",
-        "type": null,
+        "policy": "eta",
+        "type": "Electronic Travel Authorization (eTA)",
         "freeDays": null,
         "maxStay": null,
-        "evisa": true,
+        "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Singapore citizens travelling with a Singapore passport normally need an eTA, not a visitor visa, to fly to Canada for a visit. An eTA is normally not required for arrival by car, bus, train or boat (including cruise ships); however, travellers arriving by sea from Saint-Pierre-et-Miquelon (excluding cruise ships) need an eTA to board their boat. Personal-status and other exemptions may apply; see the official source."
       },
       "documents": {
         "passport": {
@@ -1433,7 +1434,16 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:06:24.521092"
+      "lastUpdated": "2026-10-27",
+      "source": {
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-27",
+        "verificationPath": "Canada.ca > What you need to enter Canada > Travellers who need an electronic travel authorization (eTA) > If you are travelling by air > Singapore; then If you are travelling by land or sea and its Saint-Pierre-et-Miquelon exception",
+        "exactQuote": "Singapore",
+        "confidence": "verified",
+        "notes": "Verification is limited to visitor eTA eligibility, the visa.required/policy/evisa/type classification and the travel-mode scope in visa.notes. Existing passport, supporting-document, transit, stay-length, multiple-entry and other fields were not reverified by this change."
+      }
     },
     {
       "to": {

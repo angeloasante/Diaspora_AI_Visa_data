@@ -1,0 +1,1247 @@
+{
+  "document": {
+    "type": "green_card",
+    "country": "US",
+    "countryName": "United States",
+    "description": "US permanent residence document privileges verified against destination government sources"
+  },
+  "lastUpdated": "2026-10-20",
+  "totalUnlocked": 30,
+  "unlocks": [
+    {
+      "country": "MX",
+      "countryName": "Mexico",
+      "region": "north_america",
+      "conditions": "Document proving permanent residence in the United States; visit for tourism, business or other activities without remuneration in Mexico",
+      "maxStayDays": 180,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Valid passport or identity and travel document, plus proof of US permanent residence. Land arrivals must complete the Forma Migratoria Múltiple (FMM); international airport arrivals receive the digital migration record through the immigration officer. Authorities may request the purpose of travel, itinerary, accommodation, funds and return or onward travel evidence.",
+      "source": {
+        "url": "https://www.inm.gob.mx/gobmx/word/index.php/paises-requieren-visa-para-mexico/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "verificationPath": "INM > Paises y regiones que requieren visa para viajar a Mexico > alternative documents > item a) permanent residence; En el filtro de revisión migratoria, document 2 (land-only FMM)",
+        "exactQuote": "Documento que acredite residencia permanente en Canadá, Estados Unidos de América",
+        "confidence": "verified",
+        "supportingQuote": "Forma Migratoria Múltiple (FMM) debidamente llenada"
+      },
+      "notes": "Visa exemption for visitors without permission to perform remunerated activities. The INM page states a maximum of 180 days; the authorized stay and admission are determined by the immigration authority. This entry concerns permanent residence, separately from the valid-visa exemption in item b).",
+      "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "RS",
+      "countryName": "Serbia",
+      "region": "europe",
+      "conditions": "Valid US permanent residence permit and a national passport; visa-free entry, transit and stay for up to 90 days during a six-month period, within the validity of the residence permit",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present the valid national passport together with the US permanent resident card. The exemption covers national passports and excludes emergency travel documents and travel documents issued under international conventions. Show funds equivalent to EUR 50 per day, and carry return/onward and accommodation evidence for border inspection. The MFA recommends health insurance covering at least EUR 20,000. Its parental-consent requirement for Serbian minors is separate from the rule for foreign minors, who may enter without parental consent under that guidance.",
+      "source": {
+        "url": "https://www.mfa.gov.rs/en/citizens/travel-serbia/visa-requirements",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "verificationPath": "Ministry of Foreign Affairs > Citizens > Travel to Serbia > Visa Requirements > opening paragraphs on the decision of 30 October 2014",
+        "exactQuote": "and for holders of foreign national passports having residence permit in the countries of the Schengen area, EU or the United States of America.",
+        "confidence": "verified",
+        "locationUrl": "https://www.mfa.gov.rs/en/citizens/travel-serbia/visa-requirements#:~:text=and%20for%20holders%20of%20foreign%20national%20passports%20having%20residence%20permit%20in%20the%20countries%20of%20the%20Schengen%20area%2C%20EU%20or%20the%20United%20States%20of%20America."
+      },
+      "notes": "The opening paragraphs specify the residence-permit exemption, the 90-day limit during a six-month period, and the requirement to present a valid passport when the residence permit is a separate card. The residence permit must remain valid for the stay.",
+      "lastUpdated": "2026-10-20",
+      "additionalSources": [
+        {
+          "url": "https://mfa.gov.rs/en/citizens/travel-serbia/general-entry-requirements",
+          "governmentDomain": true,
+          "accessedDate": "2026-10-20",
+          "confidence": "verified",
+          "authority": "Ministry of Foreign Affairs of Serbia",
+          "exactQuote": "50 Euros per day of stay",
+          "verificationPath": "Serbian MFA > Travel to Serbia > General Entry Requirements > funds, foreign minors, health insurance, final border-inspection paragraph"
+        }
+      ]
+    },
+    {
+      "country": "ME",
+      "countryName": "Montenegro",
+      "region": "europe",
+      "conditions": "Valid US permanent residence permit and valid foreign travel document; visa-free entry, transit and stay for up to 30 days, limited to the remaining validity of the residence permit",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present a valid travel document and the valid US permanent resident card. The travel document must have been issued within the last ten years and normally remain valid for at least three months after the planned departure. In justified emergencies, the government permits a shorter passport-validity period if the document remains valid through the planned departure.",
+      "source": {
+        "url": "https://www.gov.me/en/article/visas",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "verificationPath": "Government of Montenegro > Visas > visa-regime bullet for foreign residence permits, followed by Validity of travel documents > justified emergency exception under Validity of travel documents",
+        "exactQuote": "can enter, transit through the territory and stay in Montenegro for up to 30 days",
+        "confidence": "verified",
+        "supportingQuote": "the United States of America",
+        "locationUrl": "https://www.gov.me/en/article/visas#:~:text=Holders%20of%20valid%20foreign%20travel%20documents%20who%20have%20a%20residence%20permit"
+      },
+      "notes": "The residence-permit bullet names the United States of America. If the residence permit expires within 30 days, the authorized stay under this exemption ends by its expiry. The source lists foreign residence permits separately from foreign visas.",
+      "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "AL",
+      "countryName": "Albania",
+      "region": "europe",
+      "conditions": "Valid US permanent residence permit; visa-free short visits for up to 90 days within a 180-day period",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present a valid passport and the valid US permanent resident card. The Albanian embassy lists a valid US residence permit as a separate qualifying document; prior use is a condition attached to the US visa route.",
+      "source": {
+        "url": "https://ambasadat.gov.al/france/en/embassy-services/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "confidence": "verified",
+        "exactQuote": "You have a valid residence permit in the United States or the United Kingdom.",
+        "verificationPath": "Albanian Embassy in France > Embassy Services > Visas > You do not need a visa if > US/UK residence-permit bullet",
+        "locationUrl": "https://ambasadat.gov.al/france/en/embassy-services/#:~:text=You%20have%20a%20valid%20residence%20permit%20in%20the%20United%20States%20or%20the%20United%20Kingdom."
+      },
+      "notes": "The embassy lists a valid US residence permit as a qualifying document. The MFA page supplies the 90-days-in-180 short-stay limit.",
+      "additionalSources": [
+        {
+          "url": "https://punetejashtme.gov.al/en/aplikim-per-vize/",
+          "governmentDomain": true,
+          "accessedDate": "2026-10-20",
+          "verificationPath": "Albanian Ministry for Europe and Foreign Affairs > VISA APPLICATION > Exemption of visa to enter and stay in the Republic of Albania for up to 90 days to 180 days > item 2 (US residence permit; prior use refers to the visa)",
+          "exactQuote": "Exemption of visa to enter and stay in the Republic of Albania for up to 90 days to 180 days",
+          "confidence": "verified",
+          "locationUrl": "https://punetejashtme.gov.al/en/aplikim-per-vize/#:~:text=Exemption%20of%20visa%20to%20enter%20and%20stay"
+        }
+      ],
+      "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "BA",
+      "countryName": "Bosnia and Herzegovina",
+      "region": "europe",
+      "conditions": "Citizens of countries subject to a Bosnian visa requirement may enter with a valid passport and US permanent residence permit; each uninterrupted stay is limited to 30 days, with a total of up to 90 days in any 180-day period and within the residence permit's validity",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present a valid US permanent resident card and a passport issued within the past ten years or a travel document of permanent validity, valid at least three months beyond intended departure. Observe the 30-day continuous-stay limit and rolling 90-days-in-180 total. Show means of subsistence equivalent to BAM 150 per day through the accepted evidence listed by the ministry. For private accommodation and a stay exceeding three days, register within 48 hours of entry; accommodation providers have their own registration duty. For children under 14, the ministry specifies accompaniment by a parent, legal representative, guardian or duly authorized escort; unaccompanied travel requires notarized consent. The ministry accepts an airline document for an unaccompanied minor, a certified school-excursion list or a sport/cultural event participant list as consent evidence under the stated conditions. The ministry also specifies the document contents and translation requirements.",
+      "source": {
+        "url": "https://msb.gov.ba/en/information-for-foreigners",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "confidence": "verified",
+        "authority": "Ministry of Security of Bosnia and Herzegovina",
+        "verificationPath": "Ministry of Security > Informations for Foreigners > Basic information on entry and stay of aliens > Visa-free regime in the case of possession of a multiple-entry Schengen visa or residence permit in the Schengen or EU countries > two paragraphs on US residence and stay limits; Travel documents; Means of subsistence; Registration of residence; Entry of minors to BiH",
+        "exactQuote": "residence permit issued in the Schengen, EU countries, or in the United States of America.",
+        "supportingQuote": "no longer than 30 days",
+        "locationUrl": "https://msb.gov.ba/en/information-for-foreigners#:~:text=residence%20permit%20issued%20in%20the%20Schengen"
+      },
+      "notes": "maxStayDays represents one continuous stay. The Ministry of Security also sets an aggregate maximum of 90 days in any 180-day period, within the residence permit’s validity.",
+      "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "BZ",
+      "countryName": "Belize",
+      "region": "central_america",
+      "conditions": "Valid US Permanent Residence Card; visa exemption for visits of 30 days or less.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present the passport and valid US permanent resident card. A longer visit requires a visitor permit extension. Carry a return ticket and sufficient funds. Children under 18 need the travel documents and parental consent described by the Belize Tourism Board; when travelling with one parent, the board requires a notarized consent letter from the other parent.",
+      "source": {
+        "url": "https://immigration.gov.bz/visa/visa-who-qualify/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "verificationPath": "Belize Immigration > Visa > Who qualify > exemption items 1-4",
+        "exactQuote": "If you hold a valid multiple entry visa or Permanent Residence Card from the United States of America.",
+        "confidence": "verified",
+        "locationUrl": "https://immigration.gov.bz/visa/visa-who-qualify/#:~:text=If%20you%20hold%20a%20valid%20multiple%20entry%20visa%20or%20Permanent%20Residence%20Card%20from%20the%20United%20States%20of%20America."
+      },
+      "notes": "The US residence-card exemption is listed separately from the multiple-entry US visa route.",
+      "lastUpdated": "2026-10-20",
+      "additionalSources": [
+        {
+          "url": "https://www.travelbelize.org/getting-here/visas-and-immigration/",
+          "governmentDomain": true,
+          "accessedDate": "2026-10-20",
+          "confidence": "verified",
+          "authority": "Belize Tourism Board",
+          "exactQuote": "Children traveling with one parent require a notarized letter of authority",
+          "verificationPath": "Belize Tourism Board > Visas and Immigration > passport/return-ticket paragraph and children-under-18 paragraph"
+        }
+      ]
+    },
+    {
+      "country": "DO",
+      "countryName": "Dominican Republic",
+      "region": "caribbean",
+      "conditions": "Valid US residence document; tourism visa exemption with an initial stay of 30 days.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Carry the valid US residence document, return/onward ticket and required electronic entry/exit form (e-Ticket). From 1 December 2025 through 31 December 2026, the DGM passport-validity waiver covers qualifying tourists, including foreign nationals with documents permitting entry to the United States; their passport must remain valid throughout the stay and departure. The embassy FAQ separately permits Cuban legal US residents with a valid Green Card to use a passport expired for up to 24 months, and lists a tourist-entry exception for Venezuelan passports expired for up to 24 months.",
+      "source": {
+        "url": "https://usa.mirex.gob.do/preguntas-frecuentes/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "verificationPath": "Dominican Embassy in the United States > Preguntas frecuentes > question 11 > listed US visas and residence documents; passport requirements and exceptions in FAQ items 1-6; ticket and e-Ticket in items 7-8",
+        "exactQuote": "Los titulares de visas o residencias válidas de estos países pueden ingresar sin necesidad de visa adicional.",
+        "confidence": "verified",
+        "locationUrl": "https://usa.mirex.gob.do/preguntas-frecuentes/#:~:text=Los%20titulares%20de%20visas%20o%20residencias%20v%C3%A1lidas%20de%20estos%20pa%C3%ADses%20pueden%20ingresar%20sin%20necesidad%20de%20visa%20adicional."
+      },
+      "notes": "The embassy FAQ supplies the US-residence visa exemption. The DGM tourist-extension service supplies the initial 30-day stay. The DGM notice of 2 December 2025 supplies the current temporary passport-validity waiver; eligibility and travel dates must meet that notice.",
+      "additionalSources": [
+        {
+          "url": "https://migracion.gob.do/servicio/prorroga-de-estadia/",
+          "governmentDomain": true,
+          "accessedDate": "2026-10-20",
+          "confidence": "verified",
+          "exactQuote": "los 30 días establecidos para los turistas",
+          "verificationPath": "Dirección General de Migración > Servicios > PRÓRROGA DE ESTADÍA PARA TURISTAS > A quién va dirigido > opening paragraph (standard 30-day tourist stay)",
+          "locationUrl": "https://migracion.gob.do/servicio/prorroga-de-estadia/#:~:text=los%2030%20d%C3%ADas%20establecidos%20para%20los%20turistas"
+        },
+        {
+          "url": "https://migracion.gob.do/dgm-anuncia-prorroga-que-simplifica-ingreso-para-turistas-a-partir-de-este-01-de-diciembre/",
+          "governmentDomain": true,
+          "accessedDate": "2026-10-20",
+          "confidence": "verified",
+          "authority": "Dirección General de Migración, Dirección de Comunicaciones",
+          "verificationPath": "DGM > News > DGM anuncia prórroga que simplifica ingreso para turistas a partir de este 01 de diciembre > 2 December 2025 > paragraphs 2–4 (other nationalities, effective dates and passport validity)",
+          "exactQuote": "durante su permanencia y salida del territorio dominicano",
+          "supportingQuote": "hasta el 31 de diciembre del 2026"
+        }
+      ],
+      "lastUpdated": "2026-10-20",
+      "passportValidityWaiver": {
+        "validFrom": "2025-12-01",
+        "validThrough": "2026-12-31",
+        "purpose": "tourism",
+        "scope": "Covered nationalities and other foreign nationals holding documentation permitting entry to the listed countries, including the United States",
+        "requiredPassportValidity": "through the stay and departure"
+      }
+    },
+    {
+      "country": "CR",
+      "countryName": "Costa Rica",
+      "region": "central_america",
+      "conditions": "For otherwise visa-required third/fourth-group nationals: US residence permitting multiple entries, with at least one calendar day of validity remaining on entry. Initial stay is capped by the residence document expiry.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present the passport and qualifying residence document. General third/fourth-group passport validity is 180 calendar days. Nicaragua and Colombia have a 90-calendar-day passport-validity requirement and may receive up to 90 calendar days of stay, subject to the residence-document expiry cap. Show funds of at least USD 100 for each month or fraction of a month and a return/onward ticket. The directive requires secure, verifiable residence evidence in Spanish or English, or a corresponding translation. It excludes stamps, handwritten or altered documents, residence applications or extensions, passport-stamped residence and indefinite-residence documents. Identity differences may require supporting civil-status evidence.",
+      "source": {
+        "url": "https://www.icoder.go.cr/fileadmin/documentos/tramites/visas/Directrices-Generales-de-Visas-Noviembre-2025-Alcance-148-Gaceta-N_-216-17-11-2025.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "verificationPath": "Directive AJ-484-11-2025 > Quinto I, PDF pages14-15; nationality/stay provisions in the third/fourth-group sections; III/IV nationality groups; Tercero III (Nicaragua) and V (Colombia)",
+        "exactQuote": "con una vigencia mínima de 1 día natural",
+        "confidence": "verified",
+        "locationUrl": "https://www.icoder.go.cr/fileadmin/documentos/tramites/visas/Directrices-Generales-de-Visas-Noviembre-2025-Alcance-148-Gaceta-N_-216-17-11-2025.pdf#page=14"
+      },
+      "notes": "General initial admission is up to 30 calendar days, with extensions subject to approval up to 90 days. Nicaragua and Colombia have the separate limits in nationalityOverrides. The immigration officer determines the permitted stay, which is also capped by the qualifying residence document's expiry.",
+      "nationalityOverrides": {
+        "NI": {
+          "maxStayDays": 90,
+          "minimumPassportValidityDays": 90
+        },
+        "CO": {
+          "maxStayDays": 90,
+          "minimumPassportValidityDays": 90
+        }
+      },
+      "lastUpdated": "2026-10-20",
+      "additionalSources": [
+        {
+          "url": "https://www.icoder.go.cr/fileadmin/documentos/tramites/visas/Directrices-Generales-de-Visas-Noviembre-2025-Alcance-148-Gaceta-N_-216-17-11-2025.pdf",
+          "governmentDomain": true,
+          "accessedDate": "2026-10-20",
+          "confidence": "verified",
+          "authority": "Costa Rica Dirección General de Migración y Extranjería",
+          "exactQuote": "documentos que indican residencias en trámite",
+          "verificationPath": "Directive AJ-484-11-2025 > Primero 4, PDF page4 (funds/ticket); Sexto IV, PDF page16 (foreign-document exclusions, translations and identity differences)"
+        }
+      ]
+    },
+    {
+      "country": "GE",
+      "countryName": "Georgia",
+      "region": "europe",
+      "conditions": "US residence permit valid on the date of entry; visa-free visits for 90 calendar days in any 180-day period.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present the passport and US permanent resident card. Tourists must hold health and accident insurance covering the whole stay, with coverage of at least GEL 30,000; the policy must be available in Georgian or English, on paper or electronically. The embassy notice lists insurance exemptions for diplomatic/special visa holders, diplomatic/official/service/special passport holders, accredited mission staff and qualifying family members, entries covered by international treaties, and international road freight/passenger drivers.",
+      "source": {
+        "url": "https://gc-pfiles.mfa.gov.ge/DocFiles/2025/5/13/LegalAct/37/de83b55e-be80-48ba-b05c-081d4848616d.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "verificationPath": "Consolidated Decree 256: Annex item 3 United States (PDF page 2); entry conditions 1-2 (page 3), including the May 2025 amendment",
+        "exactQuote": "შეუძლიათ საქართველოში უვიზოდ შემოსვლა და ყოფნა ნებისმიერ 180-დღიან პერიოდში, 90 კალენდარული დღის ვადით.",
+        "confidence": "verified",
+        "supportingQuote": "ამერიკის შეერთებული შტატები",
+        "locationUrl": "https://gc-pfiles.mfa.gov.ge/DocFiles/2025/5/13/LegalAct/37/de83b55e-be80-48ba-b05c-081d4848616d.pdf#page=3"
+      },
+      "notes": "The 2025 extra validity condition for specified Gulf-issued permits concerns those permits. The US route uses validity on entry. Mandatory tourist insurance took effect on 1 January 2026.",
+      "supportingSources": [
+        {
+          "url": "https://switzerland.mfa.gov.ge/en/news/370174-saqartveloshi-mogzaurobis-msurvelta-sakuradghebod",
+          "accessedDate": "2026-10-20",
+          "verificationPath": "Georgian Embassy in Switzerland > Media Center > News > Information Regarding Mandatory Insurance for Tourists Entering Georgia (15 January 2026) > opening paragraphs and full-period-of-stay paragraph; The following persons are exempt from mandatory requirement of insurance",
+          "exactQuote": "the insurance coverage amount must be no less than 30 000 GEL.",
+          "locationUrl": "https://switzerland.mfa.gov.ge/en/news/370174-saqartveloshi-mogzaurobis-msurvelta-sakuradghebod#:~:text=the%20insurance%20coverage%20amount%20must%20be%20no%20less%20than%2030%20000%20GEL.",
+          "governmentDomain": true,
+          "confidence": "verified"
+        }
+      ],
+      "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "AM",
+      "countryName": "Armenia",
+      "region": "asia",
+      "conditions": "Nationals of the 111 countries in the linked MFA list, holding US residence valid for at least six months from entry; temporary visa exemption from 1 July 2026 to 1 July 2027, with up to 180 days in a one-year period.",
+      "maxStayDays": 180,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Valid passport and physical residence card or passport sticker. The residence document must show its title, name, nationality, date of birth and Gregorian validity dates in Latin script. Minor foreigners may enter with a parent or legal representative, or when arriving to join a parent, legal representative or receiving organization.",
+      "source": {
+        "url": "https://www.mfa.am/en/visa/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "verificationPath": "Armenian MFA > Visa > Temporary Visa Exemption and linked 111-country list dated 30 June 2026; Arrival to Armenia > minor foreigners",
+        "exactQuote": "who hold a valid residence permit issued by the United States of America",
+        "confidence": "verified",
+        "locationUrl": "https://www.mfa.am/en/visa/#:~:text=who%20hold%20a%20valid%20residence%20permit%20issued%20by%20the%20United%20States%20of%20America"
+      },
+      "notes": "Eligibility is nationality-specific and time-limited. Use the linked list and the effective dates when evaluating a traveller.",
+      "validFrom": "2026-07-01",
+      "validUntil": "2027-07-01",
+      "eligibleNationalityListUrl": "https://www.mfa.am/filemanager/consular/visa/2025/2026-06-30-LIST-OF-COUNTRIES-TEMPORARY-VISA-EXEMPTION.pdf",
+      "eligibleNationalities": [
+        "DZ",
+        "AO",
+        "AG",
+        "BS",
+        "BZ",
+        "BJ",
+        "BT",
+        "BO",
+        "BA",
+        "BW",
+        "BN",
+        "BF",
+        "BI",
+        "CV",
+        "KH",
+        "CM",
+        "CA",
+        "CF",
+        "TD",
+        "CL",
+        "CO",
+        "KM",
+        "CG",
+        "CR",
+        "CI",
+        "CU",
+        "KP",
+        "CD",
+        "DJ",
+        "DM",
+        "DO",
+        "EG",
+        "SV",
+        "GQ",
+        "ER",
+        "SZ",
+        "ET",
+        "FJ",
+        "GA",
+        "GM",
+        "GH",
+        "GD",
+        "GT",
+        "GN",
+        "GW",
+        "GY",
+        "HT",
+        "HN",
+        "IN",
+        "ID",
+        "IQ",
+        "IL",
+        "JM",
+        "JO",
+        "KE",
+        "KI",
+        "LA",
+        "LB",
+        "LR",
+        "LY",
+        "MG",
+        "MW",
+        "MY",
+        "MV",
+        "ML",
+        "MR",
+        "MU",
+        "MX",
+        "FM",
+        "MN",
+        "MA",
+        "MZ",
+        "NA",
+        "NR",
+        "NP",
+        "NI",
+        "NE",
+        "MK",
+        "PK",
+        "PW",
+        "PY",
+        "PE",
+        "PH",
+        "RW",
+        "KN",
+        "LC",
+        "VC",
+        "SN",
+        "SC",
+        "SL",
+        "SB",
+        "SO",
+        "ZA",
+        "LK",
+        "PS",
+        "SR",
+        "SY",
+        "TH",
+        "TL",
+        "TG",
+        "TT",
+        "TN",
+        "TM",
+        "TV",
+        "UG",
+        "TZ",
+        "VU",
+        "VE",
+        "VN",
+        "ZM",
+        "ZW"
+      ],
+      "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "MA",
+      "countryName": "Morocco",
+      "region": "africa",
+      "conditions": "Otherwise visa-required foreign nationals living in the US: valid ordinary passport and US residence card/permit valid for at least 180 days from the eVisa application date; approved eVisa required.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": true,
+      "additionalRequirements": "Passport valid for at least 90 days at application; colour photo and clear passport/residence-card scans. At entry, carry the eVisa, supporting residence card, return ticket, hospital/repatriation insurance, and proof of funds: an international bank card or cash equivalent to more than EUR 70 per person per day. Under-18 eVisa holders must travel with a parent or legal representative. Business applications need purpose evidence.",
+      "source": {
+        "url": "https://www.acces-maroc.ma/assets/docs/Conditions%20utilisation%20eVisa%20-%20An.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "verificationPath": "Acces Maroc government eVisa portal > Terms of use > Category B, documents and entry requirements; General Conditions (maximum validity and minors); Advice and Recommendations (entry evidence); General Conditions > consecutive eVisas and residency restriction",
+        "exactQuote": "with a residency card or residency permit valid for at least 180 days",
+        "confidence": "verified",
+        "authority": "Moroccan government eVisa service, Acces Maroc",
+        "supportingQuote": "United States of America",
+        "locationUrl": "https://www.acces-maroc.ma/assets/docs/Conditions%20utilisation%20eVisa%20-%20An.pdf#page=1"
+      },
+      "notes": "Paid, single-entry tourism/business eVisa, valid for up to 180 days from issue, with a stay of up to 30 days. Residence renewal receipts, special certificates and work permits are excluded from accepted Category B evidence. Holders of several eVisas must leave after each permitted stay before beginning a new one. This eVisa route permits tourism/business visits and excludes an application for Moroccan residency.",
+      "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "PH",
+      "countryName": "Philippines",
+      "region": "asia",
+      "conditions": "Indian nationals with an ordinary passport and valid/current US visa or residence permit may visit for tourism without a visa for 30 days.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Passport valid at least six months beyond the contemplated stay; return/onward ticket; no derogatory record with the Bureau of Immigration. Entry is permitted at any port.",
+      "source": {
+        "url": "https://evisa.gov.ph/page/policy?l1=Non-Immigrant+Visas",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "verificationPath": "Philippine eVisa > Visa policy > Visa-Free Entry for Indian Nationals, effective 8 June 2025",
+        "exactQuote": "Indian nationals holding valid and current American, Japanese, Australian, Canadian, Schengen, Singapore or United Kingdom (AJACSSUK) visas or residence permits",
+        "confidence": "verified",
+        "locationUrl": "https://evisa.gov.ph/page/policy?l1=Non-Immigrant+Visas#:~:text=Indian%20nationals%20holding%20valid%20and%20current%20American%2C%20Japanese%2C%20Australian%2C%20Canadian%2C%20Schengen%2C%20Singapore%20or%20United%20Kingdom%20%28AJACSSUK%29%20visas%20or%20residence%20permits"
+      },
+      "notes": "This Indian-passport exemption is non-extendible and non-convertible. The separate 14-day Indian tourism exemption uses a different basis.",
+      "eligibleNationalities": [
+        "IN"
+      ],
+      "extendible": false,
+      "convertible": false
+    },
+    {
+      "country": "AE",
+      "countryName": "United Arab Emirates",
+      "region": "middle_east",
+      "conditions": "Indian ordinary-passport holders with a US Green Card valid at least six months qualify for the 14-day visitor visa route.",
+      "maxStayDays": 14,
+      "visaOnArrival": true,
+      "evisaRequired": false,
+      "additionalRequirements": "Passport and US Green Card each valid at least six months; personal photo for the GDRFA online channel; payment of applicable fees and approval.",
+      "source": {
+        "url": "https://www.gdrfad.gov.ae/en/services/727c91b1-52eb-11ea-0320-0050569629e8",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "verificationPath": "GDRFA Dubai > Visa on arrival for citizens of the Republic of India > description and conditions",
+        "exactQuote": "a permanent resident card (green card) issued by the United States of America",
+        "confidence": "verified",
+        "locationUrl": "https://www.gdrfad.gov.ae/en/services/727c91b1-52eb-11ea-0320-0050569629e8#:~:text=a%20permanent%20resident%20card%20%28green%20card%29%20issued%20by%20the%20United%20States%20of%20America"
+      },
+      "notes": "The 14-day route allows one extension of the same length. GDRFA also documents an advance online channel. ICP separately lists a paid 60-day advance-application route for specified nationalities; its requirements and duration are recorded separately.",
+      "eligibleNationalities": [
+        "IN"
+      ],
+      "additionalRoutes": [
+        {
+          "type": "advance_entry_permit",
+          "maxStayDays": 60,
+          "extendible": false,
+          "eligibleNationalities": [
+            "IN",
+            "KE",
+            "ID",
+            "VN",
+            "TH",
+            "PH",
+            "ZA"
+          ],
+          "conditions": "Ordinary passport, valid US residence evidence and prior ICP approval; service also covers eligible family members. Passport validity is at least six months; enter within 30 days of visa issue.",
+          "fee": {
+            "amount": 350,
+            "currency": "AED",
+            "components": "AED 250 service fee plus AED 100 smart-service fee; listed service charges"
+          },
+          "source": {
+            "url": "https://icp.gov.ae/en/services-details/?serviceid=68f5bcdb8c587a0011cb16d5",
+            "accessedDate": "2026-10-20",
+            "verificationPath": "ICP > Issuance of a 60-day visa for nationals of certain countries residing Abroad > Terms and Conditions (eligible groups, passport, 30-day entry validity, 60-day stay) > Service fees > List of Required Documents for Service",
+            "exactQuote": "A copy of the visa/residence permit./Green Card",
+            "supportingQuote": "duration of stay within the United Arab Emirates is (60) days",
+            "locationUrl": "https://icp.gov.ae/en/services-details/?serviceid=68f5bcdb8c587a0011cb16d5#:~:text=A%20copy%20of%20the%20visa%2Fresidence%20permit.%2FGreen%20Card",
+            "governmentDomain": true,
+            "confidence": "verified"
+          }
+        }
+      ],
+      "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "BS",
+      "countryName": "Bahamas",
+      "region": "caribbean",
+      "conditions": "US permanent residents visiting for up to 30 days may enter using their original Green Card and national passport.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Original Alien Registration Card and national passport valid at least six months at entry; return/onward ticket, accommodation and evidence of funds. When a minor travels with one parent, a notarized consent letter from the other parent may be requested; travel with non-parents requires a notarized letter from the guardians, covering travel and medical consent. Travellers over one year old arriving from yellow-fever-risk countries, including airport transit exceeding 12 hours, must have the required vaccination at least ten days before entry.",
+      "source": {
+        "url": "https://www.bahamas.com/plan-your-trip/island-faq/visa-immigration?sectionid=58944",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "verificationPath": "Bahamas Ministry of Tourism > Visa and Immigration > Non-US citizens currently residing in the US; Other Countries visitor documents; minors FAQ; vaccination FAQ; Do minors travelling with one parent or non-parents need documentation?; Are vaccinations required?",
+        "exactQuote": "An original Alien Registration Card (Green Card)",
+        "confidence": "verified",
+        "authority": "Bahamas Ministry of Tourism, Investments and Aviation",
+        "locationUrl": "https://www.bahamas.com/plan-your-trip/island-faq/visa-immigration?sectionid=58944#:~:text=An%20original%20Alien%20Registration%20Card%20%28Green%20Card%29"
+      },
+      "notes": "The government tourism page requires a visa for US permanent residents visiting for longer than 30 days. The six-month passport condition applies to this residence route.",
+      "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "TR",
+      "countryName": "Türkiye",
+      "region": "europe",
+      "conditions": "Conditional paid 30-day eVisa for Cape Verde, Egypt, Equatorial Guinea, Palestine and Philippines ordinary-passport nationals holding valid US permanent residence, subject to the nationality-specific eVisa conditions.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": true,
+      "additionalRequirements": "Tourism/business travel; valid physical US Green Card, return ticket, hotel reservation and USD 50 per day. The MFA general passport rule requires validity at least 60 days beyond the visa's allowed stay: at least 90 days for this 30-day route. Apply through the official eVisa service and meet its nationality-specific conditions. Egyptian ordinary-passport holders aged 15-45 using the residence-permit route must travel with Turkish Airlines, AJet, Pegasus, Egypt Air or Air Cairo. The Los Angeles consulate describes eVisa entry through airports.",
+      "source": {
+        "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "verificationPath": "Turkish MFA > Visa Information for Foreigners > Cape Verde, Egypt, Equatorial Guinea, Palestine and Philippines paragraphs; opening travel-document validity rule and 30-day example",
+        "exactQuote": "Ordinary passport holder Cape Verde citizens with a valid Schengen members or USA, UK, Ireland visa or residence permit",
+        "confidence": "verified",
+        "locationUrl": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa#:~:text=Cape%20Verde",
+        "supportingQuote": "at least 60 days beyond"
+      },
+      "notes": "The listed nationality subset has an explicit 30-day stay in the MFA table. Egypt also has an age and airline condition.",
+      "eligibleNationalities": [
+        "CV",
+        "EG",
+        "GQ",
+        "PS",
+        "PH"
+      ],
+      "eligibilityCoverage": "verified subset",
+      "supportingSources": [
+        {
+          "url": "https://losangeles-bk.mfa.gov.tr/Mission/ShowInfoNote/411459",
+          "accessedDate": "2026-10-20",
+          "verificationPath": "Turkish Consulate General in Los Angeles > Info Notes > e-Visa Applications (18 January 2025) > four eligibility bullets > paragraph on recognized supporting documents",
+          "exactQuote": "a valid sticker US/Schengen/Ireland visas or Green Cards",
+          "locationUrl": "https://losangeles-bk.mfa.gov.tr/Mission/ShowInfoNote/411459#:~:text=a%20valid%20sticker%20US%2FSchengen%2FIreland%20visas%20or%20Green%20Cards",
+          "governmentDomain": true,
+          "confidence": "verified"
+        }
+      ],
+      "nationalityOverrides": {
+        "EG": {
+          "minimumAge": 15,
+          "maximumAge": 45,
+          "permittedAirlines": [
+            "Turkish Airlines",
+            "AJet",
+            "Pegasus",
+            "Egypt Air",
+            "Air Cairo"
+          ],
+          "notes": "The residence-document condition covers this age group. The source permits eVisa without this additional condition for Egyptians under15 or above45."
+        }
+      },
+      "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "OM",
+      "countryName": "Oman",
+      "region": "middle_east",
+      "conditions": "Visa-free visits of up to 14 days for US residents with nationality DZ/AZ/BT/CR/CU/EG/SV/GT/HN/IN/JO/KG/LA/MV/MR/MX/MA/NI/PA/PE/TJ/TN/TM/VN, as listed in the MFA second group.",
+      "maxStayDays": 14,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Passport valid at least six months; return ticket; confirmed hotel booking; health insurance and adequate funds. Present valid US residence evidence.",
+      "source": {
+        "url": "https://www.fm.gov.om/en/visitors/entry-visas/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "verificationPath": "Oman Foreign Ministry > Entry visas > Second group and controls 1-5; page updated 22 September 2026",
+        "exactQuote": "residents or have a valid entry visa for one of the following countries (the United States of America",
+        "confidence": "verified",
+        "locationUrl": "https://www.fm.gov.om/en/visitors/entry-visas/#:~:text=residents%20or%20have%20a%20valid%20entry%20visa%20for%20one%20of%20the%20following%20countries%20%28the%20United%20States%20of%20America"
+      },
+      "notes": "The 14-day facility is non-extendible and cannot be converted to residence. A spouse and children also benefit even with a different nationality. First-group citizens qualify independently of a US residence document.",
+      "eligibleNationalities": [
+        "DZ",
+        "AZ",
+        "BT",
+        "CR",
+        "CU",
+        "EG",
+        "SV",
+        "GT",
+        "HN",
+        "IN",
+        "JO",
+        "KG",
+        "LA",
+        "MV",
+        "MR",
+        "MX",
+        "MA",
+        "NI",
+        "PA",
+        "PE",
+        "TJ",
+        "TN",
+        "TM",
+        "VN"
+      ],
+      "extendible": false,
+      "convertible": false
+    },
+    {
+      "country": "CO",
+      "countryName": "Colombia",
+      "region": "south_america",
+      "conditions": "Nationals of Cambodia, India, Nicaragua, Myanmar, China, Thailand, Taiwan or Vietnam holding valid US residence may enter visa-free for short, non-remunerated visits; immigration determines the authorized stay, normally up to 90 calendar days.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present a valid passport, US residence document, exit ticket and evidence supporting the declared visit. If the passport or travel document expires before the normal permitted stay ends, admission is limited to its remaining validity. Nicaragua is subject to the applicable migration control fee.",
+      "source": {
+        "url": "https://www.cancilleria.gov.co/normograma/compilacion/docs/resolucion_minrelaciones_5488_2022.htm",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "verificationPath": "Consolidated Resolution 5488/2022 > Article 3(C), as amended by Resolution 3717/2023 > eight nationalities and valid US residence",
+        "exactQuote": "si son titulares de permiso de residencia vigente en un Estado miembro del “Espacio Schengen” o en los Estados Unidos de América",
+        "confidence": "verified",
+        "locationUrl": "https://www.cancilleria.gov.co/normograma/compilacion/docs/resolucion_minrelaciones_5488_2022.htm#:~:text=si%20son%20titulares%20de%20permiso%20de%20residencia%20vigente%20en%20un%20Estado%20miembro%20del%20%E2%80%9CEspacio%20Schengen%E2%80%9D%20o%20en%20los%20Estados%20Unidos%20de%20Am%C3%A9rica"
+      },
+      "notes": "The 180-day remaining-validity condition in Article 3(C) belongs to the foreign-visa alternative. The residence alternative requires a valid permit. The migration authority describes up-to-90-day initial PIP, extendible on request to 180 days per calendar year.",
+      "eligibleNationalities": [
+        "KH",
+        "IN",
+        "NI",
+        "MM",
+        "CN",
+        "TH",
+        "TW",
+        "VN"
+      ],
+      "supportingSources": [
+        {
+          "url": "https://portal.migracioncolombia.gov.co/fileadmin/user_upload/participa/base-de-conocimiento-v47.pdf",
+          "accessedDate": "2026-10-20",
+          "verificationPath": "Migración Colombia > Base del conocimiento, version 47 (August 2025) > PDF page 92, question 154 > duration paragraph immediately before question 155",
+          "exactQuote": "El permiso es otorgado hasta por 90 días calendario",
+          "supportingQuote": "180 días por año calendario",
+          "locationUrl": "https://portal.migracioncolombia.gov.co/fileadmin/user_upload/participa/base-de-conocimiento-v47.pdf#page=92",
+          "governmentDomain": true,
+          "confidence": "verified"
+        },
+        {
+          "url": "https://portal.migracioncolombia.gov.co/fileadmin/user_upload/participa/base-de-conocimiento-v47.pdf",
+          "governmentDomain": true,
+          "accessedDate": "2026-10-20",
+          "confidence": "verified",
+          "verificationPath": "Migración Colombia > Base del conocimiento, version47 > question131, PDF page81/printed80, note after the PIP duration table (passport-expiry cap); question132, printed81 (exit ticket)",
+          "locationUrl": "https://portal.migracioncolombia.gov.co/fileadmin/user_upload/participa/base-de-conocimiento-v47.pdf#page=81",
+          "exactQuote": "tiempo restante de vigencia del documento"
+        }
+      ],
+      "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "CA",
+      "countryName": "Canada",
+      "region": "north_america",
+      "accessType": "visa_free",
+      "conditions": "US lawful permanent residents may enter using accepted proof of US status. Air arrivals also require a valid national passport or equivalent travel document.",
+      "defaultStayMonths": 6,
+      "stayRule": "The passport stamp or visitor record controls the authorized period. Without a stamp, the standard limit is six calendar months from entry, subject to any earlier applicable passport or biometrics expiry.",
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "For land/water entry directly from the US or Saint-Pierre-et-Miquelon, accepted US status proof alone is sufficient under the cited passport exception. Form I-551, specified I-797 extension combinations, valid I-327 and specified temporary I-551 evidence are listed.",
+      "source": {
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "confidence": "verified",
+        "verificationPath": "Canada.ca > Immigration and citizenship > Visit Canada > What you need to enter Canada > US travellers > US lawful permanent residents > Entering Canada by air; Entering Canada by land or water; Acceptable proof of status",
+        "locationUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html#:~:text=a%20valid%20permanent%20resident%20(green)%20card",
+        "exactQuote": "a valid permanent resident (green) card"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/extend-stay/eligibility.html",
+          "governmentDomain": true,
+          "accessedDate": "2026-10-20",
+          "confidence": "verified",
+          "verificationPath": "Canada.ca > Extend your stay in Canada > Who can apply > When to apply > passport stamp > unstamped-passport expiry",
+          "locationUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/extend-stay/eligibility.html#:~:text=If%20you%20don%E2%80%99t%20have%20a%20stamp%20in%20your%20passport%2C%20the%20expiry%20date%20is%206%C2%A0months%20from%20the%20day%20you%20entered%20Canada.",
+          "exactQuote": "If you don’t have a stamp in your passport, the expiry date is 6 months from the day you entered Canada."
+        },
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/about-visitor-visa.html",
+          "governmentDomain": true,
+          "accessedDate": "2026-10-20",
+          "confidence": "verified",
+          "verificationPath": "Canada.ca > Visitor visa > Who needs a visitor visa > How long you can stay > paragraph beginning If you do not get a stamp in your passport",
+          "locationUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/about-visitor-visa.html#how-long",
+          "exactQuote": "whichever comes first",
+          "supportingQuote": "expiry of your biometrics or your passport expires"
+        }
+      ],
+      "notes": "The usual unstamped-passport stay is six calendar months, subject to applicable passport and biometrics validity. The period set by the border officer or visitor record controls the authorized stay.",
+      "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "CL",
+      "countryName": "Chile",
+      "region": "south_america",
+      "accessType": "visa_free",
+      "eligibleNationalities": [
+        "IN"
+      ],
+      "conditions": "Indian citizens holding a US Green Card with at least six months validity on arrival qualify for the consulate’s visa exemption.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Sufficient funds for the stay. The same paragraph discusses US visas except transit category C; this entry records the Green Card branch.",
+      "source": {
+        "url": "https://www.chile.gob.cl/nueva-delhi/visas/visas",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "confidence": "verified",
+        "verificationPath": "Chilean Consular Section in New Delhi > Visas > Antes de postular a visado chileno recuerda que > first bullet (Indian citizens; Green Card; six-month validity; 90-day stay)",
+        "locationUrl": "https://www.chile.gob.cl/nueva-delhi/visas/visas#:~:text=titulares%20de%20un%20visado%20estadounidense%20de%20cualquier%20tipo%20(incluyendo%20Green%20Card)",
+        "exactQuote": "titulares de un visado estadounidense de cualquier tipo (incluyendo Green Card)",
+        "supportingQuote": "El período máximo de estancia es de 90 días."
+      },
+      "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "PE",
+      "countryName": "Peru",
+      "region": "south_america",
+      "accessType": "visa_free",
+      "eligibleNationalities": [
+        "IN",
+        "CN"
+      ],
+      "conditions": "Indian and Chinese nationals with valid ordinary passports and permanent residence in the United States qualify for tourist and business visa exemption.",
+      "maxStayDays": 180,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "nationalityRules": [
+        {
+          "nationality": "IN",
+          "maxStayDays": 180,
+          "periodYears": 1,
+          "sourceId": "pe_in"
+        },
+        {
+          "nationality": "CN",
+          "maxStayDays": 180,
+          "periodMonths": 6,
+          "sourceId": "pe_cn"
+        }
+      ],
+      "additionalRequirements": "The periods cover one continuous stay or successive visits. The separate foreign-visa route requires six months validity; Article1(b) permanent residence has its own eligibility branch.",
+      "source": {
+        "url": "https://busquedas.elperuano.pe/dispositivo/NL/1493143-11",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "confidence": "verified",
+        "verificationPath": "El Peruano > Decreto Supremo 006-2017-RE, published 6 March 2017 > PDF viewer > page 1 (printed page 9), Article 1(b), bottom right > page 2 (printed page 10), Article 2, top left. Use the viewer page navigator to select page 2.",
+        "locationUrl": "https://busquedas.elperuano.pe/dispositivo/NL/1493143-11",
+        "exactQuote": "Tener residencia permanente en los Estados Unidos de América",
+        "supportingQuote": "durante el plazo de un año."
+      },
+      "additionalSources": [
+        {
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/1423003-3/pdf",
+          "governmentDomain": true,
+          "accessedDate": "2026-10-20",
+          "confidence": "verified",
+          "verificationPath": "El Peruano > Decreto Supremo 069-2016-RE, published 1 September 2016 > PDF view > page 2 (printed page 598002) > Article 1(b) and Article 2, left column. From the HTML view, select PDF.",
+          "locationUrl": "https://busquedas.elperuano.pe/dispositivo/NL/1423003-3/pdf",
+          "exactQuote": "Tener residencia permanente en los Estados Unidos de América",
+          "supportingQuote": "durante el plazo de seis (6) meses."
+        }
+      ],
+      "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "TW",
+      "countryName": "Taiwan",
+      "region": "asia",
+      "accessType": "travel_authorization",
+      "eligibleNationalities": [
+        "IN",
+        "ID",
+        "LA",
+        "MM",
+        "VN"
+      ],
+      "conditions": "US resident or permanent resident certificates support TAC eligibility for the five listed nationalities when valid or within the portal's qualifying ten-year expired-document window.",
+      "maxStayDays": 14,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "travelAuthorizationRequired": true,
+      "authorizationValidityDays": 90,
+      "multipleEntry": true,
+      "maxEntriesPerCalendarYear": 6,
+      "additionalRequirements": "Regular passport valid at least six months on arrival; onward/return air or ferry ticket; no previous employment as a migrant worker in Taiwan; no Taiwan immigration or legal violations; print TAC and carry the supporting document. Stay starts the day after arrival. Current portal also allows qualifying expired residence certificates within the specified ten-year window. Work permits and VOID/CANCELLED visas are excluded. Complete the online Arrival Card before each repeat entry on the same certificate; the TAC instructions exempt the first entry on that certificate from this form. The ten-year expired-document period is measured to the arrival date. The portal gives a separate issuing-date calculation where a document has no stated validity, and a permanent-resident-certificate option using 9999-12-31 where no expiry date is shown.",
+      "policyChange": "New Cambodian TAC applications ended 2026-08-01; valid certificates approved before/on that date have a separate grandfathered route.",
+      "source": {
+        "url": "https://niaspeedy.immigration.gov.tw/nia_southeast/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "confidence": "verified",
+        "verificationPath": "National Immigration Agency TAC portal > select English > 下一步/Next > 下一步 / Next > Special requirements > item 1 > first document bullet. Basic requirements and Notes give passport, ticket, stay and entry-count conditions; Notes on expired documents and Arrival Card for repeat entry; Notes8-9 (arrival-date calculation and no-expiry permanent residence)",
+        "locationUrl": "https://niaspeedy.immigration.gov.tw/nia_southeast/#:~:text=A%20valid%20resident%20or%20permanent%20resident%20certificate",
+        "exactQuote": "A valid resident or permanent resident certificate",
+        "supportingQuote": "may stay in Taiwan for 14 days, starting from the next day of arrival."
+      },
+      "notes": "Apply online for TAC and print the approval. The certificate is valid for 90 days; each stay is 14 days from the day following arrival. Up to six TAC entries per calendar year.",
+      "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "SA",
+      "countryName": "Saudi Arabia",
+      "region": "middle_east",
+      "accessType": "visa_on_arrival",
+      "conditions": "US permanent residents qualify for a Saudi tourist visa on arrival.",
+      "maxStayDays": 90,
+      "visaOnArrival": true,
+      "evisaRequired": false,
+      "visaValidityYears": 1,
+      "multipleEntry": true,
+      "source": {
+        "url": "https://www.visitsaudi.com/en/plan-your-trip/visa-regulations",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "confidence": "verified",
+        "verificationPath": "Visit Saudi > Plan Your Trip > Saudi Arabia Visa Requirements > Frequently Asked Questions > expand \"I have a permanent residency permit from the UK, US, or the EU. Can I apply for a visa on arrival?\" > expand \"What is the duration of stay for the tourist visa?\". The answers load in the browser after each question is opened.",
+        "locationUrl": "https://www.visitsaudi.com/en/plan-your-trip/visa-regulations#:~:text=U.K%2C%20U.S.%20and%20EU%20permanent%20residents%20are%20eligible%20for%20Saudi%20tourist%20visa%20on%20arrival.",
+        "authority": "Saudi Tourism Authority, Visit Saudi",
+        "exactQuote": "U.K, U.S. and EU permanent residents are eligible for Saudi tourist visa on arrival.",
+        "supportingQuote": "permits 90 days period of stay."
+      },
+      "notes": "The Saudi Tourism Authority FAQ confirms a one-year multiple-entry tourist visa and a 90-day stay allowance. The issued visa specifies the admission conditions.",
+      "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "AG",
+      "countryName": "Antigua and Barbuda",
+      "region": "caribbean",
+      "accessType": "visa_on_arrival",
+      "conditions": "Otherwise visa-required visitors holding a current US Green Card may obtain a tourist visa on arrival. The New York consulate instructs at least six months validity on the supporting document.",
+      "maxStayDays": 30,
+      "visaOnArrival": true,
+      "evisaRequired": false,
+      "visaFee": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "additionalRequirements": "The New York consulate's visitor guidance requires a passport valid for at least six months from departure, plus an onward/return ticket, accommodation and sufficient funds. Carry the qualifying US residence document with at least six months validity; immigration decides admission.",
+      "source": {
+        "url": "https://cip.gov.ag/faq/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "confidence": "verified",
+        "verificationPath": "Antigua and Barbuda Citizenship by Investment Unit > FAQ > click \"Do you offer a Visa on Arrival (VOA) service?\" > introductory paragraph and first document bullet",
+        "locationUrl": "https://cip.gov.ag/faq/#:~:text=USA%20Visa%20or%20%E2%80%98Green%20Card%E2%80%99",
+        "exactQuote": "USA Visa or ‘Green Card’",
+        "supportingQuote": "at a cost of US$ 100 valid for 30 days."
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.abconsulate.nyc/applying-for-a-visa",
+          "governmentDomain": true,
+          "accessedDate": "2026-10-20",
+          "confidence": "verified",
+          "verificationPath": "Consulate General of Antigua and Barbuda in New York > General Services > Applying for a Visa > VISA ON ARRIVAL (VOA) > supporting-document validity and US$100 fee; visitor requirements item b (six months from departure)",
+          "locationUrl": "https://www.abconsulate.nyc/applying-for-a-visa#:~:text=current%20US%20visa%20or%20US%20Permanent%20Resident%20Card",
+          "exactQuote": "current US visa or US Permanent Resident Card",
+          "supportingQuote": "valid for a minimum of six months"
+        }
+      ],
+      "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "AW",
+      "countryName": "Aruba",
+      "region": "caribbean",
+      "accessType": "visa_free",
+      "conditions": "Valid US residence permit exempts the holder from a Caribbean visa.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Passport issued within ten years and valid throughout the stay; proof of return eligibility, purpose, accommodation and sufficient funds. Complete the official ED Card before arrival when immigration clearance is required; cruise passengers normally fall outside that process unless their vessel clears immigration. A USD 20 sustainability fee for non-exempt air arrivals is collected through the ED system, with published exemptions for residents, children under eight, same-day visitors, duty crew, qualifying repeat visitors and qualifying former-resident students. NetherlandsWorldwide lists medical cover of at least USD 15,000; Aruba’s local guidance recommends insurance and requires it for a stay extension.",
+      "source": {
+        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "confidence": "verified",
+        "verificationPath": "NetherlandsWorldwide > Visa for the Caribbean parts of the Kingdom > Do I need a visa? > You hold a valid visa or residence permit for certain other countries > United States or Canada > first paragraph",
+        "locationUrl": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean#:~:text=permit%20for%20the%20United%20States",
+        "exactQuote": "permit for the United States"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.netherlandsworldwide.nl/caribbean-visa/travel-without-visa",
+          "governmentDomain": true,
+          "accessedDate": "2026-10-20",
+          "confidence": "verified",
+          "verificationPath": "NetherlandsWorldwide > Visa for the Caribbean parts of the Kingdom > Requirements for travelling without a visa > Maximum length of stay > opening paragraph; Entry requirements",
+          "locationUrl": "https://www.netherlandsworldwide.nl/caribbean-visa/travel-without-visa#:~:text=90%20days%20in%20any%20180-day%20period",
+          "exactQuote": "90 days in any 180-day period"
+        },
+        {
+          "url": "https://www.aruba.com/es/planea-tu-visita/como-llegar-a-aruba/normas-de-inmigracion",
+          "governmentDomain": true,
+          "accessedDate": "2026-10-20",
+          "confidence": "verified",
+          "authority": "Aruba Tourism Authority",
+          "exactQuote": "El período máximo estándar de tiempo que una persona puede ser admitida en Aruba como turista es de 30 días.",
+          "verificationPath": "Aruba Tourism Authority > Normas de inmigración > ¿Cuánto tiempo puedo permanecer en Aruba? > standard admission and extension bullets"
+        },
+        {
+          "url": "https://www.aruba.com/us/sustainability-fee",
+          "governmentDomain": true,
+          "accessedDate": "2026-10-20",
+          "confidence": "verified",
+          "authority": "Aruba Tourism Authority, information supplied by AWSS",
+          "exactQuote": "Children under eight years old",
+          "verificationPath": "Aruba Tourism Authority > Sustainability Fee > ED-card payment update; Who is exempt from payment?; Do cruise ship passengers need to complete an ED card?"
+        }
+      ],
+      "destinationType": "territory",
+      "lastUpdated": "2026-10-20",
+      "notes": "Aruba’s local guidance sets standard tourist admission at up to 30 days. An extension to a total of up to 90 days may be requested during that initial stay. Certain property-owner or Aruban-guarantor arrangements may support an extension up to 180 days, subject to the immigration procedure and sufficient funds and travel insurance. The local guidance caps tourist stays at 180 days per calendar year. The officer sets the admitted period."
+    },
+    {
+      "country": "SX",
+      "countryName": "Sint Maarten",
+      "region": "caribbean",
+      "accessType": "visa_free",
+      "conditions": "Valid US residence permit exempts the holder from a Caribbean visa.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Passport issued within ten years and valid throughout the stay; proof of return eligibility, purpose and accommodation; funds (hotel USD 150–200/person/day; family USD 100/person/day or sponsorship); medical coverage at least USD 15,000 including hospital care, emergency care and repatriation. Local authority may admit for a shorter period; work requires a permit. Complete the official Sint Maarten Entry Form (ED card) before arrival for each traveller, including family/group members; the portal also covers travellers transferring through Sint Maarten and visitors continuing to French Saint Martin.",
+      "source": {
+        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "confidence": "verified",
+        "verificationPath": "NetherlandsWorldwide > Visa for the Caribbean parts of the Kingdom > Do I need a visa? > You hold a valid visa or residence permit for certain other countries > United States or Canada > first paragraph",
+        "locationUrl": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean#:~:text=permit%20for%20the%20United%20States",
+        "exactQuote": "permit for the United States"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.netherlandsworldwide.nl/caribbean-visa/travel-without-visa",
+          "governmentDomain": true,
+          "accessedDate": "2026-10-20",
+          "confidence": "verified",
+          "verificationPath": "NetherlandsWorldwide > Visa for the Caribbean parts of the Kingdom > Requirements for travelling without a visa > Maximum length of stay > opening paragraph; Entry requirements",
+          "locationUrl": "https://www.netherlandsworldwide.nl/caribbean-visa/travel-without-visa#:~:text=90%20days%20in%20any%20180-day%20period",
+          "exactQuote": "90 days in any 180-day period"
+        },
+        {
+          "url": "https://entry.sx/",
+          "governmentDomain": true,
+          "accessedDate": "2026-10-20",
+          "confidence": "verified",
+          "authority": "Government of Sint Maarten Immigration and Border Protection",
+          "exactQuote": "Each traveler in a group or family are required to complete this form.",
+          "verificationPath": "Official Government of Sint Maarten Immigration and Border Protection > Register a New Sint Maarten Entry Form > introductory paragraph and Article15a notice"
+        },
+        {
+          "url": "https://www.vacationstmaarten.com/plan-your-vacation/travel-tips/passports-immigration-and-customs/",
+          "governmentDomain": true,
+          "accessedDate": "2026-10-20",
+          "confidence": "verified",
+          "authority": "Government of Sint Maarten, St. Maarten Tourist Bureau",
+          "exactQuote": "30 days uninterrupted for tourists in general",
+          "verificationPath": "St. Maarten Tourist Bureau > Passports, Immigration & Customs > How long can I stay in St. Maarten?; Visa Exemptions > United States or Canada"
+        }
+      ],
+      "destinationType": "territory",
+      "lastUpdated": "2026-10-20",
+      "stayRule": "The St. Maarten Tourist Bureau gives a standard uninterrupted tourist stay of 30 days. Nationals of Canada, the European Union other than the Netherlands, Australia, New Zealand and Japan may stay for three uninterrupted months; Dutch and US nationals may stay for six uninterrupted months. Longer stays follow the applicable extension procedure. The period authorized at the border controls the visit.",
+      "notes": "The residence permit supplies the visa exemption. The local nationality-based table supplies the admission periods; the general 90-days-in-180 statement on NetherlandsWorldwide is recorded separately."
+    },
+    {
+      "country": "BQ",
+      "countryName": "Bonaire, Sint Eustatius and Saba",
+      "region": "caribbean",
+      "accessType": "visa_free",
+      "conditions": "Valid US residence permit exempts the holder from a Caribbean visa.",
+      "maxStayDays": 90,
+      "periodDays": 180,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Passport issued within ten years and valid throughout the stay; proof of return eligibility, purpose and accommodation; funds (hotel USD 150–200/person/day; family USD 100/person/day or sponsorship); medical coverage at least USD 15,000 including hospital care, emergency care and repatriation. Local authority may admit for a shorter period; work requires a permit. For Bonaire, the Visitor Entry Tax is normally USD 75; children aged 12 or younger, qualifying island children and residents of the other five former-Antilles islands qualify for USD 10, with proof. Bonaire residents and qualifying students are exempt; cruise passengers have a separate USD 10 levy paid through the cruise line. Arrange the tax QR code before arrival; the published kiosk option permits payment on arrival if online payment fails. These Bonaire tax rules concern Bonaire, while the BQ code also covers Saba and Sint Eustatius.",
+      "source": {
+        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "confidence": "verified",
+        "verificationPath": "NetherlandsWorldwide > Visa for the Caribbean parts of the Kingdom > Do I need a visa? > You hold a valid visa or residence permit for certain other countries > United States or Canada > first paragraph",
+        "locationUrl": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean#:~:text=permit%20for%20the%20United%20States",
+        "exactQuote": "permit for the United States"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.netherlandsworldwide.nl/caribbean-visa/travel-without-visa",
+          "governmentDomain": true,
+          "accessedDate": "2026-10-20",
+          "confidence": "verified",
+          "verificationPath": "NetherlandsWorldwide > Visa for the Caribbean parts of the Kingdom > Requirements for travelling without a visa > Maximum length of stay > opening paragraph; Entry requirements",
+          "locationUrl": "https://www.netherlandsworldwide.nl/caribbean-visa/travel-without-visa#:~:text=90%20days%20in%20any%20180-day%20period",
+          "exactQuote": "90 days in any 180-day period"
+        },
+        {
+          "url": "https://bonairegov.com/natuur-en-milieu/toeristenbelasting",
+          "governmentDomain": true,
+          "accessedDate": "2026-10-20",
+          "confidence": "verified",
+          "authority": "Openbaar Lichaam Bonaire",
+          "exactQuote": "Cruisepassagiers betalen $10 per persoon",
+          "verificationPath": "Openbaar Lichaam Bonaire > Toeristenbelasting > Tarieven; Benodigde bewijsstukken; Betaal vooraf online (QR code and Pay at Kiosk option)"
+        },
+        {
+          "url": "https://bonairegov.com/en/products-and-services/nature-and-environment/visitor-entry-tax/conditions-for-an-exceptional-rate-or-exemption",
+          "governmentDomain": true,
+          "accessedDate": "2026-10-20",
+          "confidence": "verified",
+          "authority": "Openbaar Lichaam Bonaire",
+          "exactQuote": "supporting documents must be presented to the agents at the airport or seaport",
+          "verificationPath": "Openbaar Lichaam Bonaire > Visitor Entry Tax > Conditions for an exceptional rate or exemption > opening paragraph and categories1-5"
+        },
+        {
+          "url": "https://english.rijksdienstcn.com/immigration-naturalisation/tourist-stay",
+          "governmentDomain": true,
+          "accessedDate": "2026-10-20",
+          "confidence": "verified",
+          "authority": "Rijksdienst Caribisch Nederland",
+          "exactQuote": "up to 90 days every 180 days",
+          "verificationPath": "Rijksdienst Caribisch Nederland > Immigration and Naturalisation > Tourist stay > Other nationalities; compare Dutch and US citizens"
+        }
+      ],
+      "destinationType": "territory",
+      "lastUpdated": "2026-10-20",
+      "notes": "Rijksdienst Caribisch Nederland confirms up to 90 days in every 180 days for other nationalities, subject to a shorter border-authorized period. The 180-days-in-365 tourist allowance belongs to Dutch and US citizens."
+    },
+    {
+      "country": "KY",
+      "countryName": "Cayman Islands",
+      "region": "caribbean",
+      "accessType": "visa_free",
+      "conditions": "US residents arriving directly from the United States with a valid US Alien Registration Card and return/round-trip ticket to the United States qualify for the visa waiver.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Satisfy the Customs and Border Control Officer and prohibited-immigrant restrictions. The cited general country list states this residence exemption separately from nationality-specific US-visa exemptions.",
+      "source": {
+        "url": "https://otp.gov.ky/web/cbc/travel/visas-extensions/visitors-visas/list-of-countries-visa-required",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "confidence": "verified",
+        "verificationPath": "Cayman Islands Customs & Border Control > Travel > Visas & Extensions > Visitor Visas > List of Countries - Visa Required > *Exemptions > first OR paragraph (US residents); final Note (30-day limit)",
+        "locationUrl": "https://otp.gov.ky/web/cbc/travel/visas-extensions/visitors-visas/list-of-countries-visa-required#:~:text=resident%20in%20the%20United%20States%20of%20America%3B%20and%20you%20arrive%20directly%20from%20that%20country",
+        "exactQuote": "resident in the United States of America; and you arrive directly from that country",
+        "supportingQuote": "period not exceeding thirty days"
+      },
+      "destinationType": "territory",
+      "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "SG",
+      "countryName": "Singapore",
+      "accessType": "transit_only",
+      "maxStayHours": 96,
+      "eligibleNationalities": [
+        "IN",
+        "CN"
+      ],
+      "conditions": "Transit to/from a third country with US visa or long-term pass valid at least one month from entry; India and selected PRC travel-document holders.",
+      "additionalRequirements": "Enter by any mode; depart by air/sea with confirmed ticket within 96 hours. PRC Travel Document, Hong Kong DOI and Macau SAR Travel Permit are selected documents; ordinary/diplomatic/public-affairs/service PRC passports are excluded. ICA decides admission; extension unavailable. General entry requirements include a passport valid for at least six months, sufficient funds and onward-entry documents. Submit the SG Arrival Card within three days before arrival, including arrival day, when seeking immigration clearance. The published yellow-fever certificate condition applies after relevant travel in the preceding six days, including airport transit exceeding 12 hours in a risk country.",
+      "source": {
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa-free-transit-facility",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "confidence": "verified",
+        "verificationPath": "Singapore ICA > Entering, Transiting and Departing > Visa Free Transit Facility > Nationals of India and selected Nationals of PRC > requirements for the 96-hour VFTF > visa/long-term-pass bullet and country list",
+        "locationUrl": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa-free-transit-facility#:~:text=long-term%20pass%20(with%20a%20validity%20of%20at%20least%20one%20month%20from%20the%20date%20of%20entry",
+        "exactQuote": "long-term pass (with a validity of at least one month from the date of entry",
+        "supportingQuote": "United States of America"
+      },
+      "region": "asia",
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "transitOnly": true,
+      "eligiblePRCTravelDocuments": [
+        "PRC Travel Document",
+        "Hong Kong SAR Document of Identity",
+        "Macau SAR Travel Permit"
+      ],
+      "maxStayDays": 4,
+      "notes": "The actual allowance is 96 hours, as recorded in maxStayHours.",
+      "lastUpdated": "2026-10-20",
+      "additionalSources": [
+        {
+          "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore",
+          "governmentDomain": true,
+          "accessedDate": "2026-10-20",
+          "confidence": "verified",
+          "verificationPath": "ICA > Entering Singapore > General Entry Requirements > Travel Documents; SG Arrival Card; short-term traveller requirements; Public Health Requirements > Yellow Fever Requirements",
+          "exactQuote": "minimum validity of 6 months",
+          "supportingQuote": "within three (3) days (including the day of arrival)"
+        }
+      ]
+    },
+    {
+      "country": "GB",
+      "countryName": "United Kingdom",
+      "accessType": "transit_only",
+      "stayDeadline": "23:59 on the day after arrival",
+      "conditions": "Landside TWOV with a valid I-551 issued on/after 21 April 1998, air arrival/departure and confirmed onward booking outside the UK before the deadline.",
+      "additionalRequirements": "Carry a valid passport or accepted travel document and entry documents for onward destinations. An expired I-551 issued after 21 April 1998 is accepted with a valid I-797 extension letter; the carrier guidance also accepts valid I-551 Temporary Immigrant visas and specified sealed-envelope Immigration Forms 155A/155B. ADIT stamps, transportation/parole letters, sticker-only extensions, and US visa foils marked YY, ZZ or Not a visa Foil prepared at DHS request are excluded. The residence-card route permits journeys to or from countries other than the card issuer; Border Force decides admission.",
+      "source": {
+        "url": "https://www.gov.uk/government/publications/document-checks-and-charges-for-carriers/charging-procedures-a-guide-for-carriers-accessible-version",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "confidence": "verified",
+        "verificationPath": "GOV.UK > Charging procedures: a guide for carriers (accessible) > 2.5 The Transit without Visa Scheme (TWOV) > at-check-in conditions > exemption document 3 and the residence-card clarification after document 5; section1.5 (valid travel document); section2.5 document3 (temporary I-551 and excluded documents)",
+        "locationUrl": "https://www.gov.uk/government/publications/document-checks-and-charges-for-carriers/charging-procedures-a-guide-for-carriers-accessible-version#:~:text=valid%20I-551%20(Green%20Card)%20Permanent%20Residence%20card%20for%20the%20United%20States%20of%20America",
+        "exactQuote": "valid I-551 (Green Card) Permanent Residence card for the United States of America",
+        "supportingQuote": "before 23.59 hours the following day"
+      },
+      "region": "europe",
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "transitOnly": true,
+      "notes": "Landside transit deadline: before 23:59 on the calendar day following arrival. Departure and arrival must be by air.",
+      "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "KR",
+      "countryName": "South Korea",
+      "accessType": "transit_only",
+      "maxStayDays": 30,
+      "excludedNationalities": [
+        "SY",
+        "SD",
+        "IR",
+        "CU",
+        "XK",
+        "PS",
+        "AF",
+        "IQ",
+        "NG",
+        "GH",
+        "YE",
+        "GM",
+        "SN",
+        "BD",
+        "KG",
+        "PK",
+        "SO",
+        "UZ",
+        "NP",
+        "CM",
+        "LK",
+        "MM",
+        "EG"
+      ],
+      "conditions": "Visa-required eligible nationals with US permanent residency/re-entry permission transiting Korea to the US, or departing after staying in the US for their home country or a third country.",
+      "additionalRequirements": "Confirmed departure within 30 days; preceding transit-country stop no longer than three days; return to the immediately preceding departure/transit point excluded. No criminal or immigration violations in the qualifying countries, no refusal of Korean entry in the preceding three years, and no fine exceeding KRW 5 million or exit/deportation order for legal violations, including illegal stay. B-2 tourist/transit admission; carry the actual US residence document and full flight itinerary.",
+      "source": {
+        "url": "https://overseas.mofa.go.kr/us-seattle-en/brd/m_23042/view.do?page=1&seq=40",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "confidence": "verified",
+        "verificationPath": "Consulate General of the Republic of Korea in Seattle > Consular/Visa Service > Visa Requirements > Visa Free Entry for Third Country Transit Passengers (2026-01-02) > Eligibility, item 1; Conditions for Visa Free Entry; Visa Status and Period of Stay",
+        "locationUrl": "https://overseas.mofa.go.kr/us-seattle-en/brd/m_23042/view.do?page=1&seq=40#:~:text=hold%20a%20visa%20(including%20permanent%20residency%2C%20re-entry%20permit)%20to%20enter%20either%20the%20U.S",
+        "exactQuote": "hold a visa (including permanent residency, re-entry permit) to enter either the U.S",
+        "supportingQuote": "Tourist/Transit (B-2), 30 days"
+      },
+      "region": "asia",
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "transitOnly": true,
+      "lastUpdated": "2026-10-20"
+    }
+  ],
+  "coverage": {
+    "visitDestinationCount": 23,
+    "territoryDestinationCount": 5,
+    "transitOnlyDestinationCount": 3
+  }
+}

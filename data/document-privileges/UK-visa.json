@@ -14,7 +14,7 @@
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
   "lastUpdated": "2026-03-10",
-  "totalUnlocked": 35,
+  "totalUnlocked": 36,
   "unlocks": [
     {
       "country": "AL",
@@ -104,15 +104,31 @@
       "country": "GE",
       "countryName": "Georgia",
       "region": "asia",
-      "conditions": "Valid multi-entry visa or residence permit from UK, US, Canada, or Schengen",
+      "conditions": "Hold a UK visa or UK residence permit valid on the day of entry into Georgia and present a travel and/or other appropriate document proving its validity. Visa-free stays are limited to 90 calendar days in any 180-day period; this UK-document exemption does not require a multiple-entry visa.",
       "maxStayDays": 90,
       "visaOnArrival": false,
       "source": {
-        "url": "https://geoconsul.gov.ge/",
-        "accessedDate": "2026-03-01",
-        "confidence": "verified"
+        "url": "https://www.matsne.gov.ge/en/document/view/2867377",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-24",
+        "confidence": "verified",
+        "verificationPath": "Legislative Herald of Georgia > Ordinance No 256 of 5 June 2015 > annex item 12 (United Kingdom) and Notes 1–2; read alongside the 17 April 2025 amendment No 122",
+        "exactQuote": "Aliens holding a visa and/or a residence permit of any country listed in the annex may enter and stay in Georgia without visa for 90 calendar days in any 180-day period.",
+        "validityQuote": "For the purpose of entering and staying in Georgia without visa, a visa and/or a residence permit of a respective country shall be valid on the day of entry into Georgia (crossing the border), which must be evidenced by a travel and/or other appropriate document.",
+        "notes": "The English page explicitly identifies itself as the initial edition. The current change list contains the 17 April 2025 amendment No 122; its Georgian text adds the special multiple-entry/one-year conditions for specified Gulf-state documents, not UK documents. The amendment was read directly, rather than treating the initial English edition as the final consolidated text."
       },
-      "notes": "Document must be valid. 90 days per 180-day period."
+      "notes": "The 90-day allowance is cumulative within any 180-day period, not a new 90 days per entry. The visa/residence document must be valid at the Georgian border and evidenced by an appropriate document. This corrects the existing UK entry’s unsupported multiple-entry restriction; other Georgian admission requirements still apply and no right to work, study or reside is established.",
+      "evisaRequired": false,
+      "lastUpdated": "2026-10-24",
+      "amendmentSource": {
+        "url": "https://www.matsne.gov.ge/ka/document/view/6478000",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-24",
+        "confidence": "verified",
+        "language": "Georgian",
+        "verificationPath": "Ordinance No 122 of 17 April 2025 > Article 1, new Note 3 and Annex No 1; Article 2 effective 16 May 2025",
+        "notes": "The added condition names documents from the UAE, Bahrain, Saudi Arabia, Qatar, Kuwait and Oman. It does not add a multiple-entry requirement for UK visas."
+      }
     },
     {
       "country": "MD",
@@ -537,6 +553,27 @@
         "notes": "Current government page retrieved with HTTP 200 on the access date; its own last-updated assertion is 9 May 2025. The canonical link uses /coming-to-visit-ireland/short-stay-visa-waiver-programme/."
       },
       "notes": "90 days is only the maximum ceiling: permitted stay is the lesser of 90 days and remaining UK permission, subject to admission. This is the Short-Stay Visa Waiver Programme, not the separate British-Irish Visa Scheme. Ghana and other passport countries absent from the eligibility list are not covered. Ukrainian nationals, and holders of Hong Kong or Macau passports, are noted by the source as already Irish-visa-exempt independently and are not counted here as gaining an additional entitlement from a UK visa. No work, study or residence permission is established by this visitor exemption."
+    },
+    {
+      "country": "BQ",
+      "countryName": "Bonaire, Sint Eustatius and Saba",
+      "region": "caribbean",
+      "conditions": "Hold a valid multiple-entry UK visa or a valid UK residence permit. The visa exemption covers Bonaire, Sint Eustatius and Saba, subject to the entry decision and other requirements.",
+      "maxStayDays": null,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "lastUpdated": "2026-10-27",
+      "source": {
+        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "confidence": "verified",
+        "pageSection": "No visa required > You hold a valid visa or residence permit for certain other countries > United Kingdom or Ireland",
+        "verificationPath": "NetherlandsWorldwide > Visa for the Caribbean parts of the Kingdom > Do I need a visa > expand valid visa or residence permit > United Kingdom or Ireland",
+        "exactQuote": "If you hold a multiple-entry visa or residence permit for the United Kingdom or Ireland, you do not need a Caribbean visa."
+      },
+      "additionalRequirements": "Passport issued no more than 10 years ago and valid for the entire stay; proof of return or onward travel, purpose and sufficient funds; medical/travel insurance of at least USD 15,000 covering hospital care, emergency treatment and repatriation. Local registration and health requirements may apply.",
+      "notes": "BQ is one ISO destination entry covering three islands, not three bounty items. This does not cover a single-entry UK visa or imply UK citizenship. No fixed maximum stay is asserted by this entry; the permitted duration and admission are determined by local immigration authorities. Working requires a work permit."
     }
   ]
 }

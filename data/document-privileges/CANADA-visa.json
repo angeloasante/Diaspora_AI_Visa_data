@@ -12,7 +12,7 @@
     "description": "Valid Canadian visas can unlock visa-free or simplified access beyond passport privileges"
   },
   "lastUpdated": "2026-10-18",
-  "totalUnlocked": 2,
+  "totalUnlocked": 5,
   "unlocks": [
     {
       "country": "GE",
@@ -68,6 +68,74 @@
         "notes": "The source lists a valid Canadian multiple-entry visa or Canadian Permanent Residence Card as alternative qualifying documents in the same bullet; this entry records only the visa route. The exemption list does not impose a passport-nationality restriction."
       },
       "notes": "This entry covers the Canadian multiple-entry visa exemption, not permanent residence or Canadian eTA. A visa waiver does not waive other admission requirements or guarantee 30 days. Staying beyond the initial 30 days requires the appropriate Belize visitor permit extension."
+    },
+    {
+      "country": "MX",
+      "countryName": "Mexico",
+      "region": "north_america",
+      "conditions": "Hold a valid Canadian visa and a passport valid at entry and throughout the intended stay. The Mexican visa exemption applies regardless of nationality for tourism, business or transit, without engaging in paid activities in Mexico.",
+      "maxStayDays": 180,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "lastUpdated": "2026-10-20",
+      "source": {
+        "url": "https://consulmex.sre.gob.mx/toronto/index.php/en/servicesforeigners/visas",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-20",
+        "confidence": "verified",
+        "verificationPath": "Consulate General of Mexico in Toronto > Services for foreigners > Visas > Important notice: Travelling to Mexico with a visa and Further information about the process of entering Mexico; Electronic Multiple Migratory Form for Air Travel",
+        "exactQuote": "All foreign visitors, regardless of their nationality, traveling to Mexico for tourism, business or in transit to another destination, are exempt from presenting a Mexican visa as long as they have a valid visa issued by any the following countries: Canada, Japan, the United States of America, the United Kingdom or any of the countries comprising the Schengen Area.",
+        "maximumStayQuote": "allow foreign visitors to remain in Mexico (without engaging in paid activities) for up to 180 days.",
+        "notes": "The government page states Last Updated: 15 August 2025; accessed on 20 October 2026. Its separate linked visitor detail page redirected to a bot challenge and was not used as evidence."
+      },
+      "notes": "This entry covers a Canadian visa, not a Canadian eTA or a work/study permit alone. The visa exemption does not guarantee admission or a 180-day stay: Mexican immigration officers decide admission and the permitted period. Other applicable entry requirements remain in force."
+    },
+    {
+      "country": "DO",
+      "countryName": "Dominican Republic",
+      "region": "caribbean",
+      "conditions": "Hold a valid multiple-entry Canadian visa and a valid passport. Entry without a Dominican consular visa applies strictly to tourist visits using a Tourist Card (Tarjeta de Turista); single-entry visas, Canadian eTAs, and work, study, or residence purposes are not covered.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "lastUpdated": "2026-10-23",
+      "source": {
+        "url": "https://servicios360.mirex.gob.do/visas/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-23",
+        "confidence": "verified",
+        "verificationPath": "MIREX > Portal Unico de Servicios > Servicios > Visas > Decreto Num. 691-07",
+        "pageSection": "Decreto Núm. 691-07",
+        "exactQuote": "El Decreto Núm. 691-07, del 18 de diciembre de 2007, facilita la entrada a la República Dominicana a extranjeros con residencia permanente o visado de entradas múltiples vigente en Estados Unidos, Unión Europea (Schengen), Canadá o Gran Bretaña. Pueden ingresar solo con pasaporte válido y una Tarjeta de Turismo para fines turísticos."
+      },
+      "notes": "This entry records the Canadian multiple-entry visa exemption under Decreto Núm. 691-07, separately from Canadian permanent residence (recorded in CANADA-pr.json). Entry under this exemption is for tourist purposes with a valid passport and Tourist Card for up to 30 days and does not authorize work, study, or residence."
+    },
+    {
+      "country": "TC",
+      "countryName": "Turks and Caicos Islands",
+      "region": "caribbean",
+      "conditions": "Hold a valid visa for travel to Canada and present a valid passport. The visa exemption does not guarantee admission; a Border Force Officer determines entry on arrival.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "lastUpdated": "2026-10-23",
+      "source": {
+        "url": "https://borderforce.gov.tc/entry-requirements",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-23",
+        "confidence": "verified",
+        "verificationPath": "Turks and Caicos Islands Border Force > Travel > Entry Requirements > Visa-required travellers",
+        "exactQuote": "However, if you are a lawful resident of the United Kingdom, United States of America, or Canada, or hold a valid visa for travel to any of these three countries, you can enter the Turks and Caicos Islands without a visa.",
+        "admissionQuote": "A Border Force Officer will determine whether you can enter TCI when you arrive."
+      },
+      "staySource": {
+        "url": "https://www.gov.uk/foreign-travel-advice/turks-and-caicos-islands/entry-requirements",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-23",
+        "verificationPath": "GOV.UK > Foreign travel advice > Turks and Caicos Islands > Entry requirements > Visa requirements",
+        "exactQuote": "On arrival, the immigration department will normally give you permission to stay for up to 90 days."
+      },
+      "notes": "This entry records the valid Canadian visa route, separately from lawful Canadian residence (recorded in CANADA-pr.json). GOV.UK travel advice states that immigration normally grants up to 90 days on arrival, subject to Border Force determination and standard entry requirements."
     }
   ]
 }

@@ -3,11 +3,20 @@
     "type": "visa",
     "country": "US",
     "countryName": "United States",
-    "categories": ["B1", "B2", "B1/B2", "F1", "J1", "H1B", "L1", "O1"],
+    "categories": [
+      "B1",
+      "B2",
+      "B1/B2",
+      "F1",
+      "J1",
+      "H1B",
+      "L1",
+      "O1"
+    ],
     "description": "Valid US visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
   "lastUpdated": "2026-03-04",
-  "totalUnlocked": 18,
+  "totalUnlocked": 21,
   "unlocks": [
     {
       "country": "MX",
@@ -270,6 +279,74 @@
         "confidence": "verified"
       },
       "notes": "US visa allows e-Visa application for nationalities that normally cannot get e-Visa"
+    },
+    {
+      "country": "BZ",
+      "countryName": "Belize",
+      "region": "central_america",
+      "conditions": "Hold a valid multiple-entry US visa. The Belize entry-visa exemption applies to visits not exceeding 30 days; a single-entry US visa does not meet the stated exemption.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "lastUpdated": "2026-10-23",
+      "source": {
+        "url": "https://immigration.gov.bz/visa/visa-who-qualify/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-23",
+        "confidence": "verified",
+        "verificationPath": "Belize Immigration > Visa > Do you need a visa to travel to Belize? > Exemption for Belize Entry Visa for visits not exceeding 30 days",
+        "exactQuote": "If you hold a valid multiple entry visa or Permanent Residence Card from the United States of America.",
+        "maximumStayQuote": "Exemption for Belize Entry Visa for visits not exceeding 30 days.",
+        "notes": "The source lists a valid multiple-entry visa or Permanent Residence Card from the United States of America in the same bullet; this entry records the US multiple-entry visa route."
+      },
+      "notes": "This entry covers the US multiple-entry visa exemption, separately from US permanent residence (Green Card) or ESTA. A visa waiver does not waive other admission requirements or guarantee 30 days; staying beyond 30 days requires a Belize visitor permit extension at an Immigration Office."
+    },
+    {
+      "country": "RS",
+      "countryName": "Serbia",
+      "region": "europe",
+      "conditions": "Hold a valid visa of the United States of America. Entry, transit, and stay in Serbia without a prior Serbian visa are permitted for up to 90 days during a six-month period, strictly within the validity period of the supporting US visa.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "lastUpdated": "2026-10-23",
+      "source": {
+        "url": "https://mfa.rs/en/citizens/travel-serbia/visa-requirements",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-23",
+        "confidence": "verified",
+        "verificationPath": "Ministry of Foreign Affairs of the Republic of Serbia > Citizens > Travel to Serbia > Visa Requirements",
+        "exactQuote": "having a valid Schengen, UK and EU Member States' visa, or visa of the United States of America",
+        "maximumStayQuote": "enter, transit and stay in the Republic of Serbia up to 90 days during a six-month period, and within validity of said visas or residence permits."
+      },
+      "notes": "This entry records the US visa route separately from US residence permits. The 90-day allowance is cumulative within a six-month period and cannot exceed the expiration date of the supporting US visa."
+    },
+    {
+      "country": "TC",
+      "countryName": "Turks and Caicos Islands",
+      "region": "caribbean",
+      "conditions": "Hold a valid visa for travel to the United States of America and present a valid passport. The visa exemption does not guarantee admission; a Border Force Officer determines entry on arrival.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "lastUpdated": "2026-10-23",
+      "source": {
+        "url": "https://borderforce.gov.tc/entry-requirements",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-23",
+        "confidence": "verified",
+        "verificationPath": "Turks and Caicos Islands Border Force > Travel > Entry Requirements > Visa-required travellers",
+        "exactQuote": "However, if you are a lawful resident of the United Kingdom, United States of America, or Canada, or hold a valid visa for travel to any of these three countries, you can enter the Turks and Caicos Islands without a visa.",
+        "admissionQuote": "A Border Force Officer will determine whether you can enter TCI when you arrive."
+      },
+      "staySource": {
+        "url": "https://www.gov.uk/foreign-travel-advice/turks-and-caicos-islands/entry-requirements",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-23",
+        "verificationPath": "GOV.UK > Foreign travel advice > Turks and Caicos Islands > Entry requirements > Visa requirements",
+        "exactQuote": "On arrival, the immigration department will normally give you permission to stay for up to 90 days."
+      },
+      "notes": "This entry records the valid US visa route, separately from lawful US residence. GOV.UK travel advice states that immigration normally grants up to 90 days on arrival, subject to Border Force determination and standard entry requirements (such as a valid passport and return or onward ticket)."
     }
   ]
 }

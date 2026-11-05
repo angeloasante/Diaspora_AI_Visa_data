@@ -7,10 +7,10 @@
   "lastUpdated": "2026-10-16T10:09:46Z",
   "totalRoutes": 198,
   "summary": {
-    "visa_free": 41,
+    "visa_free": 40,
     "evisa": 38,
     "visa_on_arrival": 0,
-    "visa_required": 119,
+    "visa_required": 120,
     "total": 198
   },
   "routes": [
@@ -210,10 +210,19 @@
       "meta": {
         "riskLevel": "medium",
         "confidence": "verified",
-        "lastChecked": "2026-01-19",
-        "source": "passport-index-dataset"
+        "lastChecked": "2026-10-07",
+        "source": "Antigua and Barbuda Immigration Department"
       },
-      "lastUpdated": "2026-01-19T03:05:53.12"
+      "lastUpdated": "2026-10-07T00:00:00.000Z",
+      "source": {
+        "url": "https://immigration.gov.ag/visa-services/countries-exempt-from-visa/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-07",
+        "verificationPath": "Antigua and Barbuda Immigration > Visa Services > Countries Exempt from Visa; Ghana is not listed among exempt countries",
+        "exactQuote": "Citizens of countries which do not appear on any of the above list, require a visa.",
+        "confidence": "verified",
+        "notes": "Verification scope: Ghana requires a visa; the official eVisa FAQ confirms visa-required travel-document holders may apply for eVisa."
+      }
     },
     {
       "to": {
@@ -485,7 +494,7 @@
         "evisa": true,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "Electronic visa (e-Visa) required. Apply online before travel. Processing typically takes 3-7 business days."
+        "notes": "Electronic visa (e-Visa) required. Apply online before travel. For Visitor visa (subclass 600), Tourist stream (apply outside Australia), consult the Home Affairs processing-time guide. It describes recently decided applications and is not specific to an individual application."
       },
       "documents": {
         "passport": {
@@ -514,7 +523,17 @@
         "lastChecked": "2026-01-19",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T03:05:53.12"
+      "lastUpdated": "2026-10-22",
+      "source": {
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-22",
+        "pageSection": "Overview > Processing times",
+        "verificationPath": "Home Affairs > Visas > Getting a visa > Visitor visa (subclass 600) > Tourist stream (apply outside Australia) > Overview > Processing times",
+        "exactQuote": "It is a guide only and not specific to your application.",
+        "confidence": "verified",
+        "notes": "Verification covers only the processing-time statement for Visitor visa (subclass 600), Tourist stream, applying outside Australia. No fixed processing duration is asserted. Passport-specific visa eligibility, other streams, documents and transit were not reverified."
+      }
     },
     {
       "to": {
@@ -660,10 +679,19 @@
       "meta": {
         "riskLevel": "low",
         "confidence": "verified",
-        "lastChecked": "2026-01-19",
-        "source": "passport-index-dataset"
+        "lastChecked": "2026-10-07",
+        "source": "Barbados Ministry of Foreign Affairs"
       },
-      "lastUpdated": "2026-01-19T03:05:53.121"
+      "lastUpdated": "2026-10-07T00:00:00.000Z",
+      "source": {
+        "url": "https://www.foreign.gov.bb/wp-content/uploads/2025/11/Updated-visa-list-May-09-2025-002.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-07",
+        "verificationPath": "Barbados Ministry of Foreign Affairs visa list > GHANA row > foreign nationals entering Barbados",
+        "exactQuote": "No visa required. Nationals of Ghana can stay for a maximum of six (6) months.",
+        "confidence": "verified",
+        "notes": "Verification scope is limited to visa requirement and maximum stay."
+      }
     },
     {
       "to": {
@@ -1174,15 +1202,15 @@
         "beaches"
       ],
       "visa": {
-        "required": false,
-        "policy": "visa_free",
+        "required": true,
+        "policy": "visa_required",
         "type": null,
-        "freeDays": 90,
+        "freeDays": null,
         "maxStay": 90,
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "Ghanaian citizens can visit The Bahamas visa-free for up to 90 days. Ensure your passport is valid for at least 6 months."
+        "notes": "Ghanaian passport holders require a visa to visit The Bahamas. The official Bahamas visitor visa table lists Ghana as visa required, with a 3-month visit period."
       },
       "documents": {
         "passport": {
@@ -1208,10 +1236,19 @@
       "meta": {
         "riskLevel": "low",
         "confidence": "verified",
-        "lastChecked": "2026-01-19",
-        "source": "passport-index-dataset"
+        "lastChecked": "2026-10-07",
+        "source": "Government of The Bahamas"
       },
-      "lastUpdated": "2026-01-19T03:05:53.121"
+      "lastUpdated": "2026-10-07T00:00:00.000Z",
+      "source": {
+        "url": "https://cdn.bahamas.gov.bs/tenant/tenanttgotb/documents/Visa-Requirements-for-Visitors-Travelling-to-TheBahamas1-20240216054224-20250528004922.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-07",
+        "verificationPath": "Visa Requirements for Foreigners Travelling to The Bahamas > F-H table > Ghana, Republic of",
+        "exactQuote": "GHANA, REPUBLIC OF | PASSPORT | YES | 3 MONTHS",
+        "confidence": "verified",
+        "notes": "Official Government of The Bahamas visitor-visa table. This correction changes the route from visa-free to visa-required; the listed visit period remains 3 months."
+      }
     },
     {
       "to": {
@@ -1407,10 +1444,19 @@
       "meta": {
         "riskLevel": "low",
         "confidence": "verified",
-        "lastChecked": "2026-01-19",
-        "source": "passport-index-dataset"
+        "lastChecked": "2026-10-07",
+        "source": "Belize Immigration and Nationality Services"
       },
-      "lastUpdated": "2026-01-19T03:05:53.121"
+      "lastUpdated": "2026-10-07T00:00:00.000Z",
+      "source": {
+        "url": "https://immigration.gov.bz/visa/visa-who-qualify/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-07",
+        "verificationPath": "Visa > Who Qualify > Ghana row",
+        "exactQuote": "Ghana | NO",
+        "confidence": "verified",
+        "notes": "Verification scope is limited to the visa requirement. Stay-duration fields were not changed."
+      }
     },
     {
       "to": {
@@ -2213,7 +2259,7 @@
         "evisa": false,
         "onArrival": false,
         "multipleEntry": true,
-        "notes": "Schengen visa required. Apply via German Embassy Accra or VFS Global. 90/180 rule applies."
+        "notes": "For Schengen short stays, apply by advance appointment at the German Embassy in Accra after registering on its waiting list. Short stays are limited to 90 days within a 180-day period."
       },
       "documents": {
         "passport": {
@@ -2242,7 +2288,17 @@
         "lastChecked": null,
         "source": null
       },
-      "lastUpdated": "2025-12-14T01:57:39.727631"
+      "lastUpdated": "2026-10-22",
+      "source": {
+        "url": "https://accra.diplo.de/gh-en/service/-visainformation/2589774-2589774",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-22",
+        "pageSection": "General information; Receiving an Appointment; Application procedure",
+        "verificationPath": "German Embassy Accra > Visa > Short term stay - Schengen visa > Receiving an Appointment / Application procedure",
+        "exactQuote": "Please register yourself on the waiting list in order to get an appointment.",
+        "confidence": "verified",
+        "notes": "Verification covers the Schengen short-stay application channel, advance appointment/waiting-list procedure and 90 days in 180 days. It does not verify National D visas, document details or transit rules."
+      }
     },
     {
       "to": {
@@ -2358,12 +2414,12 @@
         "required": false,
         "policy": "visa_free",
         "type": null,
-        "freeDays": 180,
-        "maxStay": 180,
+        "freeDays": 90,
+        "maxStay": 90,
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "Ghanaian citizens can visit Dominica visa-free for up to 180 days. Ensure your passport is valid for at least 6 months."
+        "notes": "Ghanaian citizens can visit Dominica visa-free for up to 90 days (Ghana MFA visa-waiver list). Ensure your passport is valid for at least 6 months."
       },
       "documents": {
         "passport": {
@@ -2389,10 +2445,37 @@
       "meta": {
         "riskLevel": "low",
         "confidence": "verified",
-        "lastChecked": "2026-01-19",
-        "source": "passport-index-dataset"
+        "lastChecked": "2026-10-22",
+        "source": "Government of Dominica"
       },
-      "lastUpdated": "2026-01-19T03:05:53.123"
+      "lastUpdated": "2026-10-22T00:00:00.000Z",
+      "source": {
+        "url": "https://dominica.gov.dm/services/passports-and-travel-documents-non-nationals/do-i-need-a-visa-to-enter-into-dominica",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-22",
+        "verificationPath": "Government of Dominica > Services > Passports and Travel Documents - Non Nationals > Do I Need a Visa to Enter into Dominica?",
+        "exactQuote": "Persons from the following countries wishing to enter into the Commonwealth of Dominica for a period not exceeding six months : Countries in the Commonwealth of Nations ( Member States of the Commonwealth )",
+        "confidence": "verified",
+        "notes": "Scope: visa requirement and stay only. Ghana is named by the Ghana MFA visa-free list (Dominica, ordinary passports) and is a Commonwealth member since 1957 (Commonwealth Secretariat). The stay is set to 90 days per the Ghana MFA list (maximum duration under the Ghana-Dominica visa waiver agreement). Note that Dominica's own page allows Commonwealth nationals up to six months, so the two official sources differ. Other fields are retained without re-verification.",
+        "additionalSources": [
+          {
+            "url": "https://passport.mfa.gov.gh/visa-free-countries",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-22",
+            "verificationPath": "Ghana Passport Services (Ministry of Foreign Affairs) > Visa-Free Countries > Countries with visa-free or visa-waiver agreements with Ghana (Last updated: 8 September 2026 by MFA Ghana)",
+            "exactQuote": "90 days",
+            "notes": "Table row (page renders a table, not prose): Country 'Dominica', Ordinary Passport column marked eligible, Max Duration '90 days'."
+          },
+          {
+            "url": "https://thecommonwealth.org/our-member-countries/ghana",
+            "governmentDomain": false,
+            "accessedDate": "2026-10-22",
+            "verificationPath": "Commonwealth Secretariat > Our member countries > Ghana > Key Facts",
+            "exactQuote": "Joined the Commonwealth 1957, following independence from Britain",
+            "notes": "Official intergovernmental source (Commonwealth Secretariat), not a national government domain; cited only to confirm Ghana's Commonwealth membership."
+          }
+        ]
+      }
     },
     {
       "to": {
@@ -6140,11 +6223,11 @@
         "policy": "voa",
         "type": null,
         "freeDays": null,
-        "maxStay": null,
+        "maxStay": 30,
         "evisa": false,
         "onArrival": true,
         "multipleEntry": false,
-        "notes": "Visa on arrival available for Ghanaian citizens at Maldives ports of entry. Bring sufficient funds, return ticket, and hotel booking."
+        "notes": "Tourist visa is granted on arrival in the Maldives. A visiting foreign national may stay up to 30 days from the date of entry without a fee; Immigration may extend this up to 90 days on payment of the prescribed fee. Entry is subject to immigration clearance and current entry requirements."
       },
       "documents": {
         "passport": {
@@ -6170,10 +6253,36 @@
       "meta": {
         "riskLevel": "low",
         "confidence": "verified",
-        "lastChecked": "2026-01-19",
-        "source": "passport-index-dataset"
+        "lastChecked": "2026-10-22",
+        "source": "Maldives Immigration"
       },
-      "lastUpdated": "2026-01-19T03:05:53.124"
+      "lastUpdated": "2026-10-22T00:00:00.000Z",
+      "source": {
+        "url": "https://www.immigration.gov.mv/visa/tourist-visa",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-22",
+        "verificationPath": "Maldives Immigration > Visa > Tourist Visa - On Arrival",
+        "exactQuote": "Tourist visa is granted on arrival to the Maldives.",
+        "confidence": "verified",
+        "notes": "Scope: visa policy and initial stay only. The 30-day stay comes from Section 10(b) of the Maldives Immigration Act 2007 and matches the Ghana MFA visa-free list. Other fields are retained without re-verification.",
+        "additionalSources": [
+          {
+            "url": "https://www.immigration.gov.mv/downloads/act-regulations/Acts/The-Maldives_Immigration-Act-2007-English.pdf",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-22",
+            "verificationPath": "Maldives Immigration > Downloads > Acts > Maldives Immigration Act 2007 (English) > Section 10(b)",
+            "exactQuote": "a foreign national visiting the Maldives may remain in the Maldives for a period not exceeding 30 days from the date of entry of that visit, without the payment of any fees."
+          },
+          {
+            "url": "https://passport.mfa.gov.gh/visa-free-countries",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-22",
+            "verificationPath": "Ghana Passport Services (Ministry of Foreign Affairs) > Visa-Free Countries > Countries with visa-free or visa-waiver agreements with Ghana (Last updated: 8 September 2026 by MFA Ghana)",
+            "exactQuote": "30 days",
+            "notes": "Table row (page renders a table, not prose): Country 'Maldives', Ordinary Passport column marked eligible, Max Duration '30 days'."
+          }
+        ]
+      }
     },
     {
       "to": {
@@ -9493,10 +9602,36 @@
       "meta": {
         "riskLevel": "low",
         "confidence": "verified",
-        "lastChecked": "2026-01-19",
-        "source": "passport-index-dataset"
+        "lastChecked": "2026-10-22",
+        "source": "Ghana Ministry of Foreign Affairs"
       },
-      "lastUpdated": "2026-01-19T03:05:53.124"
+      "lastUpdated": "2026-10-22T00:00:00.000Z",
+      "source": {
+        "url": "https://passport.mfa.gov.gh/visa-free-countries",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-22",
+        "verificationPath": "Ghana Passport Services (Ministry of Foreign Affairs) > Visa-Free Countries > Countries with visa-free or visa-waiver agreements with Ghana (Last updated: 8 September 2026 by MFA Ghana)",
+        "exactQuote": "90 days",
+        "notes": "Scope: visa requirement and stay only. Ghana MFA lists Saint Vincent and the Grenadines as visa-free for Ghanaian ordinary passports for up to 90 days. SVG's Ministry of Foreign Affairs does not list Ghana among nationalities requiring a visa, and the Government of SVG reports a Ghana-SVG visa waiver MoU signed 30 November 2018. SVG's general 1-month rule for 'the majority of foreign nationals' does not name Ghana, so the existing 90-day value is retained. Other fields are retained without re-verification.",
+        "confidence": "verified",
+        "additionalSources": [
+          {
+            "url": "https://www.gov.vc/index.php/media-center/917-saint-vincent-and-the-grenadines-and-the-republic-of-ghana-signs-two-bilateral-agreements",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-22",
+            "verificationPath": "Government of SVG > Media Center > Saint Vincent And The Grenadines And The Republic Of Ghana Signs Two Bilateral Agreements",
+            "exactQuote": "the second, a Memorandum of Understanding between the Government of Ghana and the Government of Saint Vincent and the Grenadines on Visa Waiver."
+          },
+          {
+            "url": "https://foreign.gov.vc/foreign/index.php/visas",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-22",
+            "verificationPath": "Ministry of Foreign Affairs > Visas > Countries for which visa requirements apply for entry into St. Vincent and the Grenadines",
+            "exactQuote": "They are: Iran Dominican Republic Nigeria Lebanon China Iraq Syria Haiti Afghanistan Cameroon",
+            "notes": "Ghana is not on the visa-required list."
+          }
+        ]
+      }
     },
     {
       "to": {
@@ -9884,10 +10019,19 @@
       "meta": {
         "riskLevel": "low",
         "confidence": "verified",
-        "lastChecked": "2026-01-19",
-        "source": "passport-index-dataset"
+        "lastChecked": "2026-10-07",
+        "source": "Zambia Department of Immigration"
       },
-      "lastUpdated": "2026-01-19T03:05:53.125"
+      "lastUpdated": "2026-10-07T00:00:00.000Z",
+      "source": {
+        "url": "https://www.zambiaimmigration.gov.zm/nationals-who-require-visa/",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-07",
+        "verificationPath": "Zambia Department of Immigration > Nationals requiring visas on arrival or from Zambian Missions Abroad > Ghana (row 15)",
+        "exactQuote": "Nationals of the countries listed below can get visas to Zambia on arrival, at any port of entry",
+        "confidence": "verified",
+        "notes": "Ghana appears in the official visa-on-arrival list. Verification scope is limited to visa requirement."
+      }
     },
     {
       "to": {

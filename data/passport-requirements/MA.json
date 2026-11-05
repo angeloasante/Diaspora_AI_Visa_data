@@ -2966,13 +2966,17 @@
       "visa": {
         "required": true,
         "policy": "visa_required",
-        "type": null,
+        "type": "Standard Visitor visa (tourism/short visit)",
         "freeDays": null,
         "maxStay": null,
         "evisa": false,
         "onArrival": false,
-        "multipleEntry": false,
-        "notes": null
+        "notes": "Moroccan nationals are listed by the UK Home Office as visa nationals for visits to the UK and generally must secure entry clearance before travelling, subject to published exceptions. A Standard Visitor visa for a visit of up to 6 months has a UK government published application fee of GBP 135. Standard processing for overseas applications is usually 3 weeks after the UKVI processing clock starts, not a guarantee. Fee and timing refer only to the Standard Visitor category; no assertion is made for transit, employment, study, long-term visas, or visa entry multiplicity.",
+        "processingDays": "Usually 3 weeks after identity verification and application submission; longer waits possible",
+        "cost": {
+          "amount": 135,
+          "currency": "GBP"
+        }
       },
       "documents": {
         "passport": {
@@ -3001,7 +3005,39 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:27.636539"
+      "lastUpdated": "2026-10-22",
+      "source": {
+        "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-visitor-visa-national-list",
+        "governmentDomain": true,
+        "accessedDate": "2026-10-22",
+        "pageSection": "VN 1.1(a) — Morocco listed as a visa national",
+        "verificationPath": "GOV.UK > Immigration Rules > Appendix Visitor: Visa national list > VN 1.1(a) > Morocco",
+        "exactQuote": "Morocco",
+        "confidence": "verified",
+        "notes": "Scope verified: Moroccan nationality's UK visitor visa requirement (subject to exceptions); current short-stay Standard Visitor application fee and typical processing time. Original passport validity, supporting documents, transit, and risk fields are NOT re-verified and are left unchanged.",
+        "supportingSources": [
+          {
+            "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-22",
+            "pageSection": "Visa fees — Standard Visitor visa; Apply online; How long it takes to get a decision",
+            "verificationPath": "GOV.UK > Visit the UK as a Standard Visitor > Apply for a Standard Visitor visa > Visa fees",
+            "exactQuote": "£135",
+            "confidence": "verified",
+            "notes": "Published fee table gives this 6-month Standard Visitor visa fee. This is the Home Office published fee, not a localized payment quote."
+          },
+          {
+            "url": "https://www.gov.uk/guidance/visa-processing-times-applications-outside-the-uk",
+            "governmentDomain": true,
+            "accessedDate": "2026-10-22",
+            "pageSection": "When your application processing time starts; Visit visas — Standard Visitor; When you might wait longer",
+            "verificationPath": "GOV.UK > Visa processing times: applications outside the UK > Visit visas > Standard Visitor",
+            "exactQuote": "Standard Visitor",
+            "confidence": "verified",
+            "notes": "Standard Visitor decision time: usually 3 weeks after processing starts, not a guaranteed decision date. UKVI may require biometrics and supporting documents before the processing clock starts."
+          }
+        ]
+      }
     },
     {
       "to": {
