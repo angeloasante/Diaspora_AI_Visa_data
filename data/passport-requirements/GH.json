@@ -106,7 +106,7 @@
       },
       "transit": {
         "visaRequired": null,
-        "notes": "Transit passengers on Emirates/flydubai may get complimentary transit visa for layovers. Check airline policy."
+        "notes": "For entry to Dubai during a layover, GDRFA offers 48/96-hour transit visas applied for through approved airlines. Its service page lists AED 50 plus airline mediator service fees; do not assume the visa is complimentary. Airside-only transfer requirements have not been verified here."
       },
       "meta": {
         "riskLevel": "medium",
@@ -114,7 +114,17 @@
         "lastChecked": null,
         "source": null
       },
-      "lastUpdated": "2025-12-14T01:57:39.727631"
+      "lastUpdated": "2026-11-04",
+      "source": {
+        "url": "https://gdrfad.gov.ae/en/services/ee043e3c-5c61-11ea-0320-0050569629e8",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-04",
+        "pageSection": "Service description; Service Steps; Fees",
+        "verificationPath": "GDRFA Dubai > Services > Issuance of a 48/96-hour Transit Vis > Service Steps and Fees",
+        "exactQuote": "Applications should be submitted through approved airlines. AED 50, plus fees for the mediator service(Airlines).",
+        "confidence": "verified",
+        "notes": "This source verifies only the Dubai transit-visa guidance. Tourist-visa rules, document requirements and airside-only transfer requirements elsewhere in this route have not been reverified."
+      }
     },
     {
       "to": {
