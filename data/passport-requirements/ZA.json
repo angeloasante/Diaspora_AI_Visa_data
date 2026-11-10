@@ -3054,9 +3054,9 @@
             "recommended": true,
             "mandatory": false
           },
-          "yellowFeverCertificate": true
+          "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "A yellow fever vaccination certificate is not required for entry to the United Kingdom. This does not describe requirements for other destinations on an itinerary."
       },
       "transit": {
         "visaRequired": true,
@@ -3068,7 +3068,29 @@
         "lastChecked": "2026-01-19",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T03:24:43.48"
+      "lastUpdated": "2026-11-10",
+      "source": {
+        "url": "https://travel.gc.ca/destinations/united-kingdom",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-10",
+        "pageSection": "Health > Yellow Fever - Country Entry Requirements > Country Entry Requirement",
+        "verificationPath": "Government of Canada > Travel advice and advisories > United Kingdom > Health > Yellow Fever - Country Entry Requirements",
+        "exactQuote": "not required to enter",
+        "confidence": "verified",
+        "notes": "The yellow fever country-entry requirement says proof of vaccination is not required to enter the United Kingdom. The NHS separately confirms the UK rule without a nationality restriction. Verification is limited to documents.requirements.yellowFeverCertificate, not other vaccinations, onward destinations, or other route fields.",
+        "supportingSources": [
+          {
+            "url": "https://www.nhs.uk/conditions/yellow-fever/vaccination/",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-10",
+            "pageSection": "Yellow fever vaccination certificate",
+            "verificationPath": "NHS > Health A to Z > Yellow fever > Vaccination > Yellow fever vaccination certificate",
+            "exactQuote": "not needed for entry",
+            "confidence": "verified",
+            "notes": "The UK National Health Service states that a yellow fever vaccination certificate is not needed for entry into the UK. This source verifies only documents.requirements.yellowFeverCertificate; other route fields have not been reverified."
+          }
+        ]
+      }
     },
     {
       "to": {
