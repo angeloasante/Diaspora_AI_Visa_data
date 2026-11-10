@@ -2149,7 +2149,7 @@
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "90 days visa-free stay"
+        "notes": "For short tourist visits, Japanese passport holders generally do not need a visa for Germany for up to 90 days in any 180-day period. This visa exemption does not permit gainful employment; longer stays and residence are subject to separate rules."
       },
       "documents": {
         "passport": {
@@ -2178,7 +2178,16 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:05:39.704972"
+      "lastUpdated": "2026-11-05",
+      "source": {
+        "url": "https://www.auswaertiges-amt.de/en/visa-service/231148-231148",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-05",
+        "verificationPath": "Federal Foreign Office > Visa & Service > Overview of visa requirements/exemptions > Japan row and footnotes 1 and 3",
+        "exactQuote": "Japan | no (1, 3)",
+        "confidence": "verified",
+        "notes": "The Japan row and footnotes 1 and 3 confirm short-stay visa exemption and the general 90-in-180-day limit. Verification is limited to visa.required, visa.policy, visa.freeDays and the short-visit notes; legacy document, transit and other fields were not reverified."
+      }
     },
     {
       "to": {
