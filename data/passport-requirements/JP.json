@@ -8,10 +8,11 @@
   "totalRoutes": 198,
   "summary": {
     "visa_free": 117,
-    "evisa": 27,
+    "evisa": 26,
     "visa_on_arrival": 38,
     "visa_required": 16,
-    "total": 198
+    "total": 198,
+    "eta": 1
   },
   "routes": [
     {
@@ -1397,14 +1398,14 @@
       ],
       "visa": {
         "required": false,
-        "policy": "evisa",
-        "type": null,
+        "policy": "eta",
+        "type": "Electronic Travel Authorization (eTA)",
         "freeDays": null,
         "maxStay": null,
-        "evisa": true,
+        "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Citizens of Japan travelling with a passport from that country normally need an eTA, not a visitor visa, to fly to Canada for a visit. An eTA is normally not required for arrival by car, bus, train or boat (including cruise ships); however, travellers arriving by sea from Saint-Pierre-et-Miquelon (excluding cruise ships) need an eTA to board their boat. Personal-status and other exemptions may apply; see the official source."
       },
       "documents": {
         "passport": {
@@ -1433,7 +1434,16 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:05:39.432564"
+      "lastUpdated": "2026-11-05",
+      "source": {
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-05",
+        "verificationPath": "Canada.ca > What you need to enter Canada > Travellers who need an electronic travel authorization (eTA) > If you are travelling by air > Japan; then If you are travelling by land or sea and its Saint-Pierre-et-Miquelon exception",
+        "exactQuote": "Japan",
+        "confidence": "verified",
+        "notes": "Verification is limited to visitor eTA eligibility, visa.required/policy/evisa/type classification and the travel-mode scope in visa.notes. Existing passport, supporting-document, transit, stay-length, multiple-entry and other fields were not reverified."
+      }
     },
     {
       "to": {
@@ -2139,7 +2149,7 @@
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "90 days visa-free stay"
+        "notes": "For short tourist visits, Japanese passport holders generally do not need a visa for Germany for up to 90 days in any 180-day period. This visa exemption does not permit gainful employment; longer stays and residence are subject to separate rules."
       },
       "documents": {
         "passport": {
@@ -2168,7 +2178,16 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:05:39.704972"
+      "lastUpdated": "2026-11-05",
+      "source": {
+        "url": "https://www.auswaertiges-amt.de/en/visa-service/231148-231148",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-05",
+        "verificationPath": "Federal Foreign Office > Visa & Service > Overview of visa requirements/exemptions > Japan row and footnotes 1 and 3",
+        "exactQuote": "Japan | no (1, 3)",
+        "confidence": "verified",
+        "notes": "The Japan row and footnotes 1 and 3 confirm short-stay visa exemption and the general 90-in-180-day limit. Verification is limited to visa.required, visa.policy, visa.freeDays and the short-visit notes; legacy document, transit and other fields were not reverified."
+      }
     },
     {
       "to": {
@@ -2965,14 +2984,14 @@
       ],
       "visa": {
         "required": false,
-        "policy": "evisa",
-        "type": null,
+        "policy": "eta",
+        "type": "Electronic Travel Authorisation (ETA)",
         "freeDays": null,
         "maxStay": null,
-        "evisa": true,
+        "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "For a standard tourism visit by a Japanese passport holder, the UK uses an Electronic Travel Authorisation (ETA). See GOV.UK for exemptions and conditions."
       },
       "documents": {
         "passport": {
@@ -3001,7 +3020,16 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:05:40.06958"
+      "lastUpdated": "2026-11-04",
+      "source": {
+        "url": "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-04",
+        "verificationPath": "GOV.UK > Check if you can get an electronic travel authorisation (ETA) > Who can apply now > Japan",
+        "exactQuote": "Japan",
+        "confidence": "verified",
+        "notes": "Verification is limited to ETA eligibility and visa.policy/evisa/type classification for tourism. Existing document, transit, stay-length and other fields were not reverified."
+      }
     },
     {
       "to": {
@@ -8860,7 +8888,7 @@
           "blankPagesRequired": 2
         },
         "requirements": {
-          "onwardTicket": false,
+          "onwardTicket": true,
           "proofOfFunds": false,
           "accommodation": false,
           "travelInsurance": {
@@ -8869,7 +8897,7 @@
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "For visa-exempt entry, carry a confirmed return air/sea ticket, or an onward air/sea ticket with a visa for the next destination where required, and a confirmed seat reservation for departure."
       },
       "transit": {
         "visaRequired": null,
@@ -8881,7 +8909,15 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:05:40.06958"
+      "lastUpdated": "2026-11-05",
+      "source": {
+        "url": "https://www.boca.gov.tw/cp-149-4486-7785a-2.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-05",
+        "verificationPath": "BOCA > Visa > Visa-Exempt Entry, Landing Visa and eVisa > Visa-Exempt Entry > Requirements, item 3",
+        "exactQuote": "A confirmed return air/sea ticket or air/sea ticket and a visa for the next destination",
+        "notes": "Only the confirmed return/onward ticket requirement and departure-seat reservation were checked for this correction. Other existing document, health and transit fields were not verified."
+      }
     },
     {
       "to": {

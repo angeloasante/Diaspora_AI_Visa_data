@@ -3,11 +3,14 @@
     "type": "visa",
     "country": "SCHENGEN",
     "countryName": "Schengen Area",
-    "categories": ["short_stay", "type_c"],
+    "categories": [
+      "short_stay",
+      "type_c"
+    ],
     "description": "A valid Schengen visa can unlock visa-free entry or simplified entry procedures in certain non-Schengen destinations, subject to each destination's conditions"
   },
   "lastUpdated": "2026-10-05",
-  "totalUnlocked": 11,
+  "totalUnlocked": 12,
   "unlocks": [
     {
       "country": "AL",
@@ -160,6 +163,26 @@
         "confidence": "verified"
       },
       "notes": "This is a simplified e-Visa eligibility privilege rather than universal visa-free entry. It applies only to nationalities listed by Georgia's e-Visa portal."
+    },
+    {
+      "country": "DO",
+      "countryName": "Dominican Republic",
+      "region": "caribbean",
+      "conditions": "Hold a valid multiple-entry Schengen visa and a valid passport. Entry without a Dominican consular visa applies strictly to tourist visits using a Tourist Card (Tarjeta de Turista); single-entry Schengen visas and work, study, or residence purposes are not covered.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "lastUpdated": "2026-11-07",
+      "source": {
+        "url": "https://servicios360.mirex.gob.do/visas/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-07",
+        "confidence": "verified",
+        "verificationPath": "MIREX > Portal Unico de Servicios > Servicios > Visas > Decreto Num. 691-07",
+        "pageSection": "Decreto Núm. 691-07",
+        "exactQuote": "El Decreto Núm. 691-07, del 18 de diciembre de 2007, facilita la entrada a la República Dominicana a extranjeros con residencia permanente o visado de entradas múltiples vigente en Estados Unidos, Unión Europea (Schengen), Canadá o Gran Bretaña. Pueden ingresar solo con pasaporte válido y una Tarjeta de Turismo para fines turísticos."
+      },
+      "notes": "This entry records the valid multiple-entry Schengen visa exemption under Decreto Núm. 691-07. Entry under this exemption is for tourist purposes with a valid passport and Tourist Card for up to 30 days and does not authorize work, study, or residence."
     }
   ]
 }

@@ -106,7 +106,7 @@
       },
       "transit": {
         "visaRequired": null,
-        "notes": "Transit passengers on Emirates/flydubai may get complimentary transit visa for layovers. Check airline policy."
+        "notes": "For entry to Dubai during a layover, GDRFA offers 48/96-hour transit visas applied for through approved airlines. Its service page lists AED 50 plus airline mediator service fees; do not assume the visa is complimentary. Airside-only transfer requirements have not been verified here."
       },
       "meta": {
         "riskLevel": "medium",
@@ -114,7 +114,17 @@
         "lastChecked": null,
         "source": null
       },
-      "lastUpdated": "2025-12-14T01:57:39.727631"
+      "lastUpdated": "2026-11-04",
+      "source": {
+        "url": "https://gdrfad.gov.ae/en/services/ee043e3c-5c61-11ea-0320-0050569629e8",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-04",
+        "pageSection": "Service description; Service Steps; Fees",
+        "verificationPath": "GDRFA Dubai > Services > Issuance of a 48/96-hour Transit Vis > Service Steps and Fees",
+        "exactQuote": "Applications should be submitted through approved airlines. AED 50, plus fees for the mediator service(Airlines).",
+        "confidence": "verified",
+        "notes": "This source verifies only the Dubai transit-visa guidance. Tourist-visa rules, document requirements and airside-only transfer requirements elsewhere in this route have not been reverified."
+      }
     },
     {
       "to": {
@@ -3165,8 +3175,19 @@
       },
       "documents": {
         "passport": {
-          "minimumValidityMonths": 6,
-          "blankPagesRequired": 2
+          "minimumValidityMonths": 0,
+          "blankPagesRequired": 2,
+          "validForEntireStayRequired": true,
+          "notes": "There is no fixed six-month passport-validity requirement for a UK Standard Visitor. The passport or travel document must remain valid for the whole visit; 0 means no additional fixed-month buffer, not permission to use an expired document.",
+          "source": {
+            "url": "https://www.gov.uk/standard-visitor#check-you-meet-the-eligibility-requirements",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-05",
+            "confidence": "verified",
+            "pageSection": "Check you meet the eligibility requirements",
+            "verificationPath": "GOV.UK > Visas and immigration > Visit the UK > Visit the UK as a Standard Visitor > Check you meet the eligibility requirements",
+            "exactQuote": "You must have a passport or travel document to enter the UK. It should be valid for the whole of your stay."
+          }
         },
         "requirements": {
           "onwardTicket": true,
@@ -3190,7 +3211,7 @@
         "lastChecked": null,
         "source": null
       },
-      "lastUpdated": "2026-10-05",
+      "lastUpdated": "2026-11-05",
       "source": {
         "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa",
         "governmentDomain": true,
