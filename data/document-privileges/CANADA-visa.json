@@ -12,7 +12,7 @@
     "description": "Valid Canadian visas can unlock visa-free or simplified access beyond passport privileges"
   },
   "lastUpdated": "2026-10-18",
-  "totalUnlocked": 5,
+  "totalUnlocked": 8,
   "unlocks": [
     {
       "country": "GE",
@@ -136,6 +136,66 @@
         "exactQuote": "On arrival, the immigration department will normally give you permission to stay for up to 90 days."
       },
       "notes": "This entry records the valid Canadian visa route, separately from lawful Canadian residence (recorded in CANADA-pr.json). GOV.UK travel advice states that immigration normally grants up to 90 days on arrival, subject to Border Force determination and standard entry requirements."
+    },
+    {
+      "country": "PH",
+      "countryName": "Philippines",
+      "region": "asia",
+      "conditions": "Indian nationals holding a valid and current Canadian visa qualify for visa-free tourism visits of up to 30 days.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Passport valid at least six months beyond the intended stay; return or onward ticket; no derogatory Bureau of Immigration record.",
+      "source": {
+        "url": "https://evisa.gov.ph/page/policy?l1=Non-Immigrant+Visas",
+        "accessedDate": "2026-11-10",
+        "governmentDomain": true,
+        "confidence": "verified",
+        "verificationPath": "PH Visa Policy > Non-Immigrant Visas > Free to enter the Philippines without Visa > Visa Policy for Indian Nationals",
+        "pageSection": "Visa Policy for Indian Nationals: AJACSSUK visas and residence permits"
+      },
+      "notes": "Tourism only. The stay cannot be extended or converted to another admission category. This entry covers Indian nationals only.",
+      "lastUpdated": "2026-11-10"
+    },
+    {
+      "country": "OM",
+      "countryName": "Oman",
+      "region": "middle_east",
+      "conditions": "Nationals of DZ, AZ, BT, CR, CU, EG, SV, GT, HN, IN, JO, KG, LA, MV, MR, MX, MA, NI, PA, PE, TJ, TN, TM, VN holding a valid Canadian entry visa qualify for the 14-day visa exemption.",
+      "maxStayDays": 14,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Passport valid at least six months; return ticket; confirmed hotel reservation; health insurance; sufficient funds.",
+      "source": {
+        "url": "https://www.fm.gov.om/en/visitors/entry-visas/",
+        "accessedDate": "2026-11-10",
+        "governmentDomain": true,
+        "confidence": "verified",
+        "verificationPath": "Visitors > Entry visas > Second group > Full text of the regulations",
+        "pageSection": "Second group; controls 1-4"
+      },
+      "notes": "The 14-day stay cannot be extended or converted to a residence visa. Other nationalities and family-member exceptions are outside this entry.",
+      "lastUpdated": "2026-11-10"
+    },
+    {
+      "country": "SG",
+      "countryName": "Singapore",
+      "region": "asia",
+      "conditions": "Indian nationals transiting to or from a third country may use the 96-hour VFTF with a Canadian visa valid for at least one month from Singapore entry.",
+      "maxStayDays": 4,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Confirmed onward air, ferry or cruise ticket departing within 96 hours. Entry may be by any transport mode; departure must be by air or sea.",
+      "source": {
+        "url": "https://new-delhi.mfa.gov.sg/consular-services/visa-information/",
+        "accessedDate": "2026-11-10",
+        "governmentDomain": true,
+        "confidence": "verified",
+        "verificationPath": "Consular services > Visa information > Visa Free Transit Facility (VFTF) > Travellers who are nationals of India",
+        "pageSection": "Indian nationals: valid visa/long-term pass, country list and Germany/Switzerland footnote"
+      },
+      "notes": "Transit only; not an unrestricted tourist exemption. ICA decides admission and no extension is allowed. The separate used single-journey-visa return exception is not covered.",
+      "lastUpdated": "2026-11-10"
     }
   ]
 }
