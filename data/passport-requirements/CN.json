@@ -7676,7 +7676,7 @@
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "30 days visa-free stay"
+        "notes": "Holders of ordinary passports issued by the People’s Republic of China are exempt from Singapore visa requirements for stays of up to 30 days, effective 9 February 2024. The ICA notice separately exempts diplomatic, public-affairs and service passports under long-standing agreements; holders of all other PRC travel documents must still obtain an entry visa before travel. Visa exemption is not a guaranteed grant of admission or length of stay; other entry conditions remain applicable."
       },
       "documents": {
         "passport": {
@@ -7705,7 +7705,18 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:05:40.993545"
+      "lastUpdated": "2026-11-10",
+      "source": {
+        "url": "https://www.ica.gov.sg/about-ica/news-and-publications/media-room/mutual-30-day-visa-exemption-arrangement-between-singapore-and-the-people-s-republic-of-china",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-10",
+        "confidence": "verified",
+        "pageSection": "Paragraphs 1, 3 and 4",
+        "verificationPath": "ICA > About ICA > News and Publications > Media Room > Mutual 30-Day Visa-Exemption Arrangement Between Singapore and The People’s Republic Of China",
+        "exactQuote": "With effect from 9 February 2024, holders of ordinary passports issued by the People’s Republic of China (PRC) will be exempted from visa requirements for a stay of up to 30 days in Singapore.",
+        "documentExceptionQuote": "Holders of all other travel documents issued by the PRC must continue to apply for an entry visa before travel into Singapore.",
+        "notes": "First official-source verification of this existing route’s ordinary-passport visa exemption and 30-day ceiling only. Other legacy document, health, transit and supporting-document fields have not been reverified. The underlying policy/freeDays values were already correct and are preserved."
+      }
     },
     {
       "to": {
