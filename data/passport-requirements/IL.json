@@ -8,10 +8,11 @@
   "totalRoutes": 198,
   "summary": {
     "visa_free": 105,
-    "evisa": 31,
+    "evisa": 30,
     "visa_on_arrival": 33,
     "visa_required": 29,
-    "total": 198
+    "total": 198,
+    "eta": 1
   },
   "routes": [
     {
@@ -2965,14 +2966,14 @@
       ],
       "visa": {
         "required": false,
-        "policy": "evisa",
-        "type": null,
+        "policy": "eta",
+        "type": "Electronic Travel Authorisation (ETA)",
         "freeDays": null,
         "maxStay": null,
-        "evisa": true,
+        "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Israeli passport holders need an ETA before travel for visits of up to six months, unless an exemption applies. An ETA is advance travel permission, not an eVisa, and does not guarantee entry. Other purposes may require a visa. This update verifies the ETA classification only; existing document and transit fields remain unverified."
       },
       "documents": {
         "passport": {
@@ -2997,11 +2998,21 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
+        "confidence": "verified",
+        "lastChecked": "2026-11-07",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:24.772616"
+      "lastUpdated": "2026-11-07",
+      "source": {
+        "url": "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-07",
+        "pageSection": "Who can apply now",
+        "verificationPath": "GOV.UK > Check if you can get an electronic travel authorisation (ETA) > Who can apply now > Israel",
+        "exactQuote": "Israel",
+        "confidence": "verified",
+        "notes": "Scoped verification of ETA eligibility/classification and the general six-month visitor limit. See https://www.gov.uk/eta/what-you-can-cannot-do for permitted purposes, exemptions and the absence of an admission guarantee. Existing document and transit fields were not reverified."
+      }
     },
     {
       "to": {
