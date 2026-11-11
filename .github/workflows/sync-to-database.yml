@@ -92,7 +92,7 @@ jobs:
                       },
                       transit_info: route.transit || {},
                       document_requirements: {
-                        passport_min_validity_months: route.documents?.passport?.minimumValidityMonths || 6,
+                        passport_min_validity_months: route.documents?.passport?.minimumValidityMonths ?? null,
                         blank_pages_required: route.documents?.passport?.blankPagesRequired || 2,
                         onward_ticket_required: route.documents?.requirements?.onwardTicket || false,
                         proof_of_funds_required: route.documents?.requirements?.proofOfFunds || false,
