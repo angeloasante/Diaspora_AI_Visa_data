@@ -6,10 +6,10 @@
     "categories": [
       "permanent_resident"
     ],
-    "description": "Canadian permanent resident card: verified visitor visa exemptions for Mexico, Belize, the Dominican Republic, Georgia, the Cayman Islands, the Turks and Caicos Islands, Aruba, Curacao, Sint Maarten, and Bonaire/Sint Eustatius/Saba. This is a partial destination list."
+    "description": "Canadian permanent resident card: verified visitor visa exemptions and conditional eVisa access, subject to destination-specific requirements. This is a partial destination list."
   },
   "lastUpdated": "2026-10-06",
-  "totalUnlocked": 10,
+  "totalUnlocked": 11,
   "unlocks": [
     {
       "country": "MX",
@@ -232,6 +232,29 @@
       },
       "additionalRequirements": "Passport issued no more than 10 years ago and valid throughout the stay; proof of return or onward travel; evidence of purpose and sufficient funds; medical/travel insurance covering at least USD 15,000, including hospital care, emergency treatment and repatriation. Check destination-specific registration and health requirements.",
       "notes": "This records the Canadian permanent-residence route, not Canadian citizenship or a Canadian visitor visa. No fixed maximum stay is asserted by this entry; the permitted duration and admission are determined by local immigration authorities. Working requires a work permit."
+    },
+    {
+      "country": "MA",
+      "countryName": "Morocco",
+      "region": "africa",
+      "conditions": "For otherwise visa-required foreign citizens living in Canada: hold an ordinary passport valid for at least 90 days from the eVisa application date and a Canadian permanent residence card or permit valid for at least 180 days on that date; obtain an approved Moroccan eVisa.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": true,
+      "lastUpdated": "2026-11-10",
+      "source": {
+        "url": "https://www.acces-maroc.ma/assets/docs/Conditions%20utilisation%20eVisa%20-%20An.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-10",
+        "confidence": "verified",
+        "pageSection": "PRESENTATION — Category B; GENERAL CONDITIONS; ADVICE AND RECOMMENDATIONS",
+        "verificationPath": "Open the official General Information PDF directly; read PRESENTATION > Category B (Canada and residence-document validity), GENERAL CONDITIONS (single entry, validity, stay and minors), and ADVICE AND RECOMMENDATIONS (border evidence).",
+        "exactQuote": "residency card or residency permit valid for at least 180 days",
+        "countryQuote": "Australia, Canada, United Kingdom",
+        "stayQuote": "period of stay not exceeding 30 days"
+      },
+      "additionalRequirements": "At border checks, residence evidence, a return ticket, proof of means and hospital/repatriation insurance may be requested. Applicants under 18 must enter with a parent or legal representative.",
+      "notes": "This is conditional eVisa eligibility, not visa-free entry or a visa on arrival. The approved eVisa allows a single entry, up to 30 days of stay and at most 180 days of validity from issue. Approval and admission are not guaranteed. Tourism/business only, not Moroccan residence; successive eVisas cannot extend one uninterrupted stay."
     }
   ]
 }
