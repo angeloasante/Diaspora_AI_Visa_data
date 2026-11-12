@@ -85,7 +85,7 @@
         "evisa": true,
         "onArrival": false,
         "multipleEntry": true,
-        "notes": "The UAE government visa-exemption table marks Ghanaian normal-passport holders as visa required, so they are not eligible for visa-free entry or visa on arrival solely by nationality. A tourist visa must be arranged in advance through an eligible UAE-based airline, hotel or licensed travel agency. This verification does not cover work or residence visas, or guarantee a particular tourist-visa duration."
+        "notes": "The UAE Ministry of Foreign Affairs' visa information for entry to the UAE lists the Republic of Ghana as visa required. Ghanaian ordinary-passport holders therefore need an entry visa in advance unless another specific eligibility rule applies. The UAE government tourist-visa page says tourist visas can be arranged through eligible UAE-based airlines, hotels or licensed travel agencies. This verification does not cover work or residence visas, or guarantee a particular tourist-visa duration."
       },
       "documents": {
         "passport": {
@@ -110,20 +110,20 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
+        "confidence": "verified",
         "lastChecked": "2026-11-11",
-        "source": "UAE government visa-exemption table and official visa portal"
+        "source": "UAE Ministry of Foreign Affairs and official UAE visa portal"
       },
       "lastUpdated": "2026-11-11",
       "source": {
-        "url": "https://assets.u.ae/api/public/content/531126a24c2b4940acae0a9ecb5f89d9?v=79c19310",
+        "url": "https://www.mofa.gov.ae/en/visa-exemptions-for-non-citizen/",
         "governmentDomain": true,
         "accessedDate": "2026-11-11",
-        "pageSection": "Visa Waiver table, row 66 (Republic of Ghana), Normal passport column; legend",
-        "verificationPath": "UAE Government portal > Information and services > Passports and travelling > Visa exemptions > Visa Waiver table > row 66 Republic of Ghana > Normal",
-        "exactQuote": "Republic of Ghana | N | N | N | N",
+        "pageSection": "Visa information to enter the country > Visa Exemptions > Republic of Ghana",
+        "verificationPath": "UAE Ministry of Foreign Affairs > Visa Exemptions for Non Citizen > Republic of Ghana",
+        "exactQuote": "Republic of Ghana | Visa Required",
         "confidence": "verified",
-        "notes": "The table legend defines N as visa required. This source verifies visa.required, visa.policy and visa.onArrival for an ordinary Ghanaian passport; it does not verify work/residence visas or exact tourist-visa fees and durations.",
+        "notes": "The Ministry of Foreign Affairs page is explicitly visa information for entry to the UAE and lists Ghana as visa required. It verifies visa.required, visa.policy and visa.onArrival for ordinary Ghanaian travelers; it does not verify work/residence visas or exact tourist-visa fees and durations.",
         "supportingSources": [
           {
             "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae",
