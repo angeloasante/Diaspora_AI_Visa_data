@@ -1,9 +1,10 @@
 name: Flag Stale Entries
 
 on:
-  schedule:
-    # Run weekly on Sunday at midnight UTC
-    - cron: '0 0 * * 0'
+  # The weekly schedule is off. It compares each file's top-level lastUpdated with
+  # today, but contributors no longer edit that line (see CONTRIBUTING.md), so
+  # nearly every file counts as stale, and the issue it opens advertises a £1
+  # bounty that the monthly pool cannot fund. Run it by hand if needed.
   workflow_dispatch: # Allow manual trigger
 
 jobs:
