@@ -73,15 +73,15 @@
         "tourism"
       ],
       "visa": {
-        "required": false,
-        "policy": "evisa",
-        "type": null,
+        "required": true,
+        "policy": "visa_required",
+        "type": "Tourist visa / entry visa",
         "freeDays": null,
         "maxStay": null,
         "evisa": true,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "The UAE Ministry of Foreign Affairs' visa information for entry to the UAE lists the Kingdom of Morocco as visa required. Moroccan ordinary-passport holders therefore need an entry visa in advance unless another specific eligibility rule applies. The UAE government tourist-visa page says tourist visas can be arranged through eligible UAE-based airlines, hotels or licensed travel agencies. This verification does not cover work or residence visas, or guarantee a particular tourist-visa duration."
       },
       "documents": {
         "passport": {
@@ -106,11 +106,37 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-11-11",
+        "source": "UAE Ministry of Foreign Affairs and official UAE visa portal"
       },
-      "lastUpdated": "2026-01-19T04:15:27.636539"
+      "lastUpdated": "2026-11-11",
+      "source": {
+        "url": "https://www.mofa.gov.ae/en/visa-exemptions-for-non-citizen/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-11",
+        "pageSection": "Visa information to enter the country > Visa Exemptions > Kingdom of Morocco",
+        "verificationPath": "UAE Ministry of Foreign Affairs > Visa Exemptions for Non Citizen > Kingdom of Morocco",
+        "exactQuote": "Kingdom of Morocco | Visa Required",
+        "confidence": "verified",
+        "notes": "The Ministry of Foreign Affairs page is explicitly visa information for entry to the UAE and lists Morocco as visa required. It verifies visa.required, visa.policy and visa.onArrival for ordinary Moroccan travelers; it does not verify work/residence visas or exact tourist-visa fees and durations.",
+        "supportingSources": [
+          {
+            "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-11",
+            "pageSection": "Check if you need a visa to enter the UAE; Visa eligibility; note",
+            "exactQuote": "Some of the other nationalities can obtain a visa on arrival while others need to apply for a visa in advance. Passports must be valid for at least 6 months from the date of entry into the UAE."
+          },
+          {
+            "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/tourist-visa",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-11",
+            "pageSection": "Tourist visa; introductory guidance",
+            "exactQuote": "A tourist visa is for those who are not eligible for visa on arrival or a visa-free entry to the UAE. You can apply for a tourist visa through airlines, hotels and travel agents."
+          }
+        ]
+      }
     },
     {
       "to": {
