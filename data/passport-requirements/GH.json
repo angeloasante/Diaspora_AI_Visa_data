@@ -85,7 +85,7 @@
         "evisa": true,
         "onArrival": false,
         "multipleEntry": true,
-        "notes": "Visa required. Can apply online or through travel agents. Emirates offers transit visa assistance for passengers."
+        "notes": "The UAE Ministry of Foreign Affairs' visa information for entry to the UAE lists the Republic of Ghana as visa required. Ghanaian ordinary-passport holders therefore need an entry visa in advance unless another specific eligibility rule applies. The UAE government tourist-visa page says tourist visas can be arranged through eligible UAE-based airlines, hotels or licensed travel agencies. This verification does not cover work or residence visas, or guarantee a particular tourist-visa duration."
       },
       "documents": {
         "passport": {
@@ -102,7 +102,7 @@
           },
           "yellowFeverCertificate": true
         },
-        "notes": "Hotel booking or host details required. Some nationalities can get visa on arrival - confirm for Ghana."
+        "notes": "Passport must be valid for at least 6 months from the date of entry. Ghanaian normal-passport holders require a visa in advance; the official tourist-visa guidance describes airline, hotel and licensed travel-agency application channels."
       },
       "transit": {
         "visaRequired": null,
@@ -110,20 +110,51 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": null
-      },
-      "lastUpdated": "2026-11-04",
-      "source": {
-        "url": "https://gdrfad.gov.ae/en/services/ee043e3c-5c61-11ea-0320-0050569629e8",
-        "governmentDomain": true,
-        "accessedDate": "2026-11-04",
-        "pageSection": "Service description; Service Steps; Fees",
-        "verificationPath": "GDRFA Dubai > Services > Issuance of a 48/96-hour Transit Vis > Service Steps and Fees",
-        "exactQuote": "Applications should be submitted through approved airlines. AED 50, plus fees for the mediator service(Airlines).",
         "confidence": "verified",
-        "notes": "This source verifies only the Dubai transit-visa guidance. Tourist-visa rules, document requirements and airside-only transfer requirements elsewhere in this route have not been reverified."
+        "lastChecked": "2026-11-11",
+        "source": "UAE Ministry of Foreign Affairs and official UAE visa portal"
+      },
+      "lastUpdated": "2026-11-11",
+      "source": {
+        "url": "https://www.mofa.gov.ae/en/visa-exemptions-for-non-citizen/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-11",
+        "pageSection": "Visa information to enter the country > Visa Exemptions > Republic of Ghana",
+        "verificationPath": "UAE Ministry of Foreign Affairs > Visa Exemptions for Non Citizen > Republic of Ghana",
+        "exactQuote": "Republic of Ghana | Visa Required",
+        "confidence": "verified",
+        "notes": "The Ministry of Foreign Affairs page is explicitly visa information for entry to the UAE and lists Ghana as visa required. It verifies visa.required, visa.policy and visa.onArrival for ordinary Ghanaian travelers; it does not verify work/residence visas or exact tourist-visa fees and durations.",
+        "supportingSources": [
+          {
+            "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-11",
+            "pageSection": "Visa eligibility; note",
+            "verificationPath": "UAE Government portal > Visa information > Check if you need a visa to enter the UAE > Visa eligibility",
+            "exactQuote": "Passports must be valid for at least 6 months from the date of entry into the UAE.",
+            "confidence": "verified"
+          },
+          {
+            "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/tourist-visa",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-11",
+            "pageSection": "Tourist visa; Tourist visas through agencies and hotels",
+            "verificationPath": "UAE Government portal > Visa and Emirates ID > Tourist visa",
+            "exactQuote": "A tourist visa is for those who are not eligible for visa on arrival or a visa-free entry to the UAE.",
+            "confidence": "verified",
+            "notes": "The same page says UAE-based airlines, hotels and licensed travel agencies can arrange tourist visas."
+          },
+          {
+            "url": "https://gdrfad.gov.ae/en/services/ee043e3c-5c61-11ea-0320-0050569629e8",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-04",
+            "pageSection": "Service description; Service Steps; Fees",
+            "verificationPath": "GDRFA Dubai > Services > Issuance of a 48/96-hour Transit Visa > Service Steps and Fees",
+            "exactQuote": "Applications should be submitted through approved airlines. AED 50, plus fees for the mediator service(Airlines).",
+            "confidence": "verified",
+            "notes": "This previously recorded source verifies only the Dubai transit-visa guidance."
+          }
+        ]
       }
     },
     {
