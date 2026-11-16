@@ -2842,15 +2842,20 @@
       "region": "europe",
       "popularFor": [],
       "visa": {
-        "required": true,
+        "required": false,
         "policy": "eta",
-        "type": null,
+        "type": "Electronic Travel Authorisation (ETA)",
         "freeDays": null,
         "maxStay": null,
-        "evisa": true,
+        "evisa": false,
         "onArrival": false,
-        "multipleEntry": false,
-        "notes": "Electronic Travel Authorization (ETA) required. Apply online before travel. Usually processed within 72 hours."
+        "multipleEntry": true,
+        "notes": "Tourists normally need an ETA before travel for visits of up to six months. Separate exemptions include British or Irish passport holders and people with UK permission to live, work or study.",
+        "cost": {
+          "amount": 20,
+          "currency": "GBP"
+        },
+        "applicationUrl": "https://www.gov.uk/eta/apply"
       },
       "documents": {
         "passport": {
@@ -2879,7 +2884,36 @@
         "lastChecked": "2026-01-19",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T03:59:12.4"
+      "lastUpdated": "2026-11-16",
+      "source": {
+        "url": "https://www.gov.uk/guidance/check-when-you-can-get-an-electronic-travel-authorisation-eta",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-16",
+        "confidence": "verified",
+        "pageSection": "Who can apply now",
+        "verificationPath": "GOV.UK > Check if you can get an electronic travel authorisation (ETA) > Who can apply now > United States",
+        "exactQuote": "United States",
+        "supportingSources": [
+          {
+            "url": "https://www.gov.uk/eta",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-16",
+            "confidence": "verified",
+            "pageSection": "Overview",
+            "verificationPath": "GOV.UK > Get an electronic travel authorisation (ETA) to visit the UK > Overview",
+            "exactQuote": "An ETA (electronic travel authorisation) costs £20."
+          },
+          {
+            "url": "https://www.gov.uk/eta/apply",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-16",
+            "confidence": "verified",
+            "pageSection": "How long it lasts",
+            "verificationPath": "GOV.UK > Get an electronic travel authorisation (ETA) to visit the UK > Apply for an ETA > How long it lasts",
+            "exactQuote": "You can travel to the UK as many times as you want while you have an ETA (electronic travel authorisation)."
+          }
+        ]
+      }
     },
     {
       "to": {
