@@ -206,16 +206,16 @@ All data follows a strict schema. See [SCHEMA.md](SCHEMA.md) for full documentat
 <!-- LEADERBOARD:START -->
 | Rank | Contributor | Contributions | Countries |
 |------|-------------|---------------|-----------|
-| 🥇 | samproductnotes-crypto | 12 | 4 |
-| 🥈 | Mhamed Askoure | 10 | 7 |
-| 🥉 | BeakDo | 10 | 0 |
-| 4 | void389 | 7 | 7 |
-| 5 | gonzalogamiz | 7 | 5 |
-| 6 | angeloasante | 6 | 128 |
-| 7 | soundcake | 5 | 1 |
-| 8 | chen418318-cloud | 4 | 1 |
-| 9 | Xiaolong Pan | 4 | 1 |
-| 10 | zongsm-cmyk | 3 | 20 |
+| 🥇 | void389 | 55 | 51 |
+| 🥈 | samproductnotes-crypto | 12 | 4 |
+| 🥉 | gonzalogamiz | 11 | 9 |
+| 4 | Mhamed Askoure | 10 | 7 |
+| 5 | BeakDo | 10 | 0 |
+| 6 | Xiaolong Pan | 8 | 3 |
+| 7 | angeloasante | 6 | 128 |
+| 8 | LoganzZzZzZ | 6 | 4 |
+| 9 | soundcake | 5 | 1 |
+| 10 | Joaquin B | 5 | 5 |
 <!-- LEADERBOARD:END -->
 
 ---
