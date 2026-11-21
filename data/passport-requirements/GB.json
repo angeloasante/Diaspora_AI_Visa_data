@@ -6320,15 +6320,16 @@
       "region": "oceania",
       "popularFor": [],
       "visa": {
-        "required": true,
+        "required": false,
         "policy": "eta",
-        "type": null,
+        "type": "New Zealand Electronic Travel Authority (NZeTA)",
         "freeDays": null,
         "maxStay": null,
-        "evisa": true,
+        "evisa": false,
         "onArrival": false,
-        "multipleEntry": false,
-        "notes": "Electronic Travel Authorization (ETA) required. Apply online before travel. Usually processed within 72 hours."
+        "multipleEntry": true,
+        "notes": "Get an NZeTA before travelling on the visitor visa waiver. The visa is issued at the border if entry permission is granted. British citizens and other British passport holders with the right to reside permanently in the UK may stay for up to six months.",
+        "applicationUrl": "https://www.immigration.govt.nz/visas/new-zealand-electronic-travel-authority-nzeta/"
       },
       "documents": {
         "passport": {
@@ -6357,7 +6358,36 @@
         "lastChecked": "2026-01-19",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T03:59:10.749"
+      "lastUpdated": "2026-11-16",
+      "source": {
+        "url": "https://www.immigration.govt.nz/visit/what-you-need-to-visit-new-zealand/visa-waiver-countries-and-territories/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-16",
+        "confidence": "verified",
+        "pageSection": "List of visa waiver countries and territories",
+        "verificationPath": "Immigration New Zealand > Visa waiver countries and territories > List of visa waiver countries and territories > United Kingdom (UK) (citizens and other British passport holders who have the right to reside permanently in the UK)",
+        "exactQuote": "United Kingdom (UK) (citizens and other British passport holders who have the right to reside permanently in the UK)",
+        "supportingSources": [
+          {
+            "url": "https://www.immigration.govt.nz/visas/visa-waiver-visitor-visa/",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-16",
+            "confidence": "verified",
+            "pageSection": "Overview and How long you can stay",
+            "verificationPath": "Immigration New Zealand > Visa Waiver Visitor Visa > Overview > Length of Stay",
+            "exactQuote": "3 months, or 6 months for UK citizens"
+          },
+          {
+            "url": "https://www.immigration.govt.nz/visas/new-zealand-electronic-travel-authority-nzeta/",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-16",
+            "confidence": "verified",
+            "pageSection": "Reusing your NZeTA",
+            "verificationPath": "Immigration New Zealand > New Zealand Electronic Travel Authority (NZeTA) > Reusing your NZeTA",
+            "exactQuote": "You can use your NZeTA to travel to New Zealand multiple times while it is valid."
+          }
+        ]
+      }
     },
     {
       "to": {

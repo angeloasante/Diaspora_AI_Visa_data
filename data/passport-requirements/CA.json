@@ -6644,14 +6644,15 @@
       ],
       "visa": {
         "required": false,
-        "policy": "evisa",
-        "type": null,
+        "policy": "eta",
+        "type": "New Zealand Electronic Travel Authority (NZeTA)",
         "freeDays": null,
         "maxStay": null,
-        "evisa": true,
+        "evisa": false,
         "onArrival": false,
-        "multipleEntry": false,
-        "notes": null
+        "multipleEntry": true,
+        "notes": "Get an NZeTA before travelling on the visitor visa waiver. The visa is issued at the border if entry permission is granted. Eligible visa-waiver visitors can usually stay for up to three months per visit.",
+        "applicationUrl": "https://www.immigration.govt.nz/visas/new-zealand-electronic-travel-authority-nzeta/"
       },
       "documents": {
         "passport": {
@@ -6680,7 +6681,36 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:04:01.085748"
+      "lastUpdated": "2026-11-16",
+      "source": {
+        "url": "https://www.immigration.govt.nz/visit/what-you-need-to-visit-new-zealand/visa-waiver-countries-and-territories/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-16",
+        "confidence": "verified",
+        "pageSection": "List of visa waiver countries and territories",
+        "verificationPath": "Immigration New Zealand > Visa waiver countries and territories > List of visa waiver countries and territories > Canada",
+        "exactQuote": "Canada",
+        "supportingSources": [
+          {
+            "url": "https://www.immigration.govt.nz/visas/visa-waiver-visitor-visa/",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-16",
+            "confidence": "verified",
+            "pageSection": "Overview and How long you can stay",
+            "verificationPath": "Immigration New Zealand > Visa Waiver Visitor Visa > Overview > Length of Stay",
+            "exactQuote": "3 months, or 6 months for UK citizens"
+          },
+          {
+            "url": "https://www.immigration.govt.nz/visas/new-zealand-electronic-travel-authority-nzeta/",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-16",
+            "confidence": "verified",
+            "pageSection": "Reusing your NZeTA",
+            "verificationPath": "Immigration New Zealand > New Zealand Electronic Travel Authority (NZeTA) > Reusing your NZeTA",
+            "exactQuote": "You can use your NZeTA to travel to New Zealand multiple times while it is valid."
+          }
+        ]
+      }
     },
     {
       "to": {
