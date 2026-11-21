@@ -92,15 +92,20 @@
       "country": "ME",
       "countryName": "Montenegro",
       "region": "europe",
-      "conditions": "Valid multi-entry US, UK, or Schengen visa",
+      "conditions": "Hold a valid United States visa and a valid foreign travel document. This permits entry, transit and stays of up to 30 days, limited to the visa's remaining validity.",
       "maxStayDays": 30,
       "visaOnArrival": false,
       "source": {
-        "url": "http://www.mvp.gov.me/en/ministry",
-        "accessedDate": "2026-03-01",
-        "confidence": "verified"
+        "url": "https://www.gov.me/en/diplomatic-missions/embassies-and-consulates-of-montenegro/united-kingdom-of-great-britain-and-northern-ireland",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-16",
+        "confidence": "verified",
+        "pageSection": "Introductory paragraph on visas and residence permits issued abroad",
+        "verificationPath": "Government of Montenegro > Embassies and consulates of Montenegro > United Kingdom > introductory paragraph above the Visa regime heading",
+        "exactQuote": "up to 30 days, but no longer than the expiration of their visa if the validity period is shorter than 30 days."
       },
-      "notes": "30 days per visit"
+      "notes": "This entry covers the visa issued by the named country.",
+      "lastUpdated": "2026-11-16"
     },
     {
       "country": "GE",
