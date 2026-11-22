@@ -3002,8 +3002,19 @@
       },
       "documents": {
         "passport": {
-          "minimumValidityMonths": 6,
-          "blankPagesRequired": 2
+          "minimumValidityMonths": 0,
+          "blankPagesRequired": 2,
+          "validForEntireStayRequired": true,
+          "notes": "For a UK Standard Visitor, the passport or travel document must remain valid for the whole visit. 0 means no additional fixed-month buffer, not permission to use an expired document. Other visa categories and the existing blank-page field have not been verified by this correction.",
+          "source": {
+            "url": "https://www.gov.uk/standard-visitor#check-you-meet-the-eligibility-requirements",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-22",
+            "confidence": "verified",
+            "pageSection": "Check you meet the eligibility requirements",
+            "verificationPath": "GOV.UK > Visas and immigration > Visit the UK > Visit the UK as a Standard Visitor > Check you meet the eligibility requirements",
+            "exactQuote": "You must have a passport or travel document to enter the UK. It should be valid for the whole of your stay."
+          }
         },
         "requirements": {
           "onwardTicket": false,
@@ -3015,7 +3026,7 @@
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "For UK Standard Visitor travel, the passport or travel document must remain valid for the whole visit. The 0-month value means no additional fixed-month buffer, not permission to use an expired document. Only this passport-validity rule was checked against GOV.UK on 2026-11-22; all other existing route facts, including blank-page, visa, supporting-document and transit requirements, remain unverified by this correction."
       },
       "transit": {
         "visaRequired": true,
@@ -3027,7 +3038,17 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:31.180438"
+      "lastUpdated": "2026-11-22",
+      "source": {
+        "url": "https://www.gov.uk/standard-visitor#check-you-meet-the-eligibility-requirements",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-22",
+        "confidence": "verified",
+        "pageSection": "Check you meet the eligibility requirements",
+        "verificationPath": "GOV.UK > Visas and immigration > Visit the UK > Visit the UK as a Standard Visitor > Check you meet the eligibility requirements",
+        "exactQuote": "You must have a passport or travel document to enter the UK. It should be valid for the whole of your stay.",
+        "notes": "Verification covers only the passport-validity rule for UK Standard Visitors. All other existing route fields, including visa, blank-page, document and transit requirements, remain unverified by this correction; route meta.confidence remains unverified."
+      }
     },
     {
       "to": {
