@@ -206,7 +206,7 @@ All data follows a strict schema. See [SCHEMA.md](SCHEMA.md) for full documentat
 <!-- LEADERBOARD:START -->
 | Rank | Contributor | Contributions | Countries |
 |------|-------------|---------------|-----------|
-| 🥇 | void389 | 55 | 51 |
+| 🥇 | void389 | 113 | 107 |
 | 🥈 | samproductnotes-crypto | 12 | 4 |
 | 🥉 | gonzalogamiz | 11 | 9 |
 | 4 | Mhamed Askoure | 10 | 7 |
