@@ -15,7 +15,7 @@
     ],
     "description": "Valid US visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-11-26",
   "totalUnlocked": 21,
   "unlocks": [
     {
@@ -163,29 +163,71 @@
       "country": "GT",
       "countryName": "Guatemala",
       "region": "central_america",
-      "conditions": "Valid US visa",
+      "conditions": "Nationals in Guatemala's Category B (consular visa) who hold a valid U.S. visa receive Category A treatment and may enter as a tourist or traveler without applying for a separate Guatemalan consular visa.",
       "maxStayDays": 90,
       "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present a valid passport or travel document and the valid U.S. visa. Check Guatemala's current classification for your nationality before travel.",
       "source": {
-        "url": "https://www.minex.gob.gt/",
-        "accessedDate": "2026-03-01",
-        "confidence": "verified"
+        "url": "https://igm.gob.gt/wp-content/uploads/2025/09/24.1.3-Reglamento-de-Visas-ACUERDO-NUMERO-IGM-015-2025.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "Instituto Guatemalteco de Migración > Reglamento de Visas Guatemaltecas, IGM-015-2025 > Articles 5, 9, 10 and 29(2)",
+        "exactQuote": "visa vigente de los Estados Unidos de América"
       },
-      "notes": "Part of CA-4 agreement countries"
+      "staySource": {
+        "url": "https://igm.gob.gt/wp-content/uploads/2025/01/02.-ACUERDOS-DE-AUTORIDAD-MIGRATORIA-NACIONAL-001-2023002-2023.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "Instituto Guatemalteco de Migración > migration regulations > Article 49, De la permanencia de turistas o viajeros",
+        "exactQuote": "Se otorgará una permanencia no mayor a 90 días a los turistas o viajeros"
+      },
+      "notes": "The 90-day figure is the initial visitor ceiling. Under Article 29(2), Category C nationals with a valid U.S. visa receive Category B treatment and must apply for a consular visa.",
+      "lastUpdated": "2026-11-26",
+      "accessType": "visa_free"
     },
     {
       "country": "HN",
       "countryName": "Honduras",
       "region": "central_america",
-      "conditions": "Valid US visa",
+      "accessType": "visa_free",
+      "conditions": "Honduran Category B nationals with a valid U.S. visa qualify for visa-exempt entry for an initial visit of up to 90 days.",
       "maxStayDays": 90,
       "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Bring a valid passport, the valid U.S. visa and a return or onward ticket. Immigration may ask for proof of funds, the purpose of travel and an address in Honduras.",
       "source": {
-        "url": "https://www.se.gob.hn/",
-        "accessedDate": "2026-03-01",
-        "confidence": "verified"
+        "url": "https://portalunico.iaip.gob.hn/ver_archivo/MTc3NTk4NQ%3D%3D",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "authority": "Honduras Secretariat of Foreign Affairs and International Cooperation",
+        "verificationPath": "Circular No. 008-DSS-ACM-2023 > Section 2 > Visa vigente estadounidense, canadiense o Schengen",
+        "exactQuote": "visa vigente Estadounidense, Canadiense o Schengen"
       },
-      "notes": "Part of CA-4 agreement countries"
+      "additionalSources": [
+        {
+          "url": "https://ods.sedesol.gob.hn/wp-content/uploads/2024/10/Ley_de_Migraciones_y_extranjeria_Honduras1.pdf",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Government of Honduras",
+          "verificationPath": "Ley de Migración y Extranjería > Articles 19 and 20 > means of subsistence and initial stay",
+          "exactQuote": "se les autorizará permanencia en el país hasta por noventa días"
+        },
+        {
+          "url": "https://www.cocesna.org/aipca/AIPMH/AIP_2630/Eurocontrol/HONDURAS/2026-04-16-AIRAC/html/eAIP/ES-MH-GEN-1.3-es-ES.html",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Honduras Aeronautical Information Publication, published by COCESNA",
+          "verificationPath": "GEN 1.3 > sections 2.1–2.2 and 3.9 > immigration requirements and initial stay"
+        }
+      ],
+      "notes": "The consular circular gives Category C holders of a valid U.S. visa Category B treatment. That group must still obtain a Honduran consular visa.",
+      "lastUpdated": "2026-11-26"
     },
     {
       "country": "NI",
