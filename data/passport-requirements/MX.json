@@ -106,11 +106,37 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-11-26",
+        "source": "UAE Ministry of Foreign Affairs, Mexico's Secretariat of Foreign Affairs, and UAE Government Portal"
       },
-      "lastUpdated": "2026-01-19T04:06:24.154837"
+      "lastUpdated": "2026-11-26",
+      "source": {
+        "url": "https://www.mofa.gov.ae/en/visa-exemptions-for-non-citizen/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "pageSection": "Visa information to enter the country > United Mexican States",
+        "verificationPath": "UAE Ministry of Foreign Affairs > Visa Exemptions > United Mexican States",
+        "exactQuote": "United Mexican States | Visa Free",
+        "confidence": "verified",
+        "notes": "The UAE ministry verifies visa-free entry. Mexico's Secretariat of Foreign Affairs describes an exemption for tourist stays of up to 180 consecutive days for Mexican ordinary passport holders. Its entry section and the UAE Government Portal give six months of passport validity.",
+        "supportingSources": [
+          {
+            "url": "https://portales.sre.gob.mx/guiadeviaje/103-ficha-de-paises/322-emiratos-arabes-unidos",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-26",
+            "pageSection": "Visa",
+            "exactQuote": "como turistas por un período máximo de 180 días consecutivos"
+          },
+          {
+            "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-26",
+            "pageSection": "Visa eligibility",
+            "exactQuote": "Passports must be valid for at least 6 months from the date of entry into the UAE."
+          }
+        ]
+      }
     },
     {
       "to": {
