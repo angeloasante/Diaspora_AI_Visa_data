@@ -9,9 +9,38 @@
     ],
     "description": "A valid Schengen visa can unlock visa-free entry or simplified entry procedures in certain non-Schengen destinations, subject to each destination's conditions"
   },
-  "lastUpdated": "2026-10-05",
-  "totalUnlocked": 15,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 16,
   "unlocks": [
+    {
+      "country": "GI",
+      "countryName": "Gibraltar",
+      "region": "europe",
+      "destinationType": "territory",
+      "conditions": "Hold a valid Schengen short-stay visa that covers Gibraltar. The visa's validity, authorized entries and any restriction excluding Gibraltar still apply.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Meet the applicable Schengen short-stay entry conditions. If Gibraltar is the main destination and you need a new visa, apply through the Spanish authorities.",
+      "source": {
+        "url": "https://www.gibraltar.gov.gi/press-releases/technical-notice-reminder-concerning-visa-arrangements-5582026-12201",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "HM Government of Gibraltar > Technical Notice 558/2026 > Short-stay visa recognition > New arrangements from 15 July 2026",
+        "exactQuote": "Gibraltar will recognise, as valid for entry into Gibraltar, Schengen short-stay visas issued by any of the Schengen States."
+      },
+      "staySource": {
+        "url": "https://www.gibraltarlaws.gov.gi/legislations/treaty-on-gibraltar-and-the-european-union-act-2026-8398/download",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "Treaty on Gibraltar and the European Union Act 2026 > Section 45(4), Short stay visas in respect of Gibraltar",
+        "exactQuote": "maximum period of 90 days in any 180-day period"
+      },
+      "notes": "Schengen visa recognition follows the treaty arrangements provisionally applied from 15 July 2026. The 90-day figure is a ceiling. Follow the conditions on the issued visa.",
+      "lastUpdated": "2026-11-26"
+    },
     {
       "country": "AL",
       "countryName": "Albania",
