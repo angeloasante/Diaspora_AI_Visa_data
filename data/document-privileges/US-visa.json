@@ -15,7 +15,7 @@
     ],
     "description": "Valid US visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-11-26",
   "totalUnlocked": 21,
   "unlocks": [
     {
@@ -64,15 +64,22 @@
       "country": "MK",
       "countryName": "North Macedonia",
       "region": "europe",
-      "conditions": "Valid multi-entry US, UK, Canada, or Schengen visa",
+      "accessType": "visa_free",
+      "conditions": "Third-country travelers must hold a valid multiple-entry U.S. visa affixed in their passport. The visa must remain valid for at least five days beyond the planned stay.",
       "maxStayDays": 15,
       "visaOnArrival": false,
+      "evisaRequired": false,
+      "lastUpdated": "2026-11-26",
       "source": {
-        "url": "https://www.mfa.gov.mk/en/",
-        "accessedDate": "2026-03-01",
-        "confidence": "verified"
+        "url": "https://mfa.gov.mk/mk-MK/odnosi-so-javnost/soopstenija/soopstenie2",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "North Macedonia Ministry of Foreign Affairs > Public Relations > Announcements > Notice for holders of multiple-entry British, American or Canadian visas > English text",
+        "exactQuote": "the length of their stay in the Republic of North Macedonia may be up to 15 days",
+        "supportingQuote": "from 1 January 2026 to 31 December 2026"
       },
-      "notes": "Maximum 15 days per entry"
+      "notes": "The temporary exemption applies from January 1 through December 31, 2026. Verify any renewal before relying on the exemption for later travel."
     },
     {
       "country": "BA",

@@ -11,9 +11,30 @@
     ],
     "description": "Valid Canadian visas can unlock visa-free or simplified access beyond passport privileges"
   },
-  "lastUpdated": "2026-10-18",
-  "totalUnlocked": 8,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 9,
   "unlocks": [
+    {
+      "country": "MK",
+      "countryName": "North Macedonia",
+      "region": "europe",
+      "accessType": "visa_free",
+      "conditions": "Third-country travelers must hold a valid multiple-entry Canadian visa affixed in their passport. The visa must remain valid for at least five days beyond the planned stay.",
+      "maxStayDays": 15,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "lastUpdated": "2026-11-26",
+      "source": {
+        "url": "https://mfa.gov.mk/mk-MK/odnosi-so-javnost/soopstenija/soopstenie2",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "North Macedonia Ministry of Foreign Affairs > Public Relations > Announcements > Notice for holders of multiple-entry British, American or Canadian visas > English text",
+        "exactQuote": "the length of their stay in the Republic of North Macedonia may be up to 15 days",
+        "supportingQuote": "from 1 January 2026 to 31 December 2026"
+      },
+      "notes": "The temporary exemption applies from January 1 through December 31, 2026. Verify any renewal before relying on the exemption for later travel."
+    },
     {
       "country": "GE",
       "countryName": "Georgia",
