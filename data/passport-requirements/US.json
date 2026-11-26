@@ -4147,13 +4147,13 @@
       "visa": {
         "required": true,
         "policy": "eta",
-        "type": null,
+        "type": "Electronic Travel Authorisation (eTA)",
         "freeDays": null,
         "maxStay": null,
-        "evisa": true,
+        "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "Electronic Travel Authorization (ETA) required. Apply online before travel. Usually processed within 72 hours."
+        "notes": "Ordinary passport holders generally need an approved Kenyan eTA before travel. A standard single-entry application is listed at US$30 before any added charges. Processing typically takes three working days and can take longer. Kenya determines the permitted stay at entry."
       },
       "documents": {
         "passport": {
@@ -4166,11 +4166,11 @@
           "accommodation": true,
           "travelInsurance": {
             "recommended": true,
-            "mandatory": false
+            "mandatory": true
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "Most short-stay visitors arriving on this route must obtain Kenyan inbound travel health insurance. The official eTA flow includes the insurance notice."
       },
       "transit": {
         "visaRequired": null,
@@ -4179,10 +4179,43 @@
       "meta": {
         "riskLevel": "medium",
         "confidence": "verified",
-        "lastChecked": "2026-01-19",
-        "source": "passport-index-dataset"
+        "lastChecked": "2026-11-26",
+        "source": "Kenya Directorate of Immigration Services eTA portal and national travel guidance"
       },
-      "lastUpdated": "2026-01-19T03:59:12.4"
+      "lastUpdated": "2026-11-26",
+      "source": {
+        "url": "https://etakenya.go.ke/form/apply/how-to-apply",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "pageSection": "How to Apply",
+        "verificationPath": "Official Kenya eTA portal > How to Apply > Terms of Application, required documents and processing time",
+        "exactQuote": "Processing time is three (3) working days but in some cases it may take longer.",
+        "confidence": "verified",
+        "notes": "The eTA is advance travel authorization. The portal distinguishes authorization validity from the permitted duration of stay.",
+        "supportingSources": [
+          {
+            "url": "https://etakenya.go.ke/eligibility",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-26",
+            "pageSection": "Kenya ETA Eligibility > Standard eTA",
+            "notes": "The normal standard single-entry product lists a base price of US$30."
+          },
+          {
+            "url": "https://etakenya.go.ke/form/apply/individual/notices",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-26",
+            "pageSection": "Mandatory Inbound Travel Health Insurance Requirement",
+            "notes": "The individual eTA application flow displays the official inbound travel health insurance requirement."
+          },
+          {
+            "url": "https://travel.state.gov/en/international-travel/travel-advisories/kenya.html",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-26",
+            "pageSection": "Entry or travel requirements",
+            "notes": "Confirms advance eTA for the passport covered by the route."
+          }
+        ]
+      }
     },
     {
       "to": {
