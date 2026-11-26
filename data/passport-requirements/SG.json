@@ -4335,14 +4335,14 @@
       ],
       "visa": {
         "required": false,
-        "policy": "evisa",
+        "policy": "visa_free",
         "type": null,
-        "freeDays": null,
-        "maxStay": null,
-        "evisa": true,
+        "freeDays": 90,
+        "maxStay": 90,
+        "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Singaporean passport holders are exempt from Kenya's eTA for stays of up to 90 days. No eTA application, fee or processing time applies to this exemption."
       },
       "documents": {
         "passport": {
@@ -4367,11 +4367,20 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
+        "confidence": "verified",
+        "lastChecked": "2026-11-26",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:06:24.703476"
+      "lastUpdated": "2026-11-26T11:38:37Z",
+      "source": {
+        "url": "https://etakenya.go.ke/general-information/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "verificationPath": "General Information > Persons exempt from obtaining eTA > item 4 > Singapore",
+        "exactQuote": "Nationals of the following Countries for a period not exceeding ninety (90) days－\nSingapore",
+        "confidence": "verified",
+        "notes": "The Directorate of Immigration Services includes Singapore in the 90-day exemption list."
+      }
     },
     {
       "to": {
