@@ -9,8 +9,8 @@
     ],
     "description": "A valid Schengen visa can unlock visa-free entry or simplified entry procedures in certain non-Schengen destinations, subject to each destination's conditions"
   },
-  "lastUpdated": "2026-10-05",
-  "totalUnlocked": 15,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 16,
   "unlocks": [
     {
       "country": "AL",
@@ -230,6 +230,57 @@
       },
       "notes": "The 14-day stay cannot be extended or converted to a residence visa. Other nationalities and family-member exceptions are outside this entry.",
       "lastUpdated": "2026-11-10"
+    },
+    {
+      "country": "TW",
+      "countryName": "Taiwan",
+      "region": "asia",
+      "accessType": "travel_authorization",
+      "eligibleNationalities": ["IN", "ID", "LA", "MM", "VN"],
+      "conditions": "Ordinary passport holders from India, Indonesia, Laos, Myanmar and Vietnam may apply before travel for a Taiwan Travel Authorization Certificate (TAC) using a qualifying formal Schengen visa. A valid visa or one expired within 10 years of arrival can qualify. Cancelled visas do not qualify.",
+      "maxStayDays": 14,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "The traveler must not have been employed as a blue-collar worker in Taiwan. Carry a printed TAC matching the passport, the qualifying visa or printout of an electronic visa, an ordinary passport valid for at least six months on arrival, and a confirmed return or onward ticket. Complete the online arrival card for subsequent entries using that TAC.",
+      "source": {
+        "url": "https://servicestation.immigration.gov.tw/media/113702/2025-%E9%81%8B%E8%BC%B8%E6%A5%AD%E8%80%85%E8%BC%89%E9%81%8B%E6%97%85%E5%AE%A2%E5%85%A5%E8%87%BA%E7%81%A3%E5%90%84%E9%A1%9E%E6%9C%89%E6%95%88%E6%97%85%E8%A1%8C%E6%96%87%E4%BB%B6%E5%8F%83%E8%80%83%E6%8C%87%E5%8D%97-immigration-reference-guide-for-civil-carriers.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "authority": "Taiwan National Immigration Agency",
+        "verificationPath": "Immigration Reference Guide for Civil Carriers > Entry of Aliens > Section 6 > Picture 61, supporting documents table and checkpoints",
+        "exactQuote": "A valid visa (including electronic visa)."
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.boca.gov.tw/cp-152-274-8c0e2-2.html",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Taiwan Bureau of Consular Affairs",
+          "verificationPath": "Online Application for R.O.C. (Taiwan) Travel Authorization Certificate > 2026 eligibility notice",
+          "exactQuote": "Citizens of India, Indonesia, Laos, Myanmar, and Vietnam can apply online"
+        },
+        {
+          "url": "https://niaspeedy.immigration.gov.tw/nia_southeast/",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Taiwan National Immigration Agency",
+          "verificationPath": "Online Advance Screening System > TAC heading and current nationality notices"
+        },
+        {
+          "url": "https://www.taiwanembassy.org/uploads/sites/211/2022/11/%E6%9D%B1%E5%8D%97%E4%BA%9E%E5%9C%8B%E5%AE%B6%E4%BA%BA%E6%B0%91%E4%BE%86%E8%87%BA%E5%85%88%E8%A1%8C%E4%B8%8A%E7%B6%B2%E6%9F%A5%E6%A0%B8%E7%B3%BB%E7%B5%B1-%E8%8B%B1%E6%96%87%E8%AA%AA%E6%98%8E.pdf",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Taiwan National Immigration Agency, hosted by Taiwan's overseas mission",
+          "verificationPath": "TAC English instructions > basic requirements and stay duration. Use the 2026 BOCA notice for the current passport list.",
+          "exactQuote": "14 days, starting from the day after arrival"
+        }
+      ],
+      "notes": "The stay is 14 days from the day after arrival. When the qualifying visa has no expiry date, measure the 10-year window from its issue date. The current BOCA and TAC portal passport list supersedes the older carrier guide list.",
+      "lastUpdated": "2026-11-26"
     },
     {
       "country": "SG",
