@@ -81,7 +81,7 @@
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "The UAE Ministry of Foreign Affairs' visa information for entry to the UAE lists The Republic of Indonesia as visa required. Indonesian ordinary-passport holders therefore need an entry visa in advance unless another specific eligibility rule applies. The UAE government tourist-visa page says tourist visas can be arranged through eligible UAE-based airlines, hotels or licensed travel agencies. This verification does not cover work or residence visas, or guarantee a particular tourist-visa duration."
+        "notes": "Ordinary Indonesian passport holders generally need a UAE entry visa. Eligible travelers and accompanying family members may qualify for a 14- or 60-day visa on arrival with a valid residence permit from the US, an EU member state, the UK, Singapore, Japan, South Korea, Australia, New Zealand or Canada. The 14-day option can be extended once for another 14 days. The 60-day option is for a single stay and cannot be extended. ICP also offers a separate online 14-day application with its own document requirements. Check the requirements for the chosen route before travel."
       },
       "documents": {
         "passport": {
@@ -107,14 +107,14 @@
       "meta": {
         "riskLevel": "medium",
         "confidence": "verified",
-        "lastChecked": "2026-11-12",
+        "lastChecked": "2026-11-26",
         "source": "UAE Ministry of Foreign Affairs and official UAE visa portal"
       },
-      "lastUpdated": "2026-11-12",
+      "lastUpdated": "2026-11-26",
       "source": {
         "url": "https://www.mofa.gov.ae/en/visa-exemptions-for-non-citizen/",
         "governmentDomain": true,
-        "accessedDate": "2026-11-12",
+        "accessedDate": "2026-11-26",
         "pageSection": "Visa information to enter the country > Visa Exemptions > The Republic of Indonesia",
         "verificationPath": "UAE Ministry of Foreign Affairs > Visa Exemptions for Non Citizen > The Republic of Indonesia",
         "exactQuote": "The Republic of Indonesia | Visa Required",
@@ -134,6 +134,21 @@
             "accessedDate": "2026-11-12",
             "pageSection": "Tourist visa; introductory guidance",
             "exactQuote": "A tourist visa is for those who are not eligible for visa on arrival or a visa-free entry to the UAE. You can apply for a tourist visa through airlines, hotels and travel agents."
+          },
+          {
+            "url": "https://www.mofa.gov.ae/en/MediaHub/News/2026/6/25/uae-grants-visa-on-arrival",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-26",
+            "pageSection": "Eligibility and permitted stays",
+            "exactQuote": "eligible to obtain a 14-day or 60-day visa on arrival",
+            "notes": "Qualifying residence permits are required for the arrival exception. The route flags continue to describe the general passport-based policy."
+          },
+          {
+            "url": "https://icp.gov.ae/en/services-details/?serviceid=68e3532c5ae59b0011738404",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-26",
+            "pageSection": "Terms and Conditions",
+            "notes": "The separate online 14-day visa applies to eligible holders of specified visas or residence permits."
           }
         ]
       }
