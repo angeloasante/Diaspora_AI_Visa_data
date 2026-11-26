@@ -8,8 +8,8 @@
     ],
     "description": "Canadian permanent resident card: verified visitor visa exemptions and conditional eVisa access, subject to destination-specific requirements. This is a partial destination list."
   },
-  "lastUpdated": "2026-10-06",
-  "totalUnlocked": 11,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 12,
   "unlocks": [
     {
       "country": "MX",
@@ -255,6 +255,52 @@
       },
       "additionalRequirements": "At border checks, residence evidence, a return ticket, proof of means and hospital/repatriation insurance may be requested. Applicants under 18 must enter with a parent or legal representative.",
       "notes": "This is conditional eVisa eligibility, not visa-free entry or a visa on arrival. The approved eVisa allows a single entry, up to 30 days of stay and at most 180 days of validity from issue. Approval and admission are not guaranteed. Tourism/business only, not Moroccan residence; successive eVisas cannot extend one uninterrupted stay."
+    },
+    {
+      "country": "SG",
+      "countryName": "Singapore",
+      "region": "asia",
+      "accessType": "transit_only",
+      "eligibleNationalities": [
+        "IN"
+      ],
+      "conditions": "Indian nationals transiting to or from a third country may use Singapore's 96-hour Visa Free Transit Facility with a Canadian permanent resident card valid for at least one month from entry into Singapore.",
+      "maxStayHours": 96,
+      "maxStayDays": 4,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "transitOnly": true,
+      "additionalRequirements": "Enter by any mode and depart by air or sea. Carry a confirmed onward air, ferry or cruise ticket departing within 96 hours, a passport valid for at least six months and documents needed for the onward destination. Have sufficient funds and submit the SG Arrival Card within three days including the arrival day. Check the yellow-fever certificate rules if arriving from or transiting through a risk country.",
+      "source": {
+        "url": "https://www.ica.gov.sg/information-and-e-services/entry-and-departure/entering-singapore/entry-requirements/visa-free-transit-facility",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "authority": "Singapore Immigration & Checkpoints Authority",
+        "verificationPath": "Visa Free Transit Facility > Nationals of India > transport and onward ticket; valid visa or long-term pass > Canada; single-journey visa exception",
+        "exactQuote": "valid for at least 1 month from your date of entry into Singapore"
+      },
+      "notes": "Admission is discretionary and the VFTF cannot be extended. ICA specifies the supporting-document requirement for Indian nationals. Holders of certain Chinese, Hong Kong and Macau travel documents have a separate VFTF basis.",
+      "lastUpdated": "2026-11-26",
+      "additionalSources": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/permanent-residents/travel-outside-canada.html",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Immigration, Refugees and Citizenship Canada",
+          "verificationPath": "Travelling outside Canada as a permanent resident > proof of permanent residence and return travel",
+          "exactQuote": "Your permanent resident (PR) card can be used to show that you have permanent resident status in Canada."
+        },
+        {
+          "url": "https://www.ica.gov.sg/information-and-e-services/entry-and-departure/entering-singapore",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Singapore Immigration & Checkpoints Authority",
+          "verificationPath": "Entering Singapore > Entry Requirements > general requirements for travelers seeking immigration clearance"
+        }
+      ]
     }
   ]
 }

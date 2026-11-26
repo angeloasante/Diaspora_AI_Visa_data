@@ -15,8 +15,8 @@
     ],
     "description": "Valid US visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-04",
-  "totalUnlocked": 21,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 22,
   "unlocks": [
     {
       "country": "MX",
@@ -340,6 +340,43 @@
         "exactQuote": "On arrival, the immigration department will normally give you permission to stay for up to 90 days."
       },
       "notes": "This entry records the valid US visa route, separately from lawful US residence. GOV.UK travel advice states that immigration normally grants up to 90 days on arrival, subject to Border Force determination and standard entry requirements (such as a valid passport and return or onward ticket)."
+    },
+    {
+      "country": "SG",
+      "countryName": "Singapore",
+      "region": "asia",
+      "accessType": "transit_only",
+      "eligibleNationalities": [
+        "IN"
+      ],
+      "conditions": "Indian nationals transiting to or from a third country may use Singapore's 96-hour Visa Free Transit Facility with a U.S. visa valid for at least one month from entry into Singapore.",
+      "maxStayHours": 96,
+      "maxStayDays": 4,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "transitOnly": true,
+      "additionalRequirements": "Enter by any mode and depart by air or sea. Carry a confirmed onward air, ferry or cruise ticket departing within 96 hours, a passport valid for at least six months and documents needed for the onward destination. Have sufficient funds and submit the SG Arrival Card within three days including the arrival day. Check the yellow-fever certificate rules if arriving from or transiting through a risk country.",
+      "source": {
+        "url": "https://www.ica.gov.sg/information-and-e-services/entry-and-departure/entering-singapore/entry-requirements/visa-free-transit-facility",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "authority": "Singapore Immigration & Checkpoints Authority",
+        "verificationPath": "Visa Free Transit Facility > Nationals of India > transport and onward ticket; valid visa or long-term pass > United States; single-journey visa exception",
+        "exactQuote": "valid for at least 1 month from your date of entry into Singapore"
+      },
+      "notes": "Admission is discretionary and the VFTF cannot be extended. A used single-journey visa can qualify on the direct return trip from the United States via Singapore to India, provided the traveler has not returned to India since using it.",
+      "lastUpdated": "2026-11-26",
+      "additionalSources": [
+        {
+          "url": "https://www.ica.gov.sg/information-and-e-services/entry-and-departure/entering-singapore",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Singapore Immigration & Checkpoints Authority",
+          "verificationPath": "Entering Singapore > Entry Requirements > general requirements for travelers seeking immigration clearance"
+        }
+      ]
     }
   ]
 }
