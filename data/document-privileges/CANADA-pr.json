@@ -8,8 +8,8 @@
     ],
     "description": "Canadian permanent resident card: verified visitor visa exemptions and conditional eVisa access, subject to destination-specific requirements. This is a partial destination list."
   },
-  "lastUpdated": "2026-10-06",
-  "totalUnlocked": 11,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 12,
   "unlocks": [
     {
       "country": "MX",
@@ -255,6 +255,70 @@
       },
       "additionalRequirements": "At border checks, residence evidence, a return ticket, proof of means and hospital/repatriation insurance may be requested. Applicants under 18 must enter with a parent or legal representative.",
       "notes": "This is conditional eVisa eligibility, not visa-free entry or a visa on arrival. The approved eVisa allows a single entry, up to 30 days of stay and at most 180 days of validity from issue. Approval and admission are not guaranteed. Tourism/business only, not Moroccan residence; successive eVisas cannot extend one uninterrupted stay."
+    },
+    {
+      "country": "MD",
+      "countryName": "Moldova",
+      "region": "europe",
+      "accessType": "visa_free",
+      "eligibleNationalities": [
+        "BH",
+        "BZ",
+        "BO",
+        "KH",
+        "CV",
+        "CN",
+        "CU",
+        "DO",
+        "EC",
+        "FJ",
+        "GA",
+        "GY",
+        "HT",
+        "IN",
+        "JM",
+        "KW",
+        "MG",
+        "MV",
+        "MN",
+        "NR",
+        "OM",
+        "PG",
+        "QA",
+        "ST",
+        "SA",
+        "ZA",
+        "SZ",
+        "TH",
+        "KM",
+        "TG"
+      ],
+      "conditions": "Nationals marked with footnote 2 in Annex 1 of Moldovan Law No. 257/2013 may visit visa-free with a valid Canadian permanent resident card. Stay within the document's validity and the limit of 90 days in any rolling 180-day period.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present the qualifying document and a passport issued in the last 10 years with at least two blank pages. The passport generally must remain valid for at least three months after planned departure.",
+      "source": {
+        "url": "https://www.legis.md/cautare/downloadpdf/151197",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "authority": "Parliament of the Republic of Moldova",
+        "confidence": "verified",
+        "verificationPath": "Law No. 257/2013 as amended effective 18 March 2026 > Annex 1 > country entries marked footnote 2 and text of footnote 2",
+        "exactQuote": "90 de zile în decursul oricărei perioade de 180 de zile"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.legis.md/cautare/downloadpdf/148704",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "authority": "Parliament of the Republic of Moldova",
+          "confidence": "verified",
+          "verificationPath": "Law No. 200/2010 > Articles 6 and 6¹ > border and travel-document requirements",
+          "exactQuote": "Documentul de călătorie trebuie să fie eliberat în ultimii 10 ani."
+        }
+      ],
+      "lastUpdated": "2026-11-26"
     }
   ]
 }
