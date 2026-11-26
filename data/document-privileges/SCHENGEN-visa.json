@@ -9,8 +9,8 @@
     ],
     "description": "A valid Schengen visa can unlock visa-free entry or simplified entry procedures in certain non-Schengen destinations, subject to each destination's conditions"
   },
-  "lastUpdated": "2026-10-05",
-  "totalUnlocked": 15,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 16,
   "unlocks": [
     {
       "country": "AL",
@@ -24,6 +24,33 @@
         "confidence": "verified"
       },
       "notes": "Visa exemption applies to foreign citizens who would otherwise require an Albanian visa."
+    },
+    {
+      "country": "CY",
+      "countryName": "Cyprus",
+      "region": "europe",
+      "conditions": "Hold a valid category C Schengen visa issued for two or multiple entries. The Republic of Cyprus recognizes that visa for short stays without requiring an additional Cypriot visa. Citizens of Türkiye and Azerbaijan do not qualify under this provision.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://www.gov.cy/en/information/visas/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "Gov.cy > Visas > Exemptions > Holders of a valid Schengen visa for two or multiple entries",
+        "exactQuote": "Holders of a valid Schengen visa for two or multiple entries"
+      },
+      "staySource": {
+        "url": "https://www.gov.cy/media/sites/145/2025/12/Information-on-visas.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "Government of Cyprus > Information on Visas > Schengen visa holders",
+        "exactQuote": "a period equal to the remainder of the duration of stay provided by the Schengen visa"
+      },
+      "notes": "The ceiling is 90 days in any 180-day period. The stay is also limited to the remaining duration allowed by the Schengen visa and must end by its expiration date.",
+      "lastUpdated": "2026-11-26"
     },
     {
       "country": "ME",
