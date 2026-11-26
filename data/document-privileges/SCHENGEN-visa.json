@@ -9,9 +9,96 @@
     ],
     "description": "A valid Schengen visa can unlock visa-free entry or simplified entry procedures in certain non-Schengen destinations, subject to each destination's conditions"
   },
-  "lastUpdated": "2026-10-05",
-  "totalUnlocked": 15,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 18,
   "unlocks": [
+    {
+      "country": "AW",
+      "countryName": "Aruba",
+      "region": "caribbean",
+      "destinationType": "territory",
+      "conditions": "Hold a valid multiple-entry Schengen short-stay visa to qualify for the Caribbean visa exemption.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Complete the Aruba Embarkation and Disembarkation card before arrival. Carry a valid passport, proof of onward or return travel, and evidence of accommodation and funds.",
+      "source": {
+        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "NetherlandsWorldwide > Do I need a visa for the Caribbean parts of the Kingdom? > No visa required > You hold a valid visa or residence permit for certain other countries > Schengen country",
+        "exactQuote": "multiple-entry Schengen visa"
+      },
+      "staySource": {
+        "url": "https://www.dimasaruba.aw/en/applicants/short-stay/tourist-stay/",
+        "verificationPath": "DIMAS > Short Stay > Tourist Stay > Extended tourist stay",
+        "exactQuote": "You may stay for up to 30 days per visit to Aruba.",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified"
+      },
+      "notes": "The standard initial tourist stay is up to 30 days. The immigration officer sets the period of admission. Nationality-based allowances and extensions follow separate rules.",
+      "lastUpdated": "2026-11-26"
+    },
+    {
+      "country": "SX",
+      "countryName": "Sint Maarten",
+      "region": "caribbean",
+      "destinationType": "territory",
+      "conditions": "Hold a valid multiple-entry Schengen short-stay visa to qualify for the Caribbean visa exemption.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Complete the official Sint Maarten Entry Form before arrival. Carry a valid passport, proof of onward or return travel, and evidence of accommodation and funds.",
+      "source": {
+        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "NetherlandsWorldwide > Do I need a visa for the Caribbean parts of the Kingdom? > No visa required > You hold a valid visa or residence permit for certain other countries > Schengen country",
+        "exactQuote": "multiple-entry Schengen visa"
+      },
+      "staySource": {
+        "url": "https://www.vacationstmaarten.com/plan-your-vacation/travel-tips/passports-immigration-and-customs/",
+        "verificationPath": "St. Maarten Tourist Bureau > Passports, Immigration & Customs > How long can I stay in St. Maarten?",
+        "exactQuote": "30 days uninterrupted for tourists in general",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified"
+      },
+      "notes": "The standard initial tourist stay is up to 30 consecutive days. Nationality-based allowances and extensions follow separate rules. This entry covers the Dutch side of the island.",
+      "lastUpdated": "2026-11-26"
+    },
+    {
+      "country": "BQ",
+      "countryName": "Bonaire, Sint Eustatius and Saba",
+      "region": "caribbean",
+      "destinationType": "territory",
+      "conditions": "Hold a valid multiple-entry Schengen short-stay visa to qualify for the Caribbean visa exemption.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Carry a valid passport for the entire visit, proof of onward or return travel, and evidence of accommodation and funds.",
+      "source": {
+        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "NetherlandsWorldwide > Do I need a visa for the Caribbean parts of the Kingdom? > No visa required > You hold a valid visa or residence permit for certain other countries > Schengen country",
+        "exactQuote": "multiple-entry Schengen visa"
+      },
+      "staySource": {
+        "url": "https://english.rijksdienstcn.com/immigration-naturalisation/tourist-stay",
+        "verificationPath": "Rijksdienst Caribisch Nederland > Immigration & Naturalisation > Tourist stay > Other nationalities",
+        "exactQuote": "Bonaire, St. Eustatius and Saba for up to 90 days every 180 days.",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified"
+      },
+      "notes": "The standard ceiling is 90 days in a 180-day period across the three islands. Border officers can authorize a shorter stay.",
+      "lastUpdated": "2026-11-26"
+    },
     {
       "country": "AL",
       "countryName": "Albania",
