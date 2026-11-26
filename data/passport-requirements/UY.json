@@ -106,11 +106,44 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-11-26",
+        "source": "UAE Ministry of Foreign Affairs, Uruguay Ministry of Foreign Affairs, and UAE Government Portal"
       },
-      "lastUpdated": "2026-01-19T04:16:01.154941"
+      "lastUpdated": "2026-11-26",
+      "source": {
+        "url": "https://www.mofa.gov.ae/en/visa-exemptions-for-non-citizen/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "pageSection": "Visa information to enter the country > Oriental Republic of Uruguay",
+        "verificationPath": "UAE Ministry of Foreign Affairs > Visa Exemptions > Oriental Republic of Uruguay",
+        "exactQuote": "Oriental Republic of Uruguay | Visa Free",
+        "confidence": "verified",
+        "notes": "The UAE ministry verifies visa-free entry. Uruguay Ministry of Foreign Affairs describes a maximum stay of 90 days under the bilateral waiver. Emirates describes an arrival stamp for eligible travelers; the UAE ministry's visa-free classification is used here.",
+        "supportingSources": [
+          {
+            "url": "https://www.gub.uy/ministerio-relaciones-exteriores/comunicacion/noticias/firma-de-memorandum-de-entendimiento-sobre-exencion-del-requisito-de-visa",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-26",
+            "pageSection": "Visa waiver memorandum announcement",
+            "exactQuote": "por un período máximo de 90 días sin necesidad de tramitar visa"
+          },
+          {
+            "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-26",
+            "pageSection": "Visa eligibility",
+            "exactQuote": "Passports must be valid for at least 6 months from the date of entry into the UAE."
+          },
+          {
+            "url": "https://www.emirates.com/uy/spanish/before-you-fly/visa-passport-information/uae-visa-information/",
+            "governmentDomain": false,
+            "accessedDate": "2026-11-26",
+            "pageSection": "Visado de 90 días a la llegada",
+            "notes": "Airline boarding guidance lists Uruguay and describes a 90-day entry stamp on arrival."
+          }
+        ]
+      }
     },
     {
       "to": {
