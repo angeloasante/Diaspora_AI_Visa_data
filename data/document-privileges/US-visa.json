@@ -15,9 +15,32 @@
     ],
     "description": "Valid US visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-04",
-  "totalUnlocked": 21,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 22,
   "unlocks": [
+    {
+      "country": "KR",
+      "countryName": "South Korea",
+      "region": "asia",
+      "accessType": "transit_only",
+      "conditions": "Hold a valid visa for the United States as a sticker in your passport. Transit through South Korea on the way to the United States, or after staying in and departing from the United States on the way to your home country or a third country. The consulate lists 23 excluded passport nationalities.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "transitOnly": true,
+      "lastUpdated": "2026-11-26",
+      "source": {
+        "url": "https://overseas.mofa.go.kr/us-sanfrancisco-en/brd/m_24317/view.do?page=1&seq=24",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "Consulate General of the Republic of Korea in San Francisco > Visa Application > B-2 > Eligibility, visa confirmation and stay",
+        "exactQuote": "Accepted only when the visa sticker is affixed to the passport",
+        "supportingQuote": "Tourist/Transit (B-2), 30 days"
+      },
+      "additionalRequirements": "Hold a confirmed onward flight departing within 30 days of entry. A stopover before entering Korea must be no longer than three days. Returning to the previous departure point is excluded. Prior Korean entry refusal within three years, unlawful stay, and specified immigration or criminal penalties can affect eligibility.",
+      "notes": "This entry covers the B-2 third-country transit route. Admission depends on the itinerary, document validity, and immigration inspection."
+    },
     {
       "country": "MX",
       "countryName": "Mexico",
