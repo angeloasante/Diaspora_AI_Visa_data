@@ -15,8 +15,8 @@
     ],
     "description": "Valid US visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-04",
-  "totalUnlocked": 21,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 22,
   "unlocks": [
     {
       "country": "MX",
@@ -340,6 +340,70 @@
         "exactQuote": "On arrival, the immigration department will normally give you permission to stay for up to 90 days."
       },
       "notes": "This entry records the valid US visa route, separately from lawful US residence. GOV.UK travel advice states that immigration normally grants up to 90 days on arrival, subject to Border Force determination and standard entry requirements (such as a valid passport and return or onward ticket)."
+    },
+    {
+      "country": "MD",
+      "countryName": "Moldova",
+      "region": "europe",
+      "accessType": "visa_free",
+      "eligibleNationalities": [
+        "BH",
+        "BZ",
+        "BO",
+        "KH",
+        "CV",
+        "CN",
+        "CU",
+        "DO",
+        "EC",
+        "FJ",
+        "GA",
+        "GY",
+        "HT",
+        "IN",
+        "JM",
+        "KW",
+        "MG",
+        "MV",
+        "MN",
+        "NR",
+        "OM",
+        "PG",
+        "QA",
+        "ST",
+        "SA",
+        "ZA",
+        "SZ",
+        "TH",
+        "KM",
+        "TG"
+      ],
+      "conditions": "Nationals marked with footnote 2 in Annex 1 of Moldovan Law No. 257/2013 may visit visa-free with a valid non-transit U.S. visa. Stay within the document's validity and the limit of 90 days in any rolling 180-day period.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present the qualifying document and a passport issued in the last 10 years with at least two blank pages. The passport generally must remain valid for at least three months after planned departure.",
+      "source": {
+        "url": "https://www.legis.md/cautare/downloadpdf/151197",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "authority": "Parliament of the Republic of Moldova",
+        "confidence": "verified",
+        "verificationPath": "Law No. 257/2013 as amended effective 18 March 2026 > Annex 1 > country entries marked footnote 2 and text of footnote 2",
+        "exactQuote": "90 de zile în decursul oricărei perioade de 180 de zile"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.legis.md/cautare/downloadpdf/148704",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "authority": "Parliament of the Republic of Moldova",
+          "confidence": "verified",
+          "verificationPath": "Law No. 200/2010 > Articles 6 and 6¹ > border and travel-document requirements",
+          "exactQuote": "Documentul de călătorie trebuie să fie eliberat în ultimii 10 ani."
+        }
+      ],
+      "lastUpdated": "2026-11-26"
     }
   ]
 }
