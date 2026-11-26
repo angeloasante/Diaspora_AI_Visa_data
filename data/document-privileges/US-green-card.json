@@ -5,8 +5,8 @@
     "countryName": "United States",
     "description": "US permanent residence document privileges verified against destination government sources"
   },
-  "lastUpdated": "2026-10-20",
-  "totalUnlocked": 30,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 32,
   "unlocks": [
     {
       "country": "MX",
@@ -1237,11 +1237,85 @@
       "evisaRequired": false,
       "transitOnly": true,
       "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "CW",
+      "countryName": "Curaçao",
+      "region": "caribbean",
+      "destinationType": "territory",
+      "accessType": "visa_free",
+      "conditions": "Present a valid US permanent resident card and a valid passport. The card supplies an exemption from the Caribbean visa requirement.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Complete Curaçao's Digital Immigration Card before arrival and carry evidence of onward or return travel.",
+      "source": {
+        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "NetherlandsWorldwide > Do I need a Caribbean visa? > United States or Canada",
+        "exactQuote": "If you have a valid residence card for the United States or Canada, you do not need a Caribbean visa."
+      },
+      "additionalSources": [
+        {
+          "url": "https://immigrationcur.org/en/dep/toerist/",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "verificationPath": "Immigratiedienst Curaçao > Tourist > Other nationality",
+          "exactQuote": "Tourists that fall under this category can stay for 30 days."
+        },
+        {
+          "url": "https://www.curacao.com/en/article/what-do-i-need-to-visit-curacao",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Curaçao Tourist Board",
+          "verificationPath": "Visa and entry requirements > Digital Immigration Card for Curaçao",
+          "exactQuote": "Before arrival, all visitors must complete a Digital Immigration Card (DI Card)"
+        }
+      ],
+      "stayRule": "The standard initial tourist stay is up to 30 days. Curaçao Immigration publishes separate rules for certain nationalities and longer stays.",
+      "lastUpdated": "2026-11-26"
+    },
+    {
+      "country": "TC",
+      "countryName": "Turks and Caicos Islands",
+      "region": "caribbean",
+      "destinationType": "territory",
+      "accessType": "visa_free",
+      "conditions": "Lawful US residents may enter without a Turks and Caicos Islands visitor visa. Present a valid original US permanent resident card as evidence of lawful residence.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "For visitors relying on US residence, carry a passport meeting the published six-month validity requirement and proof of onward or return travel.",
+      "source": {
+        "url": "https://borderforce.gov.tc/entry-requirements",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "Turks and Caicos Islands Border Force > Entry Requirements > International visitors and Visa-required travellers",
+        "exactQuote": "if you are a lawful resident of the United Kingdom, United States of America, or Canada"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.tcifsc.tc/assets/documents/05.01-Immigration-Ordinance-20241213175004.pdf",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Turks and Caicos Islands Financial Services Commission consolidated Immigration Ordinance",
+          "verificationPath": "Immigration Ordinance > Immigration officer may give leave to enter",
+          "exactQuote": "a period not exceeding ninety days"
+        }
+      ],
+      "stayRule": "A Border Force officer determines admission and the authorized period, up to 90 days under the general visitor rule.",
+      "lastUpdated": "2026-11-26"
     }
   ],
   "coverage": {
     "visitDestinationCount": 23,
-    "territoryDestinationCount": 5,
+    "territoryDestinationCount": 6,
     "transitOnlyDestinationCount": 3
   }
 }
