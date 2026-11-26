@@ -5,9 +5,40 @@
     "countryName": "United States",
     "description": "US permanent residence document privileges verified against destination government sources"
   },
-  "lastUpdated": "2026-10-20",
-  "totalUnlocked": 30,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 31,
   "unlocks": [
+    {
+      "country": "PA",
+      "countryName": "Panama",
+      "region": "central_america",
+      "conditions": "Tourist entry for a traveler whose nationality normally requires a Panamanian visa and who holds a valid US permanent resident card.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present a passport with at least three months of validity remaining, the valid US permanent resident card, proof of at least US$500 in available funds, and a round-trip ticket.",
+      "source": {
+        "url": "https://infojuridica.procuraduria-admon.gob.pa/norma_screen?numsec=52032",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "verificationPath": "Procuraduría de la Administración > Decreto Ejecutivo 521 > Comentario and amendment history",
+        "exactQuote": "Visa o Residencia Vigente",
+        "confidence": "verified"
+      },
+      "notes": "This entry covers the residence-card basis for the tourist exemption under Article 1 of Executive Decree 521. Panama's Embassy in the United States explicitly lists a valid US permanent resident card and a maximum 30-day stay.",
+      "lastUpdated": "2026-11-26",
+      "additionalSources": [
+        {
+          "url": "https://www.embassyofpanama.org/visas-1",
+          "governmentDomain": true,
+          "authority": "Embassy of Panama in the United States",
+          "accessedDate": "2026-11-26",
+          "verificationPath": "Immigration and Visas > Visa Exemption > requirements following the amendment to Executive Decree 521",
+          "exactQuote": "The maximum amount of time that you can stay in Panama is 30 days.",
+          "confidence": "verified"
+        }
+      ]
+    },
     {
       "country": "MX",
       "countryName": "Mexico",
