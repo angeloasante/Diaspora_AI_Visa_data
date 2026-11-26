@@ -106,11 +106,37 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-11-26",
+        "source": "UAE and Serbian foreign ministries and UAE Government Portal"
       },
-      "lastUpdated": "2026-01-19T04:15:11.859203"
+      "lastUpdated": "2026-11-26",
+      "source": {
+        "url": "https://www.mofa.gov.ae/en/visa-exemptions-for-non-citizen/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "pageSection": "Visa information to enter the country > Republic of Serbia",
+        "verificationPath": "UAE Ministry of Foreign Affairs > Visa Exemptions > Republic of Serbia",
+        "exactQuote": "Republic of Serbia | Visa Free",
+        "confidence": "verified",
+        "notes": "The UAE ministry verifies visa-free entry. Serbia's ministry confirms up to 90 days for national passport holders and at least six months of remaining passport validity for tourist travel.",
+        "supportingSources": [
+          {
+            "url": "https://mfa.gov.rs/en/citizens/travel-abroad/visas-and-states-travel-advisory/united-arab-emirates",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-26",
+            "pageSection": "Visa Regime",
+            "exactQuote": "Visa is not required for stays of up to 90 days"
+          },
+          {
+            "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-26",
+            "pageSection": "Visa eligibility",
+            "exactQuote": "Passports must be valid for at least 6 months from the date of entry into the UAE."
+          }
+        ]
+      }
     },
     {
       "to": {
