@@ -9,8 +9,8 @@
     ],
     "description": "A valid Schengen visa can unlock visa-free entry or simplified entry procedures in certain non-Schengen destinations, subject to each destination's conditions"
   },
-  "lastUpdated": "2026-10-05",
-  "totalUnlocked": 15,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 16,
   "unlocks": [
     {
       "country": "AL",
@@ -250,6 +250,29 @@
       },
       "notes": "Transit only; not an unrestricted tourist exemption. ICA decides admission and no extension is allowed. The separate used single-journey-visa return exception is not covered.",
       "lastUpdated": "2026-11-10"
+    },
+    {
+      "country": "MA",
+      "countryName": "Morocco",
+      "region": "africa",
+      "accessType": "evisa",
+      "conditions": "A traveler who requires a visa for Morocco may apply for a Category C eVisa with a non-electronic, multiple-entry Schengen visa valid for at least 90 days from the Moroccan eVisa application date.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": true,
+      "applicationUrl": "https://www.acces-maroc.ma/",
+      "additionalRequirements": "Apply before travel with an ordinary passport valid for at least 90 days from application. Carry the approved eVisa, passport and qualifying visa. Be prepared to show a return ticket, proof of funds, and hospital and medical repatriation insurance for the stay. Minors must travel with a parent or legal representative.",
+      "source": {
+        "url": "https://www.acces-maroc.ma/assets/docs/Conditions%20utilisation%20eVisa%20-%20An.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "authority": "Acces Maroc",
+        "verificationPath": "General Information > Presentation > Category C; General Conditions > single-entry validity and stay; Advice and Recommendations > border evidence",
+        "exactQuote": "This visa must be multiple-entries and valid for at least 90 days"
+      },
+      "notes": "The Moroccan eVisa covers a single tourism or business visit of up to 30 days. Its use-by period may be up to 180 days from issue. The 90-day requirement applies to the supporting foreign visa and is measured at application.",
+      "lastUpdated": "2026-11-26"
     }
   ]
 }
