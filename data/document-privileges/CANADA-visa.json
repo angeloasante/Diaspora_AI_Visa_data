@@ -11,8 +11,8 @@
     ],
     "description": "Valid Canadian visas can unlock visa-free or simplified access beyond passport privileges"
   },
-  "lastUpdated": "2026-10-18",
-  "totalUnlocked": 8,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 11,
   "unlocks": [
     {
       "country": "GE",
@@ -176,6 +176,165 @@
       },
       "notes": "The 14-day stay cannot be extended or converted to a residence visa. Other nationalities and family-member exceptions are outside this entry.",
       "lastUpdated": "2026-11-10"
+    },
+    {
+      "country": "BM",
+      "countryName": "Bermuda",
+      "destinationType": "territory",
+      "region": "north_america",
+      "accessType": "visa_free",
+      "conditions": "Visa-controlled nationals listed in Bermuda's 2026 Order may present a Canadian multi re-entry visa valid for at least 45 days after intended departure from Bermuda.",
+      "maxStayDays": 180,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present a passport and Canadian multi re-entry visa, both valid for at least 45 days after intended departure from Bermuda. Carry proof of a return ticket.",
+      "source": {
+        "url": "https://www.bermudalaws.bm/Document/662014f2-d758-48f2-affe-39c7f2a2c878",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "authority": "Bermuda Laws Online",
+        "verificationPath": "BR 99/2026 > paragraphs 2 and 3(a) and Schedule",
+        "exactQuote": "has travel authorization to enter and re-enter Canada, the United Kingdom or the United States"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.gov.bm/news/immigration-updates",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Government of Bermuda",
+          "verificationPath": "Immigration Updates > September 3, 2026 > 2026 Prohibition of Entry Order",
+          "exactQuote": "a multi-re-entry visa issued by the US, UK or Canada"
+        },
+        {
+          "url": "https://www2.gov.bm/articles/guidance-unrestricted-period-residence",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Government of Bermuda, Department of Immigration",
+          "verificationPath": "Guidance - Unrestricted Period of Residence > opening paragraph and visitor examples",
+          "exactQuote": "a cumulative maximum of 180 days in any 12-month period"
+        },
+        {
+          "url": "https://www.gov.bm/bermuda-entry-visas",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Government of Bermuda, Department of Immigration",
+          "verificationPath": "Bermuda entry visas > travel document validity paragraph",
+          "exactQuote": "the traveler’s passport must be valid for 45 days"
+        },
+        {
+          "url": "https://www.gov.bm/articles/update-services-department-immigration",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Government of Bermuda, Department of Immigration",
+          "verificationPath": "Update on Services from the Department of Immigration > visitor admission paragraph",
+          "exactQuote": "provided they have proof of a return ticket"
+        }
+      ],
+      "notes": "Verify whether the 2026 Order's Schedule covers the passport and any applicable exceptions. The 180-day visitor limit is cumulative in a 12-month period. Previous visits can reduce the stay available on entry.",
+      "lastUpdated": "2026-11-26"
+    },
+    {
+      "country": "HN",
+      "countryName": "Honduras",
+      "region": "central_america",
+      "accessType": "visa_free",
+      "conditions": "Honduran Category B nationals with a valid Canadian visa qualify for visa-exempt entry for an initial visit of up to 90 days.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Bring a valid passport, the valid Canadian visa and a return or onward ticket. Immigration may ask for proof of funds, the purpose of travel and an address in Honduras.",
+      "source": {
+        "url": "https://portalunico.iaip.gob.hn/ver_archivo/MTc3NTk4NQ%3D%3D",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "authority": "Honduras Secretariat of Foreign Affairs and International Cooperation",
+        "verificationPath": "Circular No. 008-DSS-ACM-2023 > Section 2 > Visa vigente estadounidense, canadiense o Schengen",
+        "exactQuote": "visa vigente Estadounidense, Canadiense o Schengen, y requieran visa categoría “B”"
+      },
+      "additionalSources": [
+        {
+          "url": "https://ods.sedesol.gob.hn/wp-content/uploads/2024/10/Ley_de_Migraciones_y_extranjeria_Honduras1.pdf",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Government of Honduras",
+          "verificationPath": "Ley de Migración y Extranjería > Articles 19 and 20 > means of subsistence and initial stay",
+          "exactQuote": "se les autorizará permanencia en el país hasta por noventa días"
+        },
+        {
+          "url": "https://www.cocesna.org/aipca/AIPMH/AIP_2630/Eurocontrol/HONDURAS/2026-04-16-AIRAC/html/eAIP/ES-MH-GEN-1.3-es-ES.html",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Honduras Aeronautical Information Publication, published by COCESNA",
+          "verificationPath": "GEN 1.3 > sections 2.1–2.2 and 3.9 > immigration requirements and initial stay"
+        }
+      ],
+      "notes": "The consular circular gives Category C holders of a valid Canadian visa Category B treatment. That group must still obtain a Honduran consular visa.",
+      "lastUpdated": "2026-11-26"
+    },
+    {
+      "country": "TW",
+      "countryName": "Taiwan",
+      "region": "asia",
+      "accessType": "travel_authorization",
+      "eligibleNationalities": [
+        "IN",
+        "ID",
+        "LA",
+        "MM",
+        "VN"
+      ],
+      "conditions": "Ordinary passport holders from India, Indonesia, Laos, Myanmar and Vietnam may apply before travel for a Taiwan Travel Authorization Certificate (TAC) using a qualifying formal Canadian visa. A valid visa or one expired within 10 years of arrival can qualify. Cancelled visas do not qualify.",
+      "maxStayDays": 14,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "The traveler must not have been employed as a blue-collar worker in Taiwan. Carry a printed TAC matching the passport, the qualifying visa or printout of an electronic visa, an ordinary passport valid for at least six months on arrival, and a confirmed return or onward ticket. Complete the online arrival card for subsequent entries using that TAC.",
+      "source": {
+        "url": "https://servicestation.immigration.gov.tw/media/113702/2025-%E9%81%8B%E8%BC%B8%E6%A5%AD%E8%80%85%E8%BC%89%E9%81%8B%E6%97%85%E5%AE%A2%E5%85%A5%E8%87%BA%E7%81%A3%E5%90%84%E9%A1%9E%E6%9C%89%E6%95%88%E6%97%85%E8%A1%8C%E6%96%87%E4%BB%B6%E5%8F%83%E8%80%83%E6%8C%87%E5%8D%97-immigration-reference-guide-for-civil-carriers.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "authority": "Taiwan National Immigration Agency",
+        "verificationPath": "Immigration Reference Guide for Civil Carriers > Entry of Aliens > Section 6 > Picture 61, supporting documents table and checkpoints > Canada in the issuing-country table",
+        "exactQuote": "A valid visa (including electronic visa)."
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.boca.gov.tw/cp-152-274-8c0e2-2.html",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Taiwan Bureau of Consular Affairs",
+          "verificationPath": "Online Application for R.O.C. (Taiwan) Travel Authorization Certificate > 2026 eligibility notice",
+          "exactQuote": "Citizens of India, Indonesia, Laos, Myanmar, and Vietnam can apply online"
+        },
+        {
+          "url": "https://niaspeedy.immigration.gov.tw/nia_southeast/",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Taiwan National Immigration Agency",
+          "verificationPath": "Online Advance Screening System > TAC heading and current nationality notices"
+        },
+        {
+          "url": "https://www.taiwanembassy.org/uploads/sites/211/2022/11/%E6%9D%B1%E5%8D%97%E4%BA%9E%E5%9C%8B%E5%AE%B6%E4%BA%BA%E6%B0%91%E4%BE%86%E8%87%BA%E5%85%88%E8%A1%8C%E4%B8%8A%E7%B6%B2%E6%9F%A5%E6%A0%B8%E7%B3%BB%E7%B5%B1-%E8%8B%B1%E6%96%87%E8%AA%AA%E6%98%8E.pdf",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Taiwan National Immigration Agency, hosted by Taiwan's overseas mission",
+          "verificationPath": "TAC English instructions > basic requirements and stay duration. Use the 2026 BOCA notice for the current passport list.",
+          "exactQuote": "14 days, starting from the day after arrival"
+        }
+      ],
+      "notes": "The stay is 14 days from the day after arrival. When the qualifying visa has no expiry date, measure the 10-year window from its issue date. The current BOCA and TAC portal passport list supersedes the older carrier guide list.",
+      "lastUpdated": "2026-11-26"
     },
     {
       "country": "SG",
