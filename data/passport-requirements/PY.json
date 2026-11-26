@@ -106,11 +106,37 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-11-26",
+        "source": "UAE Ministry of Foreign Affairs, Paraguay's congressional library, and UAE Government Portal"
       },
-      "lastUpdated": "2026-01-19T04:16:02.177322"
+      "lastUpdated": "2026-11-26",
+      "source": {
+        "url": "https://www.mofa.gov.ae/en/visa-exemptions-for-non-citizen/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "pageSection": "Visa information to enter the country > Republic of Paraguay",
+        "verificationPath": "UAE Ministry of Foreign Affairs > Visa Exemptions > Republic of Paraguay",
+        "exactQuote": "Republic of Paraguay | Visa Free",
+        "confidence": "verified",
+        "notes": "The UAE ministry verifies visa-free entry. Paraguay's congressional library publishes Law 6321 and its bilateral agreement. Article 1 covers ordinary Paraguayan passports and six months of remaining validity. Article 2 sets a 90-day maximum.",
+        "supportingSources": [
+          {
+            "url": "https://www.bacn.gov.py/leyes-paraguayas/8848/ley-n-6321-aprueba-el-acuerdo-entre-el-gobierno-de-la-republica-del-paraguay-y-el-gobierno-de-los-emiratos-arabes-unidos-sobre-exencion-mutua-del-requisito-de-visas-para-los-titulares-de-pasaportes-diplomaticos-oficiales-especiales-ordinarios-y-de-servicios",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-26",
+            "pageSection": "Law 6321 > Bilateral agreement > Articles 1 and 2",
+            "exactQuote": "sin una visa de entrada por un período máximo de 90 (noventa) días"
+          },
+          {
+            "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-26",
+            "pageSection": "Visa eligibility",
+            "exactQuote": "Passports must be valid for at least 6 months from the date of entry into the UAE."
+          }
+        ]
+      }
     },
     {
       "to": {
