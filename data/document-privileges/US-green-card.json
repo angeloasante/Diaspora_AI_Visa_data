@@ -5,8 +5,8 @@
     "countryName": "United States",
     "description": "US permanent residence document privileges verified against destination government sources"
   },
-  "lastUpdated": "2026-10-20",
-  "totalUnlocked": 30,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 31,
   "unlocks": [
     {
       "country": "MX",
@@ -28,6 +28,56 @@
       },
       "notes": "Visa exemption for visitors without permission to perform remunerated activities. The INM page states a maximum of 180 days; the authorized stay and admission are determined by the immigration authority. This entry concerns permanent residence, separately from the valid-visa exemption in item b).",
       "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "GT",
+      "countryName": "Guatemala",
+      "region": "central_america",
+      "accessType": "visa_free",
+      "conditions": "Category B or C passport holders can qualify for Category A visa-exempt treatment with valid U.S. permanent residence and documented proof of three continuous years of residence in the United States.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present a valid passport or equivalent travel document, the physical U.S. Permanent Resident Card, and documentation showing three continuous years of U.S. residence. The embassy directs travelers relying on a Green Card extension to apply for a Guatemalan visa before travel.",
+      "source": {
+        "url": "https://www.embaguateusa.gob.gt/general-9",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "authority": "Embassy of Guatemala in the United States",
+        "verificationPath": "Visa Requirements > information for U.S. Green Card holders",
+        "exactQuote": "you MUST present your physical US Green Card"
+      },
+      "additionalSources": [
+        {
+          "url": "https://igm.gob.gt/wp-content/uploads/2025/09/24.1.3-Reglamento-de-Visas-ACUERDO-NUMERO-IGM-015-2025.pdf",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Guatemalan Migration Institute",
+          "verificationPath": "Visa Regulation IGM-015-2025 > Article 5 (travel document) and Article 29(1) (Category A treatment based on residence)",
+          "exactQuote": "acreditando tres años continuos de permanencia, debidamente comprobada y documentada"
+        },
+        {
+          "url": "https://igm.gob.gt/wp-content/uploads/2025/01/02.-ACUERDOS-DE-AUTORIDAD-MIGRATORIA-NACIONAL-001-2023002-2023.pdf",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Guatemalan Migration Institute",
+          "verificationPath": "Migration regulation > Article 49 (authorized duration for tourists or travelers)",
+          "exactQuote": "Se otorgará una permanencia no mayor a 90 días a los turistas o viajeros"
+        },
+        {
+          "url": "https://travel.state.gov/en/international-travel/travel-advisories/guatemala.html",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "U.S. Department of State",
+          "verificationPath": "Guatemala > Travel requirements > Tourist visa requirements (U.S. passport holders)"
+        }
+      ],
+      "notes": "The embassy states the physical Green Card requirement. Article 29(1) specifies the residence-duration evidence for Category B and C nationals. The initial visitor admission is up to 90 days.",
+      "lastUpdated": "2026-11-26"
     },
     {
       "country": "RS",
@@ -1240,8 +1290,8 @@
     }
   ],
   "coverage": {
-    "visitDestinationCount": 23,
-    "territoryDestinationCount": 5,
+    "visitDestinationCount": 24,
+    "territoryDestinationCount": 4,
     "transitOnlyDestinationCount": 3
   }
 }
