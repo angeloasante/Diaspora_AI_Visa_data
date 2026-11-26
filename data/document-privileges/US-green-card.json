@@ -5,8 +5,8 @@
     "countryName": "United States",
     "description": "US permanent residence document privileges verified against destination government sources"
   },
-  "lastUpdated": "2026-10-20",
-  "totalUnlocked": 30,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 31,
   "unlocks": [
     {
       "country": "MX",
@@ -1237,11 +1237,54 @@
       "evisaRequired": false,
       "transitOnly": true,
       "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "QA",
+      "countryName": "Qatar",
+      "region": "middle_east",
+      "accessType": "evisa",
+      "conditions": "Holders of a U.S. Permanent Resident Card may apply online for Qatar's Hayya Visa with ETA (A3). The supporting document must be valid at application and when the Qatari eVisa is issued.",
+      "maxStayDays": null,
+      "visaOnArrival": false,
+      "evisaRequired": true,
+      "applicationUrl": "https://hayya.qa/en/",
+      "additionalRequirements": "Obtain A3 approval before travel. Bring the approved eVisa, a passport valid for at least three months from arrival, the supporting document, proof of accommodation and a return flight ticket. Hayya lists an application fee of QAR 100.",
+      "source": {
+        "url": "https://hayya.qa/en/faq?tab=a3",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "authority": "Qatar Hayya",
+        "verificationPath": "Hayya Portal > FAQ > Visa with ETA (A3) > eligibility, supporting document validity and requirements",
+        "exactQuote": "If you hold a valid visa or residency of the US, the UK, Canada, Schengen, Australia, or New Zealand, you can apply"
+      },
+      "additionalSources": [
+        {
+          "url": "https://hukoomi.gov.qa/en/categories/citizenship-and-residency/hayya-card",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Qatar Government Portal",
+          "verificationPath": "Apply for a Visa on Hayya Platform > visa types and application service",
+          "exactQuote": "Visa with ETA (A3)"
+        },
+        {
+          "url": "https://hayya.qa/en/faq?tab=general",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Qatar Hayya",
+          "verificationPath": "Hayya Portal > FAQ > requirements for entry and proof of accommodation",
+          "exactQuote": "Minimum of 3 months passport validity"
+        }
+      ],
+      "notes": "Use the stay authorized on the issued A3 eVisa. The cited A3 guidance does not state a fixed stay limit.",
+      "lastUpdated": "2026-11-26"
     }
   ],
   "coverage": {
-    "visitDestinationCount": 23,
-    "territoryDestinationCount": 5,
+    "visitDestinationCount": 24,
+    "territoryDestinationCount": 4,
     "transitOnlyDestinationCount": 3
   }
 }
