@@ -9,8 +9,8 @@
     ],
     "description": "A valid Schengen visa can unlock visa-free entry or simplified entry procedures in certain non-Schengen destinations, subject to each destination's conditions"
   },
-  "lastUpdated": "2026-10-05",
-  "totalUnlocked": 15,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 16,
   "unlocks": [
     {
       "country": "AL",
@@ -66,6 +66,47 @@
         "confidence": "verified"
       },
       "notes": "Maximum 15 days per entry, with total stay limited to 90 days in any 180-day period."
+    },
+    {
+      "country": "HN",
+      "countryName": "Honduras",
+      "region": "central_america",
+      "accessType": "visa_free",
+      "conditions": "Honduran Category B nationals with a valid Schengen visa qualify for visa-exempt entry for an initial visit of up to 90 days.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Bring a valid passport, the valid Schengen visa and a return or onward ticket. Immigration may ask for proof of funds, the purpose of travel and an address in Honduras.",
+      "source": {
+        "url": "https://portalunico.iaip.gob.hn/ver_archivo/MTc3NTk4NQ%3D%3D",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "authority": "Honduras Secretariat of Foreign Affairs and International Cooperation",
+        "verificationPath": "Circular No. 008-DSS-ACM-2023 > Section 2 > Visa vigente estadounidense, canadiense o Schengen",
+        "exactQuote": "visa vigente Estadounidense, Canadiense o Schengen, y requieran visa categoría “B”"
+      },
+      "additionalSources": [
+        {
+          "url": "https://ods.sedesol.gob.hn/wp-content/uploads/2024/10/Ley_de_Migraciones_y_extranjeria_Honduras1.pdf",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Government of Honduras",
+          "verificationPath": "Ley de Migración y Extranjería > Articles 19 and 20 > means of subsistence and initial stay",
+          "exactQuote": "se les autorizará permanencia en el país hasta por noventa días"
+        },
+        {
+          "url": "https://www.cocesna.org/aipca/AIPMH/AIP_2630/Eurocontrol/HONDURAS/2026-04-16-AIRAC/html/eAIP/ES-MH-GEN-1.3-es-ES.html",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Honduras Aeronautical Information Publication, published by COCESNA",
+          "verificationPath": "GEN 1.3 > sections 2.1–2.2 and 3.9 > immigration requirements and initial stay"
+        }
+      ],
+      "notes": "The consular circular gives Category C holders of a valid Schengen visa Category B treatment. That group must still obtain a Honduran consular visa.",
+      "lastUpdated": "2026-11-26"
     },
     {
       "country": "BA",
