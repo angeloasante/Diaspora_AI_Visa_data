@@ -8,8 +8,8 @@
     ],
     "description": "Canadian permanent resident card: verified visitor visa exemptions and conditional eVisa access, subject to destination-specific requirements. This is a partial destination list."
   },
-  "lastUpdated": "2026-10-06",
-  "totalUnlocked": 11,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 12,
   "unlocks": [
     {
       "country": "MX",
@@ -255,6 +255,26 @@
       },
       "additionalRequirements": "At border checks, residence evidence, a return ticket, proof of means and hospital/repatriation insurance may be requested. Applicants under 18 must enter with a parent or legal representative.",
       "notes": "This is conditional eVisa eligibility, not visa-free entry or a visa on arrival. The approved eVisa allows a single entry, up to 30 days of stay and at most 180 days of validity from issue. Approval and admission are not guaranteed. Tourism/business only, not Moroccan residence; successive eVisas cannot extend one uninterrupted stay."
+    },
+    {
+      "country": "BS",
+      "countryName": "The Bahamas",
+      "region": "caribbean",
+      "conditions": "For visits of up to 30 days, present a valid passport from your country of origin and your original Canadian permanent resident card. Both documents must have at least three months of validity remaining after the return date for direct travel or six months when transiting through another country.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "lastUpdated": "2026-11-26",
+      "source": {
+        "url": "https://www.bahighco.ca/visa-requirements/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "The Bahamas High Commission > eVisa Requirements > Canadian Permanent Residents",
+        "exactQuote": "may stay in The Bahamas for 30 days without a visa."
+      },
+      "additionalRequirements": "Carry a return ticket and a confirmed hotel or cruise reservation or a letter of invitation from your host. Check any transit-country entry requirements separately.",
+      "notes": "The 30-day limit applies to the Canadian permanent resident card exemption. Contact Bahamas Immigration to request a longer stay."
     }
   ]
 }
