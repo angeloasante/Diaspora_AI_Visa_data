@@ -9,9 +9,45 @@
     ],
     "description": "A valid Schengen visa can unlock visa-free entry or simplified entry procedures in certain non-Schengen destinations, subject to each destination's conditions"
   },
-  "lastUpdated": "2026-10-05",
-  "totalUnlocked": 15,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 16,
   "unlocks": [
+    {
+      "country": "CW",
+      "countryName": "Curaçao",
+      "region": "caribbean",
+      "conditions": "Hold a valid multiple-entry short-stay Schengen visa when entering Curaçao as a visitor. This exemption applies to travelers whose nationality would otherwise require a Caribbean visa.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Carry a valid passport and the supporting Schengen visa. Complete Curaçao's Digital Immigration Card and be prepared to show the purpose and duration of the visit and sufficient resources.",
+      "source": {
+        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "verificationPath": "NetherlandsWorldwide > Caribbean visa > No visa required > Schengen country",
+        "exactQuote": "If you hold a multiple-entry Schengen visa or a resident permit for the Netherlands or another Schengen country, you do not need a Caribbean visa.",
+        "confidence": "verified"
+      },
+      "additionalSources": [
+        {
+          "url": "https://immigrationcur.org/en/dep/toerist/",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "verificationPath": "Immigration Service Curaçao > Extension of tourist stay > tourists in the other nationalities category",
+          "notes": "Local guidance gives 30 days for the ordinary category. Extension and nationality-specific categories have separate rules."
+        },
+        {
+          "url": "https://www.curacao.com/en/questions/customs-and-immigration/do-i-need-a-visa-to-visit-curacao",
+          "governmentDomain": false,
+          "accessedDate": "2026-11-26",
+          "verificationPath": "Curaçao Tourist Board > Customs and Immigration > visa requirements",
+          "notes": "Local visitor guidance confirms the multiple-entry short-stay Schengen exception and the standard 30 consecutive days."
+        }
+      ],
+      "notes": "The 30-day value describes the standard initial tourist stay. Curaçao has separate nationality-specific allowances and procedures for extending a stay.",
+      "lastUpdated": "2026-11-26"
+    },
     {
       "country": "AL",
       "countryName": "Albania",
