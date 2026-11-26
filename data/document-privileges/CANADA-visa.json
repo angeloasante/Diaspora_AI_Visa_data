@@ -11,9 +11,44 @@
     ],
     "description": "Valid Canadian visas can unlock visa-free or simplified access beyond passport privileges"
   },
-  "lastUpdated": "2026-10-18",
-  "totalUnlocked": 8,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 9,
   "unlocks": [
+    {
+      "country": "JM",
+      "countryName": "Jamaica",
+      "region": "caribbean",
+      "accessType": "visa_free",
+      "conditions": "Hold a valid Canadian visa and an eligible passport for a tourist visit of up to 30 days. Jamaica's Passport, Immigration and Citizenship Agency lists Albania, Belarus, Bosnia and Herzegovina, Bulgaria, Croatia, Honduras, Kazakhstan, Moldova, Montenegro, North Macedonia, Romania and Serbia.",
+      "eligibleNationalities": [
+        "AL",
+        "BA",
+        "BG",
+        "BY",
+        "HN",
+        "HR",
+        "KZ",
+        "MD",
+        "ME",
+        "MK",
+        "RO",
+        "RS"
+      ],
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "lastUpdated": "2026-11-26",
+      "source": {
+        "url": "https://www.pica.gov.jm/immigration/entry-visa-requirements",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "Passport, Immigration and Citizenship Agency > Immigration > Entry VISA Requirements > Nationality table",
+        "exactQuote": "30 days or less as tourists",
+        "supportingQuote": "proof of vaccination against Measles, Rubella & Polio"
+      },
+      "additionalRequirements": "Bring proof of vaccination against measles, rubella and polio if traveling on a passport of Albania, Belarus, Bosnia and Herzegovina, Bulgaria, Croatia, Kazakhstan, Moldova, Montenegro, North Macedonia, Romania or Serbia. PICA's Honduras row lists the qualifying visa without that vaccination condition."
+    },
     {
       "country": "GE",
       "countryName": "Georgia",
