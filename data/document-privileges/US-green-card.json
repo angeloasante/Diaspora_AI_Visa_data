@@ -5,9 +5,32 @@
     "countryName": "United States",
     "description": "US permanent residence document privileges verified against destination government sources"
   },
-  "lastUpdated": "2026-10-20",
-  "totalUnlocked": 30,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 31,
   "unlocks": [
+    {
+      "country": "BN",
+      "countryName": "Brunei",
+      "region": "asia",
+      "accessType": "transit_only",
+      "conditions": "A traveler holding valid U.S. permanent residence may apply for a transit visa on arrival at Brunei International Airport while traveling by air to a third country.",
+      "maxStayDays": 3,
+      "visaOnArrival": true,
+      "evisaRequired": false,
+      "transitOnly": true,
+      "lastUpdated": "2026-11-26",
+      "source": {
+        "url": "https://www.mfa.gov.bn/Pages/transit-Visa.aspx",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "Brunei Ministry of Foreign Affairs > Consular Services > Types of Visa > Transit Visa > residence permit eligibility",
+        "exactQuote": "valid Residence Permit issued by Australia, New Zealand, United States of America",
+        "supportingQuote": "within the 72 hours from transit visa granted"
+      },
+      "additionalRequirements": "Bring a valid passport, confirmed onward flight, visa for the third country where applicable, and sufficient funds. The Ministry's transit requirements also list a sponsor such as an airline or travel agent and a BND 5 fee payable in local currency.",
+      "notes": "The maximum is 72 hours from the visa grant. The visa is issued only at Brunei International Airport and cannot be extended."
+    },
     {
       "country": "MX",
       "countryName": "Mexico",
