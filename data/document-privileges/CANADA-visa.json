@@ -11,8 +11,8 @@
     ],
     "description": "Valid Canadian visas can unlock visa-free or simplified access beyond passport privileges"
   },
-  "lastUpdated": "2026-10-18",
-  "totalUnlocked": 8,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 9,
   "unlocks": [
     {
       "country": "GE",
@@ -196,6 +196,35 @@
       },
       "notes": "Transit only; not an unrestricted tourist exemption. ICA decides admission and no extension is allowed. The separate used single-journey-visa return exception is not covered.",
       "lastUpdated": "2026-11-10"
+    },
+    {
+      "country": "GT",
+      "countryName": "Guatemala",
+      "region": "central_america",
+      "conditions": "Nationals in Guatemala's Category B (consular visa) who hold a valid Canadian visa receive Category A treatment and may enter as a tourist or traveler without applying for a separate Guatemalan consular visa.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present a valid passport or travel document and the valid Canadian visa. Check Guatemala's current classification for your nationality before travel.",
+      "source": {
+        "url": "https://igm.gob.gt/wp-content/uploads/2025/09/24.1.3-Reglamento-de-Visas-ACUERDO-NUMERO-IGM-015-2025.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "Instituto Guatemalteco de Migración > Reglamento de Visas Guatemaltecas, IGM-015-2025 > Articles 5, 9, 10 and 29(2)",
+        "exactQuote": "Canadá o Schengen, quienes cambian a categoría \"A\" o exentos de visa"
+      },
+      "staySource": {
+        "url": "https://igm.gob.gt/wp-content/uploads/2025/01/02.-ACUERDOS-DE-AUTORIDAD-MIGRATORIA-NACIONAL-001-2023002-2023.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "Instituto Guatemalteco de Migración > migration regulations > Article 49, De la permanencia de turistas o viajeros",
+        "exactQuote": "Se otorgará una permanencia no mayor a 90 días a los turistas o viajeros"
+      },
+      "notes": "The 90-day figure is the initial visitor ceiling. Under Article 29(2), Category C nationals with a valid Canadian visa receive Category B treatment and must apply for a consular visa.",
+      "lastUpdated": "2026-11-26",
+      "accessType": "visa_free"
     }
   ]
 }
