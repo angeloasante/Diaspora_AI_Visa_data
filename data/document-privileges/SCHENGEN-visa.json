@@ -9,8 +9,8 @@
     ],
     "description": "A valid Schengen visa can unlock visa-free entry or simplified entry procedures in certain non-Schengen destinations, subject to each destination's conditions"
   },
-  "lastUpdated": "2026-10-05",
-  "totalUnlocked": 15,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 16,
   "unlocks": [
     {
       "country": "AL",
@@ -121,6 +121,26 @@
         "confidence": "verified"
       },
       "notes": "Belize lists a valid multiple-entry Schengen visa as an exemption from the Belize entry-visa requirement for visits not exceeding 30 days."
+    },
+    {
+      "country": "CR",
+      "countryName": "Costa Rica",
+      "region": "central_america",
+      "conditions": "Travelers otherwise subject to a Costa Rican consular or restricted visa may use a multiple-entry Schengen short-stay category C visa valid for up to 90 days under the directive. It must already be in force on arrival and have at least one calendar day of validity from the intended entry date.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present the qualifying visa, a passport meeting the applicable nationality-group validity requirement, and proof of onward or return travel. Other Costa Rican entry requirements still apply.",
+      "source": {
+        "url": "https://www.imprentanacional.go.cr/pub/2025/11/17/ALCA148_17_11_2025.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "La Gaceta No. 216, Alcance No. 148 > AJ-484-11-2025 > QUINTO, III. Ingreso con visas categorías C y D del Espacio Schengen",
+        "exactQuote": "“C” exclusivamente de entradas múltiples y válida hasta por 90 días"
+      },
+      "notes": "The initial group limit is up to 30 days. The border officer determines the actual stay, which cannot extend beyond the qualifying visa's validity. Category D is outside this short-stay dataset.",
+      "lastUpdated": "2026-11-26"
     },
     {
       "country": "XK",
