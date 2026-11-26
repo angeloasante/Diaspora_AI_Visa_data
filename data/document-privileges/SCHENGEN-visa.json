@@ -9,8 +9,8 @@
     ],
     "description": "A valid Schengen visa can unlock visa-free entry or simplified entry procedures in certain non-Schengen destinations, subject to each destination's conditions"
   },
-  "lastUpdated": "2026-10-05",
-  "totalUnlocked": 15,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 16,
   "unlocks": [
     {
       "country": "AL",
@@ -250,6 +250,34 @@
       },
       "notes": "Transit only; not an unrestricted tourist exemption. ICA decides admission and no extension is allowed. The separate used single-journey-visa return exception is not covered.",
       "lastUpdated": "2026-11-10"
+    },
+    {
+      "country": "SA",
+      "countryName": "Saudi Arabia",
+      "region": "middle_east",
+      "conditions": "Apply for a Saudi tourist visa on arrival using a valid Schengen tourist or business visa previously used at least once to enter its issuing country.",
+      "maxStayDays": 90,
+      "visaOnArrival": true,
+      "evisaRequired": false,
+      "additionalRequirements": "Carry proof of prior use and a passport with at least six months of validity. Saudi tourist visa rules require approved medical insurance and the applicable visa fee.",
+      "source": {
+        "url": "https://mt.gov.sa/en/media-center/news/ministerial-decree-to-benefit-millions-as-saudi-arabia-set-to-welcome-more-tourists-than-ever-before",
+        "accessedDate": "2026-11-26",
+        "governmentDomain": true,
+        "confidence": "verified",
+        "verificationPath": "Ministry of Tourism > Media Center > Ministerial decree > paragraph on visa on arrival for valid tourist or business visa holders",
+        "exactQuote": "provided that it has been used at least once to enter the country granting the visa."
+      },
+      "staySource": {
+        "url": "https://ksavisa.sa/visa/tourism/details",
+        "accessedDate": "2026-11-26",
+        "governmentDomain": true,
+        "confidence": "verified",
+        "verificationPath": "KSA Visa > Tourism > Visa duration and validity > Multiple Entry Visa",
+        "exactQuote": "Stay Duration: 90 days"
+      },
+      "notes": "The 90-day figure is the published maximum for the multiple-entry tourist visa. Follow the stay and validity printed on the visa issued. Visa issuance and admission are subject to Saudi authorities. Tourist visa conditions apply, and Hajj requires a separate visa.",
+      "lastUpdated": "2026-11-26"
     }
   ]
 }
