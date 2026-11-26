@@ -82,7 +82,7 @@
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Qatari citizens qualify for visa-free entry under the UAE exemption for GCC citizens. The cited guidance does not specify a stay duration."
       },
       "documents": {
         "passport": {
@@ -107,11 +107,30 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-11-26",
+        "source": "Official UAE Government Portal and GCC Secretariat General"
       },
-      "lastUpdated": "2026-01-19T04:15:19.130903"
+      "lastUpdated": "2026-11-26",
+      "source": {
+        "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "pageSection": "Check if you need a visa to enter the UAE",
+        "verificationPath": "Official UAE Government Portal > Visa and Emirates ID > Check if you need a visa to enter the UAE",
+        "exactQuote": "GCC citizens do not need a visa to enter the UAE.",
+        "confidence": "verified",
+        "notes": "The exemption is based on GCC citizenship. The GCC Secretariat General lists Qatar as a member state.",
+        "supportingSources": [
+          {
+            "url": "https://www.gcc-sg.org/en/AboutUs/MemberStates/Pages/default.aspx",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-26",
+            "pageSection": "Member States > Qatar",
+            "exactQuote": "Qatar"
+          }
+        ]
+      }
     },
     {
       "to": {
