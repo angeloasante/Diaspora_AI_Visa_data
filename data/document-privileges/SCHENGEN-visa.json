@@ -9,8 +9,8 @@
     ],
     "description": "A valid Schengen visa can unlock visa-free entry or simplified entry procedures in certain non-Schengen destinations, subject to each destination's conditions"
   },
-  "lastUpdated": "2026-10-05",
-  "totalUnlocked": 15,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 16,
   "unlocks": [
     {
       "country": "AL",
@@ -250,6 +250,66 @@
       },
       "notes": "Transit only; not an unrestricted tourist exemption. ICA decides admission and no extension is allowed. The separate used single-journey-visa return exception is not covered.",
       "lastUpdated": "2026-11-10"
+    },
+    {
+      "country": "CO",
+      "countryName": "Colombia",
+      "region": "south_america",
+      "accessType": "visa_free",
+      "eligibleNationalities": [
+        "KH",
+        "IN",
+        "NI",
+        "MM",
+        "CN",
+        "TH",
+        "TW",
+        "VN"
+      ],
+      "conditions": "Nationals of Cambodia, India, Nicaragua, Myanmar, China, Thailand, Taiwan or Vietnam may qualify for visa-free short stays with a Schengen visa valid for at least 180 more days on arrival.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present a valid passport and the qualifying Schengen visa. Carry proof of onward or return travel and evidence of the purpose of the visit. Nicaraguan nationals are subject to the applicable migration control fee.",
+      "source": {
+        "url": "https://cancilleria.gov.co/sites/default/files/Normograma/docs/pdf/resolucion_minrelaciones_5488_2022.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "authority": "Colombia Ministry of Foreign Affairs",
+        "verificationPath": "Consolidated Resolution 5488/2022 > current Article 3(C) as amended by Resolution 3717/2023 > conditional exemptions",
+        "exactQuote": "vigencia mínima de ciento ochenta (180) días al momento de ingreso"
+      },
+      "additionalSources": [
+        {
+          "url": "https://cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/visa/necesito-un-visa",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Colombia Ministry of Foreign Affairs",
+          "verificationPath": "Necesito una visa > conditional exemption for U.S. and Schengen document holders",
+          "exactQuote": "vigente por al menos 180 días al momento de su ingreso"
+        },
+        {
+          "url": "https://www.migracioncolombia.gov.co/tramites-y-servicios/tramites-generales/prorroga/permiso-temporal-de-permanencia-ptp-/-prorroga",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Migración Colombia",
+          "verificationPath": "Permiso Temporal de Permanencia > permit types, tourism row and annual extension ceiling",
+          "exactQuote": "Hasta 90 días calendario"
+        },
+        {
+          "url": "https://www.migracioncolombia.gov.co/tramites-y-servicios/tarifas/tarifas-vigentes",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Migración Colombia",
+          "verificationPath": "Tarifas vigentes > Ingreso a personas de Nicaragua"
+        }
+      ],
+      "notes": "The 180-day minimum applies to the remaining validity of the supporting visa. The initial tourism admission is up to 90 days. An approved extension may bring the total to 180 days within the same calendar year.",
+      "lastUpdated": "2026-11-26"
     }
   ]
 }
