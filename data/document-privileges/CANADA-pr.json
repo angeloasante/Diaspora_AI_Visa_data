@@ -8,8 +8,8 @@
     ],
     "description": "Canadian permanent resident card: verified visitor visa exemptions and conditional eVisa access, subject to destination-specific requirements. This is a partial destination list."
   },
-  "lastUpdated": "2026-10-06",
-  "totalUnlocked": 11,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 12,
   "unlocks": [
     {
       "country": "MX",
@@ -255,6 +255,46 @@
       },
       "additionalRequirements": "At border checks, residence evidence, a return ticket, proof of means and hospital/repatriation insurance may be requested. Applicants under 18 must enter with a parent or legal representative.",
       "notes": "This is conditional eVisa eligibility, not visa-free entry or a visa on arrival. The approved eVisa allows a single entry, up to 30 days of stay and at most 180 days of validity from issue. Approval and admission are not guaranteed. Tourism/business only, not Moroccan residence; successive eVisas cannot extend one uninterrupted stay."
+    },
+    {
+      "country": "GT",
+      "countryName": "Guatemala",
+      "region": "central_america",
+      "conditions": "Category B or C nationals with valid residence in Canada can receive Category A visa-exempt treatment if they document three continuous years of residence in Canada.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present a valid passport or travel document, a valid Canadian permanent resident card, and documentation showing three continuous years of residence in Canada.",
+      "source": {
+        "url": "https://igm.gob.gt/wp-content/uploads/2025/09/24.1.3-Reglamento-de-Visas-ACUERDO-NUMERO-IGM-015-2025.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "Instituto Guatemalteco de Migración > Reglamento de Visas Guatemaltecas, IGM-015-2025 > Articles 5 and 29(1)",
+        "exactQuote": "acreditando tres años continuos de permanencia, debidamente comprobada y documentada"
+      },
+      "staySource": {
+        "url": "https://igm.gob.gt/wp-content/uploads/2025/01/02.-ACUERDOS-DE-AUTORIDAD-MIGRATORIA-NACIONAL-001-2023002-2023.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "Instituto Guatemalteco de Migración > migration regulations > Article 49, De la permanencia de turistas o viajeros",
+        "exactQuote": "Se otorgará una permanencia no mayor a 90 días a los turistas o viajeros"
+      },
+      "notes": "Canada is listed in Category A in Guatemala's nationality table. Article 29(1) applies to Category B and C nationals who prove the required period of residence. The 90-day figure is the initial visitor ceiling.",
+      "lastUpdated": "2026-11-26",
+      "accessType": "visa_free",
+      "additionalSources": [
+        {
+          "url": "https://www.minex.gob.gt/din/26-visas-para-extranjeros",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Guatemala Ministry of Foreign Affairs",
+          "verificationPath": "Visas para extranjeros > ordinary passport classification > Canadá",
+          "exactQuote": "(A) EXENTO DE VISA"
+        }
+      ]
     }
   ]
 }
