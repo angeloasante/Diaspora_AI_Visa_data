@@ -5,8 +5,8 @@
     "countryName": "United States",
     "description": "US permanent residence document privileges verified against destination government sources"
   },
-  "lastUpdated": "2026-10-20",
-  "totalUnlocked": 30,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 31,
   "unlocks": [
     {
       "country": "MX",
@@ -28,6 +28,67 @@
       },
       "notes": "Visa exemption for visitors without permission to perform remunerated activities. The INM page states a maximum of 180 days; the authorized stay and admission are determined by the immigration authority. This entry concerns permanent residence, separately from the valid-visa exemption in item b).",
       "lastUpdated": "2026-10-20"
+    },
+    {
+      "country": "BM",
+      "countryName": "Bermuda",
+      "destinationType": "territory",
+      "region": "north_america",
+      "accessType": "visa_free",
+      "conditions": "Visa-controlled nationals listed in Bermuda's 2026 Order may use a valid U.S. Permanent Resident Card as proof of qualifying re-entry authorization. The card must remain valid for at least 45 days after intended departure from Bermuda.",
+      "maxStayDays": 180,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present a passport and U.S. Permanent Resident Card, both valid for at least 45 days past intended departure from Bermuda. Carry proof of a return ticket.",
+      "source": {
+        "url": "https://www.bermudalaws.bm/Document/662014f2-d758-48f2-affe-39c7f2a2c878",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "authority": "Bermuda Laws Online",
+        "verificationPath": "BR 99/2026 > paragraphs 2 and 3(a) and Schedule",
+        "exactQuote": "has travel authorization to enter and re-enter Canada, the United Kingdom or the United States"
+      },
+      "additionalSources": [
+        {
+          "url": "https://cbpcomplaints.cbp.gov/s/article/Article1287?language=en_US",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "U.S. Customs and Border Protection",
+          "verificationPath": "Traveling outside U.S. > returning lawful permanent residents",
+          "exactQuote": "must present a Permanent Resident Card"
+        },
+        {
+          "url": "https://www2.gov.bm/articles/guidance-unrestricted-period-residence",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Government of Bermuda, Department of Immigration",
+          "verificationPath": "Guidance - Unrestricted Period of Residence > opening paragraph and visitor examples",
+          "exactQuote": "a cumulative maximum of 180 days in any 12-month period"
+        },
+        {
+          "url": "https://www.gov.bm/bermuda-entry-visas",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Government of Bermuda, Department of Immigration",
+          "verificationPath": "Bermuda entry visas > travel document validity paragraph",
+          "exactQuote": "the traveler’s passport must be valid for 45 days"
+        },
+        {
+          "url": "https://www.gov.bm/articles/update-services-department-immigration",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Government of Bermuda, Department of Immigration",
+          "verificationPath": "Update on Services from the Department of Immigration > visitor admission paragraph",
+          "exactQuote": "provided they have proof of a return ticket"
+        }
+      ],
+      "notes": "Verify whether the 2026 Order's Schedule covers the passport and any applicable exceptions. The 180-day visitor limit is cumulative in a 12-month period. Previous visits can reduce the stay available on entry.",
+      "lastUpdated": "2026-11-26"
     },
     {
       "country": "RS",
