@@ -107,11 +107,30 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-11-26",
+        "source": "Official UAE Government Portal and GCC Secretariat General"
       },
-      "lastUpdated": "2026-01-19T04:09:43.082523"
+      "lastUpdated": "2026-11-26",
+      "source": {
+        "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "pageSection": "Check if you need a visa to enter the UAE",
+        "verificationPath": "Official UAE Government Portal > Visa and Emirates ID > Check if you need a visa to enter the UAE",
+        "exactQuote": "GCC citizens do not need a visa to enter the UAE.",
+        "confidence": "verified",
+        "notes": "The exemption is based on GCC citizenship. The GCC Secretariat General lists Saudi Arabia as a member state.",
+        "supportingSources": [
+          {
+            "url": "https://www.gcc-sg.org/en/AboutUs/MemberStates/Pages/default.aspx",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-26",
+            "pageSection": "Member States > Saudi Arabia",
+            "exactQuote": "Kingdom of Saudi Arabia"
+          }
+        ]
+      }
     },
     {
       "to": {
