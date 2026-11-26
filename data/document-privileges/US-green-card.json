@@ -5,7 +5,7 @@
     "countryName": "United States",
     "description": "US permanent residence document privileges verified against destination government sources"
   },
-  "lastUpdated": "2026-10-20",
+  "lastUpdated": "2026-11-26",
   "totalUnlocked": 30,
   "unlocks": [
     {
@@ -1124,45 +1124,37 @@
     {
       "country": "SG",
       "countryName": "Singapore",
-      "accessType": "transit_only",
-      "maxStayHours": 96,
-      "eligibleNationalities": [
-        "IN",
-        "CN"
-      ],
-      "conditions": "Transit to/from a third country with US visa or long-term pass valid at least one month from entry; India and selected PRC travel-document holders.",
-      "additionalRequirements": "Enter by any mode; depart by air/sea with confirmed ticket within 96 hours. PRC Travel Document, Hong Kong DOI and Macau SAR Travel Permit are selected documents; ordinary/diplomatic/public-affairs/service PRC passports are excluded. ICA decides admission; extension unavailable. General entry requirements include a passport valid for at least six months, sufficient funds and onward-entry documents. Submit the SG Arrival Card within three days before arrival, including arrival day, when seeking immigration clearance. The published yellow-fever certificate condition applies after relevant travel in the preceding six days, including airport transit exceeding 12 hours in a risk country.",
-      "source": {
-        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa-free-transit-facility",
-        "governmentDomain": true,
-        "accessedDate": "2026-10-20",
-        "confidence": "verified",
-        "verificationPath": "Singapore ICA > Entering, Transiting and Departing > Visa Free Transit Facility > Nationals of India and selected Nationals of PRC > requirements for the 96-hour VFTF > visa/long-term-pass bullet and country list",
-        "locationUrl": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa-free-transit-facility#:~:text=long-term%20pass%20(with%20a%20validity%20of%20at%20least%20one%20month%20from%20the%20date%20of%20entry",
-        "exactQuote": "long-term pass (with a validity of at least one month from the date of entry",
-        "supportingQuote": "United States of America"
-      },
       "region": "asia",
+      "accessType": "transit_only",
+      "eligibleNationalities": [
+        "IN"
+      ],
+      "conditions": "Indian nationals transiting to or from a third country may use Singapore's 96-hour Visa Free Transit Facility with a U.S. Permanent Resident Card valid for at least one month from entry into Singapore.",
+      "maxStayHours": 96,
+      "maxStayDays": 4,
       "visaOnArrival": false,
       "evisaRequired": false,
       "transitOnly": true,
-      "eligiblePRCTravelDocuments": [
-        "PRC Travel Document",
-        "Hong Kong SAR Document of Identity",
-        "Macau SAR Travel Permit"
-      ],
-      "maxStayDays": 4,
-      "notes": "The actual allowance is 96 hours, as recorded in maxStayHours.",
-      "lastUpdated": "2026-10-20",
+      "additionalRequirements": "Enter by any mode and depart by air or sea. Carry a confirmed onward air, ferry or cruise ticket departing within 96 hours, a passport valid for at least six months and documents needed for the onward destination. Have sufficient funds and submit the SG Arrival Card within three days including the arrival day. Check the yellow-fever certificate rules if arriving from or transiting through a risk country.",
+      "source": {
+        "url": "https://www.ica.gov.sg/information-and-e-services/entry-and-departure/entering-singapore/entry-requirements/visa-free-transit-facility",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "authority": "Singapore Immigration & Checkpoints Authority",
+        "verificationPath": "Visa Free Transit Facility > Nationals of India > transport and onward ticket; valid visa or long-term pass > United States; single-journey visa exception",
+        "exactQuote": "valid for at least 1 month from your date of entry into Singapore"
+      },
+      "notes": "Admission is discretionary and the VFTF cannot be extended. ICA specifies the supporting-document requirement for Indian nationals. Holders of certain Chinese, Hong Kong and Macau travel documents have a separate VFTF basis.",
+      "lastUpdated": "2026-11-26",
       "additionalSources": [
         {
-          "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore",
+          "url": "https://www.ica.gov.sg/information-and-e-services/entry-and-departure/entering-singapore",
           "governmentDomain": true,
-          "accessedDate": "2026-10-20",
+          "accessedDate": "2026-11-26",
           "confidence": "verified",
-          "verificationPath": "ICA > Entering Singapore > General Entry Requirements > Travel Documents; SG Arrival Card; short-term traveller requirements; Public Health Requirements > Yellow Fever Requirements",
-          "exactQuote": "minimum validity of 6 months",
-          "supportingQuote": "within three (3) days (including the day of arrival)"
+          "authority": "Singapore Immigration & Checkpoints Authority",
+          "verificationPath": "Entering Singapore > Entry Requirements > general requirements for travelers seeking immigration clearance"
         }
       ]
     },
@@ -1241,7 +1233,7 @@
   ],
   "coverage": {
     "visitDestinationCount": 23,
-    "territoryDestinationCount": 5,
+    "territoryDestinationCount": 4,
     "transitOnlyDestinationCount": 3
   }
 }
