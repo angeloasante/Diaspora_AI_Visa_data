@@ -106,11 +106,37 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-11-26",
+        "source": "UAE Ministry of Foreign Affairs, Seychelles State House, and UAE Government Portal"
       },
-      "lastUpdated": "2026-01-19T04:15:42.871757"
+      "lastUpdated": "2026-11-26",
+      "source": {
+        "url": "https://www.mofa.gov.ae/en/visa-exemptions-for-non-citizen/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "pageSection": "Visa information to enter the country > Republic of Seychelles",
+        "verificationPath": "UAE Ministry of Foreign Affairs > Visa Exemptions > Republic of Seychelles",
+        "exactQuote": "Republic of Seychelles | Visa Free",
+        "confidence": "verified",
+        "notes": "The UAE ministry verifies visa-free entry. Seychelles State House reports a waiver of up to 90 days under the bilateral agreement. The UAE Government Portal provides passport-validity guidance.",
+        "supportingSources": [
+          {
+            "url": "https://www.statehouse.gov.sc/news/2624/visa-waiver-agreement-signed-for-all-seychelles-passport-holders-travelling-to-uae",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-26",
+            "pageSection": "Visa waiver agreement signed for all Seychelles passport holders travelling to UAE",
+            "exactQuote": "for a period of no greater than 90 days"
+          },
+          {
+            "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/Visa-information/do-you-need-an-entry-permit-or-a-visa-to-enter-the-uae",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-26",
+            "pageSection": "Visa eligibility",
+            "exactQuote": "Passports must be valid for at least 6 months from the date of entry into the UAE."
+          }
+        ]
+      }
     },
     {
       "to": {
