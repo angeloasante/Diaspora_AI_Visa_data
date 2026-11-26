@@ -75,13 +75,13 @@
       "visa": {
         "required": true,
         "policy": "evisa",
-        "type": "Entry visa (conditional 14-day route available)",
+        "type": "Entry visa (conditional online and visa-on-arrival options)",
         "freeDays": null,
         "maxStay": null,
         "evisa": true,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "Visa required. Ordinary passport holders with a valid US, EU or UK visa/residence permit, or a valid residence permit from Japan, South Korea, Australia, Canada, Singapore or New Zealand, may apply through ICP for the conditional 14-day entry visa. This is not an unconditional visa-free or visa-on-arrival entitlement. The passport must have at least six months of validity; entry is within 30 days of visa issuance, with a 14-day stay extendable once for the same period. Other travelers must use the applicable ordinary visa process."
+        "notes": "Ordinary Kenyan passport holders generally need a visa. The UAE Ministry of Foreign Affairs announces conditional 14- or 60-day visas on arrival for eligible Kenyan travelers and accompanying family members with a valid residence permit from the US, an EU member state, the UK, Singapore, Japan, South Korea, Australia, New Zealand or Canada. The 14-day arrival visa may be extended once for the same duration, and the 60-day option is single-stay and non-extendable. ICP separately lists an online 14-day entry visa that can also accept a qualifying US, EU or UK visa, subject to its service terms. Travelers should confirm eligibility for the specific route before departure."
       },
       "documents": {
         "passport": {
@@ -106,19 +106,36 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
-      },
-      "lastUpdated": "2026-10-06",
-      "source": {
-        "url": "https://icp.gov.ae/en/services-details/?serviceid=68e3532c5ae59b0011738404",
-        "governmentDomain": true,
-        "accessedDate": "2026-10-06",
-        "verificationPath": "ICP > Services > Issuance of a 14-day visa for nationals of certain countries residing Abroad > Terms and Conditions",
-        "exactQuote": "The beneficiary’s passport must be valid for at least (6) months",
         "confidence": "verified",
-        "notes": "Verification covers the conditional visa route and its passport/entry/stay conditions only; other pre-existing document and transit fields were not reverified. ICP announced the expanded eligibility on 2026-06-25: https://icp.gov.ae/en/media-center/icp-expands-eligibility-for-uae-entry-visa-for-nationals-of-certain-countries/"
+        "lastChecked": "2026-11-26",
+        "source": "UAE Ministry of Foreign Affairs and Federal Authority for Identity, Citizenship, Customs and Port Security"
+      },
+      "lastUpdated": "2026-11-26",
+      "source": {
+        "url": "https://www.mofa.gov.ae/en/MediaHub/News/2026/6/25/uae-grants-visa-on-arrival",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "pageSection": "Eligibility and permitted stays",
+        "verificationPath": "UAE Ministry of Foreign Affairs > News > UAE Grants Visa on Arrival to Nationals of Six Countries Residing Outside Their Home Countries",
+        "exactQuote": "eligible to obtain a 14-day or 60-day visa on arrival",
+        "confidence": "verified",
+        "notes": "The residence-based exception is documented in the visa notes because the route-level arrival flag describes general eligibility for the passport alone.",
+        "supportingSources": [
+          {
+            "url": "https://www.mofa.gov.ae/en/visa-exemptions-for-non-citizen/",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-26",
+            "pageSection": "Visa exemptions > The Republic of Kenya",
+            "exactQuote": "The Republic of Kenya | Visa Required"
+          },
+          {
+            "url": "https://icp.gov.ae/en/services-details/?serviceid=68e3532c5ae59b0011738404",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-26",
+            "pageSection": "Terms and Conditions",
+            "notes": "The separate online 14-day route lists specific visas or residence permits, six months of passport validity, 30 days of validity before entry, and one 14-day extension."
+          }
+        ]
       }
     },
     {
