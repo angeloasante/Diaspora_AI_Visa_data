@@ -6,11 +6,50 @@
     "categories": [
       "permanent_resident"
     ],
-    "description": "Canadian permanent resident card: verified visitor visa exemptions and conditional eVisa access, subject to destination-specific requirements. This is a partial destination list."
+    "description": "Canadian permanent resident card: verified visitor visa exemptions, conditional eVisa access, and travel authorization eligibility, subject to destination-specific requirements. This is a partial destination list."
   },
-  "lastUpdated": "2026-10-06",
-  "totalUnlocked": 11,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 12,
   "unlocks": [
+    {
+      "country": "TW",
+      "countryName": "Taiwan",
+      "region": "asia",
+      "accessType": "travel_authorization",
+      "eligibleNationalities": [
+        "IN",
+        "ID",
+        "LA",
+        "MM",
+        "VN"
+      ],
+      "conditions": "Ordinary passport holders of India, Indonesia, Laos, Myanmar and Vietnam may use a valid Canadian permanent resident card as a qualifying document when applying for Taiwan's Travel Authorization Certificate (TAC).",
+      "maxStayDays": 14,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "travelAuthorizationRequired": true,
+      "additionalRequirements": "Apply before travel. Bring the approved TAC, the supporting residence card, an ordinary passport valid for at least six months on arrival, and a confirmed return or onward ticket. Previous employment as a foreign laborer in Taiwan disqualifies the applicant under the basic requirements.",
+      "source": {
+        "url": "https://www.immigration.gov.tw/media/37865/immigration-reference-guide-for-civil-carriers.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "verificationPath": "National Immigration Agency > Immigration Reference Guide for Civil Carriers > Authorization Certificate for Nationals of Southeast Asian Countries > Additional Requirements and Notice",
+        "exactQuote": "The duration of stay is 14 days, starting from the next day of entry."
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.boca.gov.tw/cp-152-274-8c0e2-2.html",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "verificationPath": "Bureau of Consular Affairs > Online Application for Travel Authorization Certificate > eligible nationalities",
+          "exactQuote": "Citizens of India, Indonesia, Laos, Myanmar, and Vietnam"
+        }
+      ],
+      "notes": "The Canadian permanent resident card is supporting evidence for the TAC application. The 14-day stay starts the day after entry. Apply through the National Immigration Agency's TAC portal: https://niaspeedy.immigration.gov.tw/nia_southeast/",
+      "lastUpdated": "2026-11-26"
+    },
     {
       "country": "MX",
       "countryName": "Mexico",
