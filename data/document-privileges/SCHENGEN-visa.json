@@ -9,9 +9,44 @@
     ],
     "description": "A valid Schengen visa can unlock visa-free entry or simplified entry procedures in certain non-Schengen destinations, subject to each destination's conditions"
   },
-  "lastUpdated": "2026-10-05",
-  "totalUnlocked": 15,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 16,
   "unlocks": [
+    {
+      "country": "TR",
+      "countryName": "Türkiye",
+      "region": "europe",
+      "accessType": "evisa",
+      "eligibleNationalities": [
+        "EG"
+      ],
+      "conditions": "The verified route is for ordinary Egyptian passport holders ages 15–45 who hold a qualifying Schengen visa and travel with Turkish Airlines, AJet, Pegasus, Egypt Air or Air Cairo. Apply for the Turkish single-entry e-Visa before travel.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": true,
+      "multipleEntry": false,
+      "additionalRequirements": "The supporting Schengen visa must remain valid on the date of entry. The Turkish e-Visa FAQ excludes foreign electronic visas as supporting documents. Follow the remaining passport and travel requirements shown by the official application portal.",
+      "source": {
+        "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "verificationPath": "Türkiye Ministry of Foreign Affairs > Visa Information for Foreigners > Egypt",
+        "exactQuote": "may obtain their 30-day single-entry e-Visas",
+        "confidence": "verified"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.evize.gov.tr/en/info/what-are-the-criteria-for-the-validity-of-my-supporting-document-visa-or-residence-permit-from-schengen-or-from-us-uk-and-ireland/",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "verificationPath": "Türkiye e-Visa FAQ > Validity of supporting document",
+          "exactQuote": "it should be still valid (by date) by the time you enter Türkiye.",
+          "confidence": "verified"
+        }
+      ],
+      "notes": "This entry verifies the Egyptian passport route. The Schengen visa supports eligibility for a Turkish e-Visa. Rules for other nationalities and age groups vary.",
+      "lastUpdated": "2026-11-26"
+    },
     {
       "country": "AL",
       "countryName": "Albania",
