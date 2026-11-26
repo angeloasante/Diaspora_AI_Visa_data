@@ -13,8 +13,8 @@
     ],
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-10",
-  "totalUnlocked": 37,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 38,
   "unlocks": [
     {
       "country": "AL",
@@ -611,6 +611,67 @@
         "exactQuote": "On arrival, the immigration department will normally give you permission to stay for up to 90 days."
       },
       "notes": "This entry records the valid UK visa route, separately from lawful UK residence. GOV.UK travel advice states that immigration normally grants up to 90 days on arrival, subject to Border Force determination and standard entry requirements."
+    },
+    {
+      "country": "BM",
+      "countryName": "Bermuda",
+      "destinationType": "territory",
+      "region": "north_america",
+      "accessType": "visa_free",
+      "conditions": "Visa-controlled nationals listed in Bermuda's 2026 Order may present a UK multi re-entry visa valid for at least 45 days after intended departure from Bermuda.",
+      "maxStayDays": 180,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present a passport and UK multi re-entry visa, both valid for at least 45 days after intended departure from Bermuda. Carry proof of a return ticket.",
+      "source": {
+        "url": "https://www.bermudalaws.bm/Document/662014f2-d758-48f2-affe-39c7f2a2c878",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "authority": "Bermuda Laws Online",
+        "verificationPath": "BR 99/2026 > paragraphs 2 and 3(a) and Schedule",
+        "exactQuote": "has travel authorization to enter and re-enter Canada, the United Kingdom or the United States"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.gov.bm/news/immigration-updates",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Government of Bermuda",
+          "verificationPath": "Immigration Updates > September 3, 2026 > 2026 Prohibition of Entry Order",
+          "exactQuote": "a multi-re-entry visa issued by the US, UK or Canada"
+        },
+        {
+          "url": "https://www2.gov.bm/articles/guidance-unrestricted-period-residence",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Government of Bermuda, Department of Immigration",
+          "verificationPath": "Guidance - Unrestricted Period of Residence > opening paragraph and visitor examples",
+          "exactQuote": "a cumulative maximum of 180 days in any 12-month period"
+        },
+        {
+          "url": "https://www.gov.bm/bermuda-entry-visas",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Government of Bermuda, Department of Immigration",
+          "verificationPath": "Bermuda entry visas > travel document validity paragraph",
+          "exactQuote": "the traveler’s passport must be valid for 45 days"
+        },
+        {
+          "url": "https://www.gov.bm/articles/update-services-department-immigration",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Government of Bermuda, Department of Immigration",
+          "verificationPath": "Update on Services from the Department of Immigration > visitor admission paragraph",
+          "exactQuote": "provided they have proof of a return ticket"
+        }
+      ],
+      "notes": "Verify whether the 2026 Order's Schedule covers the passport and any applicable exceptions. The 180-day visitor limit is cumulative in a 12-month period. Previous visits can reduce the stay available on entry.",
+      "lastUpdated": "2026-11-26"
     }
   ]
 }
