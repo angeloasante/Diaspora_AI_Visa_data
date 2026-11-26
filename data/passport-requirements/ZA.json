@@ -79,13 +79,13 @@
       "visa": {
         "required": true,
         "policy": "evisa",
-        "type": "Entry visa (conditional 14-day route available)",
+        "type": "Entry visa (conditional online and visa-on-arrival options)",
         "freeDays": null,
         "maxStay": null,
         "evisa": true,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "Visa required. Ordinary passport holders with a valid US, EU or UK visa/residence permit, or a valid residence permit from Japan, South Korea, Australia, Canada, Singapore or New Zealand, may apply through ICP for the conditional 14-day entry visa. This is not an unconditional visa-free or visa-on-arrival entitlement. The passport must have at least six months of validity; entry is within 30 days of visa issuance, with a 14-day stay extendable once for the same period. Other travelers must use the applicable ordinary visa process."
+        "notes": "Ordinary South African passport holders generally need a UAE entry visa. Eligible travelers and accompanying family members may qualify for a 14- or 60-day visa on arrival with a valid residence permit from the US, an EU member state, the UK, Singapore, Japan, South Korea, Australia, New Zealand or Canada. The 14-day option can be extended once for another 14 days. The 60-day option is for a single stay and cannot be extended. ICP also offers a separate online 14-day application with its own document requirements. Check the requirements for the chosen route before travel."
       },
       "documents": {
         "passport": {
@@ -111,18 +111,28 @@
       "meta": {
         "riskLevel": "medium",
         "confidence": "verified",
-        "lastChecked": "2026-01-19",
-        "source": "passport-index-dataset"
+        "lastChecked": "2026-11-26",
+        "source": "UAE Ministry of Foreign Affairs and ICP"
       },
-      "lastUpdated": "2026-10-06",
+      "lastUpdated": "2026-11-26",
       "source": {
         "url": "https://icp.gov.ae/en/services-details/?serviceid=68e3532c5ae59b0011738404",
         "governmentDomain": true,
-        "accessedDate": "2026-10-06",
+        "accessedDate": "2026-11-26",
         "verificationPath": "ICP > Services > Issuance of a 14-day visa for nationals of certain countries residing Abroad > Terms and Conditions",
         "exactQuote": "The beneficiary’s passport must be valid for at least (6) months",
         "confidence": "verified",
-        "notes": "Verification covers the conditional visa route and its passport/entry/stay conditions only; other pre-existing document and transit fields were not reverified. ICP announced the expanded eligibility on 2026-06-25: https://icp.gov.ae/en/media-center/icp-expands-eligibility-for-uae-entry-visa-for-nationals-of-certain-countries/"
+        "notes": "Verification covers the conditional visa route and its passport/entry/stay conditions only; other pre-existing document and transit fields were not reverified. ICP announced the expanded eligibility on 2026-06-25: https://icp.gov.ae/en/media-center/icp-expands-eligibility-for-uae-entry-visa-for-nationals-of-certain-countries/",
+        "supportingSources": [
+          {
+            "url": "https://www.mofa.gov.ae/en/MediaHub/News/2026/6/25/uae-grants-visa-on-arrival",
+            "governmentDomain": true,
+            "accessedDate": "2026-11-26",
+            "pageSection": "Eligibility and permitted stays",
+            "exactQuote": "eligible to obtain a 14-day or 60-day visa on arrival",
+            "notes": "Qualifying residence permits are required for the arrival exception. The route flags continue to describe the general passport-based policy."
+          }
+        ]
       }
     },
     {
