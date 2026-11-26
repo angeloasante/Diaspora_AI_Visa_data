@@ -9,8 +9,8 @@
     ],
     "description": "A valid Schengen visa can unlock visa-free entry or simplified entry procedures in certain non-Schengen destinations, subject to each destination's conditions"
   },
-  "lastUpdated": "2026-10-05",
-  "totalUnlocked": 15,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 16,
   "unlocks": [
     {
       "country": "AL",
@@ -250,6 +250,42 @@
       },
       "notes": "Transit only; not an unrestricted tourist exemption. ICA decides admission and no extension is allowed. The separate used single-journey-visa return exception is not covered.",
       "lastUpdated": "2026-11-10"
+    },
+    {
+      "country": "AM",
+      "countryName": "Armenia",
+      "region": "asia",
+      "accessType": "visa_on_arrival",
+      "eligibleNationalities": [
+        "IN"
+      ],
+      "conditions": "Indian ordinary passport holders may apply for an Armenian visitor visa at the border if they present a valid visa issued by an EU or Schengen member state.",
+      "maxStayDays": 120,
+      "visaOnArrival": true,
+      "evisaRequired": false,
+      "additionalRequirements": "Present the qualifying document and an ordinary Indian passport valid throughout the proposed stay.",
+      "source": {
+        "url": "https://india.mfa.am/en/visaforindians/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "confidence": "verified",
+        "authority": "Embassy of Armenia in India",
+        "verificationPath": "VISA for citizens of India > ordinary passport holders > option 2, At the Border of Armenia",
+        "exactQuote": "AT THE BORDER OF ARMENIA, if they provide a valid residence permit or valid visa"
+      },
+      "additionalSources": [
+        {
+          "url": "https://india.mfa.am/en/faq/",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "confidence": "verified",
+          "authority": "Embassy of Armenia in India",
+          "verificationPath": "FAQ > How Indian ordinary passport holders can obtain an Armenian visa > on-arrival visitor visa limit",
+          "exactQuote": "only single entry tourist visa up to 120 days"
+        }
+      ],
+      "notes": "This record is for the single-entry visa issued at the border. Armenia's separate temporary visa exemption has different residence permit, validity and nationality rules.",
+      "lastUpdated": "2026-11-26"
     }
   ]
 }
