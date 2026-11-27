@@ -13,8 +13,8 @@
     ],
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-10",
-  "totalUnlocked": 37,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 36,
   "unlocks": [
     {
       "country": "AL",
@@ -143,22 +143,6 @@
         "confidence": "verified"
       },
       "notes": "90 days within any 180-day period"
-    },
-    {
-      "country": "BY",
-      "countryName": "Belarus",
-      "region": "europe",
-      "conditions": "Valid UK, US, or Schengen visa with minimum 5 days remaining validity",
-      "maxStayDays": 30,
-      "visaOnArrival": false,
-      "evisaRequired": false,
-      "additionalRequirements": "Entry via Minsk National Airport only",
-      "source": {
-        "url": "http://mfa.gov.by/en/",
-        "accessedDate": "2026-03-01",
-        "confidence": "verified"
-      },
-      "notes": "Must enter via Minsk airport. Must have medical insurance."
     },
     {
       "country": "TR",

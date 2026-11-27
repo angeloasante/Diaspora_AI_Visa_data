@@ -9,8 +9,8 @@
     ],
     "description": "A valid Schengen visa can unlock visa-free entry or simplified entry procedures in certain non-Schengen destinations, subject to each destination's conditions"
   },
-  "lastUpdated": "2026-10-05",
-  "totalUnlocked": 15,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 16,
   "unlocks": [
     {
       "country": "AL",
@@ -250,6 +250,24 @@
       },
       "notes": "Transit only; not an unrestricted tourist exemption. ICA decides admission and no extension is allowed. The separate used single-journey-visa return exception is not covered.",
       "lastUpdated": "2026-11-10"
+    },
+    {
+      "country": "BY",
+      "countryName": "Belarus",
+      "region": "europe",
+      "conditions": "Indian ordinary passport holders may use the airport visa exemption with a valid multiple-entry Schengen visa already used to enter an EU or Schengen country, with a passport stamp showing that entry.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Enter and depart through Minsk National Airport or the airports at Brest, Gomel, Grodno, Mogilev or Vitebsk. Carry a confirmed departure ticket within the 30-day limit, proof of funds and medical insurance valid in Belarus with at least EUR 10,000 coverage. The passport must remain valid for 90 days beyond departure.",
+      "source": {
+        "url": "https://mfa.gov.by/en/visa/freemove/airport/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Information on visa-free travel via the airports of the Republic of Belarus"
+      },
+      "notes": "Days of arrival and departure count toward the 30 days. Flights from or to Russia are excluded. This entry documents the Indian passport case; the Foreign Ministry lists other nationalities, which may also have separate exemptions."
     }
   ]
 }
