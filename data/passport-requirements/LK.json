@@ -4,7 +4,7 @@
     "name": "Sri Lanka"
   },
   "dataVersion": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-11-27",
   "totalRoutes": 198,
   "summary": {
     "visa_free": 19,
@@ -8878,7 +8878,7 @@
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Taiwan temporarily suspended eVisa eligibility for Sri Lankan nationals starting 12 August 2026. Use the general visitor visa application and submit it to the Taipei Representative Office in Singapore or the Taipei Economic and Cultural Center in Chennai."
       },
       "documents": {
         "passport": {
@@ -8886,16 +8886,16 @@
           "blankPagesRequired": 2
         },
         "requirements": {
-          "onwardTicket": false,
-          "proofOfFunds": false,
-          "accommodation": false,
+          "onwardTicket": true,
+          "proofOfFunds": true,
+          "accommodation": true,
           "travelInsurance": {
             "recommended": false,
             "mandatory": false
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "For tourism, the designated-country procedure requires a return ticket, proof of accommodation and funds, a criminal-record clearance and an authenticated guarantee from a guarantor with a Taiwan national ID card."
       },
       "transit": {
         "visaRequired": true,
@@ -8903,11 +8903,27 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-11-27",
+        "source": "Taiwan Bureau of Consular Affairs"
       },
-      "lastUpdated": "2026-01-19T04:15:46.360478"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://www.boca.gov.tw/fp-181-8051-69fbd-2.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Temporary suspension for Sri Lankan nationals"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.boca.gov.tw/fp-159-249-4162c-2.html",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "Designated missions and Attention item 2, Sri Lankan visitor visa documents"
+        }
+      ]
     },
     {
       "to": {
