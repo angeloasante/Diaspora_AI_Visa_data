@@ -7,10 +7,10 @@
   "lastUpdated": "2026-03-04",
   "totalRoutes": 198,
   "summary": {
-    "visa_free": 75,
+    "visa_free": 76,
     "evisa": 45,
     "visa_on_arrival": 34,
-    "visa_required": 44,
+    "visa_required": 43,
     "total": 198
   },
   "routes": [
@@ -6884,32 +6884,32 @@
         "tourism"
       ],
       "visa": {
-        "required": true,
-        "policy": "visa_required",
+        "required": false,
+        "policy": "visa_free",
         "type": null,
-        "freeDays": null,
+        "freeDays": 14,
         "maxStay": null,
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Taiwan passport holders may enter visa-free for tourism for up to 14 days through June 30, 2027. The waiver cannot be extended or converted in the Philippines. Arrange the appropriate visitor authorization before travel for a longer stay or another purpose."
       },
       "documents": {
         "passport": {
-          "minimumValidityMonths": 6,
+          "minimumValidityMonths": null,
           "blankPagesRequired": 2
         },
         "requirements": {
-          "onwardTicket": false,
-          "proofOfFunds": false,
-          "accommodation": false,
+          "onwardTicket": true,
+          "proofOfFunds": true,
+          "accommodation": true,
           "travelInsurance": {
             "recommended": false,
             "mandatory": false
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "Present a passport valid for at least six months beyond the intended stay, confirmed accommodation, proof of financial capacity and a confirmed return or onward ticket."
       },
       "transit": {
         "visaRequired": true,
@@ -6921,7 +6921,14 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:43.565013"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://www.meco.org.tw/services/visa-services/visa-free-entry-for-taiwan-passport-holders----",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "verificationPath": "Manila Economic and Cultural Office > Visa Services > Visa-Free Entry for Taiwan Passport Holders",
+        "notes": "MECO implements the waiver for the Philippines and published the June 30, 2026 extension. Taiwan MOFA destination guidance confirms the June 30, 2027 end date."
+      }
     },
     {
       "to": {
