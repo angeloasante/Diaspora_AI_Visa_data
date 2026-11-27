@@ -13,8 +13,8 @@
     ],
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-10",
-  "totalUnlocked": 37,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 36,
   "unlocks": [
     {
       "country": "AL",
@@ -405,20 +405,6 @@
         "confidence": "verified"
       },
       "notes": "British Overseas Territory. Up to 90 days with valid UK visa/BRP."
-    },
-    {
-      "country": "MY",
-      "countryName": "Malaysia",
-      "region": "asia",
-      "conditions": "Valid multi-entry UK visa or UK residence permit",
-      "maxStayDays": 30,
-      "visaOnArrival": false,
-      "source": {
-        "url": "https://www.imi.gov.my/",
-        "accessedDate": "2026-03-10",
-        "confidence": "verified"
-      },
-      "notes": "Many non-EU nationals can visit 30-90 days with valid UK visa/BRP"
     },
     {
       "country": "ID",
