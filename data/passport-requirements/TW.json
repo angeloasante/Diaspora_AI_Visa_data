@@ -8,10 +8,11 @@
   "totalRoutes": 198,
   "summary": {
     "visa_free": 75,
-    "evisa": 45,
+    "evisa": 42,
     "visa_on_arrival": 34,
     "visa_required": 44,
-    "total": 198
+    "total": 198,
+    "eta": 3
   },
   "routes": [
     {
@@ -1396,19 +1397,19 @@
         "tourism"
       ],
       "visa": {
-        "required": false,
-        "policy": "evisa",
-        "type": null,
+        "required": true,
+        "policy": "eta",
+        "type": "eTA",
         "freeDays": null,
         "maxStay": null,
-        "evisa": true,
+        "evisa": false,
         "onArrival": false,
-        "multipleEntry": false,
-        "notes": null
+        "multipleEntry": true,
+        "notes": "A qualifying Taiwan ordinary passport must include the personal identification number. Obtain a Canadian eTA before flying to or transiting through a Canadian airport. For land or sea arrivals an eTA is generally unnecessary, except on covered services from Saint Pierre and Miquelon. Visits are normally up to six months. An eTA allows repeat trips for up to five years or until the linked passport expires, whichever comes first."
       },
       "documents": {
         "passport": {
-          "minimumValidityMonths": 6,
+          "minimumValidityMonths": null,
           "blankPagesRequired": 2
         },
         "requirements": {
@@ -1421,7 +1422,7 @@
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "Carry a valid passport. For air travel, use the passport linked to the eTA."
       },
       "transit": {
         "visaRequired": null,
@@ -1433,7 +1434,14 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:43.216662"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/check-visa-eta.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "verificationPath": "Immigration, Refugees and Citizenship Canada > Check if you need a visa or eTA",
+        "notes": "Verified authorization type, short-stay and passport eligibility rules in the destination authorities' guidance."
+      }
     },
     {
       "to": {
@@ -2964,19 +2972,19 @@
         "tourism"
       ],
       "visa": {
-        "required": false,
-        "policy": "evisa",
-        "type": null,
+        "required": true,
+        "policy": "eta",
+        "type": "ETA",
         "freeDays": null,
         "maxStay": null,
-        "evisa": true,
+        "evisa": false,
         "onArrival": false,
-        "multipleEntry": false,
-        "notes": null
+        "multipleEntry": true,
+        "notes": "A Taiwan passport with the Taiwan identification card number is eligible for an ETA. Obtain an ETA before travel for eligible visits of up to six months. It allows repeat travel for up to two years or until the linked passport expires, whichever comes first. A Taiwan passport without the identification card number requires a visa for visits."
       },
       "documents": {
         "passport": {
-          "minimumValidityMonths": 6,
+          "minimumValidityMonths": null,
           "blankPagesRequired": 2
         },
         "requirements": {
@@ -2989,7 +2997,7 @@
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "Use the valid passport linked to the ETA and keep it valid throughout the stay."
       },
       "transit": {
         "visaRequired": null,
@@ -3001,7 +3009,14 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:43.74326"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-eta-national-list",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "verificationPath": "UK Immigration Rules > Appendix ETA National List and Appendix Electronic Travel Authorisation",
+        "notes": "Verified authorization type, short-stay and passport eligibility rules in the destination authorities' guidance."
+      }
     },
     {
       "to": {
@@ -9040,19 +9055,19 @@
         "tourism"
       ],
       "visa": {
-        "required": false,
-        "policy": "evisa",
-        "type": null,
+        "required": true,
+        "policy": "eta",
+        "type": "ESTA",
         "freeDays": null,
-        "maxStay": null,
-        "evisa": true,
+        "maxStay": 90,
+        "evisa": false,
         "onArrival": false,
-        "multipleEntry": false,
-        "notes": null
+        "multipleEntry": true,
+        "notes": "Taiwan e-passport holders with the national identification number may use the Visa Waiver Program for eligible tourism or business visits up to 90 days with approved ESTA. Obtain approval before travel, including for land entry. ESTA generally allows repeat trips for up to two years or until the passport expires, whichever comes first."
       },
       "documents": {
         "passport": {
-          "minimumValidityMonths": 6,
+          "minimumValidityMonths": null,
           "blankPagesRequired": 2
         },
         "requirements": {
@@ -9065,7 +9080,7 @@
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "Use the Taiwan electronic passport linked to the ESTA and keep it valid throughout the intended stay."
       },
       "transit": {
         "visaRequired": null,
@@ -9077,7 +9092,14 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:43.74326"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "verificationPath": "U.S. Department of State > Visa Waiver Program, and CBP ESTA guidance",
+        "notes": "Verified authorization type, short-stay and passport eligibility rules in the destination authorities' guidance."
+      }
     },
     {
       "to": {
