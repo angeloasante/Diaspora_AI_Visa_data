@@ -4,7 +4,7 @@
     "name": "Thailand"
   },
   "dataVersion": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-11-27",
   "totalRoutes": 198,
   "summary": {
     "visa_free": 40,
@@ -8878,7 +8878,7 @@
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "14 days visa-free stay"
+        "notes": "Eligible Thai ordinary passport holders may visit Taiwan visa-free for up to 14 days under the trial extended through 31 July 2027. The stay is counted from the day after arrival and is not extendable. Crew or service personnel seeking entry to report for duty cannot use this waiver."
       },
       "documents": {
         "passport": {
@@ -8886,16 +8886,16 @@
           "blankPagesRequired": 2
         },
         "requirements": {
-          "onwardTicket": false,
-          "proofOfFunds": false,
-          "accommodation": false,
+          "onwardTicket": true,
+          "proofOfFunds": true,
+          "accommodation": true,
           "travelInsurance": {
             "recommended": false,
             "mandatory": false
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "Carry a passport valid for at least six months at entry, a confirmed return or onward air or sea ticket, any visa needed for the next destination, proof of accommodation, host or sponsor contact information and sufficient travel funds."
       },
       "transit": {
         "visaRequired": null,
@@ -8903,11 +8903,27 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-11-27",
+        "source": "Taiwan Bureau of Consular Affairs"
       },
-      "lastUpdated": "2026-01-19T04:08:57.255629"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://www.boca.gov.tw/cp-149-4486-7785a-2.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Visa-exempt entry, 14-day trial coverage, Requirements 1 and 3–6"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.boca.gov.tw/cp-56-8253-ff790-2.html",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "Trial extension from 1 August 2026 through 31 July 2027"
+        }
+      ]
     },
     {
       "to": {
