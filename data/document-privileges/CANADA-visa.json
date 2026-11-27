@@ -115,7 +115,7 @@
       "countryName": "Aruba",
       "region": "caribbean",
       "conditions": "Hold a valid multiple-entry visa issued by Canada and a passport from one of these countries: Bolivia, China, Cuba, Dominican Republic, Haiti, India, Jamaica, Venezuela. A Canadian eTA alone does not qualify.",
-      "maxStayDays": 90,
+      "maxStayDays": 30,
       "visaOnArrival": false,
       "evisaRequired": false,
       "source": {
@@ -126,13 +126,13 @@
         "pageSection": "You hold a valid visa or residence permit for certain other countries > United States or Canada"
       },
       "staySource": {
-        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/travel-without-visa",
+        "url": "https://www.dimasaruba.aw/en/applicants/short-stay/tourist-stay/",
         "governmentDomain": true,
         "accessedDate": "2026-11-27",
         "confidence": "verified",
-        "pageSection": "Maximum length of stay and Entry requirements"
+        "pageSection": "Extended tourist stay"
       },
-      "notes": "The ordinary limit is 90 days in any 180-day period. Local authorities may grant a shorter stay.",
+      "notes": "Aruba lists up to 30 days per visit and sets admission at the border.",
       "lastUpdated": "2026-11-27"
     },
     {
@@ -151,13 +151,13 @@
         "pageSection": "You hold a valid visa or residence permit for certain other countries > United States or Canada"
       },
       "staySource": {
-        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/travel-without-visa",
+        "url": "https://english.rijksdienstcn.com/immigration-naturalisation/tourist-stay",
         "governmentDomain": true,
         "accessedDate": "2026-11-27",
         "confidence": "verified",
-        "pageSection": "Maximum length of stay and Entry requirements"
+        "pageSection": "Other nationalities"
       },
-      "notes": "The ordinary limit is 90 days in any 180-day period. Local authorities may grant a shorter stay.",
+      "notes": "The ceiling is 90 days in 180 across these three islands. Border officials may grant a shorter stay.",
       "lastUpdated": "2026-11-27"
     },
     {
@@ -165,7 +165,7 @@
       "countryName": "Curaçao",
       "region": "caribbean",
       "conditions": "Hold a valid multiple-entry visa issued by Canada and a passport from one of these countries: Bolivia, China, Cuba, Dominican Republic, Haiti, India, Venezuela. A Canadian eTA alone does not qualify.",
-      "maxStayDays": 90,
+      "maxStayDays": 30,
       "visaOnArrival": false,
       "evisaRequired": false,
       "source": {
@@ -176,13 +176,13 @@
         "pageSection": "You hold a valid visa or residence permit for certain other countries > United States or Canada"
       },
       "staySource": {
-        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/travel-without-visa",
+        "url": "https://immigrationcur.org/en/dep/toerist/",
         "governmentDomain": true,
         "accessedDate": "2026-11-27",
         "confidence": "verified",
-        "pageSection": "Maximum length of stay and Entry requirements"
+        "pageSection": "Other nationality"
       },
-      "notes": "The ordinary limit is 90 days in any 180-day period. Local authorities may grant a shorter stay. Jamaican passport holders have a separate nationality-based exemption for Curaçao.",
+      "notes": "The Curaçao Immigration Service lists an initial 30-day stay for the covered passport groups. Jamaican passport holders have a separate nationality-based exemption.",
       "lastUpdated": "2026-11-27"
     },
     {
@@ -190,7 +190,7 @@
       "countryName": "Sint Maarten",
       "region": "caribbean",
       "conditions": "Hold a valid multiple-entry visa issued by Canada and a passport from one of these countries: Bolivia, China, Cuba, Dominican Republic, Guyana, Haiti, India, Jamaica, Venezuela. A Canadian eTA alone does not qualify.",
-      "maxStayDays": 90,
+      "maxStayDays": 30,
       "visaOnArrival": false,
       "evisaRequired": false,
       "source": {
@@ -201,13 +201,13 @@
         "pageSection": "You hold a valid visa or residence permit for certain other countries > United States or Canada"
       },
       "staySource": {
-        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/travel-without-visa",
+        "url": "https://www.vacationstmaarten.com/plan-your-vacation/travel-tips/passports-immigration-and-customs/",
         "governmentDomain": true,
         "accessedDate": "2026-11-27",
         "confidence": "verified",
-        "pageSection": "Maximum length of stay and Entry requirements"
+        "pageSection": "How long can I stay in St. Maarten?"
       },
-      "notes": "The ordinary limit is 90 days in any 180-day period. Local authorities may grant a shorter stay. Guyanese passport holders have a separate nationality-based exemption for the other Dutch Caribbean destinations.",
+      "notes": "The Sint Maarten Tourist Bureau lists 30 consecutive days for ordinary tourists. Its nationality list differs from the Dutch Foreign Ministry table, including for Venezuelan travelers. Verify disputed eligibility with Sint Maarten Immigration before travel. Guyana has a separate nationality exemption for the other Dutch Caribbean destinations.",
       "lastUpdated": "2026-11-27"
     },
     {
