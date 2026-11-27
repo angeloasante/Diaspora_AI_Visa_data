@@ -8,10 +8,11 @@
   "totalRoutes": 198,
   "summary": {
     "visa_free": 75,
-    "evisa": 45,
+    "evisa": 44,
     "visa_on_arrival": 34,
     "visa_required": 44,
-    "total": 198
+    "total": 198,
+    "eta": 1
   },
   "routes": [
     {
@@ -465,19 +466,19 @@
         "tourism"
       ],
       "visa": {
-        "required": false,
-        "policy": "evisa",
-        "type": null,
+        "required": true,
+        "policy": "eta",
+        "type": "Electronic Travel Authority (subclass 601)",
         "freeDays": null,
         "maxStay": null,
-        "evisa": true,
+        "evisa": false,
         "onArrival": false,
-        "multipleEntry": false,
-        "notes": null
+        "multipleEntry": true,
+        "notes": "Taiwan ordinary passport holders may apply from outside Australia using the Australian ETA app. Official and diplomatic Taiwan passports are outside this ETA eligibility. An approved ETA allows multiple visits of up to three months per entry during its validity, normally 12 months from grant or until passport expiry, whichever comes first."
       },
       "documents": {
         "passport": {
-          "minimumValidityMonths": 6,
+          "minimumValidityMonths": null,
           "blankPagesRequired": 2
         },
         "requirements": {
@@ -490,7 +491,7 @@
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "Travel with a current, valid passport. The ETA is linked electronically to the passport used for the application. Complete the Incoming Passenger Card for border clearance."
       },
       "transit": {
         "visaRequired": null,
@@ -502,7 +503,14 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:43.216662"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/electronic-travel-authority-601",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "verificationPath": "Australian Home Affairs > Electronic Travel Authority (subclass 601) > Eligibility and How long you can stay",
+        "notes": "Australian Office Taipei confirms the Taiwan ordinary passport route through the ETA app. Home Affairs border guidance specifies a current valid passport and Incoming Passenger Card."
+      }
     },
     {
       "to": {
