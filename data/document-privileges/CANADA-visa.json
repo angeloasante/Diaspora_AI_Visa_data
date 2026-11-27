@@ -11,8 +11,8 @@
     ],
     "description": "Valid Canadian visas can unlock visa-free or simplified access beyond passport privileges"
   },
-  "lastUpdated": "2026-10-18",
-  "totalUnlocked": 8,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 12,
   "unlocks": [
     {
       "country": "GE",
@@ -109,6 +109,106 @@
         "exactQuote": "El Decreto Núm. 691-07, del 18 de diciembre de 2007, facilita la entrada a la República Dominicana a extranjeros con residencia permanente o visado de entradas múltiples vigente en Estados Unidos, Unión Europea (Schengen), Canadá o Gran Bretaña. Pueden ingresar solo con pasaporte válido y una Tarjeta de Turismo para fines turísticos."
       },
       "notes": "This entry records the Canadian multiple-entry visa exemption under Decreto Núm. 691-07, separately from Canadian permanent residence (recorded in CANADA-pr.json). Entry under this exemption is for tourist purposes with a valid passport and Tourist Card for up to 30 days and does not authorize work, study, or residence."
+    },
+    {
+      "country": "AW",
+      "countryName": "Aruba",
+      "region": "caribbean",
+      "conditions": "Hold a valid multiple-entry visa issued by Canada and a passport from one of these countries: Bolivia, China, Cuba, Dominican Republic, Haiti, India, Jamaica, Venezuela. A Canadian eTA alone does not qualify.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "You hold a valid visa or residence permit for certain other countries > United States or Canada"
+      },
+      "staySource": {
+        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/travel-without-visa",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Maximum length of stay and Entry requirements"
+      },
+      "notes": "The ordinary limit is 90 days in any 180-day period. Local authorities may grant a shorter stay.",
+      "lastUpdated": "2026-11-27"
+    },
+    {
+      "country": "BQ",
+      "countryName": "Bonaire, Sint Eustatius and Saba",
+      "region": "caribbean",
+      "conditions": "Hold a valid multiple-entry visa issued by Canada and a passport from one of these countries: Bolivia, China, Cuba, Dominican Republic, Haiti, India, Jamaica, Venezuela. A Canadian eTA alone does not qualify.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "You hold a valid visa or residence permit for certain other countries > United States or Canada"
+      },
+      "staySource": {
+        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/travel-without-visa",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Maximum length of stay and Entry requirements"
+      },
+      "notes": "The ordinary limit is 90 days in any 180-day period. Local authorities may grant a shorter stay.",
+      "lastUpdated": "2026-11-27"
+    },
+    {
+      "country": "CW",
+      "countryName": "Curaçao",
+      "region": "caribbean",
+      "conditions": "Hold a valid multiple-entry visa issued by Canada and a passport from one of these countries: Bolivia, China, Cuba, Dominican Republic, Haiti, India, Venezuela. A Canadian eTA alone does not qualify.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "You hold a valid visa or residence permit for certain other countries > United States or Canada"
+      },
+      "staySource": {
+        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/travel-without-visa",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Maximum length of stay and Entry requirements"
+      },
+      "notes": "The ordinary limit is 90 days in any 180-day period. Local authorities may grant a shorter stay. Jamaican passport holders have a separate nationality-based exemption for Curaçao.",
+      "lastUpdated": "2026-11-27"
+    },
+    {
+      "country": "SX",
+      "countryName": "Sint Maarten",
+      "region": "caribbean",
+      "conditions": "Hold a valid multiple-entry visa issued by Canada and a passport from one of these countries: Bolivia, China, Cuba, Dominican Republic, Guyana, Haiti, India, Jamaica, Venezuela. A Canadian eTA alone does not qualify.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/visa-needed-caribbean",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "You hold a valid visa or residence permit for certain other countries > United States or Canada"
+      },
+      "staySource": {
+        "url": "https://www.netherlandsworldwide.nl/caribbean-visa/travel-without-visa",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Maximum length of stay and Entry requirements"
+      },
+      "notes": "The ordinary limit is 90 days in any 180-day period. Local authorities may grant a shorter stay. Guyanese passport holders have a separate nationality-based exemption for the other Dutch Caribbean destinations.",
+      "lastUpdated": "2026-11-27"
     },
     {
       "country": "TC",
