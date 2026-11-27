@@ -15,7 +15,7 @@
     ],
     "description": "Valid US visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-11-27",
   "totalUnlocked": 21,
   "unlocks": [
     {
@@ -36,15 +36,19 @@
       "country": "AL",
       "countryName": "Albania",
       "region": "europe",
-      "conditions": "Valid multi-entry US, UK, or Schengen visa",
+      "conditions": "Hold a valid multiple-entry U.S. visa that has already been used in the United States. Electronic visas can qualify. This exemption excludes Iranian nationals.",
       "maxStayDays": 90,
       "visaOnArrival": false,
       "source": {
-        "url": "https://punetejashtme.gov.al/en/",
-        "accessedDate": "2026-03-01",
-        "confidence": "verified"
+        "url": "https://punetejashtme.gov.al/en/regjimi-i-vizave-per-te-huajt/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Visa-free entry into Albania; Validity of travel documents"
       },
-      "notes": "90 days within 180-day period"
+      "notes": "Article 29 of Law No. 79/2021 provides a general visa-free limit of up to 90 days within 180 days, subject to the supporting visa departure rule and applicable exceptions.",
+      "evisaRequired": false,
+      "additionalRequirements": "Depart Albania at least three days before the supporting visa expires. The passport must have been issued within the previous ten years and remain valid for at least three months beyond the intended departure date."
     },
     {
       "country": "XK",
