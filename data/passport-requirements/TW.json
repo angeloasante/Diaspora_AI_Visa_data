@@ -5809,21 +5809,21 @@
         "required": false,
         "policy": "visa_free",
         "type": null,
-        "freeDays": null,
+        "freeDays": 30,
         "maxStay": null,
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Visa-exempt visits of up to 30 days apply to Taiwan passport holders whose passport shows a national identification number."
       },
       "documents": {
         "passport": {
-          "minimumValidityMonths": 6,
+          "minimumValidityMonths": null,
           "blankPagesRequired": 2
         },
         "requirements": {
-          "onwardTicket": false,
-          "proofOfFunds": false,
+          "onwardTicket": true,
+          "proofOfFunds": true,
           "accommodation": false,
           "travelInsurance": {
             "recommended": false,
@@ -5831,7 +5831,7 @@
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "The travel document must remain valid for at least 90 days beyond the intended stay. Carry an onward or return ticket unless eligible for the residence-based exemption described in the entry guidance. Prove funds of at least MOP 5,000 for a stay of up to 7 days, MOP 10,000 for 8 to 14 days, MOP 15,000 for 15 to 21 days, or MOP 20,000 for a longer stay."
       },
       "transit": {
         "visaRequired": null,
@@ -5843,7 +5843,14 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:43.565013"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://www.gov.mo/en/services/ps-1474/ps-1474b/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "verificationPath": "Macao Government Portal > Immigration Clearance of Non-residents > Entry Requirements and Limit of Stay",
+        "notes": "Taiwan BOCA confirms the 30-day allowance. Taiwan's Mainland Affairs Council specifies the national identification number restriction."
+      }
     },
     {
       "to": {
