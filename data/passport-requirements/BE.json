@@ -8425,12 +8425,12 @@
         "required": false,
         "policy": "visa_free",
         "type": null,
-        "freeDays": 60,
+        "freeDays": 30,
         "maxStay": null,
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "60 days visa-free stay"
+        "notes": "Tourist visits are visa-exempt for up to 30 days from September 15, 2026. Entry under the exemption through land-border checkpoints is generally limited to two visits per calendar year."
       },
       "documents": {
         "passport": {
@@ -8459,7 +8459,14 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:10:17.59552"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://thailand.prd.go.th/en/content/category/detail/id/52/iid/538547",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "verificationPath": "Thailand Government Public Relations Department > Revision of Thailand's Visa Exemption and Visa on Arrival Schemes",
+        "notes": "The Tourism Authority of Thailand announcement of September 1, 2026 lists the applicable nationality group and land-border rule."
+      }
     },
     {
       "to": {

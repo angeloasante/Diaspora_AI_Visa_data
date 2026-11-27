@@ -8062,12 +8062,12 @@
         "required": false,
         "policy": "visa_free",
         "type": null,
-        "freeDays": 60,
-        "maxStay": 60,
+        "freeDays": 30,
+        "maxStay": 30,
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "United Kingdom citizens can visit Thailand visa-free for up to 60 days. Ensure your passport is valid for at least 6 months."
+        "notes": "Tourist visits are visa-exempt for up to 30 days from September 15, 2026. Entry under the exemption through land-border checkpoints is generally limited to two visits per calendar year. Ensure your passport is valid for at least six months."
       },
       "documents": {
         "passport": {
@@ -8096,7 +8096,14 @@
         "lastChecked": "2026-01-19",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T03:59:10.749"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://thailand.prd.go.th/en/content/category/detail/id/52/iid/538547",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "verificationPath": "Thailand Government Public Relations Department > Revision of Thailand's Visa Exemption and Visa on Arrival Schemes",
+        "notes": "The Tourism Authority of Thailand announcement of September 1, 2026 lists the applicable nationality group and land-border rule."
+      }
     },
     {
       "to": {
