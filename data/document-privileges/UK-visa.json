@@ -13,8 +13,8 @@
     ],
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-10",
-  "totalUnlocked": 37,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 36,
   "unlocks": [
     {
       "country": "AL",
@@ -510,20 +510,6 @@
         "confidence": "verified"
       },
       "notes": "VOA/e-visa for many nationalities. UK visa is explicit eligibility path."
-    },
-    {
-      "country": "CO",
-      "countryName": "Colombia",
-      "region": "south_america",
-      "conditions": "Valid multi-entry UK visa (previously used)",
-      "maxStayDays": 90,
-      "visaOnArrival": false,
-      "source": {
-        "url": "https://www.cancilleria.gov.co/",
-        "accessedDate": "2026-03-10",
-        "confidence": "verified"
-      },
-      "notes": "Some nationals allowed entry with valid, previously used UK visa"
     },
     {
       "country": "QA",
