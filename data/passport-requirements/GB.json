@@ -4,14 +4,15 @@
     "name": "United Kingdom"
   },
   "dataVersion": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-11-27",
   "totalRoutes": 198,
   "summary": {
-    "visa_free": 118,
+    "visa_free": 117,
     "evisa": 17,
     "visa_on_arrival": 0,
     "visa_required": 63,
-    "total": 198
+    "total": 198,
+    "eta": 1
   },
   "routes": [
     {
@@ -4300,14 +4301,14 @@
       "popularFor": [],
       "visa": {
         "required": false,
-        "policy": "visa_free",
-        "type": null,
-        "freeDays": 180,
-        "maxStay": 180,
+        "policy": "eta",
+        "type": "Electronic Travel Authorisation (eTA)",
+        "freeDays": null,
+        "maxStay": null,
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "United Kingdom citizens can visit Saint Kitts and Nevis visa-free for up to 180 days. Ensure your passport is valid for at least 6 months."
+        "notes": "Ordinary passport visitors use the Saint Kitts and Nevis e-Border portal or app to obtain approval before departure. Travelers qualifying to use the special ED form, such as eligible residents or OECS travelers with proof of status, follow that separate process. GOV.UK lists short visits of up to six months for British citizen passport holders."
       },
       "documents": {
         "passport": {
@@ -4336,7 +4337,16 @@
         "lastChecked": "2026-01-19",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T03:59:10.749"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://technology.gov.kn/portfolio/kn-travel-2/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "verificationPath": "Department of Information Technology > Immigration Travel Form > Who needs what? and How to Apply",
+        "exactQuote": "Electronic Travel Authorisation (eTA)",
+        "notes": "Traveler-specific corroboration: https://www.gov.uk/foreign-travel-advice/st-kitts-and-nevis/entry-requirements"
+      }
     },
     {
       "to": {
