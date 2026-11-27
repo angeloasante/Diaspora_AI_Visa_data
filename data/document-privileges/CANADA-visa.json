@@ -11,8 +11,8 @@
     ],
     "description": "Valid Canadian visas can unlock visa-free or simplified access beyond passport privileges"
   },
-  "lastUpdated": "2026-10-18",
-  "totalUnlocked": 8,
+  "lastUpdated": "2026-11-26",
+  "totalUnlocked": 9,
   "unlocks": [
     {
       "country": "GE",
@@ -196,6 +196,52 @@
       },
       "notes": "Transit only; not an unrestricted tourist exemption. ICA decides admission and no extension is allowed. The separate used single-journey-visa return exception is not covered.",
       "lastUpdated": "2026-11-10"
+    },
+    {
+      "country": "PE",
+      "countryName": "Peru",
+      "region": "south_america",
+      "accessType": "visa_free",
+      "eligibleNationalities": [
+        "CN",
+        "IN"
+      ],
+      "conditions": "Ordinary passport holders from China or India may enter for tourism or business with a qualifying Canadian visa that has at least six months of validity.",
+      "maxStayDays": 180,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Carry the qualifying visa and an ordinary passport valid for at least six months on entry. Observe the period set by Peruvian immigration on admission.",
+      "source": {
+        "url": "https://busquedas.elperuano.pe/dispositivo/NL/1423003-3",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-26",
+        "authority": "Diario Oficial El Peruano",
+        "confidence": "verified",
+        "verificationPath": "Supreme Decree 069-2016-RE > Article 1(a) (visa eligibility) and Article 2 (Chinese passport holders' stay)",
+        "exactQuote": "vigencia mínima de seis (6) meses"
+      },
+      "additionalSources": [
+        {
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/1493143-11",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "authority": "Diario Oficial El Peruano",
+          "confidence": "verified",
+          "verificationPath": "Supreme Decree 006-2017-RE > Article 1(a) (visa eligibility) and Article 2 (Indian passport holders' stay)",
+          "exactQuote": "durante el plazo de un año"
+        },
+        {
+          "url": "https://www.gob.pe/institucion/embajada-del-peru-en-singapur/informes-publicaciones/4022248-visa-frequently-asked-questions",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-26",
+          "authority": "Embassy of Peru in Singapore",
+          "confidence": "verified",
+          "verificationPath": "Visa FAQ > Chinese and Indian passport holders' visa exemption and country-specific stay windows",
+          "exactQuote": "six months for Chinese passport holders, and one year for Indian passport holders"
+        }
+      ],
+      "notes": "The 180-day ceiling covers continuous or successive visits. Decree 069-2016-RE sets a six-month window for Chinese passport holders. Decree 006-2017-RE sets a one-year window for Indian passport holders.",
+      "lastUpdated": "2026-11-26"
     }
   ]
 }
