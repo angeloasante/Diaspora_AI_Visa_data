@@ -4,7 +4,7 @@
     "name": "Germany"
   },
   "dataVersion": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-11-27",
   "totalRoutes": 198,
   "summary": {
     "visa_free": 126,
@@ -4687,7 +4687,7 @@
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "30 days visa-free stay"
+        "notes": "German ordinary passport holders may visit visa-free for up to 30 calendar days per visit. QazETA is optional during the phased rollout from 1 November 2026 through 30 June 2027. From 1 July 2027 it is required for covered visa-free travelers unless exempt. Apply at least 72 hours before planned entry with the passport you will use to travel. The free authorization has a 180-day validity period."
       },
       "documents": {
         "passport": {
@@ -4712,11 +4712,27 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-11-27",
+        "source": "Embassy of Kazakhstan in Germany"
       },
-      "lastUpdated": "2026-01-19T04:04:41.743902"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://www.gov.kz/org/mfa-berlin/press/news/details/1325136?lang=en",
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "governmentDomain": true,
+        "pageSection": "Sections 2–5, rollout, German passport rules and exemptions"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.gov.kz/org/mfa-prague/press/news/details/1331964?lang=en",
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "governmentDomain": true,
+          "pageSection": "Phased implementation dates"
+        }
+      ]
     },
     {
       "to": {
