@@ -4,7 +4,7 @@
     "name": "Canada"
   },
   "dataVersion": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-11-27",
   "totalRoutes": 198,
   "summary": {
     "visa_free": 117,
@@ -8905,7 +8905,7 @@
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "90 days visa-free stay"
+        "notes": "Holders of a valid ordinary Canadian passport may visit Taiwan visa-free for up to 90 days. Eligible visitors may apply in Taiwan for one additional 90-day stay for non-employment and non-residency purposes. The total stay is up to 180 days only if the Bureau of Consular Affairs approves the extension. A second extension or change of purpose is not permitted under this procedure."
       },
       "documents": {
         "passport": {
@@ -8913,7 +8913,7 @@
           "blankPagesRequired": 2
         },
         "requirements": {
-          "onwardTicket": false,
+          "onwardTicket": true,
           "proofOfFunds": false,
           "accommodation": false,
           "travelInsurance": {
@@ -8922,7 +8922,7 @@
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "For initial entry, carry a passport valid for at least six months, a confirmed return or onward ticket and any required visa for the next destination. For the extension, file before the original stay expires within BOCA's specified application window. Submit the application form, two recent photos, a passport valid for at least three months and a written statement explaining the extension. Additional evidence may be requested."
       },
       "transit": {
         "visaRequired": null,
@@ -8930,11 +8930,27 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-11-27",
+        "source": "Taiwan Bureau of Consular Affairs"
       },
-      "lastUpdated": "2026-01-19T04:04:01.270269"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://www.boca.gov.tw/cp-149-4486-7785a-2.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Visa-exempt entry, 90-day eligibility and duration of stay"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.boca.gov.tw/dl-1941-10818f41fd244cbbbb5de39737fc963a.html",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "British and Canadian extension notice, sections 1–4"
+        }
+      ]
     },
     {
       "to": {
