@@ -15,8 +15,8 @@
     ],
     "description": "Valid US visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-04",
-  "totalUnlocked": 21,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 22,
   "unlocks": [
     {
       "country": "MX",
@@ -340,6 +340,24 @@
         "exactQuote": "On arrival, the immigration department will normally give you permission to stay for up to 90 days."
       },
       "notes": "This entry records the valid US visa route, separately from lawful US residence. GOV.UK travel advice states that immigration normally grants up to 90 days on arrival, subject to Border Force determination and standard entry requirements (such as a valid passport and return or onward ticket)."
+    },
+    {
+      "country": "UZ",
+      "countryName": "Uzbekistan",
+      "region": "asia",
+      "conditions": "Citizens of India holding a valid multiple-entry tourist or business visa issued by the United States can enter Uzbekistan visa-free for up to 30 days from arrival, within the supporting visa’s validity.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present a flight ticket to India or a third country.",
+      "source": {
+        "url": "https://gov.uz/en/mfa/pages/o-zbekiston-respublikasi-vizasi",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Visa to the Republic of Uzbekistan, visa-free regime for citizens of India"
+      },
+      "notes": "The exemption took effect on 1 September 2026. Depart within the validity of the supporting visa if it expires sooner than 30 days after arrival."
     }
   ]
 }
