@@ -14,7 +14,7 @@
     "description": "An eligible Australian visa can support simplified visitor entry on qualifying itineraries."
   },
   "lastUpdated": "2026-11-27",
-  "totalUnlocked": 1,
+  "totalUnlocked": 2,
   "unlocks": [
     {
       "country": "NZ",
@@ -34,6 +34,45 @@
         "pageSection": "October 2026 update; Who can apply; Pacific Islands Forum countries; Eligible Australian visas"
       },
       "notes": "An NZeTA authorizes travel. When entry permission is granted, Immigration New Zealand can issue a Visa Waiver Visitor Visa at the border for up to three months at a time. Multiple trips are possible on a valid NZeTA when each trip satisfies the direct travel requirement."
+    },
+    {
+      "country": "PE",
+      "countryName": "Peru",
+      "region": "south_america",
+      "accessType": "visa_free",
+      "eligibleNationalities": [
+        "CN",
+        "IN"
+      ],
+      "conditions": "Ordinary passport holders from China or India may visit Peru for tourism or business without a Peruvian visa if their Australian visa has at least six months of remaining validity.",
+      "maxStayDays": 180,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present the qualifying Australian visa and an ordinary passport with at least six months of validity when entering Peru. Follow the stay authorized on admission.",
+      "source": {
+        "url": "https://www.gob.pe/en/36240-apply-for-a-tourist-visa-to-enter-peru?child=113898",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Temporary tourist visa exemption for Chinese and Indian nationals"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.consulado.pe/es/roma/tramite/Paginas/Forms/DispForm.aspx?ID=64",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "Decrees 069-2016-RE and 006-2017-RE"
+        },
+        {
+          "url": "https://www.gob.pe/institucion/embajada-del-peru-en-singapur/informes-publicaciones/4022248-visa-frequently-asked-questions",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "Visa exemption and authorized stays for Chinese and Indian passport holders"
+        }
+      ],
+      "notes": "The 180-calendar-day ceiling covers a continuous or multiple successive visits. The period is six months for Chinese passport holders under Decree 069-2016-RE and one year for Indian passport holders under Decree 006-2017-RE."
     }
   ]
 }
