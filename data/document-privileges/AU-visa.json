@@ -14,7 +14,7 @@
     "description": "An eligible Australian visa can support simplified visitor entry on qualifying itineraries."
   },
   "lastUpdated": "2026-11-27",
-  "totalUnlocked": 5,
+  "totalUnlocked": 7,
   "unlocks": [
     {
       "country": "NZ",
@@ -167,6 +167,46 @@
         }
       ],
       "notes": "The 90-day allowance is based on a rolling 180-day period. The separate restrictions added by Ordinance 122 for certain Gulf-issued documents do not apply to an Australian visa."
+    },
+    {
+      "country": "QA",
+      "countryName": "Qatar",
+      "region": "middle_east",
+      "accessType": "evisa",
+      "conditions": "Apply through Hayya for a Qatar Visa with ETA (A3) using an Australian visa. The Australian visa must be valid when you apply and when the Qatari eVisa is issued.",
+      "visaOnArrival": false,
+      "evisaRequired": true,
+      "additionalRequirements": "Provide a return flight ticket and a passport valid for at least three months from arrival. Hayya lists a QAR 100 fee.",
+      "source": {
+        "url": "https://hayya.qa/en/faq?tab=general",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Visa with ETA (A3) eligibility, requirements and visa validity"
+      },
+      "notes": "Check the issued eVisa for its authorized stay and entry conditions."
+    },
+    {
+      "country": "SG",
+      "countryName": "Singapore",
+      "region": "asia",
+      "accessType": "transit_only",
+      "eligibleNationalities": [
+        "IN"
+      ],
+      "conditions": "Indian passport holders transiting to or from a third country via Singapore may qualify for the 96-hour Visa Free Transit Facility with an Australian visa that remains valid for at least one month from entry into Singapore.",
+      "maxStayDays": 4,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Hold a confirmed onward air, ferry or cruise ticket departing within 96 hours. Entry is possible by any mode, but departure must be by air or sea. Admission is at the checkpoint officer's discretion and the stay cannot be extended.",
+      "source": {
+        "url": "https://www.ica.gov.sg/information-and-e-services/entry-and-departure/entering-singapore/entry-requirements/visa-free-transit-facility",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Nationals of India and eligible document holders, valid visa and Single Journey Visa"
+      },
+      "notes": "A used Australian Single Journey Visa may qualify on the direct return from Australia through Singapore to India if the traveler has not returned to India since last using the visa."
     }
   ]
 }
