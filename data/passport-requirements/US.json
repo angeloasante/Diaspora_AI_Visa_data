@@ -8571,11 +8571,11 @@
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "United States citizens can visit Taiwan visa-free for up to 90 days. Ensure your passport is valid for at least 6 months."
+        "notes": "U.S. passport holders can visit Taiwan visa-free for up to 90 days."
       },
       "documents": {
         "passport": {
-          "minimumValidityMonths": 6,
+          "minimumValidityMonths": null,
           "blankPagesRequired": 2
         },
         "requirements": {
@@ -8588,7 +8588,7 @@
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "The passport must remain valid for the entire intended stay. This also applies to U.S. emergency passports."
       },
       "transit": {
         "visaRequired": null,
@@ -8600,7 +8600,14 @@
         "lastChecked": "2026-01-19",
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T03:59:12.4"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://www.boca.gov.tw/cp-149-4486-7785a-2.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "verificationPath": "BOCA > Visa-Exempt Entry > Requirements, item 1",
+        "notes": "BOCA lists intended-stay validity as an exception to the general six-month rule. The fixed-month field is unset because the requirement depends on the stay length."
+      }
     },
     {
       "to": {
