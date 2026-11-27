@@ -11,9 +11,32 @@
     ],
     "description": "Valid Canadian visas can unlock visa-free or simplified access beyond passport privileges"
   },
-  "lastUpdated": "2026-10-18",
-  "totalUnlocked": 8,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 9,
   "unlocks": [
+    {
+      "country": "GB",
+      "countryName": "United Kingdom",
+      "region": "europe",
+      "accessType": "transit_only",
+      "stayDeadline": "Before 23:59 on the day after arrival for landside transit; same-day onward flight for airside transit",
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "transitOnly": true,
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://www.gov.uk/government/publications/uk-visa-requirements-list-for-carriers/uk-visa-requirements-for-international-carriers",
+        "governmentDomain": true,
+        "confidence": "verified",
+        "accessedDate": "2026-11-27",
+        "verificationPath": "UK Home Office > UK visa requirements for international carriers > Transit without visa (TWOV), airside and landside > qualifying documents and onward flights",
+        "exactQuote": "have a confirmed onward flight that departs before 23:59 the following day",
+        "supportingQuote": "departing the same day from the same airport"
+      },
+      "additionalRequirements": "Arrive and leave by air and carry the documents required to enter your onward destination. Airside transfers depart from the same airport and have no UK border crossing. The carrier must be able to verify an electronic visa or residence permit with its issuer for airside transit. Foreign electronic visas and residence permits are excluded for landside transit; the UK border officer decides admission.",
+      "notes": "This entry concerns airport transit outside the Common Travel Area. Check the Home Office's nationality lists and use GOV.UK's visa checker for the specific itinerary.",
+      "conditions": "Visa nationals can qualify for airside Transit Without Visa with a valid entry visa for Canada, even when traveling elsewhere. Landside transit using that visa requires a reasonable itinerary to or from Canada. On a reasonable journey from Canada, the Home Office also lists a visa for that country when less than six months have passed since the last entry there using a valid visa."
+    },
     {
       "country": "GE",
       "countryName": "Georgia",
