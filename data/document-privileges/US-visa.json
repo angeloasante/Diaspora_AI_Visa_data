@@ -15,8 +15,8 @@
     ],
     "description": "Valid US visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-04",
-  "totalUnlocked": 21,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 22,
   "unlocks": [
     {
       "country": "MX",
@@ -340,6 +340,52 @@
         "exactQuote": "On arrival, the immigration department will normally give you permission to stay for up to 90 days."
       },
       "notes": "This entry records the valid US visa route, separately from lawful US residence. GOV.UK travel advice states that immigration normally grants up to 90 days on arrival, subject to Border Force determination and standard entry requirements (such as a valid passport and return or onward ticket)."
+    },
+    {
+      "country": "CA",
+      "countryName": "Canada",
+      "region": "north_america",
+      "accessType": "travel_authorization",
+      "eligibleNationalities": [
+        "AG",
+        "AR",
+        "BR",
+        "CR",
+        "ID",
+        "MY",
+        "MX",
+        "MA",
+        "PA",
+        "PH",
+        "KN",
+        "LC",
+        "VC",
+        "SC",
+        "TH",
+        "TT",
+        "UY"
+      ],
+      "conditions": "Eligible visa-required passport holders with a U.S. nonimmigrant visa valid on the date of application may apply for a Canadian electronic travel authorization (eTA) to fly to or transit through a Canadian airport for a temporary stay.",
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Obtain the eTA before flying and travel on the passport used for the application. If the U.S. visa is linked to a different passport, disclose it in the application and ensure both passports were issued by eligible countries. A visitor visa is required for travel by car, bus, train or boat under this route.",
+      "source": {
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Travellers who may be eligible for an eTA instead of a visa"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/eligibility/eta-x.html",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "Requirements to get an eTA, passport linkage and U.S. visa validity on application"
+        }
+      ],
+      "notes": "The U.S. visa can expire between eTA application and travel. Temporary stays are normally up to six months, with the actual period decided at entry. The current IRCC country list includes Indonesia and Malaysia."
     }
   ]
 }
