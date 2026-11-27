@@ -9,8 +9,8 @@
     ],
     "description": "A valid Schengen visa can unlock visa-free entry or simplified entry procedures in certain non-Schengen destinations, subject to each destination's conditions"
   },
-  "lastUpdated": "2026-10-05",
-  "totalUnlocked": 15,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 16,
   "unlocks": [
     {
       "country": "AL",
@@ -250,6 +250,23 @@
       },
       "notes": "Transit only; not an unrestricted tourist exemption. ICA decides admission and no extension is allowed. The separate used single-journey-visa return exception is not covered.",
       "lastUpdated": "2026-11-10"
+    },
+    {
+      "country": "JO",
+      "countryName": "Jordan",
+      "region": "middle_east",
+      "conditions": "The Interior Ministry lists visa on arrival without prior approval for nationals of Iraq, Libya, Yemen, Sudan, Mauritania, Comoros, Djibouti and Somalia who hold a Schengen visa valid for at least six more months.",
+      "visaOnArrival": true,
+      "evisaRequired": false,
+      "additionalRequirements": "Carry the qualifying visa and a return ticket if departing by air. Confirm that the intended border crossing issues visas on arrival.",
+      "source": {
+        "url": "https://moi.gov.jo/AR/Modules/FAQ",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Nationality-specific entry questions for Iraq, Libya and Yemen, and Sudan, Mauritania, Comoros, Djibouti and Somalia"
+      },
+      "notes": "Obtain the Jordanian visa at the border and follow the stay period granted. The Interior Ministry also describes an electronic visa option."
     }
   ]
 }
