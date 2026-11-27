@@ -14,7 +14,7 @@
     "description": "An eligible Australian visa can support simplified visitor entry on qualifying itineraries."
   },
   "lastUpdated": "2026-11-27",
-  "totalUnlocked": 2,
+  "totalUnlocked": 3,
   "unlocks": [
     {
       "country": "NZ",
@@ -73,6 +73,41 @@
         }
       ],
       "notes": "The 180-calendar-day ceiling covers a continuous or multiple successive visits. The period is six months for Chinese passport holders under Decree 069-2016-RE and one year for Indian passport holders under Decree 006-2017-RE."
+    },
+    {
+      "country": "TW",
+      "countryName": "Taiwan",
+      "region": "asia",
+      "accessType": "travel_authorization",
+      "eligibleNationalities": [
+        "IN",
+        "ID",
+        "LA",
+        "MM",
+        "VN"
+      ],
+      "conditions": "Ordinary passport holders from India, Indonesia, Laos, Myanmar or Vietnam may apply online for a Taiwan Travel Authorization Certificate (TAC) using a qualifying Australian visa. A formal paper visa may be valid or have expired within 10 years of entry. An Australian electronic visa must be valid on arrival.",
+      "maxStayDays": 14,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Bring a printed TAC, the matching Australian visa evidence, a passport valid for at least six months on entry, and a confirmed return or onward ticket. Prior employment as a foreign laborer in Taiwan disqualifies an applicant. Complete the Taiwan Arrival Card for later entries on the same TAC.",
+      "source": {
+        "url": "https://niaspeedy.immigration.gov.tw/nia_southeast/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Eligible nationalities and Cambodia suspension effective August 1, 2026"
+      },
+      "additionalSources": [
+        {
+          "url": "https://servicestation.immigration.gov.tw/media/113702/2025-%E9%81%8B%E8%BC%B8%E6%A5%AD%E8%80%85%E8%BC%89%E9%81%8B%E6%97%85%E5%AE%A2%E5%85%A5%E5%A2%83%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E5%90%84%E9%A1%9E%E6%9C%89%E6%95%88%E6%97%85%E8%A1%8C%E6%96%87%E4%BB%B6%E5%8F%83%E8%80%83%E6%8C%87%E5%8D%97-immigration-reference-guide-for-civil-carriers.pdf",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "Section 6, Figure 61 and pages 104–108, Australian visa grounds and checks"
+        }
+      ],
+      "notes": "A TAC allows up to 14 days per entry, counted from the day after arrival. Cambodia stopped qualifying on August 1, 2026."
     }
   ]
 }
