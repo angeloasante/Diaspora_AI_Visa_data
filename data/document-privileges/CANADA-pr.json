@@ -8,7 +8,7 @@
     ],
     "description": "Canadian permanent resident card: verified visitor visa exemptions and conditional eVisa access, subject to destination-specific requirements. This is a partial destination list."
   },
-  "lastUpdated": "2026-10-06",
+  "lastUpdated": "2026-11-27",
   "totalUnlocked": 11,
   "unlocks": [
     {
@@ -82,7 +82,7 @@
       "maxStayDays": 90,
       "visaOnArrival": false,
       "evisaRequired": false,
-      "lastUpdated": "2026-10-16",
+      "lastUpdated": "2026-11-27",
       "source": {
         "url": "https://www.matsne.gov.ge/en/document/view/2867377",
         "governmentDomain": true,
@@ -100,7 +100,18 @@
         "verificationPath": "MFA legal-act PDF > page 2, Canada (item 22); page 3, entry conditions 1-3",
         "language": "Georgian"
       },
-      "notes": "This entry covers Canadian permanent residence, separately from the Canadian visa route. The 90-day allowance is cumulative within any 180 days, not a fresh 90 days per entry. It does not establish permission to work, study or reside in Georgia; other entry requirements still apply."
+      "notes": "This entry covers Canadian permanent residence, separately from the Canadian visa route. The 90-day allowance is cumulative within any 180 days, not a fresh 90 days per entry. It does not establish permission to work, study or reside in Georgia; other entry requirements still apply.",
+      "additionalRequirements": "From January 1, 2026, tourists must carry health and accident insurance covering their entire stay, including arrival and departure, with at least GEL 30,000 coverage. The policy must be available on paper or electronically in Georgian or English. The embassy notice lists exemptions.",
+      "supportingSources": [
+        {
+          "url": "https://switzerland.mfa.gov.ge/en/news/370174-saqartveloshi-mogzaurobis-msurvelta-sakuradghebod",
+          "accessedDate": "2026-11-27",
+          "verificationPath": "Embassy of Georgia in Switzerland > News > Mandatory Insurance for Tourists Entering Georgia > coverage, policy format, full stay and exemptions",
+          "exactQuote": "the insurance coverage amount must be no less than 30 000 GEL.",
+          "governmentDomain": true,
+          "confidence": "verified"
+        }
+      ]
     },
     {
       "country": "KY",

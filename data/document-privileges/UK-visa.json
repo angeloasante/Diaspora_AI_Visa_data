@@ -13,7 +13,7 @@
     ],
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-10",
+  "lastUpdated": "2026-11-27",
   "totalUnlocked": 37,
   "unlocks": [
     {
@@ -119,7 +119,7 @@
       },
       "notes": "The 90-day allowance is cumulative within any 180-day period, not a new 90 days per entry. The visa/residence document must be valid at the Georgian border and evidenced by an appropriate document. This corrects the existing UK entry’s unsupported multiple-entry restriction; other Georgian admission requirements still apply and no right to work, study or reside is established.",
       "evisaRequired": false,
-      "lastUpdated": "2026-10-24",
+      "lastUpdated": "2026-11-27",
       "amendmentSource": {
         "url": "https://www.matsne.gov.ge/ka/document/view/6478000",
         "governmentDomain": true,
@@ -128,7 +128,18 @@
         "language": "Georgian",
         "verificationPath": "Ordinance No 122 of 17 April 2025 > Article 1, new Note 3 and Annex No 1; Article 2 effective 16 May 2025",
         "notes": "The added condition names documents from the UAE, Bahrain, Saudi Arabia, Qatar, Kuwait and Oman. It does not add a multiple-entry requirement for UK visas."
-      }
+      },
+      "additionalRequirements": "From January 1, 2026, tourists must carry health and accident insurance covering their entire stay, including arrival and departure, with at least GEL 30,000 coverage. The policy must be available on paper or electronically in Georgian or English. The embassy notice lists exemptions.",
+      "supportingSources": [
+        {
+          "url": "https://switzerland.mfa.gov.ge/en/news/370174-saqartveloshi-mogzaurobis-msurvelta-sakuradghebod",
+          "accessedDate": "2026-11-27",
+          "verificationPath": "Embassy of Georgia in Switzerland > News > Mandatory Insurance for Tourists Entering Georgia > coverage, policy format, full stay and exemptions",
+          "exactQuote": "the insurance coverage amount must be no less than 30 000 GEL.",
+          "governmentDomain": true,
+          "confidence": "verified"
+        }
+      ]
     },
     {
       "country": "MD",

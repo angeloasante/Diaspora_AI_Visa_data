@@ -9,7 +9,7 @@
     ],
     "description": "A valid Schengen visa can unlock visa-free entry or simplified entry procedures in certain non-Schengen destinations, subject to each destination's conditions"
   },
-  "lastUpdated": "2026-10-05",
+  "lastUpdated": "2026-11-27",
   "totalUnlocked": 15,
   "unlocks": [
     {
@@ -169,7 +169,18 @@
       },
       "notes": "The 90 days are cumulative in any 180-day period.",
       "maxStayDays": 90,
-      "lastUpdated": "2026-11-16"
+      "lastUpdated": "2026-11-27",
+      "additionalRequirements": "From January 1, 2026, tourists must carry health and accident insurance covering their entire stay, including arrival and departure, with at least GEL 30,000 coverage. The policy must be available on paper or electronically in Georgian or English. The embassy notice lists exemptions.",
+      "supportingSources": [
+        {
+          "url": "https://switzerland.mfa.gov.ge/en/news/370174-saqartveloshi-mogzaurobis-msurvelta-sakuradghebod",
+          "accessedDate": "2026-11-27",
+          "verificationPath": "Embassy of Georgia in Switzerland > News > Mandatory Insurance for Tourists Entering Georgia > coverage, policy format, full stay and exemptions",
+          "exactQuote": "the insurance coverage amount must be no less than 30 000 GEL.",
+          "governmentDomain": true,
+          "confidence": "verified"
+        }
+      ]
     },
     {
       "country": "DO",

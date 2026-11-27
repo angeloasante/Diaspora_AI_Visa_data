@@ -11,7 +11,7 @@
     ],
     "description": "Valid Canadian visas can unlock visa-free or simplified access beyond passport privileges"
   },
-  "lastUpdated": "2026-10-18",
+  "lastUpdated": "2026-11-27",
   "totalUnlocked": 8,
   "unlocks": [
     {
@@ -22,7 +22,7 @@
       "maxStayDays": 90,
       "visaOnArrival": false,
       "evisaRequired": false,
-      "lastUpdated": "2026-10-18",
+      "lastUpdated": "2026-11-27",
       "source": {
         "url": "https://www.matsne.gov.ge/en/document/view/2867377",
         "governmentDomain": true,
@@ -46,7 +46,18 @@
         "accessedDate": "2026-10-18",
         "verificationPath": "Ordinance No 122 of 17 April 2025 > Article 1, addition of condition 3"
       },
-      "notes": "This entry covers Canadian visas. The 90-day allowance is cumulative within any 180 days, not a fresh 90 days per entry. It does not establish permission to work, study or reside in Georgia; other entry requirements still apply."
+      "notes": "This entry covers Canadian visas. The 90-day allowance is cumulative within any 180 days, not a fresh 90 days per entry. It does not establish permission to work, study or reside in Georgia; other entry requirements still apply.",
+      "additionalRequirements": "From January 1, 2026, tourists must carry health and accident insurance covering their entire stay, including arrival and departure, with at least GEL 30,000 coverage. The policy must be available on paper or electronically in Georgian or English. The embassy notice lists exemptions.",
+      "supportingSources": [
+        {
+          "url": "https://switzerland.mfa.gov.ge/en/news/370174-saqartveloshi-mogzaurobis-msurvelta-sakuradghebod",
+          "accessedDate": "2026-11-27",
+          "verificationPath": "Embassy of Georgia in Switzerland > News > Mandatory Insurance for Tourists Entering Georgia > coverage, policy format, full stay and exemptions",
+          "exactQuote": "the insurance coverage amount must be no less than 30 000 GEL.",
+          "governmentDomain": true,
+          "confidence": "verified"
+        }
+      ]
     },
     {
       "country": "BZ",
