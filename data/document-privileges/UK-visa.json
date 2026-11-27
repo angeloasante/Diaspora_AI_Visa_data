@@ -13,7 +13,7 @@
     ],
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-10",
+  "lastUpdated": "2026-11-27",
   "totalUnlocked": 37,
   "unlocks": [
     {
@@ -493,8 +493,18 @@
         "MM",
         "VN"
       ],
-      "additionalRequirements": "Apply online and obtain approval before travel; print the TAC and present it with the qualifying UK document at entry. Ordinary passport must remain valid at least six months from arrival, and an onward/return air or ferry ticket is required. Applicant must never have been employed as a migrant worker in Taiwan and must have no record of immigration irregularities or legal violations in Taiwan. Work permits alone and visas stamped VOID, CANCELLED or CANCELLED WITHOUT PREJUDICE do not qualify.",
-      "lastUpdated": "2026-11-05"
+      "additionalRequirements": "Apply online and obtain approval before travel; print the TAC and present it with the qualifying UK document at entry. Ordinary passport must remain valid at least six months from arrival, and an onward/return air or ferry ticket is required. Applicant must never have been employed as a migrant worker in Taiwan and must have no record of immigration irregularities or legal violations in Taiwan. Work permits alone and visas stamped VOID, CANCELLED or CANCELLED WITHOUT PREJUDICE do not qualify. For repeat entry on the same Travel Authorization Certificate, complete the online Taiwan Arrival Card before immigration inspection. The National Immigration Agency opened filing to the seven days before arrival on July 15, 2026.",
+      "lastUpdated": "2026-11-27",
+      "supportingSources": [
+        {
+          "url": "https://www.immigration.gov.tw/5385/7229/7238/415735/cp_news",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "verificationPath": "Taiwan National Immigration Agency > July 15, 2026 announcement > lead paragraph and reminder to file before inspection",
+          "exactQuote": "放寬為抵臺前7天內即可上網填報"
+        }
+      ]
     },
     {
       "country": "BH",
