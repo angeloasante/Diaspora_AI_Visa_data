@@ -8,8 +8,8 @@
     ],
     "description": "Canadian permanent resident card: verified visitor visa exemptions and conditional eVisa access, subject to destination-specific requirements. This is a partial destination list."
   },
-  "lastUpdated": "2026-10-06",
-  "totalUnlocked": 11,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 12,
   "unlocks": [
     {
       "country": "MX",
@@ -255,6 +255,40 @@
       },
       "additionalRequirements": "At border checks, residence evidence, a return ticket, proof of means and hospital/repatriation insurance may be requested. Applicants under 18 must enter with a parent or legal representative.",
       "notes": "This is conditional eVisa eligibility, not visa-free entry or a visa on arrival. The approved eVisa allows a single entry, up to 30 days of stay and at most 180 days of validity from issue. Approval and admission are not guaranteed. Tourism/business only, not Moroccan residence; successive eVisas cannot extend one uninterrupted stay."
+    },
+    {
+      "country": "AG",
+      "countryName": "Antigua and Barbuda",
+      "region": "caribbean",
+      "conditions": "Visitors who otherwise need an Antigua and Barbuda visa may qualify for a single-entry tourist visa on arrival if they hold a valid Canadian permanent resident card. The New York consulate specifies at least six months of validity for the supporting document.",
+      "maxStayDays": 30,
+      "visaOnArrival": true,
+      "evisaRequired": false,
+      "additionalRequirements": "Travel with an ordinary passport, a return ticket and enough funds for the stay. The High Commission in London specifies at least six months of passport validity from departure. Carry a re-entry permit where required and pay the USD 100 arrival fee per passenger or the equivalent in Eastern Caribbean dollars.",
+      "source": {
+        "url": "https://immigration.gov.ag/visa-services/visa-on-arrival/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Tourist visa on arrival eligibility, validity, fee and passport exclusions"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.abconsulate.nyc/applying-for-a-visa",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "Visa on arrival and foreign document validity"
+        },
+        {
+          "url": "https://antigua-barbuda.com/ova_sev/visas/",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "General visa information and passport validity"
+        }
+      ],
+      "notes": "The route is for tourism or casual visits. Immigration decides admission and the length of stay, which may be up to 30 days. Extension or conversion is generally unavailable except in specified medical circumstances."
     }
   ]
 }

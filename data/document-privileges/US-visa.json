@@ -15,8 +15,8 @@
     ],
     "description": "Valid US visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-04",
-  "totalUnlocked": 21,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 22,
   "unlocks": [
     {
       "country": "MX",
@@ -340,6 +340,40 @@
         "exactQuote": "On arrival, the immigration department will normally give you permission to stay for up to 90 days."
       },
       "notes": "This entry records the valid US visa route, separately from lawful US residence. GOV.UK travel advice states that immigration normally grants up to 90 days on arrival, subject to Border Force determination and standard entry requirements (such as a valid passport and return or onward ticket)."
+    },
+    {
+      "country": "AG",
+      "countryName": "Antigua and Barbuda",
+      "region": "caribbean",
+      "conditions": "Visitors who otherwise need an Antigua and Barbuda visa may qualify for a single-entry tourist visa on arrival if they hold a valid U.S. visa. The New York consulate specifies at least six months of validity for the supporting document.",
+      "maxStayDays": 30,
+      "visaOnArrival": true,
+      "evisaRequired": false,
+      "additionalRequirements": "Travel with an ordinary passport, a return ticket and enough funds for the stay. The High Commission in London specifies at least six months of passport validity from departure. Carry a re-entry permit where required and pay the USD 100 arrival fee per passenger or the equivalent in Eastern Caribbean dollars.",
+      "source": {
+        "url": "https://immigration.gov.ag/visa-services/visa-on-arrival/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Tourist visa on arrival eligibility, validity, fee and passport exclusions"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.abconsulate.nyc/applying-for-a-visa",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "Visa on arrival and foreign document validity"
+        },
+        {
+          "url": "https://antigua-barbuda.com/ova_sev/visas/",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "General visa information and passport validity"
+        }
+      ],
+      "notes": "The route is for tourism or casual visits. Immigration decides admission and the length of stay, which may be up to 30 days. Extension or conversion is generally unavailable except in specified medical circumstances."
     }
   ]
 }
