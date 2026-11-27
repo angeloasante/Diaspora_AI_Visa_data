@@ -15,8 +15,8 @@
     ],
     "description": "Valid US visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-04",
-  "totalUnlocked": 21,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 22,
   "unlocks": [
     {
       "country": "MX",
@@ -313,6 +313,25 @@
         "maximumStayQuote": "enter, transit and stay in the Republic of Serbia up to 90 days during a six-month period, and within validity of said visas or residence permits."
       },
       "notes": "This entry records the US visa route separately from US residence permits. The 90-day allowance is cumulative within a six-month period and cannot exceed the expiration date of the supporting US visa."
+    },
+    {
+      "country": "VG",
+      "countryName": "British Virgin Islands",
+      "region": "caribbean",
+      "conditions": "Travelers whose nationality otherwise requires a BVI visa may qualify for the BVI Visa Exemption Programme for a business or tourist visit with a valid visa issued by the United States. The BVI London Office specifies more than six months of visa validity before travel.",
+      "maxStayDays": null,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Carry a valid passport, return or onward tickets, evidence of adequate funds and arranged accommodation. Complete the online immigration and customs form, which opens 72 hours before arrival.",
+      "source": {
+        "url": "https://bvi.org.uk/visas/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "BVI Visa Exemption Programme and Entry Requirements"
+      },
+      "notes": "The programme applies to planned visits of six months or less. The London Office states visitors may be granted up to one month on arrival and must apply for an extension to stay longer.",
+      "lastUpdated": "2026-11-27"
     },
     {
       "country": "TC",

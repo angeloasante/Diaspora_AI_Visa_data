@@ -11,8 +11,8 @@
     ],
     "description": "Valid Canadian visas can unlock visa-free or simplified access beyond passport privileges"
   },
-  "lastUpdated": "2026-10-18",
-  "totalUnlocked": 8,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 9,
   "unlocks": [
     {
       "country": "GE",
@@ -109,6 +109,25 @@
         "exactQuote": "El Decreto Núm. 691-07, del 18 de diciembre de 2007, facilita la entrada a la República Dominicana a extranjeros con residencia permanente o visado de entradas múltiples vigente en Estados Unidos, Unión Europea (Schengen), Canadá o Gran Bretaña. Pueden ingresar solo con pasaporte válido y una Tarjeta de Turismo para fines turísticos."
       },
       "notes": "This entry records the Canadian multiple-entry visa exemption under Decreto Núm. 691-07, separately from Canadian permanent residence (recorded in CANADA-pr.json). Entry under this exemption is for tourist purposes with a valid passport and Tourist Card for up to 30 days and does not authorize work, study, or residence."
+    },
+    {
+      "country": "VG",
+      "countryName": "British Virgin Islands",
+      "region": "caribbean",
+      "conditions": "Travelers whose nationality otherwise requires a BVI visa may qualify for the BVI Visa Exemption Programme for a business or tourist visit with a valid visa issued by Canada. The BVI London Office specifies more than six months of visa validity before travel.",
+      "maxStayDays": null,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Carry a valid passport, return or onward tickets, evidence of adequate funds and arranged accommodation. Complete the online immigration and customs form, which opens 72 hours before arrival.",
+      "source": {
+        "url": "https://bvi.org.uk/visas/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "BVI Visa Exemption Programme and Entry Requirements"
+      },
+      "notes": "The programme applies to planned visits of six months or less. The London Office states visitors may be granted up to one month on arrival and must apply for an extension to stay longer.",
+      "lastUpdated": "2026-11-27"
     },
     {
       "country": "TC",

@@ -13,8 +13,8 @@
     ],
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-10",
-  "totalUnlocked": 37,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 38,
   "unlocks": [
     {
       "country": "AL",
@@ -584,6 +584,25 @@
       },
       "additionalRequirements": "Passport issued no more than 10 years ago and valid for the entire stay; proof of return or onward travel, purpose and sufficient funds; medical/travel insurance of at least USD 15,000 covering hospital care, emergency treatment and repatriation. Local registration and health requirements may apply.",
       "notes": "BQ is one ISO destination entry covering three islands, not three bounty items. This does not cover a single-entry UK visa or imply UK citizenship. No fixed maximum stay is asserted by this entry; the permitted duration and admission are determined by local immigration authorities. Working requires a work permit."
+    },
+    {
+      "country": "VG",
+      "countryName": "British Virgin Islands",
+      "region": "caribbean",
+      "conditions": "Travelers whose nationality otherwise requires a BVI visa may qualify for the BVI Visa Exemption Programme for a business or tourist visit with a valid visa issued by the United Kingdom. The BVI London Office specifies more than six months of visa validity before travel.",
+      "maxStayDays": null,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Carry a valid passport, return or onward tickets, evidence of adequate funds and arranged accommodation. Complete the online immigration and customs form, which opens 72 hours before arrival.",
+      "source": {
+        "url": "https://bvi.org.uk/visas/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "BVI Visa Exemption Programme and Entry Requirements"
+      },
+      "notes": "The programme applies to planned visits of six months or less. The London Office states visitors may be granted up to one month on arrival and must apply for an extension to stay longer.",
+      "lastUpdated": "2026-11-27"
     },
     {
       "country": "TC",
