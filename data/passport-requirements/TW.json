@@ -7137,7 +7137,7 @@
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "90 days visa-free stay"
+        "notes": "Eligible Taiwan passport holders may visit without a visa for up to 90 days per entry under the bilateral agreement. This waiver does not cover employment, study or residence."
       },
       "documents": {
         "passport": {
@@ -7145,8 +7145,8 @@
           "blankPagesRequired": 2
         },
         "requirements": {
-          "onwardTicket": false,
-          "proofOfFunds": false,
+          "onwardTicket": true,
+          "proofOfFunds": true,
           "accommodation": false,
           "travelInsurance": {
             "recommended": false,
@@ -7154,7 +7154,7 @@
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "Carry an eligible passport valid for at least six months at entry, a return flight ticket, a visa for an onward destination if required, and proof of sufficient funds. Submit the Palau Entry Form no more than 72 hours before departure, show its QR code at check-in and arrival, and sign the Palau Pledge at immigration."
       },
       "transit": {
         "visaRequired": null,
@@ -7166,7 +7166,14 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:43.565013"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://bcbp.pw/?page_id=165",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "verificationPath": "Palau Bureau of Customs and Border Protection > Immigration > Visa Waiver between Palau and Other Countries",
+        "notes": "Taiwan MOFA's bilateral treaty and destination guidance confirm 90 days per visit. The timing of the entry form follows the Palau entry form and immigration guidance."
+      }
     },
     {
       "to": {
