@@ -13,7 +13,7 @@
     ],
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-10",
+  "lastUpdated": "2026-11-27",
   "totalUnlocked": 37,
   "unlocks": [
     {
@@ -62,15 +62,20 @@
       "country": "RS",
       "countryName": "Serbia",
       "region": "europe",
-      "conditions": "Valid multi-entry UK or Schengen visa",
+      "conditions": "Hold a national passport and a valid UK visa. Its expiry also limits the stay, which may be up to 90 days in a six-month period. Serbia's Embassy in India specifies multiple entries in its FAQ.",
       "maxStayDays": 90,
       "visaOnArrival": false,
       "source": {
-        "url": "http://www.mfa.gov.rs/en/",
-        "accessedDate": "2026-03-01",
-        "confidence": "verified"
+        "url": "https://mfa.gov.rs/en/citizens/travel-serbia/visa-requirements",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Decision on visa free entry adopted 30 October 2014"
       },
-      "notes": "90 days within 180 days"
+      "notes": "The Foreign Ministry applies the rule to entry, transit, and stay. Its general guidance refers to a valid UK visa. The Embassy in India FAQ separately specifies a multiple-entry visa: https://newdelhi.mfa.gov.rs/en/citizens/frequently-asked-questions.",
+      "evisaRequired": false,
+      "additionalRequirements": "Present the qualifying national passport. Emergency travel documents and travel documents issued under international conventions are excluded from this exemption.",
+      "lastUpdated": "2026-11-27"
     },
     {
       "country": "BA",
