@@ -4,13 +4,13 @@
     "name": "Kuwait"
   },
   "dataVersion": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-11-27",
   "totalRoutes": 198,
   "summary": {
     "visa_free": 57,
-    "evisa": 27,
+    "evisa": 26,
     "visa_on_arrival": 37,
-    "visa_required": 76,
+    "visa_required": 77,
     "total": 198,
     "eta": 1
   },
@@ -6619,15 +6619,15 @@
         "tourism"
       ],
       "visa": {
-        "required": false,
-        "policy": "evisa",
+        "required": true,
+        "policy": "visa_required",
         "type": null,
         "freeDays": null,
         "maxStay": null,
-        "evisa": true,
+        "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "The New Zealand visa waiver for travel on Kuwaiti passports is suspended from 23:59 on 12 November 2026 through 23:59 on 11 February 2027, New Zealand daylight time. Obtain an appropriate visa before flying if you do not already hold one. An existing NZeTA cannot be used for travel under the waiver during the suspension. Current visas remain valid subject to their conditions. Check Immigration New Zealand for any extension before relying on the scheduled end."
       },
       "documents": {
         "passport": {
@@ -6652,11 +6652,34 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-11-27",
+        "source": "Immigration New Zealand"
       },
-      "lastUpdated": "2026-01-19T04:15:19.859954"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://www.immigration.govt.nz/about-us/news-centre/visa-waiver-travel-changes-for-kuwait-nationals/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Visa waiver travel suspended for Kuwait nationals"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.immigration.govt.nz/assets/inz/documents/amendment-circulars/Amendment-Circular-2026-35.pdf",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "Operational instructions E2.1, footnote 8"
+        },
+        {
+          "url": "https://www.immigration.govt.nz/visit/what-you-need-to-visit-new-zealand/visa-waiver-countries-and-territories/",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "Current visa waiver list, Kuwait suspension alert"
+        }
+      ]
     },
     {
       "to": {
