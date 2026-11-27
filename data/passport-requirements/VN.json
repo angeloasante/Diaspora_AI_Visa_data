@@ -4,13 +4,13 @@
     "name": "Vietnam"
   },
   "dataVersion": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-11-27",
   "totalRoutes": 198,
   "summary": {
-    "visa_free": 23,
-    "evisa": 50,
+    "visa_free": 24,
+    "evisa": 48,
     "visa_on_arrival": 25,
-    "visa_required": 100,
+    "visa_required": 101,
     "total": 198
   },
   "routes": [
@@ -7401,14 +7401,14 @@
       ],
       "visa": {
         "required": false,
-        "policy": "evisa",
+        "policy": "visa_free",
         "type": null,
-        "freeDays": null,
-        "maxStay": null,
-        "evisa": true,
+        "freeDays": 30,
+        "maxStay": 30,
+        "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Under Russian Presidential Decree No. 730, Vietnamese ordinary passport holders may enter visa-free from 15 October 2026 through 15 October 2027 for up to 30 days per visit and 90 days in total per calendar year. The waiver covers tourism, family and business visits, qualifying events and transit. Employment including journalism, study and residence require the appropriate permission."
       },
       "documents": {
         "passport": {
@@ -7425,19 +7425,42 @@
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "Use a valid ordinary passport for entry and exit. The embassy recommends carrying evidence of the purpose of travel, such as a booking, ticket, invitation or proof of family relationship. Check current ruID pilot instructions before travel."
       },
       "transit": {
-        "visaRequired": null,
-        "notes": null
+        "visaRequired": false,
+        "notes": "Decree No. 730 also covers transit through Russia on a valid Vietnamese ordinary passport during the waiver period."
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-11-27",
+        "source": "Russian embassy guidance published by the Vietnamese Government and Vietnamese Ministry of Foreign Affairs"
       },
-      "lastUpdated": "2026-01-19T04:09:45.62609"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://baochinhphu.vn/dai-su-quan-nga-giai-dap-nhung-quy-dinh-ve-mien-thi-thuc-cho-cong-dan-viet-nam-102261016144036461.htm",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Russian Embassy in Vietnam, entry conditions and permitted stays"
+      },
+      "additionalSources": [
+        {
+          "url": "https://vnembassy-moscow.mofa.gov.vn/vi/web/guest/tin-chi-tiet/chi-tiet/hop-bao-thuong-ky-ngay-15-thang-10-nam-2026-62827-254.html",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "October 15 briefing, question 1, Vietnamese ordinary passport waiver"
+        },
+        {
+          "url": "https://www.favt.gov.ru/dejatelnost-novye-pravila-vezda/",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "New entry procedures for foreign travelers and the ruID pilot"
+        }
+      ]
     },
     {
       "to": {
