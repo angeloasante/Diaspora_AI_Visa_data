@@ -2825,16 +2825,16 @@
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "30 days visa-free stay"
+        "notes": "A visitor's entry permit is not required for visits of up to 30 days. A visitor's permit is required for longer stays."
       },
       "documents": {
         "passport": {
-          "minimumValidityMonths": 6,
+          "minimumValidityMonths": null,
           "blankPagesRequired": 2
         },
         "requirements": {
-          "onwardTicket": false,
-          "proofOfFunds": false,
+          "onwardTicket": true,
+          "proofOfFunds": true,
           "accommodation": false,
           "travelInsurance": {
             "recommended": false,
@@ -2842,7 +2842,7 @@
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "Carry a passport valid for at least 120 days beyond the authorized stay under the FSM Immigration Regulations, proof of return or onward travel and sufficient funds. Complete the immigration arrival record. For a planned visit of more than 30 days, arrange a visitor's entry permit before travel."
       },
       "transit": {
         "visaRequired": null,
@@ -2854,7 +2854,14 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:43.565013"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://fsmembassy.fm/for-guests-visitors/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "verificationPath": "FSM Embassy > For Guests & Visitors, and FSM Immigration Regulations sections 2.2 and 3.1",
+        "notes": "The passport validity follows the published regulations and is measured beyond the authorized stay. The embassy's entry-permit form instead describes validity beyond arrival."
+      }
     },
     {
       "to": {
