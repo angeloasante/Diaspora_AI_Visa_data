@@ -13,8 +13,8 @@
     ],
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-10",
-  "totalUnlocked": 37,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 38,
   "unlocks": [
     {
       "country": "AL",
@@ -584,6 +584,34 @@
       },
       "additionalRequirements": "Passport issued no more than 10 years ago and valid for the entire stay; proof of return or onward travel, purpose and sufficient funds; medical/travel insurance of at least USD 15,000 covering hospital care, emergency treatment and repatriation. Local registration and health requirements may apply.",
       "notes": "BQ is one ISO destination entry covering three islands, not three bounty items. This does not cover a single-entry UK visa or imply UK citizenship. No fixed maximum stay is asserted by this entry; the permitted duration and admission are determined by local immigration authorities. Working requires a work permit."
+    },
+    {
+      "country": "SA",
+      "countryName": "Saudi Arabia",
+      "region": "middle_east",
+      "conditions": "Apply for a Saudi tourist visa on arrival using a valid tourist or business visa issued by the United Kingdom that was previously used to enter that country.",
+      "maxStayDays": 90,
+      "visaOnArrival": true,
+      "evisaRequired": false,
+      "additionalRequirements": "Carry proof of prior use and a passport with at least six months of validity. Saudi tourist visa rules require approved medical insurance and the applicable visa fee.",
+      "source": {
+        "url": "https://mt.gov.sa/en/media-center/news/ministerial-decree-to-benefit-millions-as-saudi-arabia-set-to-welcome-more-tourists-than-ever-before",
+        "accessedDate": "2026-11-27",
+        "governmentDomain": true,
+        "confidence": "verified",
+        "verificationPath": "Ministry of Tourism > Media Center > Ministerial decree > paragraph on visa on arrival for valid tourist or business visa holders",
+        "exactQuote": "provided that it has been used at least once to enter the country granting the visa."
+      },
+      "staySource": {
+        "url": "https://ksavisa.sa/visa/tourism/details",
+        "accessedDate": "2026-11-27",
+        "governmentDomain": true,
+        "confidence": "verified",
+        "verificationPath": "KSA Visa > Tourism > Visa duration and validity > Multiple Entry Visa",
+        "exactQuote": "Stay Duration: 90 days"
+      },
+      "notes": "The 90-day figure is the published maximum for the multiple-entry tourist visa. Follow the stay and validity printed on the visa issued. Visa issuance and admission are subject to Saudi authorities. Tourist visa conditions apply, and Hajj requires a separate visa.",
+      "lastUpdated": "2026-11-27"
     },
     {
       "country": "TC",
