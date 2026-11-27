@@ -1,0 +1,155 @@
+{
+  "document": {
+    "type": "visa",
+    "country": "NZ",
+    "countryName": "New Zealand",
+    "categories": [
+      "visitor",
+      "study",
+      "work"
+    ],
+    "description": "A qualifying New Zealand visa can support entry or transit in participating destinations."
+  },
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 5,
+  "unlocks": [
+    {
+      "country": "TW",
+      "countryName": "Taiwan",
+      "region": "asia",
+      "accessType": "travel_authorization",
+      "eligibleNationalities": [
+        "IN",
+        "ID",
+        "LA",
+        "MM",
+        "VN"
+      ],
+      "conditions": "Ordinary passport holders from India, Indonesia, Laos, Myanmar or Vietnam may apply online for a Taiwan Travel Authorization Certificate (TAC) using a qualifying New Zealand visa. A formal paper visa may be valid or have expired within 10 years of entry. A New Zealand electronic visa must be valid on arrival.",
+      "maxStayDays": 14,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Bring a printed TAC, the matching New Zealand visa evidence, a passport valid for at least six months on entry, and a confirmed return or onward ticket. Prior employment as a foreign laborer in Taiwan disqualifies an applicant. Complete the Taiwan Arrival Card for later entries on the same TAC.",
+      "source": {
+        "url": "https://niaspeedy.immigration.gov.tw/nia_southeast/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Eligible nationalities and Cambodia suspension effective August 1, 2026"
+      },
+      "additionalSources": [
+        {
+          "url": "https://servicestation.immigration.gov.tw/media/113702/2025-%E9%81%8B%E8%BC%B8%E6%A5%AD%E8%80%85%E8%BC%89%E9%81%8B%E6%97%85%E5%AE%A2%E5%85%A5%E5%A2%83%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E5%90%84%E9%A1%9E%E6%9C%89%E6%95%88%E6%97%85%E8%A1%8C%E6%96%87%E4%BB%B6%E5%8F%83%E8%80%83%E6%8C%87%E5%8D%97-immigration-reference-guide-for-civil-carriers.pdf",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "Section 6, Figure 61 and pages 104–108, New Zealand visa grounds and NZeTA exclusion"
+        }
+      ],
+      "notes": "A TAC allows up to 14 days per entry, counted from the day after arrival. An NZeTA does not qualify as a supporting document. Cambodia stopped qualifying on August 1, 2026."
+    },
+    {
+      "country": "GE",
+      "countryName": "Georgia",
+      "region": "asia",
+      "accessType": "visa_free",
+      "conditions": "Present a New Zealand visa that is valid on the date of entry into Georgia, evidenced by the passport or another appropriate document. The exemption allows a cumulative stay of up to 90 calendar days in any 180-day period.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Tourists must carry health and accident insurance with at least GEL 30,000 coverage for the full stay, in Georgian or English. Statutory exceptions apply.",
+      "source": {
+        "url": "https://gc-pfiles.mfa.gov.ge/DocFiles/2026/5/15/LegalAct/37/8666f08b-7c74-45e7-984f-2a0c9c00dd03.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Consolidated Ordinance 256, list item 5 and conditions 1–3"
+      },
+      "additionalSources": [
+        {
+          "url": "https://slovenia.mfa.gov.ge/en/samogzauro_dazgveva",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "Mandatory health and accident insurance for tourists"
+        }
+      ],
+      "notes": "The 90-day allowance is based on a rolling 180-day period. Carry evidence that the New Zealand visa is valid when crossing the Georgian border."
+    },
+    {
+      "country": "QA",
+      "countryName": "Qatar",
+      "region": "middle_east",
+      "accessType": "evisa",
+      "conditions": "Apply through Hayya for a Qatar Visa with ETA (A3) using a New Zealand visa. The New Zealand visa must be valid when you apply and when the Qatari eVisa is issued.",
+      "visaOnArrival": false,
+      "evisaRequired": true,
+      "additionalRequirements": "Provide a return flight ticket and a passport valid for at least three months from arrival. Hayya lists a QAR 100 fee.",
+      "source": {
+        "url": "https://hayya.qa/en/faq?tab=a3",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Visa with ETA (A3) eligibility, requirements and visa validity"
+      },
+      "notes": "Check the issued eVisa for its authorized stay and entry conditions."
+    },
+    {
+      "country": "SG",
+      "countryName": "Singapore",
+      "region": "asia",
+      "accessType": "transit_only",
+      "eligibleNationalities": [
+        "IN"
+      ],
+      "conditions": "Indian passport holders transiting to or from a third country via Singapore may qualify for the 96-hour Visa Free Transit Facility with a New Zealand visa that remains valid for at least one month from entry into Singapore.",
+      "maxStayDays": 4,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Hold a confirmed onward air, ferry or cruise ticket departing within 96 hours. Entry is possible by any mode, but departure must be by air or sea. Admission is at the checkpoint officer's discretion and the stay cannot be extended.",
+      "source": {
+        "url": "https://www.ica.gov.sg/information-and-e-services/entry-and-departure/entering-singapore/entry-requirements/visa-free-transit-facility",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Nationals of India and eligible document holders, valid visa and Single Journey Visa"
+      },
+      "notes": "A used New Zealand Single Journey Visa may qualify on the direct return from New Zealand through Singapore to India if the traveler has not returned to India since last using the visa."
+    },
+    {
+      "country": "KR",
+      "countryName": "South Korea",
+      "region": "asia",
+      "accessType": "transit_only",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Hold a confirmed onward flight leaving South Korea within 30 days. Check the embassy's excluded-nationality list and its three-day limit for a preceding third-country transfer. Prior unlawful stays, a recent Korean entry refusal, and serious immigration or criminal penalties may disqualify the traveler.",
+      "source": {
+        "url": "https://www.mofa.go.kr/ca-en/brd/m_5238/view.do?page=1&seq=727682",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Visa Free Entry for Third Country Transit Passengers, Eligibility and itineraries"
+      },
+      "conditions": "Hold a valid New Zealand visa sticker affixed to your passport and transit through South Korea on an eligible itinerary to New Zealand or after departing New Zealand for your home country or a third country.",
+      "additionalSources": [
+        {
+          "url": "https://overseas.mofa.go.kr/au-brisbane-en/brd/m_26852/view.do?seq=1",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "July 22, 2026 update, passport visa label requirement"
+        },
+        {
+          "url": "https://www.immigration.govt.nz/visas/how-to-get-a-visa-sticker-for-a-passport/",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "Requesting a physical visa label for an existing New Zealand eVisa"
+        }
+      ],
+      "notes": "A New Zealand eVisa approval letter alone does not meet this Korean rule. Immigration New Zealand explains how eligible holders can request a physical label. A trip from New Zealand to South Korea and straight back to New Zealand does not qualify."
+    }
+  ]
+}
