@@ -11,8 +11,8 @@
     ],
     "description": "Valid Canadian visas can unlock visa-free or simplified access beyond passport privileges"
   },
-  "lastUpdated": "2026-10-18",
-  "totalUnlocked": 8,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 9,
   "unlocks": [
     {
       "country": "GE",
@@ -109,6 +109,24 @@
         "exactQuote": "El Decreto Núm. 691-07, del 18 de diciembre de 2007, facilita la entrada a la República Dominicana a extranjeros con residencia permanente o visado de entradas múltiples vigente en Estados Unidos, Unión Europea (Schengen), Canadá o Gran Bretaña. Pueden ingresar solo con pasaporte válido y una Tarjeta de Turismo para fines turísticos."
       },
       "notes": "This entry records the Canadian multiple-entry visa exemption under Decreto Núm. 691-07, separately from Canadian permanent residence (recorded in CANADA-pr.json). Entry under this exemption is for tourist purposes with a valid passport and Tourist Card for up to 30 days and does not authorize work, study, or residence."
+    },
+    {
+      "country": "KY",
+      "countryName": "Cayman Islands",
+      "region": "caribbean",
+      "conditions": "Nationals of Jamaica, India, or the People's Republic of China must hold a valid visa issued by Canada and arrive in the Cayman Islands directly from that country.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://gov.ky/en/web/cbc/travel/visas-extensions/visitors-visas/list-of-countries-visa-required",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Exemptions"
+      },
+      "notes": "Regulation 7(2) authorizes admission for up to 30 days under these conditions. Admission remains subject to border examination.",
+      "lastUpdated": "2026-11-27"
     },
     {
       "country": "TC",
