@@ -13,7 +13,7 @@
     ],
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-10",
+  "lastUpdated": "2026-11-27",
   "totalUnlocked": 37,
   "unlocks": [
     {
@@ -253,15 +253,19 @@
       "country": "DO",
       "countryName": "Dominican Republic",
       "region": "caribbean",
-      "conditions": "Valid UK, US, Canada, or Schengen visa",
+      "conditions": "A valid multiple-entry UK visa qualifies for tourist entry without a Dominican consular visa under Decree No. 691-07.",
       "maxStayDays": 30,
       "visaOnArrival": false,
       "source": {
-        "url": "https://www.dgm.gob.do/",
-        "accessedDate": "2026-03-01",
-        "confidence": "verified"
+        "url": "https://servicios360.mirex.gob.do/visas/",
+        "accessedDate": "2026-11-27",
+        "governmentDomain": true,
+        "confidence": "verified",
+        "pageSection": "Decreto Núm. 691-07"
       },
-      "notes": "Must purchase tourist card on arrival ($10)"
+      "notes": "Tourism only. The 30-day Tourist Card limit and collection rules are documented at https://dgii.gov.do/sobreTarjetaTurista/Paginas/default.aspx.",
+      "additionalRequirements": "Valid passport and Tourist Card. The card is included in airline tickets issued outside the Dominican Republic. Travelers arriving by land or sea can obtain it at designated points of sale.",
+      "lastUpdated": "2026-11-27"
     },
     {
       "country": "JO",
