@@ -1,0 +1,40 @@
+{
+  "document": {
+    "type": "residence_permit",
+    "country": "AU",
+    "countryName": "Australia",
+    "categories": ["permanent_resident_visa", "resident_return_visa"],
+    "description": "Travel privileges linked to valid Australian permanent residence and return documents."
+  },
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 1,
+  "unlocks": [
+    {
+      "country": "NZ",
+      "countryName": "New Zealand",
+      "region": "oceania",
+      "accessType": "resident_visa_on_arrival",
+      "conditions": "Australian permanent residents holding a valid Australian Permanent Resident Visa or Resident Return Visa may apply for a New Zealand Australian Resident Visa on arrival if they satisfy the applicable character and entry requirements.",
+      "visaOnArrival": true,
+      "evisaRequired": false,
+      "additionalRequirements": "Obtain a New Zealand Electronic Travel Authority (NZeTA) before travel unless you already hold a valid New Zealand visa. Complete the New Zealand Traveller Declaration and ensure a digitally issued Australian residence visa is linked to the passport you use. The International Visitor Conservation and Tourism Levy is waived for Australian permanent residents.",
+      "source": {
+        "url": "https://www.immigration.govt.nz/visas/australian-resident-visa/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Overview; Citizenship or permanent residency; Character; Steps 2 and 3"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.immigration.govt.nz/visit/what-you-need-to-visit-new-zealand/australian-citizens-and-permanent-residents-travelling-to-new-zealand/",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "Australian permanent residents; Before you arrive in New Zealand"
+        }
+      ],
+      "notes": "The visa permits residence, work and study indefinitely while in New Zealand. It ordinarily expires on departure unless travel conditions have been varied. Australian temporary residence does not qualify for this resident visa."
+    }
+  ]
+}
