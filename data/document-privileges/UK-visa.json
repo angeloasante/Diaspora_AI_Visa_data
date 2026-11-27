@@ -13,8 +13,8 @@
     ],
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-10",
-  "totalUnlocked": 37,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 36,
   "unlocks": [
     {
       "country": "AL",
@@ -205,20 +205,6 @@
         "confidence": "verified"
       },
       "notes": "No visa required for Mexico if holding valid UK visa/residence"
-    },
-    {
-      "country": "CR",
-      "countryName": "Costa Rica",
-      "region": "central_america",
-      "conditions": "Valid UK visa with minimum 3 months remaining validity",
-      "maxStayDays": 30,
-      "visaOnArrival": false,
-      "source": {
-        "url": "https://www.migracion.go.cr/",
-        "accessedDate": "2026-03-01",
-        "confidence": "verified"
-      },
-      "notes": "UK visa must have been used for entry to UK"
     },
     {
       "country": "PA",

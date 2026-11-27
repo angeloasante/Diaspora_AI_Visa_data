@@ -11,8 +11,8 @@
     ],
     "description": "Valid Canadian visas can unlock visa-free or simplified access beyond passport privileges"
   },
-  "lastUpdated": "2026-10-18",
-  "totalUnlocked": 8,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 9,
   "unlocks": [
     {
       "country": "GE",
@@ -196,6 +196,35 @@
       },
       "notes": "Transit only; not an unrestricted tourist exemption. ICA decides admission and no extension is allowed. The separate used single-journey-visa return exception is not covered.",
       "lastUpdated": "2026-11-10"
+    },
+    {
+      "country": "CR",
+      "countryName": "Costa Rica",
+      "region": "central_america",
+      "conditions": "Nationals who otherwise require a Costa Rican consular or restricted visa may enter with a visa issued by Canada that permits multiple entries and has at least one calendar day of validity remaining on entry.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Meet the Costa Rican passport validity requirement for your nationality and present the qualifying visa.",
+      "source": {
+        "url": "https://www.imprentanacional.go.cr/pub/2025/11/17/ALCA148_17_11_2025.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Circular AJ-484-11-2025, Quinto I and the country-specific provisions in Tercero"
+      },
+      "notes": "The border officer determines the permitted stay. It cannot extend past the supporting visa expiry. The usual initial limit is 30 days and separate nationality-specific limits apply for Nicaragua and Colombia.",
+      "nationalityOverrides": {
+        "NI": {
+          "maxStayDays": 90,
+          "minimumPassportValidityDays": 90
+        },
+        "CO": {
+          "maxStayDays": 90,
+          "minimumPassportValidityDays": 90
+        }
+      },
+      "lastUpdated": "2026-11-27"
     }
   ]
 }
