@@ -4,13 +4,13 @@
     "name": "Russia"
   },
   "dataVersion": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-11-27",
   "totalRoutes": 198,
   "summary": {
     "visa_free": 78,
-    "evisa": 25,
+    "evisa": 26,
     "visa_on_arrival": 33,
-    "visa_required": 62,
+    "visa_required": 61,
     "total": 198
   },
   "routes": [
@@ -8863,15 +8863,15 @@
         "tourism"
       ],
       "visa": {
-        "required": true,
-        "policy": "visa_required",
+        "required": false,
+        "policy": "evisa",
         "type": null,
         "freeDays": null,
-        "maxStay": null,
-        "evisa": false,
+        "maxStay": 30,
+        "evisa": true,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Russian ordinary passport holders can apply for a Taiwan eVisa from 7 July 2026 through 6 July 2027. Obtain approval before travel. The eVisa is single-entry, is valid for three months from issuance and permits a stay of up to 30 days without an extension."
       },
       "documents": {
         "passport": {
@@ -8888,7 +8888,7 @@
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "The ordinary passport must have at least six months of validity when applying. Print the approved eVisa and present it on arrival."
       },
       "transit": {
         "visaRequired": true,
@@ -8896,11 +8896,27 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-11-27",
+        "source": "Taiwan Bureau of Consular Affairs"
       },
-      "lastUpdated": "2026-01-19T04:08:56.39993"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://www.boca.gov.tw/fp-181-8051-69fbd-2.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Russia ordinary passport eligibility and program dates"
+      },
+      "additionalSources": [
+        {
+          "url": "https://visawebapp.boca.gov.tw/BOCA_EVISA/MRV04FORM.do",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "Eligibility, requirements and procedures, and validity and duration of stay"
+        }
+      ]
     },
     {
       "to": {
