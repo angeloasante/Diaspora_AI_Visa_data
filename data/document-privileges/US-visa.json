@@ -15,7 +15,7 @@
     ],
     "description": "Valid US visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-11-27",
   "totalUnlocked": 21,
   "unlocks": [
     {
@@ -261,17 +261,19 @@
       "country": "TR",
       "countryName": "Turkey",
       "region": "europe",
-      "conditions": "Valid US visa or green card",
-      "maxStayDays": 90,
+      "conditions": "An eligible passport holder may use a valid U.S. visa as supporting evidence for Türkiye's conditional e-Visa. Eligibility depends on passport nationality and type.",
+      "maxStayDays": null,
       "visaOnArrival": false,
       "evisaRequired": true,
-      "additionalRequirements": "Must apply for Turkey e-Visa (simplified process)",
+      "additionalRequirements": "Meet the conditions for your passport and obtain the Turkish e-Visa online before travel. The e-Visa is for tourism or commerce.",
       "source": {
-        "url": "https://www.evisa.gov.tr/en/",
-        "accessedDate": "2026-03-01",
-        "confidence": "verified"
+        "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Visa Information For Foreigners, India, Pakistan and other nationality entries"
       },
-      "notes": "US visa allows e-Visa application for nationalities that normally cannot get e-Visa"
+      "notes": "The ministry lists one-month single-entry e-Visas for qualifying ordinary passport holders from India and Pakistan. Check the permitted stay and validity dates on the issued e-Visa."
     },
     {
       "country": "BZ",
