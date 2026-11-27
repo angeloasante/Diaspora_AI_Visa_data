@@ -9,7 +9,7 @@
     ],
     "description": "A valid Schengen visa can unlock visa-free entry or simplified entry procedures in certain non-Schengen destinations, subject to each destination's conditions"
   },
-  "lastUpdated": "2026-11-26",
+  "lastUpdated": "2026-11-27",
   "totalUnlocked": 16,
   "unlocks": [
     {
@@ -258,10 +258,11 @@
       "accessType": "visa_free",
       "eligibleNationalities": [
         "CN",
-        "IN"
+        "IN",
+        "MA"
       ],
-      "conditions": "Ordinary passport holders from China or India may enter for tourism or business with a qualifying visa issued by a Schengen Area state that has at least six months of validity.",
-      "maxStayDays": 180,
+      "conditions": "Ordinary passport holders from China or India qualify for tourism or business with a Schengen visa valid for at least six more months. Ordinary passport holders from Morocco qualify for tourism with a Schengen visa and passport each valid for at least six more months.",
+      "maxStayDays": 183,
       "visaOnArrival": false,
       "evisaRequired": false,
       "additionalRequirements": "Carry the qualifying visa and an ordinary passport valid for at least six months on entry. Observe the period set by Peruvian immigration on admission.",
@@ -292,10 +293,35 @@
           "confidence": "verified",
           "verificationPath": "Visa FAQ > Chinese and Indian passport holders' visa exemption and country-specific stay windows",
           "exactQuote": "six months for Chinese passport holders, and one year for Indian passport holders"
+        },
+        {
+          "url": "https://busquedas.elperuano.pe/dispositivo/NL/2538175-3",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "authority": "Diario Oficial El Peruano",
+          "confidence": "verified",
+          "verificationPath": "Supreme Decree 033-2026-RE > Articles 1–4, tourist exemption, maximum stay, validity and effective date"
         }
       ],
-      "notes": "The 180-day ceiling covers continuous or successive visits. Decree 069-2016-RE sets a six-month window for Chinese passport holders. Decree 006-2017-RE sets a one-year window for Indian passport holders.",
-      "lastUpdated": "2026-11-26"
+      "notes": "The ceilings cover one continuous stay or successive visits. China: 180 days within six months under Decree 069-2016-RE. India: 180 days within one year under Decree 006-2017-RE. Morocco: 183 days within one year under Decree 033-2026-RE.",
+      "lastUpdated": "2026-11-27",
+      "nationalityRules": [
+        {
+          "nationality": "CN",
+          "maxStayDays": 180,
+          "periodMonths": 6
+        },
+        {
+          "nationality": "IN",
+          "maxStayDays": 180,
+          "periodYears": 1
+        },
+        {
+          "nationality": "MA",
+          "maxStayDays": 183,
+          "periodYears": 1
+        }
+      ]
     }
   ]
 }
