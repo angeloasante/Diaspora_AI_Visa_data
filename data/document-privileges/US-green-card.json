@@ -5,7 +5,7 @@
     "countryName": "United States",
     "description": "US permanent residence document privileges verified against destination government sources"
   },
-  "lastUpdated": "2026-10-20",
+  "lastUpdated": "2026-11-27",
   "totalUnlocked": 30,
   "unlocks": [
     {
@@ -853,7 +853,7 @@
       "authorizationValidityDays": 90,
       "multipleEntry": true,
       "maxEntriesPerCalendarYear": 6,
-      "additionalRequirements": "Regular passport valid at least six months on arrival; onward/return air or ferry ticket; no previous employment as a migrant worker in Taiwan; no Taiwan immigration or legal violations; print TAC and carry the supporting document. Stay starts the day after arrival. Current portal also allows qualifying expired residence certificates within the specified ten-year window. Work permits and VOID/CANCELLED visas are excluded. Complete the online Arrival Card before each repeat entry on the same certificate; the TAC instructions exempt the first entry on that certificate from this form. The ten-year expired-document period is measured to the arrival date. The portal gives a separate issuing-date calculation where a document has no stated validity, and a permanent-resident-certificate option using 9999-12-31 where no expiry date is shown.",
+      "additionalRequirements": "Regular passport valid at least six months on arrival; onward/return air or ferry ticket; no previous employment as a migrant worker in Taiwan; no Taiwan immigration or legal violations; print TAC and carry the supporting document. Stay starts the day after arrival. Current portal also allows qualifying expired residence certificates within the specified ten-year window. Work permits and VOID/CANCELLED visas are excluded. The TAC instructions exempt the first entry on that certificate from the Arrival Card. The ten-year expired-document period is measured to the arrival date. The portal gives a separate issuing-date calculation where a document has no stated validity, and a permanent-resident-certificate option using 9999-12-31 where no expiry date is shown. For repeat entry on the same Travel Authorization Certificate, complete the online Taiwan Arrival Card before immigration inspection. The National Immigration Agency opened filing to the seven days before arrival on July 15, 2026.",
       "policyChange": "New Cambodian TAC applications ended 2026-08-01; valid certificates approved before/on that date have a separate grandfathered route.",
       "source": {
         "url": "https://niaspeedy.immigration.gov.tw/nia_southeast/",
@@ -866,7 +866,17 @@
         "supportingQuote": "may stay in Taiwan for 14 days, starting from the next day of arrival."
       },
       "notes": "Apply online for TAC and print the approval. The certificate is valid for 90 days; each stay is 14 days from the day following arrival. Up to six TAC entries per calendar year.",
-      "lastUpdated": "2026-10-20"
+      "lastUpdated": "2026-11-27",
+      "supportingSources": [
+        {
+          "url": "https://www.immigration.gov.tw/5385/7229/7238/415735/cp_news",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "verificationPath": "Taiwan National Immigration Agency > July 15, 2026 announcement > lead paragraph and reminder to file before inspection",
+          "exactQuote": "放寬為抵臺前7天內即可上網填報"
+        }
+      ]
     },
     {
       "country": "SA",
