@@ -7,11 +7,12 @@
   "lastUpdated": "2026-03-04",
   "totalRoutes": 198,
   "summary": {
-    "visa_free": 75,
+    "visa_free": 74,
     "evisa": 45,
     "visa_on_arrival": 34,
     "visa_required": 44,
-    "total": 198
+    "total": 198,
+    "eta": 1
   },
   "routes": [
     {
@@ -3846,19 +3847,19 @@
         "tourism"
       ],
       "visa": {
-        "required": false,
-        "policy": "visa_free",
-        "type": null,
-        "freeDays": 90,
-        "maxStay": null,
+        "required": true,
+        "policy": "eta",
+        "type": "ETA-IL",
+        "freeDays": null,
+        "maxStay": 90,
         "evisa": false,
         "onArrival": false,
-        "multipleEntry": false,
-        "notes": "90 days visa-free stay"
+        "multipleEntry": true,
+        "notes": "Taiwan passport holders traveling under the tourist visa waiver must obtain ETA-IL approval before travel. If admitted, visitors may stay up to 90 days per visit. The authorization may be reused for up to two years or until the passport expires, whichever comes first."
       },
       "documents": {
         "passport": {
-          "minimumValidityMonths": 6,
+          "minimumValidityMonths": null,
           "blankPagesRequired": 2
         },
         "requirements": {
@@ -3871,7 +3872,7 @@
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "The passport must be valid for at least 90 days from the date of entry under Population and Immigration Authority guidance. A new passport requires a new ETA-IL."
       },
       "transit": {
         "visaRequired": null,
@@ -3883,7 +3884,14 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:43.38696"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://www.gov.il/en/departments/topics/eta-il/govil-landing-page",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "verificationPath": "Population and Immigration Authority > ETA-IL > About",
+        "notes": "Israel's representative office in Taipei confirms Taiwan passport eligibility. The 90-day passport validity rule follows PIBA."
+      }
     },
     {
       "to": {
