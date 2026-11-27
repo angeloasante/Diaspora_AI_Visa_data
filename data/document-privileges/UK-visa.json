@@ -13,7 +13,7 @@
     ],
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-10",
+  "lastUpdated": "2026-11-27",
   "totalUnlocked": 37,
   "unlocks": [
     {
@@ -164,17 +164,20 @@
       "country": "TR",
       "countryName": "Turkey",
       "region": "europe",
-      "conditions": "Valid UK, US, Ireland, or Schengen visa or residence permit",
-      "maxStayDays": 90,
+      "conditions": "A valid UK visa or residence permit can serve as a supporting document for ordinary passport holders eligible for Türkiye's conditional e-Visa. Eligibility and additional conditions depend on nationality and passport type.",
+      "maxStayDays": null,
       "visaOnArrival": false,
       "evisaRequired": true,
-      "additionalRequirements": "Must apply for Turkey e-Visa (simplified process)",
+      "additionalRequirements": "Check nationality-specific conditions and obtain the Turkish e-Visa before travel. For example, Egyptian ordinary passport holders aged 15 to 45 must use Turkish Airlines, AJet, Pegasus, Egypt Air, or Air Cairo for this route.",
       "source": {
-        "url": "https://www.evisa.gov.tr/en/",
-        "accessedDate": "2026-03-01",
-        "confidence": "verified"
+        "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Visa Information For Foreigners, by passport nationality"
       },
-      "notes": "UK visa allows e-Visa application. Normally some nationalities cannot get e-Visa."
+      "notes": "The Foreign Ministry lists 30-day single-entry e-Visas for qualifying applicants in examples such as Egypt, Cabo Verde, Equatorial Guinea, and Palestine. Check the e-Visa application and issued authorization for the applicable stay and entry count: https://www.evisa.gov.tr/en/.",
+      "lastUpdated": "2026-11-27"
     },
     {
       "country": "AZ",
