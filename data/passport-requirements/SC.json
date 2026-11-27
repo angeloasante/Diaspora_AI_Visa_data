@@ -7,9 +7,9 @@
   "lastUpdated": "2026-03-04",
   "totalRoutes": 198,
   "summary": {
-    "visa_free": 101,
+    "visa_free": 102,
     "evisa": 31,
-    "visa_on_arrival": 30,
+    "visa_on_arrival": 29,
     "visa_required": 36,
     "total": 198
   },
@@ -8413,14 +8413,14 @@
       ],
       "visa": {
         "required": false,
-        "policy": "visa_on_arrival",
+        "policy": "visa_free",
         "type": null,
-        "freeDays": null,
+        "freeDays": 15,
         "maxStay": null,
         "evisa": false,
-        "onArrival": true,
+        "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Ordinary passport holders may visit for up to 15 days without a visa under the September 2026 tourist visa exemption scheme."
       },
       "documents": {
         "passport": {
@@ -8449,7 +8449,14 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:42.871757"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://helsinki.thaiembassy.org/en/publicservice/new-visa-exemption-and-visa-on-arrival-voa-to-thailand",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "verificationPath": "Royal Thai Embassy > Visa exemption and Visa on Arrival measures effective September 15, 2026",
+        "notes": "Verified the visitor classification and stay limit against current Royal Thai Embassy guidance."
+      }
     },
     {
       "to": {

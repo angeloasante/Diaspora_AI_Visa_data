@@ -8423,14 +8423,14 @@
       ],
       "visa": {
         "required": false,
-        "policy": "visa_on_arrival",
+        "policy": "voa",
         "type": null,
         "freeDays": null,
-        "maxStay": null,
+        "maxStay": 15,
         "evisa": false,
         "onArrival": true,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Ordinary passport holders may apply for a visa on arrival for tourism for up to 15 days at designated checkpoints. The fee is THB 2,000."
       },
       "documents": {
         "passport": {
@@ -8459,7 +8459,14 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:13.809686"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://moscow.thaiembassy.org/en/publicservice/revision-of-thailand-s-visa-exemption-and-visa-on-arrival-schemes",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "verificationPath": "Royal Thai Embassy > Visa exemption and Visa on Arrival measures effective September 15, 2026",
+        "notes": "Verified the visitor classification and stay limit against current Royal Thai Embassy guidance."
+      }
     },
     {
       "to": {
