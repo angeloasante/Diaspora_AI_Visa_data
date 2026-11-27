@@ -13,8 +13,8 @@
     ],
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-10",
-  "totalUnlocked": 37,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 36,
   "unlocks": [
     {
       "country": "AL",
@@ -419,20 +419,6 @@
         "confidence": "verified"
       },
       "notes": "Many non-EU nationals can visit 30-90 days with valid UK visa/BRP"
-    },
-    {
-      "country": "ID",
-      "countryName": "Indonesia",
-      "region": "asia",
-      "conditions": "Valid UK visa or residence permit (visa-on-arrival eligible)",
-      "maxStayDays": 30,
-      "visaOnArrival": true,
-      "source": {
-        "url": "https://www.imigrasi.go.id/",
-        "accessedDate": "2026-03-10",
-        "confidence": "verified"
-      },
-      "notes": "VOA available for many nationals with UK visa/BRP. Extendable once."
     },
     {
       "country": "MV",
