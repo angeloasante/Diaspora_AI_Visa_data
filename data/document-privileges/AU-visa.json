@@ -14,7 +14,7 @@
     "description": "An eligible Australian visa can support simplified visitor entry on qualifying itineraries."
   },
   "lastUpdated": "2026-11-27",
-  "totalUnlocked": 7,
+  "totalUnlocked": 9,
   "unlocks": [
     {
       "country": "NZ",
@@ -207,6 +207,79 @@
         "pageSection": "Nationals of India and eligible document holders, valid visa and Single Journey Visa"
       },
       "notes": "A used Australian Single Journey Visa may qualify on the direct return from Australia through Singapore to India if the traveler has not returned to India since last using the visa."
+    },
+    {
+      "country": "KR",
+      "countryName": "South Korea",
+      "region": "asia",
+      "accessType": "transit_only",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Hold a confirmed onward flight leaving South Korea within 30 days. Check the embassy's excluded-nationality list and its three-day limit for a preceding third-country transfer. Prior unlawful stays, a recent Korean entry refusal, and serious immigration or criminal penalties may disqualify the traveler.",
+      "source": {
+        "url": "https://www.mofa.go.kr/ca-en/brd/m_5238/view.do?page=1&seq=727682",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Visa Free Entry for Third Country Transit Passengers, Eligibility and itineraries"
+      },
+      "conditions": "Hold a valid Australian visa and transit through South Korea on an eligible itinerary to Australia or after departing Australia for your home country or a third country. Korea may accept an Australian electronic visa if its validity is confirmed in Australia's Visa Entitlement Verification Online (VEVO) system.",
+      "additionalSources": [
+        {
+          "url": "https://overseas.mofa.go.kr/au-brisbane-en/brd/m_26852/view.do?seq=1",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "July 22, 2026 update, eligibility and electronic Australian visas"
+        }
+      ],
+      "notes": "A trip from Australia to South Korea and straight back to Australia does not qualify. The Korean consulate recommends carrying a recently issued VEVO printout for an electronic visa."
+    },
+    {
+      "country": "OM",
+      "countryName": "Oman",
+      "region": "middle_east",
+      "accessType": "visa_free",
+      "eligibleNationalities": [
+        "DZ",
+        "AZ",
+        "BT",
+        "CR",
+        "CU",
+        "EG",
+        "SV",
+        "GT",
+        "HN",
+        "IN",
+        "JO",
+        "KG",
+        "LA",
+        "MV",
+        "MR",
+        "MX",
+        "MA",
+        "NI",
+        "PA",
+        "PE",
+        "TJ",
+        "TN",
+        "TM",
+        "VN"
+      ],
+      "conditions": "Nationals in Oman's second visa-exemption group may visit for up to 14 days with a valid Australian entry visa. This exemption is for short visits and cannot be extended or converted to residence.",
+      "maxStayDays": 14,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Carry a passport valid for at least six months, a return ticket, a confirmed hotel reservation, health insurance and sufficient funds for the stay.",
+      "source": {
+        "url": "https://www.fm.gov.om/en/visitors/entry-visas/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Second group and Full text of the regulations, conditions 1–5"
+      },
+      "notes": "The foreign ministry extends this facility to the qualifying visitor's spouse and children even when their nationalities differ."
     }
   ]
 }
