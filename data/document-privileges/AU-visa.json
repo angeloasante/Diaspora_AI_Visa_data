@@ -1,0 +1,39 @@
+{
+  "document": {
+    "type": "visa",
+    "country": "AU",
+    "countryName": "Australia",
+    "categories": [
+      "visitor",
+      "study",
+      "training",
+      "work",
+      "family",
+      "retirement"
+    ],
+    "description": "An eligible Australian visa can support simplified visitor entry on qualifying itineraries."
+  },
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 1,
+  "unlocks": [
+    {
+      "country": "NZ",
+      "countryName": "New Zealand",
+      "region": "oceania",
+      "accessType": "travel_authorization",
+      "eligibleNationalities": ["CN", "FM", "FJ", "KI", "NR", "PW", "PG", "MH", "WS", "SB", "TO", "TV", "VU"],
+      "conditions": "Hold a passport from China or one of the Pacific Islands Forum countries listed by Immigration New Zealand. Enter Australia through immigration, depart directly from an Australian airport, and hold an eligible Australian visa valid at check-in and a valid New Zealand Electronic Travel Authority (NZeTA).",
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Check your Australian visa subclass against the official list. Request the NZeTA at least 72 hours before travel. Transit through Australia without entering the country does not qualify.",
+      "source": {
+        "url": "https://www.immigration.govt.nz/visit/what-you-need-to-visit-new-zealand/chinese-and-pacific-island-visitors-travelling-from-australia/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "October 2026 update; Who can apply; Pacific Islands Forum countries; Eligible Australian visas"
+      },
+      "notes": "An NZeTA authorizes travel. When entry permission is granted, Immigration New Zealand can issue a Visa Waiver Visitor Visa at the border for up to three months at a time. Multiple trips are possible on a valid NZeTA when each trip satisfies the direct travel requirement."
+    }
+  ]
+}
