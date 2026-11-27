@@ -8425,12 +8425,12 @@
         "required": false,
         "policy": "visa_free",
         "type": null,
-        "freeDays": 60,
+        "freeDays": 30,
         "maxStay": null,
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "60 days visa-free stay"
+        "notes": "Ordinary passport holders may visit for up to 30 days without a visa under the bilateral ordinary-passport agreement."
       },
       "documents": {
         "passport": {
@@ -8459,7 +8459,14 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:51.89982"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://helsinki.thaiembassy.org/en/publicservice/new-visa-exemption-and-visa-on-arrival-voa-to-thailand",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "verificationPath": "Royal Thai Embassy > Visa exemption and Visa on Arrival measures effective September 15, 2026",
+        "notes": "Verified the visitor classification and stay limit against current Royal Thai Embassy guidance."
+      }
     },
     {
       "to": {

@@ -7,10 +7,10 @@
   "lastUpdated": "2026-03-04",
   "totalRoutes": 198,
   "summary": {
-    "visa_free": 29,
+    "visa_free": 28,
     "evisa": 40,
     "visa_on_arrival": 32,
-    "visa_required": 97,
+    "visa_required": 98,
     "total": 198
   },
   "routes": [
@@ -8471,15 +8471,15 @@
         "tourism"
       ],
       "visa": {
-        "required": false,
-        "policy": "visa_free",
+        "required": true,
+        "policy": "visa_required",
         "type": null,
-        "freeDays": 60,
+        "freeDays": null,
         "maxStay": null,
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "60 days visa-free stay"
+        "notes": "Ordinary passport holders must obtain an appropriate Thai visa before travel from September 15, 2026. Apply through the official Thailand e-Visa system."
       },
       "documents": {
         "passport": {
@@ -8508,7 +8508,14 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:52.811832"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://moscow.thaiembassy.org/en/publicservice/revision-of-thailand-s-visa-exemption-and-visa-on-arrival-schemes",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "verificationPath": "Royal Thai Embassy > Visa exemption and Visa on Arrival measures effective September 15, 2026",
+        "notes": "Verified the visitor classification and stay limit against current Royal Thai Embassy guidance."
+      }
     },
     {
       "to": {
