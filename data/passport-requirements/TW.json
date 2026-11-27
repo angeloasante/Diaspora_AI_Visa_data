@@ -4,7 +4,7 @@
     "name": "Taiwan"
   },
   "dataVersion": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-11-27",
   "totalRoutes": 198,
   "summary": {
     "visa_free": 75,
@@ -5618,7 +5618,7 @@
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "90 days visa-free stay"
+        "notes": "Holders of a valid ordinary Taiwan passport containing a personal identification number may visit North Macedonia visa-free for short tourism or business stays of up to 90 days in any 180-day period. The reciprocal measure is extended through 31 March 2030."
       },
       "documents": {
         "passport": {
@@ -5635,7 +5635,7 @@
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "Carry a passport valid for at least six months and evidence of the visit purpose. Examples include a ticket, invitation, accommodation booking and financial evidence."
       },
       "transit": {
         "visaRequired": null,
@@ -5643,11 +5643,27 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-11-27",
+        "source": "Taiwan Ministry of Foreign Affairs and Bureau of Consular Affairs"
       },
-      "lastUpdated": "2026-01-19T04:15:43.565013"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://www.boca.gov.tw/sp-foof-countrycp-03-157-c2416-02-1.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "North Macedonia country guidance, Visa information and 90-in-180 allowance"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.mofa.gov.tw/News_Content.aspx?n=96&s=119536&sms=74",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "April 1, 2025 notice extending reciprocal visa-free treatment through March 31, 2030"
+        }
+      ]
     },
     {
       "to": {
