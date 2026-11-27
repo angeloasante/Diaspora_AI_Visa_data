@@ -15,8 +15,8 @@
     ],
     "description": "Valid US visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-04",
-  "totalUnlocked": 21,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 22,
   "unlocks": [
     {
       "country": "MX",
@@ -340,6 +340,34 @@
         "exactQuote": "On arrival, the immigration department will normally give you permission to stay for up to 90 days."
       },
       "notes": "This entry records the valid US visa route, separately from lawful US residence. GOV.UK travel advice states that immigration normally grants up to 90 days on arrival, subject to Border Force determination and standard entry requirements (such as a valid passport and return or onward ticket)."
+    },
+    {
+      "country": "AE",
+      "countryName": "United Arab Emirates",
+      "region": "middle_east",
+      "accessType": "advance_entry_permit",
+      "eligibleNationalities": [
+        "IN",
+        "ID",
+        "VN",
+        "TH",
+        "PH",
+        "KE",
+        "ZA"
+      ],
+      "conditions": "Ordinary passport holders from India, Indonesia, Vietnam, Thailand, the Philippines, Kenya and South Africa can apply in advance to UAE ICP for a 60-day entry visa if they hold a valid U.S.-issued visa.",
+      "maxStayDays": 60,
+      "visaOnArrival": false,
+      "evisaRequired": true,
+      "additionalRequirements": "Apply through ICP Smart Services before travel. The passport must be valid for at least six months. Enter within 30 days of visa issue. The stay starts on entry and cannot be extended.",
+      "source": {
+        "url": "https://icp.gov.ae/en/services-details/?serviceid=68f5bcdb8c587a0011cb16d5",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Issuance of a 60-day visa for nationals of certain countries residing abroad, Terms and Conditions and Service Channels"
+      },
+      "notes": "The 60-day visa is single entry. Check ICP for eligibility of accompanying family members, documentary requirements and current fees."
     }
   ]
 }
