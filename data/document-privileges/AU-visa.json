@@ -14,7 +14,7 @@
     "description": "An eligible Australian visa can support simplified visitor entry on qualifying itineraries."
   },
   "lastUpdated": "2026-11-27",
-  "totalUnlocked": 4,
+  "totalUnlocked": 5,
   "unlocks": [
     {
       "country": "NZ",
@@ -139,6 +139,34 @@
         }
       ],
       "notes": "The 30-day admission cannot be extended or converted. The general Indian-passport exemption is a separate 14-day pathway."
+    },
+    {
+      "country": "GE",
+      "countryName": "Georgia",
+      "region": "asia",
+      "accessType": "visa_free",
+      "conditions": "Present an Australian visa that is valid on the date of entry into Georgia, evidenced by the passport or another appropriate document. The exemption allows a cumulative stay of up to 90 calendar days in any 180-day period.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Tourists must carry health and accident insurance with at least GEL 30,000 coverage for the full stay, in Georgian or English. Statutory exceptions apply.",
+      "source": {
+        "url": "https://gc-pfiles.mfa.gov.ge/DocFiles/2026/5/15/LegalAct/37/8666f08b-7c74-45e7-984f-2a0c9c00dd03.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Consolidated Ordinance 256, list item 1 and conditions 1–3"
+      },
+      "additionalSources": [
+        {
+          "url": "https://australia.mfa.gov.ge/en/news/629860-information-on-the-mandatory-health-insurance-policy-for-all-tourists-entering-georgia",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "Mandatory health and accident insurance for tourists"
+        }
+      ],
+      "notes": "The 90-day allowance is based on a rolling 180-day period. The separate restrictions added by Ordinance 122 for certain Gulf-issued documents do not apply to an Australian visa."
     }
   ]
 }
