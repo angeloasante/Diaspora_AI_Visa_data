@@ -15,8 +15,8 @@
     ],
     "description": "Valid US visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-04",
-  "totalUnlocked": 21,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 22,
   "unlocks": [
     {
       "country": "MX",
@@ -340,6 +340,23 @@
         "exactQuote": "On arrival, the immigration department will normally give you permission to stay for up to 90 days."
       },
       "notes": "This entry records the valid US visa route, separately from lawful US residence. GOV.UK travel advice states that immigration normally grants up to 90 days on arrival, subject to Border Force determination and standard entry requirements (such as a valid passport and return or onward ticket)."
+    },
+    {
+      "country": "JO",
+      "countryName": "Jordan",
+      "region": "middle_east",
+      "conditions": "The Interior Ministry lists visa on arrival without prior approval for nationals of Iraq, Libya, Yemen, Sudan, Mauritania, Comoros, Djibouti and Somalia who hold a U.S. entry visa valid for at least six more months.",
+      "visaOnArrival": true,
+      "evisaRequired": false,
+      "additionalRequirements": "Carry the qualifying visa and a return ticket if departing by air. Confirm that the intended border crossing issues visas on arrival.",
+      "source": {
+        "url": "https://moi.gov.jo/AR/Modules/FAQ",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Nationality-specific entry questions for Iraq, Libya and Yemen, and Sudan, Mauritania, Comoros, Djibouti and Somalia"
+      },
+      "notes": "Obtain the Jordanian visa at the border and follow the stay period granted. The Interior Ministry also describes an electronic visa option."
     }
   ]
 }
