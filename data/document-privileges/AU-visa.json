@@ -14,7 +14,7 @@
     "description": "An eligible Australian visa can support simplified visitor entry on qualifying itineraries."
   },
   "lastUpdated": "2026-11-27",
-  "totalUnlocked": 3,
+  "totalUnlocked": 4,
   "unlocks": [
     {
       "country": "NZ",
@@ -108,6 +108,37 @@
         }
       ],
       "notes": "A TAC allows up to 14 days per entry, counted from the day after arrival. Cambodia stopped qualifying on August 1, 2026."
+    },
+    {
+      "country": "PH",
+      "countryName": "Philippines",
+      "region": "asia",
+      "accessType": "visa_free",
+      "eligibleNationalities": [
+        "IN"
+      ],
+      "conditions": "An Indian ordinary passport holder with a valid Australian visa may visit the Philippines for up to 30 days for tourism or business. The Australian visa must be current and usable. Transit and seafarer visas do not qualify.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present the qualifying Australian visa, a passport valid for at least six months beyond the planned stay, and a confirmed return or onward ticket. Complete eTravel registration and clear Philippine immigration checks.",
+      "source": {
+        "url": "https://tokyo.philembassy.net/consular-section/services/visa/visa-free-entry-for-temporary-visits/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Indian Nationals Holding Valid AJACSSUK Visas or Permanent Residence Permits"
+      },
+      "additionalSources": [
+        {
+          "url": "https://immigration.gov.ph/wp-content/uploads/2026/01/MEMORANDUM-CIRCULAR-2025-003.pdf",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "Sections 2 and 4, international ports and qualifying documents for tourist admission"
+        }
+      ],
+      "notes": "The 30-day admission cannot be extended or converted. The general Indian-passport exemption is a separate 14-day pathway."
     }
   ]
 }
