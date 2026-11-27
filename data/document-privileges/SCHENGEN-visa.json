@@ -9,9 +9,32 @@
     ],
     "description": "A valid Schengen visa can unlock visa-free entry or simplified entry procedures in certain non-Schengen destinations, subject to each destination's conditions"
   },
-  "lastUpdated": "2026-10-05",
-  "totalUnlocked": 15,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 16,
   "unlocks": [
+    {
+      "country": "GB",
+      "countryName": "United Kingdom",
+      "region": "europe",
+      "accessType": "transit_only",
+      "stayDeadline": "Confirmed onward flight the same day from the same airport",
+      "conditions": "The airside transit exemption applies to holders of a valid Schengen Approved Destination Scheme (ADS) group tourism visa traveling to the country that issued it. It also applies on an onward ticket from the Schengen area if the traveler can show entry into the Schengen area no more than 30 days earlier on the basis of a valid Schengen ADS visa.",
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "transitOnly": true,
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://www.gov.uk/government/publications/uk-visa-requirements-list-for-carriers/uk-visa-requirements-for-international-carriers",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "verificationPath": "UK Home Office > UK visa requirements for international carriers > Transit without visa (TWOV) - airside > qualifying documents 7 and 8",
+        "exactQuote": "a valid Schengen Approved Destination Scheme (ADS) group tourism visa",
+        "supportingQuote": "departing the same day from the same airport"
+      },
+      "additionalRequirements": "Arrive and depart by air, stay airside, and hold the documents required at the onward destination. Airside transit to Ireland or elsewhere in the Common Travel Area is unavailable.",
+      "notes": "This limited route is for ADS group tourism visas. A general short-stay Schengen visa is insufficient for this exemption."
+    },
     {
       "country": "AL",
       "countryName": "Albania",
