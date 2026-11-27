@@ -11,7 +11,7 @@
     "description": "A qualifying New Zealand visa can support entry or transit in participating destinations."
   },
   "lastUpdated": "2026-11-27",
-  "totalUnlocked": 4,
+  "totalUnlocked": 5,
   "unlocks": [
     {
       "country": "TW",
@@ -115,6 +115,41 @@
         "pageSection": "Nationals of India and eligible document holders, valid visa and Single Journey Visa"
       },
       "notes": "A used New Zealand Single Journey Visa may qualify on the direct return from New Zealand through Singapore to India if the traveler has not returned to India since last using the visa."
+    },
+    {
+      "country": "KR",
+      "countryName": "South Korea",
+      "region": "asia",
+      "accessType": "transit_only",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Hold a confirmed onward flight leaving South Korea within 30 days. Check the embassy's excluded-nationality list and its three-day limit for a preceding third-country transfer. Prior unlawful stays, a recent Korean entry refusal, and serious immigration or criminal penalties may disqualify the traveler.",
+      "source": {
+        "url": "https://www.mofa.go.kr/ca-en/brd/m_5238/view.do?page=1&seq=727682",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Visa Free Entry for Third Country Transit Passengers, Eligibility and itineraries"
+      },
+      "conditions": "Hold a valid New Zealand visa sticker affixed to your passport and transit through South Korea on an eligible itinerary to New Zealand or after departing New Zealand for your home country or a third country.",
+      "additionalSources": [
+        {
+          "url": "https://overseas.mofa.go.kr/au-brisbane-en/brd/m_26852/view.do?seq=1",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "July 22, 2026 update, passport visa label requirement"
+        },
+        {
+          "url": "https://www.immigration.govt.nz/visas/how-to-get-a-visa-sticker-for-a-passport/",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "Requesting a physical visa label for an existing New Zealand eVisa"
+        }
+      ],
+      "notes": "A New Zealand eVisa approval letter alone does not meet this Korean rule. Immigration New Zealand explains how eligible holders can request a physical label. A trip from New Zealand to South Korea and straight back to New Zealand does not qualify."
     }
   ]
 }
