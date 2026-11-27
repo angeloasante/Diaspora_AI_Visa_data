@@ -4,7 +4,7 @@
     "name": "Canada"
   },
   "dataVersion": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-11-27",
   "totalRoutes": 198,
   "summary": {
     "visa_free": 117,
@@ -4642,7 +4642,7 @@
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "180 days visa-free stay"
+        "notes": "180 days visa-free stay. Eligible passport holders are temporarily exempt from K-ETA through 31 December 2027, Korea Standard Time. K-ETA remains optional during this period. Follow the applicable arrival card instructions if traveling without an approved K-ETA."
       },
       "documents": {
         "passport": {
@@ -4671,7 +4671,23 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:04:01.270269"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=332884&esntlPnotiMtYn=Y&locale=EN",
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "governmentDomain": true,
+        "pageSection": "23 November 2026 notice, extension through December 2027"
+      },
+      "additionalSources": [
+        {
+          "url": "https://nzl-wellington.mofa.go.kr/nz-en/brd/m_24857/view.do?page=3&seq=29",
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "governmentDomain": true,
+          "pageSection": "Passport eligibility under the preceding temporary exemption"
+        }
+      ]
     },
     {
       "to": {
