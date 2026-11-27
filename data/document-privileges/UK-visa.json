@@ -13,8 +13,8 @@
     ],
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-10",
-  "totalUnlocked": 37,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 36,
   "unlocks": [
     {
       "country": "AL",
@@ -175,22 +175,6 @@
         "confidence": "verified"
       },
       "notes": "UK visa allows e-Visa application. Normally some nationalities cannot get e-Visa."
-    },
-    {
-      "country": "AZ",
-      "countryName": "Azerbaijan",
-      "region": "asia",
-      "conditions": "Valid multiple-entry UK, US, or Schengen visa or residence",
-      "maxStayDays": 30,
-      "visaOnArrival": false,
-      "evisaRequired": true,
-      "additionalRequirements": "Simplified e-Visa process (ASAN Visa)",
-      "source": {
-        "url": "https://evisa.gov.az/en/",
-        "accessedDate": "2026-03-01",
-        "confidence": "verified"
-      },
-      "notes": "Makes e-Visa application easier and faster"
     },
     {
       "country": "MX",
