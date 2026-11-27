@@ -13,8 +13,8 @@
     ],
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-10",
-  "totalUnlocked": 37,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 36,
   "unlocks": [
     {
       "country": "AL",
@@ -29,20 +29,6 @@
         "confidence": "verified"
       },
       "notes": "Applies to nationals who normally require a visa for Albania"
-    },
-    {
-      "country": "XK",
-      "countryName": "Kosovo",
-      "region": "europe",
-      "conditions": "Valid multi-entry UK visa (used at least once)",
-      "maxStayDays": 15,
-      "visaOnArrival": false,
-      "source": {
-        "url": "https://mfa-ks.net/en/",
-        "accessedDate": "2026-03-01",
-        "confidence": "verified"
-      },
-      "notes": "UK visa must have been used for entry to UK at least once"
     },
     {
       "country": "MK",
