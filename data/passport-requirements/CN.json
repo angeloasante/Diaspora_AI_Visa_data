@@ -4,7 +4,7 @@
     "name": "China"
   },
   "dataVersion": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-11-27",
   "totalRoutes": 198,
   "summary": {
     "visa_free": 41,
@@ -9372,7 +9372,7 @@
         "evisa": true,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Vietnam's temporary Cam Ranh waiver runs from 12 October 2026 through 31 December 2027. Holders of valid mainland Chinese ordinary passports may visit Khanh Hoa for up to 30 days on a package tour of at least two travelers organized by a Vietnamese international tour operator. The inbound flight must be direct from mainland China. Enter and leave at Cam Ranh International Airport and stay within Khanh Hoa province. Other itineraries are subject to the usual visa rules."
       },
       "documents": {
         "passport": {
@@ -9397,11 +9397,34 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-11-27",
+        "source": "Vietnamese Government and Ministry of Foreign Affairs"
       },
-      "lastUpdated": "2026-01-19T04:05:40.993545"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-325-nq-cp-470803/69703.htm",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Resolution 325/NQ-CP, Cam Ranh group tour exemption"
+      },
+      "additionalSources": [
+        {
+          "url": "https://vnembassy-moscow.mofa.gov.vn/vi/web/guest/tin-chi-tiet/chi-tiet/danh-muc-mien-thi-thuc-cua-viet-nam-voi-cac-nuoc-cap-nhat-den-thang-112026--63578-596.html",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "Part II, Section 1(e), Khanh Hoa group tourism pilot"
+        },
+        {
+          "url": "https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2023/8/39998/46224-1-2023957-958127-nq-cp.pdf",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "Resolution 127/NQ-CP, Article 1, general eVisa eligibility"
+        }
+      ]
     },
     {
       "to": {
