@@ -8,10 +8,11 @@
   "totalRoutes": 198,
   "summary": {
     "visa_free": 126,
-    "evisa": 27,
+    "evisa": 26,
     "visa_on_arrival": 30,
     "visa_required": 15,
-    "total": 198
+    "total": 198,
+    "eta": 1
   },
   "routes": [
     {
@@ -6609,24 +6610,24 @@
         "tourism"
       ],
       "visa": {
-        "required": false,
-        "policy": "evisa",
-        "type": null,
+        "required": true,
+        "policy": "eta",
+        "type": "NZeTA",
         "freeDays": null,
         "maxStay": null,
-        "evisa": true,
+        "evisa": false,
         "onArrival": false,
-        "multipleEntry": false,
-        "notes": null
+        "multipleEntry": true,
+        "notes": "Obtain an NZeTA before visa-waiver travel. Eligible visitors may receive a Visa Waiver Visitor Visa on arrival for up to three months per visit, with at most six months in any 12-month period. An NZeTA normally allows multiple trips while valid."
       },
       "documents": {
         "passport": {
-          "minimumValidityMonths": 6,
+          "minimumValidityMonths": null,
           "blankPagesRequired": 2
         },
         "requirements": {
-          "onwardTicket": false,
-          "proofOfFunds": false,
+          "onwardTicket": true,
+          "proofOfFunds": true,
           "accommodation": false,
           "travelInsurance": {
             "recommended": false,
@@ -6634,7 +6635,7 @@
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "Travel on the passport used for the NZeTA. It must be valid for at least three months after planned departure from New Zealand. Carry proof of onward travel and funds of NZD 1,000 per month, or NZD 400 per month with prepaid accommodation. Complete the New Zealand Traveller Declaration."
       },
       "transit": {
         "visaRequired": null,
@@ -6646,7 +6647,14 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:10:17.419188"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://www.immigration.govt.nz/visit/what-you-need-to-visit-new-zealand/visa-waiver-countries-and-territories/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "verificationPath": "Immigration New Zealand > Visa waiver countries and territories > Eligibility and Visa Waiver Visitor Visa",
+        "notes": "Checked country and document eligibility, the advance NZeTA, the general visitor stay rule and evidence under the linked Visa Waiver Visitor Visa guidance."
+      }
     },
     {
       "to": {
