@@ -13,7 +13,7 @@
     ],
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-10",
+  "lastUpdated": "2026-11-27",
   "totalUnlocked": 37,
   "unlocks": [
     {
@@ -238,16 +238,21 @@
       "country": "PH",
       "countryName": "Philippines",
       "region": "asia",
-      "conditions": "Valid UK, US, Japan, Australia, Canada, Schengen, or Singapore visa",
-      "maxStayDays": 7,
+      "conditions": "Indian nationals holding a valid and current UK visa qualify for visa-free tourism visits of up to 30 days.",
+      "maxStayDays": 30,
       "visaOnArrival": false,
-      "additionalRequirements": "Must have return ticket to UK (or country that issued visa)",
+      "evisaRequired": false,
+      "additionalRequirements": "Passport valid at least six months beyond the intended stay, a return or onward ticket, and no derogatory record with the Philippine Bureau of Immigration.",
       "source": {
-        "url": "https://www.dfa.gov.ph/",
-        "accessedDate": "2026-03-01",
-        "confidence": "verified"
+        "url": "https://evisa.gov.ph/page/policy?l1=Non-Immigrant+Visas",
+        "accessedDate": "2026-11-27",
+        "governmentDomain": true,
+        "confidence": "verified",
+        "verificationPath": "PH Visa Policy > Non-Immigrant Visas > Free to enter the Philippines without Visa > Visa Policy for Indian Nationals",
+        "pageSection": "Visa Policy for Indian Nationals"
       },
-      "notes": "7-day visa-free stay only. Must fly back to visa-issuing country."
+      "notes": "Available at any Philippine port of entry. The tourism stay cannot be extended or converted to another admission category.",
+      "lastUpdated": "2026-11-27"
     },
     {
       "country": "DO",
