@@ -11,8 +11,8 @@
     ],
     "description": "Valid Canadian visas can unlock visa-free or simplified access beyond passport privileges"
   },
-  "lastUpdated": "2026-10-18",
-  "totalUnlocked": 8,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 9,
   "unlocks": [
     {
       "country": "GE",
@@ -196,6 +196,24 @@
       },
       "notes": "Transit only; not an unrestricted tourist exemption. ICA decides admission and no extension is allowed. The separate used single-journey-visa return exception is not covered.",
       "lastUpdated": "2026-11-10"
+    },
+    {
+      "country": "UZ",
+      "countryName": "Uzbekistan",
+      "region": "asia",
+      "conditions": "Citizens of India holding a valid multiple-entry tourist or business visa issued by Canada can enter Uzbekistan visa-free for up to 30 days from arrival, within the supporting visa’s validity.",
+      "maxStayDays": 30,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present a flight ticket to India or a third country.",
+      "source": {
+        "url": "https://gov.uz/en/mfa/pages/o-zbekiston-respublikasi-vizasi",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Visa to the Republic of Uzbekistan, visa-free regime for citizens of India"
+      },
+      "notes": "The exemption took effect on 1 September 2026. Depart within the validity of the supporting visa if it expires sooner than 30 days after arrival."
     }
   ]
 }
