@@ -9,8 +9,8 @@
   "summary": {
     "visa_free": 87,
     "evisa": 36,
-    "visa_on_arrival": 38,
-    "visa_required": 37,
+    "visa_on_arrival": 37,
+    "visa_required": 38,
     "total": 198
   },
   "routes": [
@@ -8403,15 +8403,15 @@
         "tourism"
       ],
       "visa": {
-        "required": false,
-        "policy": "visa_on_arrival",
+        "required": true,
+        "policy": "visa_required",
         "type": null,
         "freeDays": null,
         "maxStay": null,
         "evisa": false,
-        "onArrival": true,
+        "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Ordinary passport holders must obtain an appropriate Thai visa before travel from September 15, 2026. Apply through the official Thailand e-Visa system for the intended purpose of travel."
       },
       "documents": {
         "passport": {
@@ -8440,7 +8440,14 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:16:02.177322"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://buenos-aires.thaiembassy.org/en/content/thailand-s-visa-exemption-and-voa-schemes",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "verificationPath": "Royal Thai Embassy > revised ordinary-passport visa requirements effective September 15, 2026",
+        "notes": "The embassy expressly confirms that this ordinary passport requires a Thai visa before travel. The route represents the advance visa requirement."
+      }
     },
     {
       "to": {
