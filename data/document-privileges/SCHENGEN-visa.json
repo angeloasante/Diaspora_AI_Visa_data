@@ -9,8 +9,8 @@
     ],
     "description": "A valid Schengen visa can unlock visa-free entry or simplified entry procedures in certain non-Schengen destinations, subject to each destination's conditions"
   },
-  "lastUpdated": "2026-10-05",
-  "totalUnlocked": 15,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 16,
   "unlocks": [
     {
       "country": "AL",
@@ -250,6 +250,24 @@
       },
       "notes": "Transit only; not an unrestricted tourist exemption. ICA decides admission and no extension is allowed. The separate used single-journey-visa return exception is not covered.",
       "lastUpdated": "2026-11-10"
+    },
+    {
+      "country": "MS",
+      "countryName": "Montserrat",
+      "region": "caribbean",
+      "accessType": "visa_free",
+      "conditions": "The Immigration (Visa Exemption) Order waives the Montserrat visa requirement for a traveler who presents a valid passport and a valid Schengen entry visa issued by an EU member state.",
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present the passport and qualifying visa. Observe the stay period and any conditions set by the immigration officer.",
+      "source": {
+        "url": "https://www.gov.ms/wp-content/uploads/2026/02/13.01-Immigration-Act.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "CAP. 13.01 Immigration, Visa Exemption Order, regulation 2 and Schedule paragraph 2, printed pages 77 and 81"
+      },
+      "notes": "The visa exemption and the visitor permit are separate decisions. Immigration Act section 22(1) allows an officer to grant a visitor permit for a period up to six months."
     }
   ]
 }
