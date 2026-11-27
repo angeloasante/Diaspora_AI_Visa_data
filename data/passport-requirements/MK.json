@@ -4,7 +4,7 @@
     "name": "North Macedonia"
   },
   "dataVersion": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-11-27",
   "totalRoutes": 198,
   "summary": {
     "visa_free": 80,
@@ -8878,7 +8878,7 @@
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": "90 days visa-free stay"
+        "notes": "North Macedonian passport holders may visit Taiwan visa-free for up to 90 days under the reciprocal measure extended through 31 March 2030. The stay is counted from the day after arrival."
       },
       "documents": {
         "passport": {
@@ -8886,7 +8886,7 @@
           "blankPagesRequired": 2
         },
         "requirements": {
-          "onwardTicket": false,
+          "onwardTicket": true,
           "proofOfFunds": false,
           "accommodation": false,
           "travelInsurance": {
@@ -8895,7 +8895,7 @@
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "Carry a passport valid for at least six months, a confirmed return or onward air or sea ticket and any required visa for the next destination. Complete the Taiwan Arrival Card within seven days before arrival."
       },
       "transit": {
         "visaRequired": null,
@@ -8903,11 +8903,27 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-11-27",
+        "source": "Taiwan Ministry of Foreign Affairs and Bureau of Consular Affairs"
       },
-      "lastUpdated": "2026-01-19T04:15:16.471803"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://www.boca.gov.tw/cp-149-4486-7785a-2.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Visa-exempt entry, North Macedonia eligibility and arrival conditions"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.mofa.gov.tw/News_Content.aspx?n=96&s=119536&sms=74",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "April 1, 2025 notice extending reciprocal visa-free treatment through March 31, 2030"
+        }
+      ]
     },
     {
       "to": {
