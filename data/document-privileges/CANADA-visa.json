@@ -11,8 +11,8 @@
     ],
     "description": "Valid Canadian visas can unlock visa-free or simplified access beyond passport privileges"
   },
-  "lastUpdated": "2026-10-18",
-  "totalUnlocked": 8,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 9,
   "unlocks": [
     {
       "country": "GE",
@@ -109,6 +109,24 @@
         "exactQuote": "El Decreto Núm. 691-07, del 18 de diciembre de 2007, facilita la entrada a la República Dominicana a extranjeros con residencia permanente o visado de entradas múltiples vigente en Estados Unidos, Unión Europea (Schengen), Canadá o Gran Bretaña. Pueden ingresar solo con pasaporte válido y una Tarjeta de Turismo para fines turísticos."
       },
       "notes": "This entry records the Canadian multiple-entry visa exemption under Decreto Núm. 691-07, separately from Canadian permanent residence (recorded in CANADA-pr.json). Entry under this exemption is for tourist purposes with a valid passport and Tourist Card for up to 30 days and does not authorize work, study, or residence."
+    },
+    {
+      "country": "AI",
+      "countryName": "Anguilla",
+      "region": "caribbean",
+      "conditions": "Travelers who would otherwise need an Anguilla visitor visa may use a valid visa issued by Canada to qualify for a waiver.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://evisa.gov.ai/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Do I need to apply?"
+      },
+      "notes": "The Department of Immigration sets the authorized stay on arrival. The Home Affairs policy allows up to three months under the waiver: https://www.gov.ai/document/immigration/PRESS%20RELEASE%20-%20CHANGES%20TO%20THE%20IMMIGRATION%20POLICY%20EFFECTIVE%20JUNE%201ST%202017.pdf",
+      "lastUpdated": "2026-11-27"
     },
     {
       "country": "TC",

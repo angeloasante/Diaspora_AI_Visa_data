@@ -15,8 +15,8 @@
     ],
     "description": "Valid US visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-04",
-  "totalUnlocked": 21,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 22,
   "unlocks": [
     {
       "country": "MX",
@@ -313,6 +313,24 @@
         "maximumStayQuote": "enter, transit and stay in the Republic of Serbia up to 90 days during a six-month period, and within validity of said visas or residence permits."
       },
       "notes": "This entry records the US visa route separately from US residence permits. The 90-day allowance is cumulative within a six-month period and cannot exceed the expiration date of the supporting US visa."
+    },
+    {
+      "country": "AI",
+      "countryName": "Anguilla",
+      "region": "caribbean",
+      "conditions": "Travelers who would otherwise need an Anguilla visitor visa may use a valid visa issued by the United States to qualify for a waiver.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "source": {
+        "url": "https://evisa.gov.ai/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Do I need to apply?"
+      },
+      "notes": "The Department of Immigration sets the authorized stay on arrival. The Home Affairs policy allows up to three months under the waiver: https://www.gov.ai/document/immigration/PRESS%20RELEASE%20-%20CHANGES%20TO%20THE%20IMMIGRATION%20POLICY%20EFFECTIVE%20JUNE%201ST%202017.pdf",
+      "lastUpdated": "2026-11-27"
     },
     {
       "country": "TC",
