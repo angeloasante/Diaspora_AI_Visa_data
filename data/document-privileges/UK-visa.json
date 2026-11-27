@@ -13,8 +13,8 @@
     ],
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-10",
-  "totalUnlocked": 37,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 35,
   "unlocks": [
     {
       "country": "AL",
@@ -433,36 +433,6 @@
         "confidence": "verified"
       },
       "notes": "VOA available for many nationals with UK visa/BRP. Extendable once."
-    },
-    {
-      "country": "MV",
-      "countryName": "Maldives",
-      "region": "asia",
-      "conditions": "UK visa/BRP accepted as proof of residence/finances",
-      "maxStayDays": 30,
-      "visaOnArrival": true,
-      "source": {
-        "url": "https://immigration.gov.mv/",
-        "accessedDate": "2026-03-10",
-        "confidence": "verified"
-      },
-      "notes": "30-day VOA for all. UK visa often cited as accepted financial proof for high-risk nationals."
-    },
-    {
-      "country": "LK",
-      "countryName": "Sri Lanka",
-      "region": "asia",
-      "conditions": "Valid UK residence permit or visa",
-      "maxStayDays": 30,
-      "visaOnArrival": false,
-      "evisaRequired": true,
-      "additionalRequirements": "ETA required but facilitated approval",
-      "source": {
-        "url": "https://www.eta.gov.lk/",
-        "accessedDate": "2026-03-10",
-        "confidence": "verified"
-      },
-      "notes": "ETA/e-visa with simplified approval for UK BRP/visa holders"
     },
     {
       "country": "TW",
