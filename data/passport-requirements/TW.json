@@ -7,11 +7,12 @@
   "lastUpdated": "2026-03-04",
   "totalRoutes": 198,
   "summary": {
-    "visa_free": 75,
+    "visa_free": 74,
     "evisa": 45,
     "visa_on_arrival": 34,
     "visa_required": 44,
-    "total": 198
+    "total": 198,
+    "eta": 1
   },
   "routes": [
     {
@@ -3503,15 +3504,15 @@
         "tourism"
       ],
       "visa": {
-        "required": false,
-        "policy": "visa_free",
-        "type": null,
-        "freeDays": 30,
-        "maxStay": null,
+        "required": true,
+        "policy": "eta",
+        "type": "Pre-arrival Registration",
+        "freeDays": null,
+        "maxStay": 30,
         "evisa": false,
         "onArrival": false,
-        "multipleEntry": false,
-        "notes": "30 days visa-free stay"
+        "multipleEntry": true,
+        "notes": "Eligible Taiwan residents can register online for free before travel. Registration is valid for two months and permits two visits of up to 30 days each. It is available to residents born in Taiwan or previously admitted to Hong Kong as a Taiwan resident, subject to restrictions on travel documents issued outside Taiwan. Holders of a valid Mainland Travel Permit for Taiwan Residents can visit for up to 30 days without registration. Apply for a Hong Kong entry permit if registration is unavailable and no other entry permission applies."
       },
       "documents": {
         "passport": {
@@ -3519,8 +3520,8 @@
           "blankPagesRequired": 2
         },
         "requirements": {
-          "onwardTicket": false,
-          "proofOfFunds": false,
+          "onwardTicket": true,
+          "proofOfFunds": true,
           "accommodation": false,
           "travelInsurance": {
             "recommended": false,
@@ -3528,7 +3529,7 @@
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "For registration and arrival, the travel document for re-entry to Taiwan must have at least six months of validity. Present it with the printed, signed A4 registration notification slip. A parent or guardian signs for travelers under 16. Bring evidence of onward or return travel and sufficient funds for the visit."
       },
       "transit": {
         "visaRequired": null,
@@ -3540,7 +3541,14 @@
         "lastChecked": null,
         "source": "passport-index-dataset"
       },
-      "lastUpdated": "2026-01-19T04:15:43.38696"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://www.immd.gov.hk/eng/services/visas/pre-arrival_registration_for_taiwan_residents.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "verificationPath": "Hong Kong Immigration Department > Visas / Entry Permits > Pre-arrival Registration for Taiwan Residents",
+        "notes": "The separate Entry Arrangements guidance confirms the Mainland Travel Permit and entry-permit alternatives."
+      }
     },
     {
       "to": {
