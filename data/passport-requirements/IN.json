@@ -4,7 +4,7 @@
     "name": "India"
   },
   "dataVersion": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-11-27",
   "totalRoutes": 198,
   "summary": {
     "visa_free": 28,
@@ -6139,12 +6139,12 @@
         "required": false,
         "policy": "visa_free",
         "type": null,
-        "freeDays": null,
-        "maxStay": null,
+        "freeDays": 30,
+        "maxStay": 30,
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Malaysia permits eligible Indian passport holders to visit visa-free for up to 30 days for business, tourism, social visits or transit through 31 December 2026. Check the current visa requirement before travel after that date."
       },
       "documents": {
         "passport": {
@@ -6152,16 +6152,16 @@
           "blankPagesRequired": 2
         },
         "requirements": {
-          "onwardTicket": false,
+          "onwardTicket": true,
           "proofOfFunds": false,
-          "accommodation": false,
+          "accommodation": true,
           "travelInsurance": {
             "recommended": false,
             "mandatory": false
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "Bring a passport valid for at least six months, confirmed return tickets and confirmed accommodation. Complete the Malaysia Digital Arrival Card within the official three-day registration window."
       },
       "transit": {
         "visaRequired": null,
@@ -6169,11 +6169,27 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-11-27",
+        "source": "High Commission of Malaysia in New Delhi and Malaysia Immigration Department"
       },
-      "lastUpdated": "2026-01-19T04:04:00.164443"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://www.kln.gov.my/web/ind_new-delhi/requirement_foreigner",
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "governmentDomain": true,
+        "pageSection": "For Indian Passport Holders"
+      },
+      "additionalSources": [
+        {
+          "url": "https://imigresen-online.imi.gov.my/mdac/main",
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "governmentDomain": true,
+          "pageSection": "Foreign visitor arrival card registration"
+        }
+      ]
     },
     {
       "to": {
