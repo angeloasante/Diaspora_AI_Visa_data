@@ -4,11 +4,11 @@
     "name": "Oman"
   },
   "dataVersion": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-11-27",
   "totalRoutes": 198,
   "summary": {
-    "visa_free": 45,
-    "evisa": 32,
+    "visa_free": 46,
+    "evisa": 31,
     "visa_on_arrival": 34,
     "visa_required": 86,
     "total": 198,
@@ -8874,14 +8874,14 @@
       ],
       "visa": {
         "required": false,
-        "policy": "evisa",
+        "policy": "visa_free",
         "type": null,
-        "freeDays": null,
-        "maxStay": null,
-        "evisa": true,
+        "freeDays": 14,
+        "maxStay": 14,
+        "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Eligible Omani passport holders may enter Taiwan visa-free for up to 14 days, counted from the day after arrival. The visa-free stay is not extendable. Travelers planning to stay more than 14 days may apply for an eVisa before travel. An approved eVisa allows a single visit of up to 30 days."
       },
       "documents": {
         "passport": {
@@ -8889,7 +8889,7 @@
           "blankPagesRequired": 2
         },
         "requirements": {
-          "onwardTicket": false,
+          "onwardTicket": true,
           "proofOfFunds": false,
           "accommodation": false,
           "travelInsurance": {
@@ -8898,7 +8898,7 @@
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "For visa-free entry carry an eligible passport valid for at least six months, a confirmed return or onward air or sea ticket, and any visa required for the next destination."
       },
       "transit": {
         "visaRequired": null,
@@ -8906,11 +8906,27 @@
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-11-27",
+        "source": "Taiwan Bureau of Consular Affairs"
       },
-      "lastUpdated": "2026-01-19T04:15:21.90308"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://www.boca.gov.tw/cp-149-4486-7785a-2.html",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Visa-exempt entry, Oman eligibility and Duration of stay item 4"
+      },
+      "additionalSources": [
+        {
+          "url": "https://visawebapp.boca.gov.tw/BOCA_EVISA/MRV04FORM.do",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "eVisa eligibility, validity and duration of stay"
+        }
+      ]
     },
     {
       "to": {
