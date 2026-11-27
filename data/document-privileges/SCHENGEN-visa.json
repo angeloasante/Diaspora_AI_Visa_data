@@ -9,21 +9,26 @@
     ],
     "description": "A valid Schengen visa can unlock visa-free entry or simplified entry procedures in certain non-Schengen destinations, subject to each destination's conditions"
   },
-  "lastUpdated": "2026-10-05",
+  "lastUpdated": "2026-11-27",
   "totalUnlocked": 15,
   "unlocks": [
     {
       "country": "AL",
       "countryName": "Albania",
       "region": "europe",
-      "conditions": "Valid multiple-entry Schengen visa that has previously been used in a Schengen state",
+      "conditions": "Hold a valid multiple-entry Schengen visa that has already been used in a Schengen Area country. This exemption excludes Iranian nationals.",
       "visaOnArrival": false,
       "source": {
-        "url": "https://arkiva.punetejashtme.gov.al/en/regjimi-i-vizave-per-te-huajt/",
-        "accessedDate": "2026-10-05",
-        "confidence": "verified"
+        "url": "https://punetejashtme.gov.al/en/regjimi-i-vizave-per-te-huajt/",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Visa-free entry into Albania; Validity of travel documents"
       },
-      "notes": "Visa exemption applies to foreign citizens who would otherwise require an Albanian visa."
+      "notes": "Article 29 of Law No. 79/2021 provides a general visa-free limit of up to 90 days within 180 days, subject to the supporting visa departure rule and applicable exceptions.",
+      "maxStayDays": 90,
+      "evisaRequired": false,
+      "additionalRequirements": "Depart Albania at least three days before the supporting visa expires. The passport must have been issued within the previous ten years and remain valid for at least three months beyond the intended departure date."
     },
     {
       "country": "ME",
