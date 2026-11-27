@@ -9,8 +9,8 @@
     ],
     "description": "A valid Schengen visa can unlock visa-free entry or simplified entry procedures in certain non-Schengen destinations, subject to each destination's conditions"
   },
-  "lastUpdated": "2026-10-05",
-  "totalUnlocked": 15,
+  "lastUpdated": "2026-11-27",
+  "totalUnlocked": 16,
   "unlocks": [
     {
       "country": "AL",
@@ -250,6 +250,40 @@
       },
       "notes": "Transit only; not an unrestricted tourist exemption. ICA decides admission and no extension is allowed. The separate used single-journey-visa return exception is not covered.",
       "lastUpdated": "2026-11-10"
+    },
+    {
+      "country": "SV",
+      "countryName": "El Salvador",
+      "region": "central_america",
+      "conditions": "Travelers whose nationality El Salvador classifies as Category B receive Category A visa-exempt treatment when they hold a valid Schengen visa.",
+      "maxStayDays": 90,
+      "visaOnArrival": false,
+      "evisaRequired": false,
+      "additionalRequirements": "Present the valid passport and qualifying visa at entry and pay the applicable immigration entry card fee. Category C travelers must obtain a Salvadoran consular visa in advance under the separate rule.",
+      "source": {
+        "url": "https://sitio.aduana.gob.sv/wp-content/uploads/download-manager-files/REGLAMENTO-DE-LA-LEY-DE-MIGRACI%C3%93N-Y-EXTRANJER%C3%8DA-ACTUALIZADO-CON-D.L.-35-DEL-24-DE-MAYO-DEL-2019.pdf",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "Article 34, paragraphs 3 and 4, special visa rules"
+      },
+      "notes": "Article 84 sets a tourist stay ceiling of 90 calendar days. The actual permission is determined at admission. Within the CA-4 region, follow the time granted by the first member country of entry.",
+      "additionalSources": [
+        {
+          "url": "https://www.asamblea.gob.sv/sites/default/files/documents/decretos/37298702-5BAD-4413-B2FE-EB213E0EE01C.pdf",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "Special Migration and Foreigners Act, Article 84, tourists"
+        },
+        {
+          "url": "https://www.migracion.gob.sv/control-migratorio-preguntas/",
+          "governmentDomain": true,
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "pageSection": "Entry requirements and CA-4 tourist stay"
+        }
+      ]
     }
   ]
 }
