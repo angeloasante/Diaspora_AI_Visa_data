@@ -4,13 +4,13 @@
     "name": "China"
   },
   "dataVersion": "1.0.0",
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-11-27",
   "totalRoutes": 198,
   "summary": {
-    "visa_free": 41,
+    "visa_free": 42,
     "evisa": 33,
     "visa_on_arrival": 38,
-    "visa_required": 86,
+    "visa_required": 85,
     "total": 198
   },
   "routes": [
@@ -6854,15 +6854,15 @@
         "tourism"
       ],
       "visa": {
-        "required": true,
-        "policy": "visa_required",
+        "required": false,
+        "policy": "visa_free",
         "type": null,
-        "freeDays": null,
-        "maxStay": null,
+        "freeDays": 14,
+        "maxStay": 14,
         "evisa": false,
         "onArrival": false,
         "multipleEntry": false,
-        "notes": null
+        "notes": "Chinese ordinary passport holders may enter for tourism or business for up to 14 days through Ninoy Aquino International Airport (MNL) or Mactan-Cebu International Airport (CEB). Admission under this exemption cannot be extended or converted. The original period began January 16, 2026, and the announced one-year extension runs through January 15, 2028."
       },
       "documents": {
         "passport": {
@@ -6870,28 +6870,44 @@
           "blankPagesRequired": 2
         },
         "requirements": {
-          "onwardTicket": false,
+          "onwardTicket": true,
           "proofOfFunds": false,
-          "accommodation": false,
+          "accommodation": true,
           "travelInsurance": {
             "recommended": false,
             "mandatory": false
           },
           "yellowFeverCertificate": false
         },
-        "notes": null
+        "notes": "Passport validity must extend at least six months beyond the planned stay. Present confirmed hotel accommodation and a return or onward ticket, complete eTravel registration, and have no adverse Philippine immigration record."
       },
       "transit": {
         "visaRequired": true,
-        "notes": null
+        "notes": "Travelers using this route to enter the Philippines while transiting to a third country must obtain a Philippine transit visa before entry."
       },
       "meta": {
         "riskLevel": "medium",
-        "confidence": "unverified",
-        "lastChecked": null,
-        "source": "passport-index-dataset"
+        "confidence": "verified",
+        "lastChecked": "2026-11-27",
+        "source": "Philippine Bureau of Immigration and Department of Tourism"
       },
-      "lastUpdated": "2026-01-19T04:05:40.809922"
+      "lastUpdated": "2026-11-27",
+      "source": {
+        "url": "https://immigration.gov.ph/wp-content/uploads/2026/01/OPERATIONS-ORDER-No.-2026-%E2%80%93-001.pdf",
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "governmentDomain": true,
+        "pageSection": "Operations Order 2026-001, Sections 1 and 4"
+      },
+      "additionalSources": [
+        {
+          "url": "https://www.tourism.gov.ph/dot/news/statement-of-the-department-of-tourism-on-the-extension-of-visa-free-entry-for-chinese-nationals/",
+          "accessedDate": "2026-11-27",
+          "confidence": "verified",
+          "governmentDomain": true,
+          "pageSection": "November 23, 2026 statement announcing the 2027–2028 extension"
+        }
+      ]
     },
     {
       "to": {
