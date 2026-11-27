@@ -13,7 +13,7 @@
     ],
     "description": "Valid UK visa allows visa-free or simplified access to additional countries beyond passport privileges"
   },
-  "lastUpdated": "2026-03-10",
+  "lastUpdated": "2026-11-27",
   "totalUnlocked": 37,
   "unlocks": [
     {
@@ -281,16 +281,19 @@
       "country": "KR",
       "countryName": "South Korea",
       "region": "asia",
-      "conditions": "Valid UK, US, Canada, Australia, or New Zealand visa with previous entry to that country",
+      "conditions": "For otherwise visa-required travelers of eligible nationalities, hold a valid UK visa as a verifiable visa sticker in the passport. Transit through Korea toward an eligible European country, or depart an eligible European country and transit through Korea toward the country of origin or a third country. Verify the eligible country list and itinerary before travel.",
       "maxStayDays": 30,
       "visaOnArrival": false,
-      "additionalRequirements": "K-ETA required but approval simplified",
+      "evisaRequired": false,
+      "additionalRequirements": "Hold a confirmed departure flight within 30 days of entering Korea. Any transit or stopover before Korea must be no longer than three days, and the onward itinerary cannot return to the previous stopover point. Meet the immigration and criminal-history conditions in the embassy guidance.",
       "source": {
-        "url": "https://www.k-eta.go.kr/",
-        "accessedDate": "2026-03-01",
-        "confidence": "verified"
+        "url": "https://www.mofa.go.kr/ie-en/brd/m_23773/view.do?itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&seq=761792",
+        "governmentDomain": true,
+        "accessedDate": "2026-11-27",
+        "confidence": "verified",
+        "pageSection": "1. Visa Free Entry for Third Country Transit Passengers, eligibility ② and conditions"
       },
-      "notes": "Transit without Visa (TWOV) program. Must have used the visa previously."
+      "notes": "B-2 transit admission for up to 30 days. The embassy lists 23 excluded passport nationalities and requires an affixed visa sticker for this visa-based route."
     },
     {
       "country": "AM",
