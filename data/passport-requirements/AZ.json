@@ -8423,7 +8423,7 @@
       ],
       "visa": {
         "required": false,
-        "policy": "visa_on_arrival",
+        "policy": "voa",
         "type": null,
         "freeDays": null,
         "maxStay": 15,
